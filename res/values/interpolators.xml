@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="interpolator" name="name">R/n/kln.xml</item>
+    <item type="interpolator" name="decelerate_cubic">R/n/gt.xml</item>
+    <item type="interpolator" name="_?m@0x7f050002">R/n/gs.xml</item>
+</resources>

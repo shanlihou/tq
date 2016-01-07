@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="_?m@0x7f0d01fa" parent="@android:style/Theme.Dialog">
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowActionModeOverlay">false</item>
+    </style>
+    <style name="_?m@0x7f0d02aa">
+        <item name="android:windowEnterAnimation">@anim/_?m@0x7f0400bd</item>
+        <item name="android:windowExitAnimation">@anim/_?m@0x7f0400be</item>
+    </style>
+</resources>

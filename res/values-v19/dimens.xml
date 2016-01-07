@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_bar_height">50.0dip</dimen>
+    <dimen name="_?m@0x7f0c002d">25.0dip</dimen>
+    <dimen name="_?m@0x7f0c002e">75.0dip</dimen>
+    <dimen name="_?m@0x7f0c002f">75.0dip</dimen>
+    <dimen name="_?m@0x7f0c0030">32.0dip</dimen>
+    <dimen name="_?m@0x7f0c02d8">25.0dip</dimen>
+    <dimen name="_?m@0x7f0c02da">50.0dip</dimen>
+    <dimen name="_?m@0x7f0c0310">310.0dip</dimen>
+    <dimen name="_?m@0x7f0c03a8">52.0dip</dimen>
+    <dimen name="_?m@0x7f0c03a9">50.0dip</dimen>
+    <dimen name="_?m@0x7f0c03ed">25.0dip</dimen>
+    <dimen name="_?m@0x7f0c03ee">25.0dip</dimen>
+    <dimen name="_?m@0x7f0c03ef">55.0dip</dimen>
+    <dimen name="_?m@0x7f0c03f0">50.0dip</dimen>
+    <dimen name="_?m@0x7f0c03f1">45.0dip</dimen>
+</resources>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="_?m@0x7f0d0108" parent="@android:style/TextAppearance.StatusBar.EventContent" />
+    <style name="_?m@0x7f0d0109" parent="@android:style/TextAppearance.StatusBar.EventContent.Title" />
+</resources>

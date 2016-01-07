@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="_?m@0x7f020318">R/h/ddr.xml</item>
+    <item type="drawable" name="_?m@0x7f020319">R/h/ddq.xml</item>
+    <item type="drawable" name="_?m@0x7f0203bc">R/h/ddm.png</item>
+    <item type="drawable" name="_?m@0x7f0203bd">R/h/ddl.png</item>
+    <item type="drawable" name="_?m@0x7f020724">R/h/ddc.png</item>
+    <item type="drawable" name="_?m@0x7f020cca">R/h/qq_setting_me_nightmode_loading.png</item>
+    <item type="drawable" name="_?m@0x7f020e6d">R/h/ddx.png</item>
+    <item type="drawable" name="_?m@0x7f020e6e">R/h/ddw.png</item>
+    <item type="drawable" name="_?m@0x7f020e6f">R/h/ddv.png</item>
+    <item type="drawable" name="_?m@0x7f020e71">R/h/ddu.png</item>
+    <item type="drawable" name="_?m@0x7f020e72">R/h/ddt.png</item>
+    <item type="drawable" name="_?m@0x7f020f24">R/h/hys.9.png</item>
+    <item type="drawable" name="_?m@0x7f021012">R/h/dds.png</item>
+    <item type="drawable" name="_?m@0x7f021210">R/h/skin_aio_input_bar_bg_theme_version2.9.png</item>
+    <item type="drawable" name="skin_aio_keyboard_arrow_normal">R/h/skin_aio_keyboard_arrow_normal.png</item>
+    <item type="drawable" name="skin_aio_keyboard_nor">R/h/skin_aio_keyboard_nor.png</item>
+    <item type="drawable" name="skin_aio_keyboard_pressed">R/h/skin_aio_keyboard_pressed.png</item>
+    <item type="drawable" name="skin_qzone_edit_jp_click">R/h/skin_qzone_edit_jp_click.png</item>
+    <item type="drawable" name="skin_qzone_edit_jp_nor">R/h/skin_qzone_edit_jp_nor.png</item>
+</resources>

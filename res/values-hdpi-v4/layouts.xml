@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="_?m@0x7f03013f">R/p/egf.xml</item>
+    <item type="layout" name="qapp_center_notification">R/p/eea.xml</item>
+    <item type="layout" name="_?m@0x7f030001">R/p/eix.xml</item>
+    <item type="layout" name="_?m@0x7f030002">R/p/eiw.xml</item>
+    <item type="layout" name="_?m@0x7f030007">R/p/eiq.xml</item>
+    <item type="layout" name="_?m@0x7f030034">R/p/kqp.xml</item>
+    <item type="layout" name="_?m@0x7f0300bb">R/p/ehr.xml</item>
+    <item type="layout" name="_?m@0x7f0300da">R/p/ehd.xml</item>
+    <item type="layout" name="_?m@0x7f0300e0">R/p/kqq.xml</item>
+    <item type="layout" name="_?m@0x7f03013a">R/p/egi.xml</item>
+    <item type="layout" name="_?m@0x7f030149">R/p/efw.xml</item>
+    <item type="layout" name="_?m@0x7f030180">R/p/kqr.xml</item>
+    <item type="layout" name="_?m@0x7f030181">R/p/kqs.xml</item>
+    <item type="layout" name="_?m@0x7f030182">R/p/kqt.xml</item>
+    <item type="layout" name="_?m@0x7f03020d">R/p/edc.xml</item>
+    <item type="layout" name="_?m@0x7f030263">R/p/iaf.xml</item>
+    <item type="layout" name="_?m@0x7f030273">R/p/eba.xml</item>
+    <item type="layout" name="_?m@0x7f030275">R/p/eaz.xml</item>
+    <item type="layout" name="qb_tenpay_qrcode">R/p/kqu.xml</item>
+    <item type="layout" name="_?m@0x7f030348">R/p/kqv.xml</item>
+    <item type="layout" name="_?m@0x7f030349">R/p/kqw.xml</item>
+    <item type="layout" name="_?m@0x7f03056d">R/p/kqx.xml</item>
+    <item type="layout" name="_?m@0x7f0305c6">R/p/kqy.xml</item>
+    <item type="layout" name="_?m@0x7f03065f">R/p/duw.xml</item>
+    <item type="layout" name="_?m@0x7f030666">R/p/kqz.xml</item>
+    <item type="layout" name="_?m@0x7f030670">R/p/duv.xml</item>
+    <item type="layout" name="_?m@0x7f03067b">R/p/duu.xml</item>
+    <item type="layout" name="_?m@0x7f03067c">R/p/dut.xml</item>
+</resources>

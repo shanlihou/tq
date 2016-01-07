@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="name">#00ffffff</color>
+    <color name="boss_unipay_c_tx">#ff000000</color>
+    <color name="_?m@0x7f0b0002">#ffa6a6a6</color>
+    <color name="_?m@0x7f0b0003">#ffc8c7cc</color>
+    <color name="_?m@0x7f0b0004">#ff808080</color>
+    <color name="_?m@0x7f0b0005">#ffb2b2b2</color>
+    <color name="_?m@0x7f0b0006">#ff333333</color>
+    <color name="_?m@0x7f0b0007">#ffc8c8c8</color>
+    <color name="_?m@0x7f0b0008">#ffffffff</color>
+    <color name="_?m@0x7f0b0009">#ffff6600</color>
+    <color name="_?m@0x7f0b000a">#ffff3b30</color>
+    <color name="_?m@0x7f0b000b">#ff43c959</color>
+    <color name="boss_unipay_c_blue">#ff00a5e0</color>
+    <color name="_?m@0x7f0b000d">#ff0079ff</color>
+    <color name="_?m@0x7f0b000e">#8000a5e0</color>
+    <color name="_?m@0x7f0b000f">#90000000</color>
+    <color name="_?m@0x7f0b0010">#ffe6e6e6</color>
+    <color name="_?m@0x7f0b0011">#ffffffff</color>
+    <color name="_?m@0x7f0b0012">#ff333333</color>
+    <color name="_?m@0x7f0b0013">#ffffffff</color>
+    <color name="_?m@0x7f0b0014">#ff777777</color>
+    <color name="_?m@0x7f0b0015">#80333333</color>
+    <color name="_?m@0x7f0b0016">#80ffffff</color>
+    <color name="_?m@0x7f0b0017">#80777777</color>
+    <color name="_?m@0x7f0b0018">#ff298ecb</color>
+    <color name="_?m@0x7f0b0019">#ff5bb26e</color>
+    <color name="_?m@0x7f0b001a">#66000000</color>
+    <color name="_?m@0x7f0b001b">#ff000000</color>
+    <color name="_?m@0x7f0b001c">#00000000</color>
+    <color name="_?m@0x7f0b001d">#b0000000</color>
+    <color name="_?m@0x7f0b001e">#d5000000</color>
+    <color name="_?m@0x7f0b001f">#cc000000</color>
+    <color name="_?m@0x7f0b0020">#26000000</color>
+    <color name="_?m@0x7f0b0021">#ff333333</color>
+    <color name="_?m@0x7f0b0022">#ff999999</color>
+    <color name="_?m@0x7f0b0023">#ff798089</color>
+    <color name="_?m@0x7f0b0024">#ff777777</color>
+    <color name="color_qianhui">#ff888b8d</color>
+    <color name="_?m@0x7f0b0026">#ffb4b4b4</color>
+    <color name="_?m@0x7f0b0027">#ffffffff</color>
+    <color name="_?m@0x7f0b0028">#ffffffff</color>
+    <color name="_?m@0x7f0b0029">#f2ffffff</color>
+    <color name="_?m@0x7f0b002a">#ff067bb1</color>
+    <color name="_?m@0x7f0b002b">#aa000000</color>
+    <color name="_?m@0x7f0b002c">#ff808080</color>
+    <color name="_?m@0x7f0b002d">#ffcb3102</color>
+    <color name="_?m@0x7f0b002e">#00eef1f3</color>
+    <color name="_?m@0x7f0b002f">#ff54acea</color>
+    <color name="_?m@0x7f0b0030">#ff54acea</color>
+    <color name="_?m@0x7f0b0031">@color/_?m@0x7f0b001c</color>
+    <color name="_?m@0x7f0b0032">@color/_?m@0x7f0b002e</color>
+    <color name="_?m@0x7f0b0033">@color/_?m@0x7f0b0027</color>
+    <color name="_?m@0x7f0b0034">#ff18b4ed</color>
+    <color name="_?m@0x7f0b0035">#ffe3e6e8</color>
+    <color name="_?m@0x7f0b0036">@color/_?m@0x7f0b001b</color>
+    <color name="_?m@0x7f0b0037">@color/_?m@0x7f0b0023</color>
+    <color name="_?m@0x7f0b0038">@color/_?m@0x7f0b0021</color>
+    <color name="_?m@0x7f0b0039">@color/_?m@0x7f0b0027</color>
+    <color name="_?m@0x7f0b003a">@color/_?m@0x7f0b0022</color>
+    <color name="_?m@0x7f0b003b">#3f000000</color>
+    <color name="_?m@0x7f0b003c">#bf000000</color>
+    <color name="_?m@0x7f0b003d">@color/_?m@0x7f0b0023</color>
+    <color name="_?m@0x7f0b003e">#ff929292</color>
+    <color name="_?m@0x7f0b003f">#ff0e0e0e</color>
+    <color name="_?m@0x7f0b0040">#fff2f3f5</color>
+    <color name="_?m@0x7f0b0041">#77ffffff</color>
+    <color name="_?m@0x7f0b0042">#ffededed</color>
+    <color name="_?m@0x7f0b0043">#ff1993d2</color>
+    <color name="_?m@0x7f0b0044">#fffc7aa7</color>
+    <color name="_?m@0x7f0b0045">#ff282e31</color>
+    <color name="_?m@0x7f0b0046">#ff757676</color>
+    <color name="_?m@0x7f0b0047">#ffffffff</color>
+    <color name="_?m@0x7f0b0048">#ff808080</color>
+    <color name="_?m@0x7f0b0049">#ff292d30</color>
+    <color name="_?m@0x7f0b004a">#ffebeced</color>
+    <color name="_?m@0x7f0b004b">#f2ffffff</color>
+    <color name="_?m@0x7f0b004c">@color/_?m@0x7f0b001b</color>
+    <color name="_?m@0x7f0b004d">#ffffffff</color>
+    <color name="_?m@0x7f0b004e">#fffdfdfd</color>
+    <color name="_?m@0x7f0b004f">@color/_?m@0x7f0b001b</color>
+    <color name="_?m@0x7f0b0050">#ffecf3f9</color>
+    <color name="_?m@0x7f0b0051">#ffdddddd</color>
+    <color name="_?m@0x7f0b0052">#ffc2c8cd</color>
+    <color name="_?m@0x7f0b0053">#ffc9c9c9</color>
+    <color name="_?m@0x7f0b0054">#ffadb4ba</color>
+    <color name="_?m@0x7f0b0055">#7f000000</color>
+    <color name="_?m@0x7f0b0056">#7fffffff</color>
+    <color name="_?m@0x7f0b0057">#ffee860a</color>
+    <color name="_?m@0x7f0b0058">#ffe9eaeb</color>
+    <color name="_?m@0x7f0b0059">#ffd3d7da</color>
+    <color name="_?m@0x7f0b005a">#ffc2c8cd</color>
+    <color name="_?m@0x7f0b005b">#66000000</color>
+    <color name="_?m@0x7f0b005c">#4d000000</color>
+    <color name="_?m@0x7f0b005d">#33000000</color>
+    <color name="_?m@0x7f0b005e">#26000000</color>
+    <color name="_?m@0x7f0b005f">#ffdadfe2</color>
+    <color name="_?m@0x7f0b0060">#fff2f4f5</color>
+    <color name="_?m@0x7f0b0061">#ffc2c8cd</color>
+    <color name="_?m@0x7f0b0062">#ff454a52</color>
+    <color name="_?m@0x7f0b0063">#ff4686b3</color>
+    <color name="_?m@0x7f0b0064">#7f000000</color>
+    <color name="_?m@0x7f0b0065">#ffff0000</color>
+    <color name="_?m@0x7f0b0066">#ffeeeeee</color>
+    <color name="_?m@0x7f0b0067">#ff000000</color>
+    <color name="_?m@0x7f0b0068">@color/_?m@0x7f0b0028</color>
+    <color name="_?m@0x7f0b0069">#00ffffff</color>
+    <color name="_?m@0x7f0b006a">#ff777777</color>
+    <color name="_?m@0x7f0b006b">#ff5fc4ff</color>
+    <color name="_?m@0x7f0b006c">@color/_?m@0x7f0b001c</color>
+    <color name="_?m@0x7f0b006d">#f043afd4</color>
+    <color name="_?m@0x7f0b006e">@color/_?m@0x7f0b0022</color>
+    <color name="_?m@0x7f0b006f">#ff795028</color>
+    <color name="_?m@0x7f0b0070">#ff4a7928</color>
+    <color name="_?m@0x7f0b0071">#ff284479</color>
+    <color name="_?m@0x7f0b0072">@color/_?m@0x7f0b001b</color>
+    <color name="_?m@0x7f0b0073">@color/_?m@0x7f0b0023</color>
+    <color name="_?m@0x7f0b0074">#ffe3e6e8</color>
+    <color name="_?m@0x7f0b0075">#ff636363</color>
+    <color name="_?m@0x7f0b0076">#ffc6c6c6</color>
+    <color name="_?m@0x7f0b0077">#ff1f2124</color>
+    <color name="_?m@0x7f0b0078">#ff13679d</color>
+    <color name="_?m@0x7f0b0079">#ff00a5e0</color>
+    <color name="_?m@0x7f0b007a">#ff676767</color>
+    <color name="_?m@0x7f0b007b">#ff0057af</color>
+    <color name="_?m@0x7f0b007c">#ffdedede</color>
+    <color name="_?m@0x7f0b007d">#99000000</color>
+    <color name="_?m@0x7f0b007e">#80000000</color>
+    <color name="_?m@0x7f0b007f">#ff5f6268</color>
+    <color name="_?m@0x7f0b0080">#ff9fa1a4</color>
+    <color name="_?m@0x7f0b0081">#ffcc3d3d</color>
+    <color name="_?m@0x7f0b0082">#ff5e5e5e</color>
+    <color name="_?m@0x7f0b0083">#ff7b7b7b</color>
+    <color name="_?m@0x7f0b0084">#ff303237</color>
+    <color name="_?m@0x7f0b0085">#ff00a0e5</color>
+    <color name="_?m@0x7f0b0086">#fff7564a</color>
+    <color name="_?m@0x7f0b0087">#ff777777</color>
+    <color name="_?m@0x7f0b0088">#ffee533d</color>
+    <color name="_?m@0x7f0b0089">#ff007aff</color>
+    <color name="_?m@0x7f0b008a">#00000000</color>
+    <color name="_?m@0x7f0b008b">#ff00a0e5</color>
+    <color name="_?m@0x7f0b008c">#fff7564a</color>
+    <color name="_?m@0x7f0b008d">#ff808080</color>
+    <color name="_?m@0x7f0b008e">#3f00a0e5</color>
+    <color name="_?m@0x7f0b008f">#66f7564a</color>
+    <color name="_?m@0x7f0b0090">#00000000</color>
+    <color name="_?m@0x7f0b0091">#3f00a0e5</color>
+    <color name="_?m@0x7f0b0092">#66f7564a</color>
+    <color name="_?m@0x7f0b0093">#ffa86700</color>
+    <color name="_?m@0x7f0b0094">#ff3d4148</color>
+    <color name="_?m@0x7f0b0095">#ff555555</color>
+    <color name="login_error_url">#ff009ee7</color>
+    <color name="_?m@0x7f0b0097">#ffe6e6e6</color>
+    <color name="_?m@0x7f0b0098">#00000000</color>
+    <color name="_?m@0x7f0b0099">#cc000000</color>
+    <color name="action_sheet_button_red">#fffd472b</color>
+    <color name="action_sheet_button_blue">#ff0079ff</color>
+    <color name="_?m@0x7f0b009c">#ff00a5e0</color>
+    <color name="_?m@0x7f0b009d">#ff0079ff</color>
+    <color name="_?m@0x7f0b009e">#fff85256</color>
+    <color name="_?m@0x7f0b009f">#ff0079ff</color>
+    <color name="_?m@0x7f0b00a0">#660079ff</color>
+    <color name="_?m@0x7f0b00a1">#34000000</color>
+    <color name="_?m@0x7f0b00a2">#ff808080</color>
+    <color name="_?m@0x7f0b00a3">#fffafafa</color>
+    <color name="_?m@0x7f0b00a4">#ffefeff4</color>
+    <color name="_?m@0x7f0b00a5">#ff0079ff</color>
+    <color name="_?m@0x7f0b00a6">#ffcccccc</color>
+    <color name="_?m@0x7f0b00a7">#ffa6a6a6</color>
+    <color name="_?m@0x7f0b00a8">#ff00a5e0</color>
+    <color name="_?m@0x7f0b00a9">#fff5f5f5</color>
+    <color name="_?m@0x7f0b00aa">#ff808080</color>
+    <color name="_?m@0x7f0b00ab">#ff191919</color>
+    <color name="_?m@0x7f0b00ac">#ff333333</color>
+    <color name="_?m@0x7f0b00ad">#ffc8c8c8</color>
+    <color name="_?m@0x7f0b00ae">#b2ffffff</color>
+    <color name="_?m@0x7f0b00af">#881f2f31</color>
+    <color name="_?m@0x7f0b00b0">#cc000000</color>
+    <color name="_?m@0x7f0b00b1">#00ffffff</color>
+    <color name="_?m@0x7f0b00b2">#ffffffff</color>
+    <color name="_?m@0x7f0b00b3">#ff92853a</color>
+    <color name="_?m@0x7f0b00b4">#ff671d01</color>
+    <color name="_?m@0x7f0b00b5">#88171717</color>
+    <color name="_?m@0x7f0b00b6">#ff0079ff</color>
+    <color name="_?m@0x7f0b00b7">#ffc2c0c1</color>
+    <color name="_?m@0x7f0b00b8">#ffffffff</color>
+    <color name="_?m@0x7f0b00b9">#fff4f4f4</color>
+    <color name="_?m@0x7f0b00ba">#fff4f4f4</color>
+    <color name="_?m@0x7f0b00bb">#33f4f4f4</color>
+    <color name="_?m@0x7f0b00bc">#ff2e2e2e</color>
+    <color name="_?m@0x7f0b00bd">#fff7f7f7</color>
+    <color name="_?m@0x7f0b00be">#ff222835</color>
+    <color name="_?m@0x7f0b00bf">#ff323232</color>
+    <color name="_?m@0x7f0b00c0">#ff808080</color>
+    <color name="_?m@0x7f0b00c1">#ffbfbfbf</color>
+    <color name="_?m@0x7f0b00c2">#ff0079ff</color>
+    <color name="_?m@0x7f0b00c3">#ff999999</color>
+    <color name="_?m@0x7f0b00c4">#ff017aff</color>
+    <color name="_?m@0x7f0b00c5">#ffd4d4d4</color>
+    <color name="_?m@0x7f0b00c6">#ffd5d5d5</color>
+    <color name="_?m@0x7f0b00c7">#ffffce39</color>
+    <color name="_?m@0x7f0b00c8">#ffc8c9ca</color>
+    <color name="_?m@0x7f0b00c9">#77000000</color>
+    <color name="_?m@0x7f0b00ca">#b2000000</color>
+    <color name="_?m@0x7f0b00cb">#e5000000</color>
+    <color name="_?m@0x7f0b00cc">#ffffffff</color>
+    <color name="_?m@0x7f0b00cd">#ff00a5e0</color>
+    <color name="_?m@0x7f0b00ce">#ff00a5e0</color>
+    <color name="_?m@0x7f0b00cf">#fffce660</color>
+    <color name="_?m@0x7f0b00d0">#ffa6a6a6</color>
+    <color name="_?m@0x7f0b00d1">#ff66cc33</color>
+    <color name="_?m@0x7f0b00d2">#ffcbcaca</color>
+    <color name="_?m@0x7f0b00d3">#ff787878</color>
+    <color name="_?m@0x7f0b00d4">#ffefeff4</color>
+    <color name="_?m@0x7f0b00d5">#ffa6a6a6</color>
+    <color name="_?m@0x7f0b00d6">#eef22764</color>
+    <color name="_?m@0x7f0b00d7">#4d000000</color>
+    <color name="_?m@0x7f0b00d8">#4dffffff</color>
+    <color name="_?m@0x7f0b00d9">#660052ff</color>
+    <color name="_?m@0x7f0b00da">#6677d7ff</color>
+    <color name="_?m@0x7f0b00db">#ffffffff</color>
+    <color name="_?m@0x7f0b00dc">#ff252525</color>
+    <color name="_?m@0x7f0b00dd">#80ffffff</color>
+    <color name="_?m@0x7f0b00de">#7f000000</color>
+    <color name="_?m@0x7f0b00df">#19000000</color>
+    <color name="_?m@0x7f0b00e0">#ff000000</color>
+    <color name="_?m@0x7f0b00e1">#ff777777</color>
+    <color name="_?m@0x7f0b00e2">#f2ffffff</color>
+    <color name="_?m@0x7f0b00e3">#21000000</color>
+    <color name="_?m@0x7f0b00e4">#44000000</color>
+    <color name="_?m@0x7f0b00e5">#ff00a5e0</color>
+    <color name="_?m@0x7f0b00e6">#881f2f31</color>
+    <color name="_?m@0x7f0b00e7">#ffdcdcdc</color>
+    <color name="_?m@0x7f0b00e8">#ffff3b30</color>
+    <color name="_?m@0x7f0b00e9">#ffe5e5e5</color>
+    <color name="_?m@0x7f0b00ea">#ff00a5e0</color>
+    <color name="_?m@0x7f0b00eb">#ffd8d8d8</color>
+    <color name="_?m@0x7f0b00ec">#fff28c48</color>
+    <color name="_?m@0x7f0b00ed">#ffffffff</color>
+    <color name="_?m@0x7f0b00ee">#ff808080</color>
+    <color name="_?m@0x7f0b00ef">#ff808080</color>
+    <color name="_?m@0x7f0b00f0">#ff0a182d</color>
+    <color name="_?m@0x7f0b00f1">#ff8e3811</color>
+    <color name="_?m@0x7f0b00f2">#fff8f9fa</color>
+    <color name="_?m@0x7f0b00f3">#ff00a5e0</color>
+    <color name="_?m@0x7f0b00f4">#7f00a5e0</color>
+    <color name="_?m@0x7f0b00f5">#b2ffffff</color>
+    <color name="_?m@0x7f0b00f6">#ffffffff</color>
+    <color name="_?m@0x7f0b00f7">#ff808080</color>
+    <color name="_?m@0x7f0b00f8">#ff3f3f3f</color>
+    <color name="_?m@0x7f0b00f9">#ffdedfe0</color>
+    <color name="_?m@0x7f0b00fa">#ccffffff</color>
+    <color name="_?m@0x7f0b00fb">#fff8f9fa</color>
+    <color name="_?m@0x7f0b00fc">#ff3094cf</color>
+    <color name="_?m@0x7f0b00fd">#ffcfcfcf</color>
+    <color name="_?m@0x7f0b00fe">#ffb5b5b5</color>
+    <color name="_?m@0x7f0b00ff">#ff2d2d2d</color>
+    <color name="_?m@0x7f0b0100">#ff707070</color>
+    <color name="_?m@0x7f0b0101">#ffa64600</color>
+    <color name="_?m@0x7f0b0102">#ffcf0000</color>
+    <color name="_?m@0x7f0b0103">#ffffd700</color>
+    <color name="_?m@0x7f0b0104">#ffff4600</color>
+    <color name="_?m@0x7f0b0105">#ff707070</color>
+    <color name="_?m@0x7f0b0106">#ff2d2d2d</color>
+    <color name="_?m@0x7f0b0107">#ff00a5e0</color>
+    <color name="_?m@0x7f0b0108">#ff808080</color>
+    <color name="_?m@0x7f0b0109">#ff1fbaf3</color>
+    <color name="_?m@0x7f0b010a">#ff1ca7da</color>
+    <color name="_?m@0x7f0b010b">#ffa9ebec</color>
+    <color name="_?m@0x7f0b010c">@android:color/transparent</color>
+    <color name="_?m@0x7f0b010d">#ffffffff</color>
+    <color name="_?m@0x7f0b010e">#ffffffff</color>
+    <color name="_?m@0x7f0b010f">#ff333333</color>
+    <color name="_?m@0x7f0b0110">#ff33b5e5</color>
+    <color name="_?m@0x7f0b0111">#ff99cc00</color>
+    <color name="_?m@0x7f0b0112">#ffff4444</color>
+    <color name="_?m@0x7f0b0113">#ff0099cc</color>
+    <color name="_?m@0x7f0b0114">#ff669900</color>
+    <color name="_?m@0x7f0b0115">#ffcc0000</color>
+    <color name="_?m@0x7f0b0116">#ffaa66cc</color>
+    <color name="_?m@0x7f0b0117">#ffffbb33</color>
+    <color name="_?m@0x7f0b0118">#ffff8800</color>
+    <color name="_?m@0x7f0b0119">#ff00ddff</color>
+    <color name="_?m@0x7f0b011a">#ff02a5e3</color>
+    <color name="aio_audio_change_voice_volume_view_color">#ffff8d27</color>
+    <color name="_?m@0x7f0b011c">#ffebebeb</color>
+    <color name="_?m@0x7f0b011d">#ff666666</color>
+    <color name="_?m@0x7f0b011e">#ffc7c7cc</color>
+    <color name="_?m@0x7f0b011f">#ffff9c00</color>
+    <color name="_?m@0x7f0b0120">#ffff3b30</color>
+    <color name="_?m@0x7f0b0121">#ffa6a6a6</color>
+    <color name="_?m@0x7f0b0122">#ff252525</color>
+    <color name="_?m@0x7f0b0123">#eaffffff</color>
+    <color name="_?m@0x7f0b0124">#ff18b4ed</color>
+    <color name="_?m@0x7f0b0125">#ff00a5e0</color>
+    <color name="_?m@0x7f0b0126">#ffe5e6e7</color>
+    <color name="_?m@0x7f0b0127">#ff2863ad</color>
+    <color name="_?m@0x7f0b0128">#fffcf2c6</color>
+    <color name="_?m@0x7f0b0129">#ffdedfe0</color>
+    <color name="_?m@0x7f0b012a">#ff0a182d</color>
+    <color name="_?m@0x7f0b012b">#ff183257</color>
+    <color name="_?m@0x7f0b012c">#ff0e2341</color>
+    <color name="_?m@0x7f0b012d">#fffbf9fa</color>
+    <color name="_?m@0x7f0b012e">#ff183257</color>
+    <color name="_?m@0x7f0b012f">#ffe9e9e9</color>
+    <color name="_?m@0x7f0b0130">#a6ffffff</color>
+    <color name="_?m@0x7f0b0131">#ccffffff</color>
+    <color name="_?m@0x7f0b0132">#ffffffff</color>
+    <color name="_?m@0x7f0b0133">#19000000</color>
+    <color name="_?m@0x7f0b0134">#80000000</color>
+    <color name="_?m@0x7f0b0135">#cc000000</color>
+    <color name="_?m@0x7f0b0136">#40000000</color>
+    <color name="_?m@0x7f0b0137">#ff00a5e0</color>
+    <color name="_?m@0x7f0b0138">#ff808080</color>
+    <color name="_?m@0x7f0b0139">#ff000000</color>
+    <color name="_?m@0x7f0b013a">#ffbbbbbb</color>
+    <color name="_?m@0x7f0b013b">#ff00a5e0</color>
+    <color name="_?m@0x7f0b013c">#4cffffff</color>
+    <color name="_?m@0x7f0b013d">#66000000</color>
+    <color name="_?m@0x7f0b013e">#ffbbbbbb</color>
+    <color name="_?m@0x7f0b013f">#ffbd84d0</color>
+    <color name="_?m@0x7f0b0140">#ffae5bc9</color>
+    <color name="_?m@0x7f0b0141">#ff8d8d8d</color>
+    <color name="_?m@0x7f0b0142">#ff787878</color>
+    <color name="_?m@0x7f0b0143">#ffeaeaea</color>
+    <color name="_?m@0x7f0b0144">#fff9f9f9</color>
+    <color name="_?m@0x7f0b0145">#ffdfdfdf</color>
+    <color name="_?m@0x7f0b0146">#ff313843</color>
+    <color name="_?m@0x7f0b0147">#ff29b4eb</color>
+    <color name="_?m@0x7f0b0148">#ffffffff</color>
+    <color name="_?m@0x7f0b0149">#ff45b91c</color>
+    <color name="_?m@0x7f0b014a">#4c000000</color>
+    <color name="_?m@0x7f0b014b">#ff25272a</color>
+    <color name="_?m@0x7f0b014c">#66000000</color>
+    <color name="_?m@0x7f0b014d">#ff29b4eb</color>
+    <color name="_?m@0x7f0b014e">#ffdfdfdf</color>
+    <color name="_?m@0x7f0b014f">@color/_?m@0x7f0b004d</color>
+    <color name="_?m@0x7f0b0150">#ff19aee3</color>
+    <color name="_?m@0x7f0b0151">#ffceced3</color>
+    <color name="_?m@0x7f0b0152">#ff4dd865</color>
+    <color name="_?m@0x7f0b0153">#ffdd5c5c</color>
+    <color name="_?m@0x7f0b0154">#ff00a5e0</color>
+    <color name="_?m@0x7f0b0155">#ff2594e3</color>
+    <color name="_?m@0x7f0b0156">#ffffd700</color>
+    <color name="_?m@0x7f0b0157">#fffc8a86</color>
+    <color name="_?m@0x7f0b0158">#ff2594e3</color>
+    <color name="_?m@0x7f0b0159">#ff0e74bc</color>
+    <color name="_?m@0x7f0b015a">#ffff9b00</color>
+    <color name="_?m@0x7f0b015b">#ffd78300</color>
+    <color name="_?m@0x7f0b015c">#ff01416d</color>
+    <color name="_?m@0x7f0b015d">#ff6e4401</color>
+    <color name="_?m@0x7f0b015e">#ffc23e23</color>
+    <color name="_?m@0x7f0b015f">#ffffffff</color>
+    <color name="_?m@0x7f0b0160">#ff888888</color>
+    <color name="_?m@0x7f0b0161">#ff888888</color>
+    <color name="_?m@0x7f0b0162">#88ffffff</color>
+    <color name="_?m@0x7f0b0163">#00ffffff</color>
+    <color name="_?m@0x7f0b0164">#ffdddddd</color>
+    <color name="_?m@0x7f0b0165">#f2fbfbfb</color>
+    <color name="_?m@0x7f0b0166">#ff00a5e0</color>
+    <color name="_?m@0x7f0b0167">#66000000</color>
+    <color name="_?m@0x7f0b0168">#ffe6e6e6</color>
+    <color name="_?m@0x7f0b0169">#fff2f2f2</color>
+    <color name="_?m@0x7f0b016a">#b2ffffff</color>
+    <color name="_?m@0x7f0b016b">#48ffffff</color>
+    <color name="_?m@0x7f0b016c">#c8ffffff</color>
+    <color name="_?m@0x7f0b016d">#ccffffff</color>
+    <color name="_?m@0x7f0b016e">#99ffffff</color>
+    <color name="_?m@0x7f0b016f">#ffa3a8ae</color>
+    <color name="_?m@0x7f0b0170">#ff999999</color>
+    <color name="_?m@0x7f0b0171">#ff333333</color>
+    <color name="_?m@0x7f0b0172">#ff282727</color>
+    <color name="_?m@0x7f0b0173">#ff8e9dab</color>
+    <color name="_?m@0x7f0b0174">#ffff0000</color>
+    <color name="_?m@0x7f0b0175">#ff00cc00</color>
+    <color name="_?m@0x7f0b0176">#d8197fff</color>
+    <color name="_?m@0x7f0b0177">#ff000000</color>
+    <color name="_?m@0x7f0b0178">#99000000</color>
+    <color name="_?m@0x7f0b0179">#ff0079ff</color>
+    <color name="_?m@0x7f0b017a">#ffe3f3ff</color>
+    <color name="_?m@0x7f0b017b">#ff0079ff</color>
+    <color name="_?m@0x7f0b017c">#ffcf3737</color>
+    <color name="_?m@0x7f0b017d">#6d333333</color>
+    <color name="_?m@0x7f0b017e">#00000000</color>
+    <color name="_?m@0x7f0b017f">#00000000</color>
+    <color name="_?m@0x7f0b0180">#6d07223d</color>
+    <color name="_?m@0x7f0b0181">#6d333333</color>
+    <color name="_?m@0x7f0b0182">#d2000000</color>
+    <color name="_?m@0x7f0b0183">#ff4d4d4d</color>
+    <color name="_?m@0x7f0b0184">#00000000</color>
+    <color name="_?m@0x7f0b0185">#19ffffff</color>
+    <color name="_?m@0x7f0b0186">#33ffffff</color>
+    <color name="_?m@0x7f0b0187">#0affffff</color>
+    <color name="_?m@0x7f0b0188">#ffffffff</color>
+    <color name="_?m@0x7f0b0189">#fa222222</color>
+    <color name="_?m@0x7f0b018a">#fff33e64</color>
+    <color name="_?m@0x7f0b018b">#00000000</color>
+    <color name="_?m@0x7f0b018c">#88000000</color>
+    <color name="_?m@0x7f0b018d">#ffebe9e9</color>
+    <color name="_?m@0x7f0b018e">#ff12ef99</color>
+    <color name="_?m@0x7f0b018f">#ffff4070</color>
+    <color name="_?m@0x7f0b0190">#66ff4070</color>
+    <color name="_?m@0x7f0b0191">#ffe44f95</color>
+    <color name="_?m@0x7f0b0192">#88000000</color>
+    <color name="_?m@0x7f0b0193">#ff111111</color>
+    <color name="_?m@0x7f0b0194">#66000000</color>
+    <color name="_?m@0x7f0b0195">#fff5d000</color>
+    <color name="_?m@0x7f0b0196">#ffff9b0e</color>
+    <color name="_?m@0x7f0b0197">#fffb705b</color>
+    <color name="_?m@0x7f0b0198">#ff445a6c</color>
+    <color name="_?m@0x7f0b0199">#ff566b7d</color>
+    <color name="_?m@0x7f0b019a">#a7000000</color>
+    <color name="_?m@0x7f0b019b">#ffffffff</color>
+    <color name="_?m@0x7f0b019c">#ff445a6c</color>
+    <color name="_?m@0x7f0b019d">#ff282828</color>
+    <color name="_?m@0x7f0b019e">#ffcdcdcf</color>
+    <color name="_?m@0x7f0b019f">#aa000000</color>
+    <color name="_?m@0x7f0b01a0">#ff057cff</color>
+    <color name="_?m@0x7f0b01a1">#b2057cff</color>
+    <color name="_?m@0x7f0b01a2">#ffdfdfdf</color>
+    <color name="_?m@0x7f0b01a3">#f2ebebeb</color>
+    <color name="_?m@0x7f0b01a4">#fff0eff5</color>
+    <color name="_?m@0x7f0b01a5">#ffe6e6e6</color>
+    <color name="_?m@0x7f0b01a6">#b2057cff</color>
+    <color name="_?m@0x7f0b01a7">#ff057cff</color>
+    <color name="_?m@0x7f0b01a8">#ffebebeb</color>
+    <color name="_?m@0x7f0b01a9">#0debebeb</color>
+    <color name="_?m@0x7f0b01aa">#ffe6e6e6</color>
+    <color name="_?m@0x7f0b01ab">#ff2b2e35</color>
+    <color name="_?m@0x7f0b01ac">#ff808080</color>
+    <color name="_?m@0x7f0b01ad">#ffdedfe0</color>
+    <color name="_?m@0x7f0b01ae">#fffe649f</color>
+    <color name="_?m@0x7f0b01af">#ffa6a6a6</color>
+    <color name="_?m@0x7f0b01b0">#ffa6a6a6</color>
+    <color name="_?m@0x7f0b01b1">#ffdedfe0</color>
+    <color name="_?m@0x7f0b01b2">#ffe5e6e7</color>
+    <color name="_?m@0x7f0b01b3">#00ffffff</color>
+    <color name="_?m@0x7f0b01b4">#b2000000</color>
+    <color name="_?m@0x7f0b01b5">#ffa6a6a6</color>
+    <color name="_?m@0x7f0b01b6">#ffdfdbda</color>
+    <color name="_?m@0x7f0b01b7">#ff66d521</color>
+    <color name="_?m@0x7f0b01b8">#ffababab</color>
+    <color name="_?m@0x7f0b01b9">#ff0d4c8f</color>
+    <color name="_?m@0x7f0b01ba">#ffcccccc</color>
+    <color name="_?m@0x7f0b01bb">#ffcccccc</color>
+    <color name="_?m@0x7f0b01bc">#ff0056a6</color>
+    <color name="_?m@0x7f0b01bd">#ff7fa4c9</color>
+    <color name="_?m@0x7f0b01be">#ffff8300</color>
+    <color name="_?m@0x7f0b01bf">#ffffffff</color>
+    <color name="_?m@0x7f0b01c0">#ff3179cd</color>
+    <color name="_?m@0x7f0b01c1">#0a000000</color>
+    <color name="_?m@0x7f0b01c2">#ffb6a888</color>
+    <color name="_?m@0x7f0b01c3">#ffd8d8d8</color>
+    <color name="_?m@0x7f0b01c4">#ff333333</color>
+    <color name="_?m@0x7f0b01c5">#ffffffff</color>
+    <color name="_?m@0x7f0b01c6">#ff777777</color>
+    <color name="_?m@0x7f0b01c7">#ffffffff</color>
+    <color name="_?m@0x7f0b01c8">#ffa6a6a6</color>
+    <color name="_?m@0x7f0b01c9">#ff0057af</color>
+    <color name="_?m@0x7f0b01ca">#ff000000</color>
+    <color name="_?m@0x7f0b01cb">#00000000</color>
+    <color name="_?m@0x7f0b01cc">#ffff6600</color>
+    <color name="_?m@0x7f0b01cd">#ff43c959</color>
+    <color name="_?m@0x7f0b01ce">#ffffffff</color>
+    <color name="_?m@0x7f0b01cf">#ff6d6d72</color>
+    <color name="_?m@0x7f0b01d0">#ff00a5e0</color>
+    <color name="_?m@0x7f0b01d1">#ff00a5e0</color>
+    <color name="_?m@0x7f0b01d2">#ffc8c8c8</color>
+    <color name="_?m@0x7f0b01d3">#ffc7c7c7</color>
+    <color name="_?m@0x7f0b01d4">#ffa6a6a6</color>
+    <color name="_?m@0x7f0b01d5">#fffee646</color>
+    <color name="_?m@0x7f0b01d6">#ffde8082</color>
+    <color name="_?m@0x7f0b01d7">#ffefeff4</color>
+    <color name="_?m@0x7f0b01d8">#ff808080</color>
+    <color name="qb_tenpay_thin_color">#ff808080</color>
+    <color name="_?m@0x7f0b01da">#ff333333</color>
+    <color name="_?m@0x7f0b01db">#ffff7700</color>
+    <color name="_?m@0x7f0b01dc">#ffff3b30</color>
+    <color name="_?m@0x7f0b01dd">#ffa6a6a6</color>
+    <color name="_?m@0x7f0b01de">#a6ffffff</color>
+    <color name="_?m@0x7f0b01df">#33ffffff</color>
+    <color name="_?m@0x7f0b01e0">#ff1fbaf2</color>
+    <color name="_?m@0x7f0b01e1">#ff00a5e0</color>
+    <color name="_?m@0x7f0b01e2">#ffe5e6e7</color>
+    <color name="qb_hbdetail_textcolor_toparea">#ffffffff</color>
+    <color name="_?m@0x7f0b01e4">#ff0079ff</color>
+    <color name="_?m@0x7f0b01e5">#ff0079ff</color>
+    <color name="_?m@0x7f0b01e6">#ffffffff</color>
+    <color name="_?m@0x7f0b01e7">#ffe6e6e6</color>
+    <color name="_?m@0x7f0b01e8">#fffc4226</color>
+    <color name="_?m@0x7f0b01e9">#ffffffff</color>
+    <color name="_?m@0x7f0b01ea">#ffefeff4</color>
+    <color name="_?m@0x7f0b01eb">#ffa6a6a6</color>
+    <color name="_?m@0x7f0b01ec">#ff808080</color>
+    <color name="_?m@0x7f0b01ed">#ff7699bb</color>
+    <color name="_?m@0x7f0b01ee">#ff18b4ed</color>
+    <color name="_?m@0x7f0b01ef">#ff646464</color>
+    <color name="_?m@0x7f0b01f0">#ff00cc6b</color>
+    <color name="_?m@0x7f0b01f1">#ffff9c00</color>
+    <color name="_?m@0x7f0b01f2">#ffeaeaea</color>
+    <color name="_?m@0x7f0b01f3">#ff5aa4ff</color>
+    <color name="_?m@0x7f0b01f4">#ff747474</color>
+    <color name="_?m@0x7f0b01f5">#ffdedede</color>
+    <color name="_?m@0x7f0b01f6">#ffffffff</color>
+    <color name="_?m@0x7f0b01f7">#7fffffff</color>
+    <color name="_?m@0x7f0b01f8">#00ffffff</color>
+    <color name="_?m@0x7f0b01f9">#ccffffff</color>
+    <color name="_?m@0x7f0b01fa">#cc000000</color>
+    <color name="_?m@0x7f0b01fb">#ff777777</color>
+    <color name="_?m@0x7f0b01fc">#ffff0000</color>
+    <color name="_?m@0x7f0b01fd">#e5000000</color>
+    <color name="_?m@0x7f0b01fe">#80000000</color>
+    <color name="_?m@0x7f0b01ff">#ffffffff</color>
+    <color name="_?m@0x7f0b0200">#fffff8d0</color>
+    <color name="_?m@0x7f0b0201">#ffe8e8e8</color>
+    <color name="_?m@0x7f0b0202">#fff1f1f1</color>
+    <color name="_?m@0x7f0b0203">#fffafafa</color>
+    <color name="_?m@0x7f0b0204">#ff0e0e0e</color>
+    <color name="_?m@0x7f0b0205">#ff295998</color>
+    <color name="_?m@0x7f0b0206">#ff295998</color>
+    <color name="_?m@0x7f0b0207">#ffd5d5d5</color>
+    <color name="_?m@0x7f0b0208">#5c000000</color>
+    <color name="_?m@0x7f0b0209">#ff6b6b6b</color>
+    <color name="_?m@0x7f0b020a">#ffd90115</color>
+    <color name="_?m@0x7f0b020b">#ff246183</color>
+    <color name="_?m@0x7f0b020c">#ff979797</color>
+    <color name="_?m@0x7f0b020d">#ff2d2d2d</color>
+    <color name="_?m@0x7f0b020e">#ff666666</color>
+    <color name="_?m@0x7f0b020f">#ff000000</color>
+    <color name="_?m@0x7f0b0210">#fff2f2f2</color>
+    <color name="_?m@0x7f0b0211">#ffdddddd</color>
+    <color name="_?m@0x7f0b0212">#ff999999</color>
+    <color name="_?m@0x7f0b0213">#ff979797</color>
+    <color name="_?m@0x7f0b0214">#ffaaaaaa</color>
+    <color name="_?m@0x7f0b0215">#ffffffff</color>
+    <color name="_?m@0x7f0b0216">#ff000000</color>
+    <color name="_?m@0x7f0b0217">#00000000</color>
+    <color name="_?m@0x7f0b0218">#ffffffff</color>
+    <color name="_?m@0x7f0b0219">#ff2a5caa</color>
+    <color name="_?m@0x7f0b021a">#ff798089</color>
+    <color name="_?m@0x7f0b021b">#ff999999</color>
+    <color name="_?m@0x7f0b021c">#ff000000</color>
+    <color name="_?m@0x7f0b021d">#ffbbbbbb</color>
+    <color name="_?m@0x7f0b021e">#ff222222</color>
+    <color name="_?m@0x7f0b021f">#ff666666</color>
+    <color name="_?m@0x7f0b0220">#ffbbbbbb</color>
+    <color name="_?m@0x7f0b0221">#ffe7e7e7</color>
+    <color name="_?m@0x7f0b0222">#ff058bf4</color>
+    <color name="_?m@0x7f0b0223">#ff666666</color>
+    <color name="_?m@0x7f0b0224">#ff222222</color>
+    <color name="_?m@0x7f0b0225">#fff8f8f8</color>
+    <color name="_?m@0x7f0b0226">#ff707070</color>
+    <color name="_?m@0x7f0b0227">#fff5f5f5</color>
+    <color name="_?m@0x7f0b0228">#ff333333</color>
+    <color name="_?m@0x7f0b0229">#5c000000</color>
+    <color name="_?m@0x7f0b022a">#ff314c83</color>
+    <color name="_?m@0x7f0b022b">#ffcccccc</color>
+    <color name="_?m@0x7f0b022c">#fff6f6f6</color>
+    <color name="_?m@0x7f0b022d">#7f000000</color>
+    <color name="_?m@0x7f0b022e">#ff999999</color>
+    <color name="_?m@0x7f0b022f">#ffffcc16</color>
+    <color name="_?m@0x7f0b0230">#ffcb3102</color>
+    <color name="_?m@0x7f0b0231">#ffbca28f</color>
+    <color name="_?m@0x7f0b0232">#ffd2c0ad</color>
+    <color name="_?m@0x7f0b0233">#ffd99e0f</color>
+    <color name="_?m@0x7f0b0234">#ffbca28f</color>
+    <color name="_?m@0x7f0b0235">#3fffffff</color>
+    <color name="_?m@0x7f0b0236">#cc000000</color>
+    <color name="_?m@0x7f0b0237">#ffa64600</color>
+    <color name="_?m@0x7f0b0238">#ffffc000</color>
+    <color name="_?m@0x7f0b0239">#ffefefef</color>
+    <color name="_?m@0x7f0b023a">#ff272727</color>
+    <color name="_?m@0x7f0b023b">#ffb7b7b7</color>
+    <color name="_?m@0x7f0b023c">#ff999999</color>
+    <color name="_?m@0x7f0b023d">#ff0a0a0a</color>
+    <color name="_?m@0x7f0b023e">#ff797979</color>
+    <color name="_?m@0x7f0b023f">#ffe6e6e6</color>
+    <color name="_?m@0x7f0b0240">#ff696969</color>
+    <color name="_?m@0x7f0b0241">#ffffa800</color>
+    <color name="_?m@0x7f0b0242">#ff64769b</color>
+    <color name="_?m@0x7f0b0243">#ffa0a0a0</color>
+    <color name="_?m@0x7f0b0244">@color/_?m@0x7f0b0216</color>
+    <color name="_?m@0x7f0b0245">#ffbbbbbb</color>
+    <color name="_?m@0x7f0b0246">#ffececec</color>
+    <color name="_?m@0x7f0b0247">#ff7f7f7f</color>
+    <color name="_?m@0x7f0b0248">#ff295998</color>
+    <color name="_?m@0x7f0b0249">#ffc01c1d</color>
+    <color name="_?m@0x7f0b024a">#ff35484e</color>
+    <color name="_?m@0x7f0b024b">#fffafafa</color>
+    <color name="_?m@0x7f0b024c">#ffdddddd</color>
+    <color name="_?m@0x7f0b024d">#fff1f1f1</color>
+    <color name="_?m@0x7f0b024e">#ffdddddd</color>
+    <color name="_?m@0x7f0b024f">#ffcccccc</color>
+    <color name="_?m@0x7f0b0250">#ffececec</color>
+    <color name="_?m@0x7f0b0251">#ffaaaaaa</color>
+    <color name="_?m@0x7f0b0252">#ffe68e03</color>
+    <color name="_?m@0x7f0b0253">#ff2d2d2d</color>
+    <color name="_?m@0x7f0b0254">#ffffffff</color>
+    <color name="_?m@0x7f0b0255">#ffa64600</color>
+    <color name="_?m@0x7f0b0256">#ff000000</color>
+    <color name="_?m@0x7f0b0257">#ff666666</color>
+    <color name="_?m@0x7f0b0258">#ffffffff</color>
+    <color name="_?m@0x7f0b0259">#ffdddddd</color>
+    <color name="_?m@0x7f0b025a">#ffffffff</color>
+    <color name="_?m@0x7f0b025b">#ffe1e1e1</color>
+    <color name="_?m@0x7f0b025c">#ff2d2d2d</color>
+    <color name="_?m@0x7f0b025d">#ff707070</color>
+    <color name="_?m@0x7f0b025e">#ff295998</color>
+    <color name="_?m@0x7f0b025f">#ffdfdfdf</color>
+    <color name="_?m@0x7f0b0260">#ffc01c1d</color>
+    <color name="_?m@0x7f0b0261">#ffc01c1d</color>
+    <color name="_?m@0x7f0b0262">#ffb0b0b0</color>
+    <color name="_?m@0x7f0b0263">#ffe0e0e0</color>
+    <color name="_?m@0x7f0b0264">#fff8f8f8</color>
+    <color name="_?m@0x7f0b0265">#ffc6c6c6</color>
+    <color name="_?m@0x7f0b0266">#ff707070</color>
+    <color name="_?m@0x7f0b0267">#ffffffff</color>
+    <color name="_?m@0x7f0b0268">#ffc01c1d</color>
+    <color name="_?m@0x7f0b0269">#80295998</color>
+    <color name="_?m@0x7f0b026a">#80295998</color>
+    <color name="_?m@0x7f0b026b">#4d295998</color>
+    <color name="_?m@0x7f0b026c">#fffbeeb8</color>
+    <color name="_?m@0x7f0b026d">#ff2a271e</color>
+    <color name="_?m@0x7f0b026e">#ffeaeaea</color>
+    <color name="_?m@0x7f0b026f">#ff18b4ed</color>
+    <color name="_?m@0x7f0b0270">#ff686868</color>
+    <color name="_?m@0x7f0b0271">#ff295998</color>
+    <color name="_?m@0x7f0b0272">#ff2f3137</color>
+    <color name="_?m@0x7f0b0273">#ff0a0a0a</color>
+    <color name="_?m@0x7f0b0274">#ff2660b0</color>
+    <color name="_?m@0x7f0b0275">#ffffc200</color>
+    <color name="_?m@0x7f0b0276">#ffd2d2d2</color>
+    <color name="_?m@0x7f0b0277">#3f000000</color>
+    <color name="_?m@0x7f0b0278">#ff777777</color>
+    <color name="_?m@0x7f0b0279">#ff999999</color>
+    <item type="color" name="_?m@0x7f0b027a">R/b/klw.xml</item>
+    <item type="color" name="_?m@0x7f0b027b">R/b/hyb.xml</item>
+    <item type="color" name="_?m@0x7f0b027c">R/b/klx.xml</item>
+    <item type="color" name="_?m@0x7f0b027d">R/b/emoview_aio_bottom_tab_bkg.xml</item>
+    <item type="color" name="_?m@0x7f0b027e">R/b/emoview_aio_emoji_bkg.xml</item>
+    <item type="color" name="_?m@0x7f0b027f">R/b/kly.xml</item>
+    <item type="color" name="_?m@0x7f0b0280">R/b/klz.xml</item>
+    <item type="color" name="_?m@0x7f0b0281">R/b/kma.xml</item>
+    <item type="color" name="_?m@0x7f0b0282">R/b/kmb.xml</item>
+    <item type="color" name="_?m@0x7f0b0283">R/b/kmc.xml</item>
+    <item type="color" name="_?m@0x7f0b0284">R/b/kmd.xml</item>
+    <item type="color" name="_?m@0x7f0b0285">R/b/kme.xml</item>
+    <item type="color" name="_?m@0x7f0b0286">R/b/kmf.xml</item>
+    <item type="color" name="_?m@0x7f0b0287">R/b/kmg.xml</item>
+    <item type="color" name="_?m@0x7f0b0288">R/b/kmh.xml</item>
+    <item type="color" name="_?m@0x7f0b0289">R/b/hyc.xml</item>
+    <item type="color" name="_?m@0x7f0b028a">R/b/kmi.xml</item>
+    <item type="color" name="_?m@0x7f0b028b">R/b/kmj.xml</item>
+    <item type="color" name="_?m@0x7f0b028c">R/b/kmk.xml</item>
+    <item type="color" name="_?m@0x7f0b028d">R/b/kml.xml</item>
+    <item type="color" name="_?m@0x7f0b028e">R/b/kmm.xml</item>
+    <item type="color" name="_?m@0x7f0b028f">R/b/kmn.xml</item>
+    <item type="color" name="_?m@0x7f0b0290">R/b/kmo.xml</item>
+    <item type="color" name="_?m@0x7f0b0291">R/b/eo.xml</item>
+    <item type="color" name="_?m@0x7f0b0292">R/b/kmp.xml</item>
+    <item type="color" name="_?m@0x7f0b0293">R/b/kmq.xml</item>
+    <item type="color" name="_?m@0x7f0b0294">R/b/kmr.xml</item>
+    <item type="color" name="_?m@0x7f0b0295">R/b/kms.xml</item>
+    <item type="color" name="_?m@0x7f0b0296">R/b/kmt.xml</item>
+    <item type="color" name="_?m@0x7f0b0297">R/b/hye.xml</item>
+    <item type="color" name="_?m@0x7f0b0298">R/b/em.xml</item>
+    <item type="color" name="_?m@0x7f0b0299">R/b/ek.xml</item>
+    <item type="color" name="_?m@0x7f0b029a">R/b/ei.xml</item>
+    <item type="color" name="_?m@0x7f0b029b">R/b/eh.xml</item>
+    <item type="color" name="_?m@0x7f0b029c">R/b/eg.xml</item>
+    <item type="color" name="_?m@0x7f0b029d">R/b/ee.xml</item>
+    <item type="color" name="_?m@0x7f0b029e">R/b/hyf.xml</item>
+    <item type="color" name="_?m@0x7f0b029f">R/b/qb_pubaccount_custom_menu_text.xml</item>
+    <item type="color" name="_?m@0x7f0b02a0">R/b/kmu.xml</item>
+    <item type="color" name="_?m@0x7f0b02a1">R/b/kmv.xml</item>
+    <item type="color" name="_?m@0x7f0b02a2">R/b/kmw.xml</item>
+    <item type="color" name="_?m@0x7f0b02a3">R/b/ec.xml</item>
+    <item type="color" name="_?m@0x7f0b02a4">R/b/eb.xml</item>
+    <item type="color" name="_?m@0x7f0b02a5">R/b/ea.xml</item>
+    <item type="color" name="qb_tenpay_dialog_link_blue">R/b/dz.xml</item>
+    <item type="color" name="_?m@0x7f0b02a7">R/b/dy.xml</item>
+    <item type="color" name="qb_tenpay_hb_title_leftright">R/b/kmx.xml</item>
+    <item type="color" name="_?m@0x7f0b02a9">R/b/dx.xml</item>
+    <item type="color" name="_?m@0x7f0b02aa">R/b/dr.xml</item>
+    <item type="color" name="_?m@0x7f0b02ab">R/b/dq.xml</item>
+    <item type="color" name="_?m@0x7f0b02ac">R/b/hji.xml</item>
+    <item type="color" name="_?m@0x7f0b02ad">R/b/dp.xml</item>
+    <item type="color" name="_?m@0x7f0b02ae">R/b/do.xml</item>
+    <item type="color" name="_?m@0x7f0b02af">R/b/kmy.xml</item>
+    <item type="color" name="_?m@0x7f0b02b0">R/b/kmz.xml</item>
+    <item type="color" name="_?m@0x7f0b02b1">R/b/kna.xml</item>
+    <item type="color" name="_?m@0x7f0b02b2">R/b/qq_dating_text_aa_color.xml</item>
+    <item type="color" name="_?m@0x7f0b02b3">R/b/qq_dating_text_ipay_color.xml</item>
+    <item type="color" name="_?m@0x7f0b02b4">R/b/qq_dating_text_youpay_color.xml</item>
+    <item type="color" name="_?m@0x7f0b02b5">R/b/hyg.xml</item>
+    <item type="color" name="_?m@0x7f0b02b6">R/b/hyi.xml</item>
+    <item type="color" name="_?m@0x7f0b02b7">R/b/knb.xml</item>
+    <item type="color" name="_?m@0x7f0b02b8">R/b/knc.xml</item>
+    <item type="color" name="_?m@0x7f0b02b9">R/b/knd.xml</item>
+    <item type="color" name="_?m@0x7f0b02ba">R/b/qq_profilecard_btns_divider.xml</item>
+    <item type="color" name="_?m@0x7f0b02bb">R/b/hyj.xml</item>
+    <item type="color" name="_?m@0x7f0b02bc">R/b/hyk.xml</item>
+    <item type="color" name="_?m@0x7f0b02bd">R/b/hyl.xml</item>
+    <item type="color" name="_?m@0x7f0b02be">R/b/qq_setting_me_title_color.xml</item>
+    <item type="color" name="_?m@0x7f0b02bf">R/b/kne.xml</item>
+    <item type="color" name="_?m@0x7f0b02c0">R/b/hjj.xml</item>
+    <item type="color" name="_?m@0x7f0b02c1">R/b/knf.xml</item>
+    <item type="color" name="_?m@0x7f0b02c2">R/b/dk.xml</item>
+    <item type="color" name="_?m@0x7f0b02c3">R/b/dj.xml</item>
+    <item type="color" name="_?m@0x7f0b02c4">R/b/qvip_emoji_tabitem_normal.xml</item>
+    <item type="color" name="_?m@0x7f0b02c5">R/b/qvip_emoji_tabitem_selected.xml</item>
+    <item type="color" name="_?m@0x7f0b02c6">R/b/dg.xml</item>
+    <item type="color" name="_?m@0x7f0b02c7">R/b/df.xml</item>
+    <item type="color" name="_?m@0x7f0b02c8">R/b/de.xml</item>
+    <item type="color" name="_?m@0x7f0b02c9">R/b/kng.xml</item>
+    <item type="color" name="_?m@0x7f0b02ca">R/b/knh.xml</item>
+    <item type="color" name="_?m@0x7f0b02cb">R/b/dc.xml</item>
+    <item type="color" name="_?m@0x7f0b02cc">R/b/kni.xml</item>
+    <item type="color" name="_?m@0x7f0b02cd">R/b/da.xml</item>
+    <item type="color" name="_?m@0x7f0b02ce">R/b/cw.xml</item>
+    <item type="color" name="_?m@0x7f0b02cf">R/b/knj.xml</item>
+    <item type="color" name="_?m@0x7f0b02d0">R/b/knk.xml</item>
+    <item type="color" name="_?m@0x7f0b02d1">R/b/knl.xml</item>
+    <item type="color" name="_?m@0x7f0b02d2">R/b/knm.xml</item>
+    <item type="color" name="_?m@0x7f0b02d3">R/b/cq.xml</item>
+    <item type="color" name="_?m@0x7f0b02d4">R/b/co.xml</item>
+    <item type="color" name="_?m@0x7f0b02d5">R/b/cn.xml</item>
+    <item type="color" name="_?m@0x7f0b02d6">R/b/cd.xml</item>
+    <item type="color" name="_?m@0x7f0b02d7">R/b/cb.xml</item>
+    <item type="color" name="_?m@0x7f0b02d8">R/b/ca.xml</item>
+    <item type="color" name="_?m@0x7f0b02d9">R/b/bz.xml</item>
+    <item type="color" name="_?m@0x7f0b02da">R/b/skin_activate_tips.xml</item>
+    <item type="color" name="_?m@0x7f0b02db">R/b/skin_aio_input_button.xml</item>
+    <item type="color" name="_?m@0x7f0b02dc">R/b/knn.xml</item>
+    <item type="color" name="_?m@0x7f0b02dd">R/b/skin_aio_send_button.xml</item>
+    <item type="color" name="_?m@0x7f0b02de">R/b/hyn.xml</item>
+    <item type="color" name="_?m@0x7f0b02df">R/b/skin_bar_btn.xml</item>
+    <item type="color" name="_?m@0x7f0b02e0">R/b/hjk.xml</item>
+    <item type="color" name="_?m@0x7f0b02e1">R/b/skin_bar_text.xml</item>
+    <item type="color" name="_?m@0x7f0b02e2">R/b/hjl.xml</item>
+    <item type="color" name="_?m@0x7f0b02e3">R/b/skin_black.xml</item>
+    <item type="color" name="_?m@0x7f0b02e4">R/b/skin_black_group_item.xml</item>
+    <item type="color" name="_?m@0x7f0b02e5">R/b/skin_black_group_item_theme_version2.xml</item>
+    <item type="color" name="_?m@0x7f0b02e6">R/b/skin_black_item.xml</item>
+    <item type="color" name="_?m@0x7f0b02e7">R/b/kno.xml</item>
+    <item type="color" name="_?m@0x7f0b02e8">R/b/skin_black_theme_version2.xml</item>
+    <item type="color" name="skin_blue">R/b/skin_blue.xml</item>
+    <item type="color" name="_?m@0x7f0b02ea">R/b/hyo.xml</item>
+    <item type="color" name="_?m@0x7f0b02eb">R/b/skin_blue_item.xml</item>
+    <item type="color" name="_?m@0x7f0b02ec">R/b/skin_blue_link.xml</item>
+    <item type="color" name="_?m@0x7f0b02ed">R/b/skin_chat_buble.xml</item>
+    <item type="color" name="_?m@0x7f0b02ee">R/b/skin_chat_buble_link.xml</item>
+    <item type="color" name="_?m@0x7f0b02ef">R/b/skin_chat_buble_link_mine.xml</item>
+    <item type="color" name="_?m@0x7f0b02f0">R/b/skin_chat_buble_mine.xml</item>
+    <item type="color" name="_?m@0x7f0b02f1">R/b/skin_chat_nick.xml</item>
+    <item type="color" name="_?m@0x7f0b02f2">R/b/skin_color_button_blue.xml</item>
+    <item type="color" name="_?m@0x7f0b02f3">R/b/skin_color_button_blue_local_albums.xml</item>
+    <item type="color" name="_?m@0x7f0b02f4">R/b/knp.xml</item>
+    <item type="color" name="_?m@0x7f0b02f5">R/b/bl.xml</item>
+    <item type="color" name="_?m@0x7f0b02f6">R/b/hjn.xml</item>
+    <item type="color" name="_?m@0x7f0b02f7">R/b/skin_color_button_red.xml</item>
+    <item type="color" name="_?m@0x7f0b02f8">R/b/skin_color_button_white.xml</item>
+    <item type="color" name="_?m@0x7f0b02f9">R/b/hjo.xml</item>
+    <item type="color" name="_?m@0x7f0b02fa">R/b/knq.xml</item>
+    <item type="color" name="_?m@0x7f0b02fb">R/b/bi.xml</item>
+    <item type="color" name="_?m@0x7f0b02fc">R/b/skin_color_dark_gray.xml</item>
+    <item type="color" name="_?m@0x7f0b02fd">R/b/bh.xml</item>
+    <item type="color" name="_?m@0x7f0b02fe">R/b/skin_color_light_gray.xml</item>
+    <item type="color" name="_?m@0x7f0b02ff">R/b/hjp.xml</item>
+    <item type="color" name="_?m@0x7f0b0300">R/b/hjq.xml</item>
+    <item type="color" name="_?m@0x7f0b0301">R/b/knr.xml</item>
+    <item type="color" name="skin_color_title_immersive_bar">R/b/skin_color_title_immersive_bar.xml</item>
+    <item type="color" name="_?m@0x7f0b0303">R/b/skin_color_white.xml</item>
+    <item type="color" name="_?m@0x7f0b0304">R/b/skin_dark_gray.xml</item>
+    <item type="color" name="_?m@0x7f0b0305">R/b/skin_dark_gray_item.xml</item>
+    <item type="color" name="_?m@0x7f0b0306">R/b/skin_face_wrapper.xml</item>
+    <item type="color" name="_?m@0x7f0b0307">R/b/skin_float_btn.xml</item>
+    <item type="color" name="_?m@0x7f0b0308">R/b/skin_gray1.xml</item>
+    <item type="color" name="_?m@0x7f0b0309">R/b/skin_gray2.xml</item>
+    <item type="color" name="_?m@0x7f0b030a">R/b/skin_gray2_item.xml</item>
+    <item type="color" name="_?m@0x7f0b030b">R/b/kns.xml</item>
+    <item type="color" name="_?m@0x7f0b030c">R/b/skin_gray2_theme_version2.xml</item>
+    <item type="color" name="_?m@0x7f0b030d">R/b/skin_gray3.xml</item>
+    <item type="color" name="_?m@0x7f0b030e">R/b/skin_gray3_item.xml</item>
+    <item type="color" name="_?m@0x7f0b030f">R/b/skin_gray4_item.xml</item>
+    <item type="color" name="_?m@0x7f0b0310">R/b/hyp.xml</item>
+    <item type="color" name="_?m@0x7f0b0311">R/b/skin_gray6.xml</item>
+    <item type="color" name="_?m@0x7f0b0312">R/b/knt.xml</item>
+    <item type="color" name="_?m@0x7f0b0313">R/b/skin_gray8.xml</item>
+    <item type="color" name="_?m@0x7f0b0314">R/b/skin_gray_group_item.xml</item>
+    <item type="color" name="_?m@0x7f0b0315">R/b/skin_green_item.xml</item>
+    <item type="color" name="_?m@0x7f0b0316">R/b/skin_hint_input.xml</item>
+    <item type="color" name="_?m@0x7f0b0317">R/b/skin_hint_input_theme_version2.xml</item>
+    <item type="color" name="_?m@0x7f0b0318">R/b/skin_input.xml</item>
+    <item type="color" name="_?m@0x7f0b0319">R/b/skin_input_theme_version2.xml</item>
+    <item type="color" name="_?m@0x7f0b031a">R/b/knu.xml</item>
+    <item type="color" name="_?m@0x7f0b031b">R/b/knv.xml</item>
+    <item type="color" name="_?m@0x7f0b031c">R/b/skin_menu.xml</item>
+    <item type="color" name="_?m@0x7f0b031d">R/b/knw.xml</item>
+    <item type="color" name="_?m@0x7f0b031e">R/b/skin_notification.xml</item>
+    <item type="color" name="_?m@0x7f0b031f">R/b/skin_options_bar_item.xml</item>
+    <item type="color" name="_?m@0x7f0b0320">R/b/x.xml</item>
+    <item type="color" name="_?m@0x7f0b0321">R/b/w.xml</item>
+    <item type="color" name="_?m@0x7f0b0322">R/b/knx.xml</item>
+    <item type="color" name="_?m@0x7f0b0323">R/b/skin_red.xml</item>
+    <item type="color" name="_?m@0x7f0b0324">R/b/skin_red_item.xml</item>
+    <item type="color" name="_?m@0x7f0b0325">R/b/skin_red_theme_version2.xml</item>
+    <item type="color" name="_?m@0x7f0b0326">R/b/skin_search_button.xml</item>
+    <item type="color" name="_?m@0x7f0b0327">R/b/skin_search_button_theme_version2.xml</item>
+    <item type="color" name="_?m@0x7f0b0328">R/b/skin_tips.xml</item>
+    <item type="color" name="_?m@0x7f0b0329">R/b/skin_title_segment_item_color.xml</item>
+    <item type="color" name="_?m@0x7f0b032a">R/b/hjv.xml</item>
+    <item type="color" name="_?m@0x7f0b032b">R/b/text_color_searchkeyword.xml</item>
+    <item type="color" name="_?m@0x7f0b032c">R/b/kny.xml</item>
+    <item type="color" name="_?m@0x7f0b032d">R/b/knz.xml</item>
+    <item type="color" name="_?m@0x7f0b032e">R/b/koa.xml</item>
+    <item type="color" name="_?m@0x7f0b032f">R/b/kob.xml</item>
+</resources>

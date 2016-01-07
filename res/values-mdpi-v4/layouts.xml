@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="custom_progress_dialog">R/s/dde.xml</item>
+    <item type="layout" name="_?m@0x7f03013f">R/s/ddf.xml</item>
+    <item type="layout" name="qapp_center_notification">R/s/ddg.xml</item>
+</resources>

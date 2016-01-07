@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="layout" name="_?m@0x7f03009c">R/v/fja.xml</item>
+    <item type="layout" name="qb_tenpay_qrcode">R/v/nfa.xml</item>
+    <item type="layout" name="_?m@0x7f030348">R/v/nfb.xml</item>
+    <item type="layout" name="_?m@0x7f030349">R/v/nfc.xml</item>
+</resources>

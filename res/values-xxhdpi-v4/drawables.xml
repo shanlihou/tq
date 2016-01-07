@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="_?m@0x7f020a2c">R/m/hcn.9.png</item>
+    <item type="drawable" name="_?m@0x7f0203bc">R/m/hcj.png</item>
+    <item type="drawable" name="_?m@0x7f0203bd">R/m/hcg.png</item>
+    <item type="drawable" name="_?m@0x7f020025">R/m/nfd.png</item>
+    <item type="drawable" name="_?m@0x7f020041">R/m/nfe.png</item>
+    <item type="drawable" name="_?m@0x7f020042">R/m/nff.png</item>
+    <item type="drawable" name="icon">R/m/hcw.png</item>
+    <item type="drawable" name="_?m@0x7f02036b">R/m/nfg.png</item>
+    <item type="drawable" name="_?m@0x7f02036c">R/m/nfh.png</item>
+    <item type="drawable" name="_?m@0x7f020492">R/m/nfi.png</item>
+    <item type="drawable" name="_?m@0x7f020539">R/m/hci.png</item>
+    <item type="drawable" name="qfile_file_ufdownload_top">R/m/hcl.png</item>
+    <item type="drawable" name="_?m@0x7f020a3e">R/m/nfj.png</item>
+    <item type="drawable" name="_?m@0x7f020ae5">R/m/nfk.png</item>
+    <item type="drawable" name="_?m@0x7f020b2e">R/m/nfl.png</item>
+    <item type="drawable" name="_?m@0x7f020dda">R/m/nfm.png</item>
+    <item type="drawable" name="_?m@0x7f021112">R/m/nfn.9.png</item>
+    <item type="drawable" name="_?m@0x7f021113">R/m/nfo.9.png</item>
+    <item type="drawable" name="_?m@0x7f0211e5">R/m/nfp.png</item>
+    <item type="drawable" name="_?m@0x7f021315">R/m/skin_tab_icon_call_normal.png</item>
+    <item type="drawable" name="_?m@0x7f021316">R/m/skin_tab_icon_call_selected.png</item>
+    <item type="drawable" name="skin_tab_icon_contact_normal">R/m/skin_tab_icon_contact_normal.png</item>
+    <item type="drawable" name="skin_tab_icon_contact_selected">R/m/skin_tab_icon_contact_selected.png</item>
+    <item type="drawable" name="skin_tab_icon_conversation_normal">R/m/skin_tab_icon_conversation_normal.png</item>
+    <item type="drawable" name="skin_tab_icon_conversation_selected">R/m/skin_tab_icon_conversation_selected.png</item>
+    <item type="drawable" name="skin_tab_icon_plugin_normal">R/m/skin_tab_icon_plugin_normal.png</item>
+    <item type="drawable" name="skin_tab_icon_plugin_selected">R/m/skin_tab_icon_plugin_selected.png</item>
+</resources>
