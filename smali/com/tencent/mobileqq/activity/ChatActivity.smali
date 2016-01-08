@@ -42,6 +42,9 @@
 
     invoke-virtual {p1, v0}, Landroid/content/Intent;->getStringExtra(Ljava/lang/String;)Ljava/lang/String;
 
+    const-string v12, "shanlihou"
+    invoke-static {v12, v0}, Landroid/util/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
     move-result-object v12
 
     .line 234

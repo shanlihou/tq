@@ -5,10 +5,14 @@
 
 # direct methods
 .method public constructor <init>()V
-    .locals 1
+    .locals 2
 
     .prologue
     .line 15
+
+    const-string v1, "init"
+    invoke-static {v1}, Lcrack;->log(Ljava/lang/String;)V
+
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity;-><init>()V
 
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
@@ -19,13 +23,15 @@
 
 # virtual methods
 .method protected a()Lcom/tencent/mobileqq/activity/contact/addcontact/SearchBaseFragment;
-    .locals 1
+    .locals 2
 
     .prologue
     .line 84
     new-instance v0, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchContactsFragment;
 
     invoke-direct {v0}, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchContactsFragment;-><init>()V
+    const-string v1, "a"
+    invoke-static {v1}, Lcrack;->log(Ljava/lang/String;)V
 
     return-object v0
 .end method
@@ -48,6 +54,9 @@
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchContactsActivity;->getIntent()Landroid/content/Intent;
 
     move-result-object v0
+
+    const-string v1, "b"
+    invoke-static {v1}, Lcrack;->log(Ljava/lang/String;)V
 
     const-string v1, "start_search_key"
 
