@@ -88,6 +88,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:91"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 70
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -159,6 +161,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:164"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 70
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;->c:Landroid/widget/CompoundButton;
 
@@ -169,6 +173,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:176"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 70
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;->a:Lcom/tencent/mobileqq/app/activateFriends/ActivateFriendsManager;
 
@@ -179,6 +185,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:188"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 70
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;->a:Lcom/tencent/mobileqq/qcall/LightalkSwitchManager;
 
@@ -189,6 +197,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:200"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 70
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;->a:Lcom/tencent/mobileqq/richstatus/StatusManager;
 
@@ -199,6 +209,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:212"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 892
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;->getActivity()Landroid/app/Activity;
 
@@ -224,6 +236,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:239"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 864
     const/4 v0, 0x0
 
@@ -244,7 +258,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;I)V
     .locals 0
 
-    .prologue
     .line 70
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;->a(I)V
 
@@ -254,7 +267,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .prologue
     .line 70
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;->a(Landroid/widget/CompoundButton;Z)V
 
@@ -265,6 +277,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:280"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 70
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;->b:Landroid/widget/CompoundButton;
 
@@ -275,6 +289,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:292"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/16 v8, 0x8
@@ -981,6 +997,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:1000"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x4
 
     const/4 v5, 0x2
@@ -1131,6 +1149,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:1152"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 755
     const-string v0, "http://ti.qq.com/friendship_auth/index.html?_wv=3&_bid=173#p1"
 
@@ -1169,6 +1189,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:1192"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 809
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;->a:Lcom/tencent/mobileqq/widget/QQToastNotifier;
 
@@ -1201,6 +1223,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:1226"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 844
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -1243,6 +1267,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:1270"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 464
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;->a:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -1280,7 +1306,6 @@
 .method public a(ZI)V
     .locals 0
 
-    .prologue
     .line 983
     return-void
 .end method
@@ -1289,6 +1314,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:1317"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 763
@@ -1393,7 +1420,6 @@
 .method public b(I)V
     .locals 0
 
-    .prologue
     .line 967
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;->e()V
 
@@ -1404,7 +1430,6 @@
 .method public b(Z)V
     .locals 0
 
-    .prologue
     .line 488
     return-void
 .end method
@@ -1413,6 +1438,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:1441"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 853
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PermisionPrivacyActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
@@ -1454,7 +1481,6 @@
 .method public c(I)V
     .locals 0
 
-    .prologue
     .line 973
     return-void
 .end method
@@ -1463,6 +1489,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:1492"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 650
@@ -1533,7 +1561,6 @@
 .method public d(I)V
     .locals 0
 
-    .prologue
     .line 978
     return-void
 .end method
@@ -1542,6 +1569,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:1572"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 120
@@ -1700,6 +1729,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:1732"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 163
@@ -1799,6 +1830,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:1833"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 153
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnResume()V
 
@@ -1888,6 +1921,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PermisionPrivacyActivity.smali:1924"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 664
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 

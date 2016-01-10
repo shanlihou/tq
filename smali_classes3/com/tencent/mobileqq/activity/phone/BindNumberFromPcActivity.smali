@@ -37,6 +37,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberFromPcActivity.smali:40"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 25
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;-><init>()V
 
@@ -49,6 +51,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberFromPcActivity.smali:54"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 25
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/BindNumberFromPcActivity;->a:Lcom/tencent/mobileqq/phonecontact/ContactBindObserver;
 
@@ -58,7 +62,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/phone/BindNumberFromPcActivity;Lcom/tencent/mobileqq/phonecontact/ContactBindObserver;)Lcom/tencent/mobileqq/phonecontact/ContactBindObserver;
     .locals 0
 
-    .prologue
     .line 25
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/phone/BindNumberFromPcActivity;->a:Lcom/tencent/mobileqq/phonecontact/ContactBindObserver;
 
@@ -69,6 +72,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberFromPcActivity.smali:75"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     .line 78
@@ -249,6 +254,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberFromPcActivity.smali:257"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 135
     invoke-static {p0}, Lcom/tencent/mobileqq/utils/NetworkUtil;->e(Landroid/content/Context;)Z
 
@@ -316,6 +323,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberFromPcActivity.smali:326"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 186
@@ -343,6 +352,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberFromPcActivity.smali:355"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 101
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;->finish()V
 
@@ -367,6 +378,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberFromPcActivity.smali:381"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 126
     const/4 v0, 0x1
 
@@ -390,6 +403,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberFromPcActivity.smali:406"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -426,6 +441,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberFromPcActivity.smali:444"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 43
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -527,6 +544,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberFromPcActivity.smali:547"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 66

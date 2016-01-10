@@ -42,6 +42,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevRenameActivity.smali:45"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 28
@@ -96,6 +98,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevRenameActivity.smali:101"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 27
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -120,6 +124,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevRenameActivity.smali:127"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 27
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AuthDevRenameActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -129,7 +135,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AuthDevRenameActivity;Lcom/tencent/mobileqq/widget/QQProgressDialog;)Lcom/tencent/mobileqq/widget/QQProgressDialog;
     .locals 0
 
-    .prologue
     .line 27
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/AuthDevRenameActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -140,6 +145,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevRenameActivity.smali:148"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 231
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AuthDevRenameActivity;->a:Landroid/os/Handler;
 
@@ -156,7 +163,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AuthDevRenameActivity;)V
     .locals 0
 
-    .prologue
     .line 27
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/AuthDevRenameActivity;->b()V
 
@@ -167,6 +173,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevRenameActivity.smali:176"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 252
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AuthDevRenameActivity;->a:Landroid/os/Handler;
 
@@ -186,6 +194,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevRenameActivity.smali:197"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const v7, 0x7f0a2040
@@ -404,6 +414,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevRenameActivity.smali:417"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 163
@@ -573,6 +585,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevRenameActivity.smali:588"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 143
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/AuthDevRenameActivity;->b()V
 
@@ -592,6 +606,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevRenameActivity.smali:609"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 151
     const/4 v0, 0x6
 

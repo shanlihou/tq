@@ -15,6 +15,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$SearchTextWatcher.smali:18"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 411
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/PublicAccountListActivity$SearchTextWatcher;->a:Lcom/tencent/mobileqq/activity/PublicAccountListActivity;
 
@@ -31,6 +33,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$SearchTextWatcher.smali:36"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 413
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PublicAccountListActivity$SearchTextWatcher;->a:Lcom/tencent/mobileqq/activity/PublicAccountListActivity;
 
@@ -60,7 +64,6 @@
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 418
     return-void
 .end method
@@ -68,7 +71,6 @@
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 421
     return-void
 .end method

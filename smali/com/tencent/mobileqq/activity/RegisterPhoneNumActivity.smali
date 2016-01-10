@@ -39,6 +39,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:42"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 62
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/RegisterBaseActivity;-><init>()V
 
@@ -75,6 +77,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:80"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v0, 0x0
@@ -269,7 +273,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;)V
     .locals 0
 
-    .prologue
     .line 62
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;->f()V
 
@@ -279,7 +282,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 62
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;->a(Ljava/lang/String;)V
 
@@ -289,7 +291,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;Ljava/lang/String;Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 62
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;->b(Ljava/lang/String;Ljava/lang/String;)V
 
@@ -300,6 +301,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:304"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 271
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;->b:Landroid/os/Handler;
@@ -330,6 +333,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:336"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v1, 0x1
@@ -393,6 +398,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:401"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 62
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;->a:Z
 
@@ -402,7 +409,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 62
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;->a:Z
 
@@ -413,6 +419,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:422"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0x7f0a17ee
 
     .line 107
@@ -625,6 +633,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:636"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 162
     new-instance v0, Landroid/content/Intent;
 
@@ -673,7 +683,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 62
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;->b:Z
 
@@ -684,6 +693,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:696"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 214
@@ -809,6 +820,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:823"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 254
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;->a()Z
 
@@ -872,6 +885,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:888"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 153
     new-instance v0, Landroid/content/Intent;
 
@@ -918,6 +933,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:936"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 559
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
@@ -963,7 +980,6 @@
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 572
     return-void
 .end method
@@ -972,6 +988,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:991"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     .line 174
@@ -1091,6 +1109,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:1112"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/RegisterBaseActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -1159,6 +1179,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:1182"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 193
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/RegisterBaseActivity;->doOnDestroy()V
 
@@ -1189,6 +1211,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:1214"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 94
     const/4 v0, 0x0
 
@@ -1199,6 +1223,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:1226"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 495
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RegisterPhoneNumActivity;->a:Landroid/widget/CheckBox;
 
@@ -1248,6 +1274,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPhoneNumActivity.smali:1277"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 202
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -1291,7 +1319,6 @@
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 578
     return-void
 .end method

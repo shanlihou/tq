@@ -12,6 +12,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterVerifyCodeActivity$RegDevLockCfgDownloadTask.smali:15"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 659
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
@@ -39,6 +41,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterVerifyCodeActivity$RegDevLockCfgDownloadTask.smali:44"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     const/4 v1, 0x1
@@ -538,6 +542,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterVerifyCodeActivity$RegDevLockCfgDownloadTask.smali:545"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 656
     check-cast p1, [Ljava/lang/Void;
 

@@ -88,6 +88,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityDetectActivity.smali:91"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x0
@@ -161,6 +163,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityDetectActivity.smali:166"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 32
     iget v0, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->q:I
 
@@ -170,7 +174,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SecurityDetectActivity;I)I
     .locals 0
 
-    .prologue
     .line 32
     iput p1, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->q:I
 
@@ -181,6 +184,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityDetectActivity.smali:187"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 32
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->a:Landroid/os/Handler;
 
@@ -191,6 +196,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityDetectActivity.smali:199"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 32
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->a:Landroid/widget/ImageView;
 
@@ -200,7 +207,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SecurityDetectActivity;Landroid/widget/ImageView;)Landroid/widget/ImageView;
     .locals 0
 
-    .prologue
     .line 32
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->a:Landroid/widget/ImageView;
 
@@ -211,6 +217,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityDetectActivity.smali:220"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 32
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->a:Landroid/widget/ProgressBar;
 
@@ -220,7 +228,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SecurityDetectActivity;Landroid/widget/ProgressBar;)Landroid/widget/ProgressBar;
     .locals 0
 
-    .prologue
     .line 32
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->a:Landroid/widget/ProgressBar;
 
@@ -231,6 +238,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityDetectActivity.smali:241"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 32
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->a:Landroid/widget/TextView;
 
@@ -241,6 +250,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityDetectActivity.smali:253"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 32
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->a:Z
 
@@ -250,7 +261,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SecurityDetectActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 32
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->a:Z
 
@@ -261,6 +271,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityDetectActivity.smali:274"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 32
     iget v0, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->r:I
 
@@ -270,7 +282,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/SecurityDetectActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 32
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->c:Z
 
@@ -280,7 +291,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/SecurityDetectActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 32
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->b:Z
 
@@ -293,6 +303,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityDetectActivity.smali:306"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v12, 0x1
 
     const/4 v6, 0x0
@@ -463,6 +475,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityDetectActivity.smali:478"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 602
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SecurityDetectActivity;->a:Landroid/os/Handler;
 
@@ -487,6 +501,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityDetectActivity.smali:504"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v5, 0x3e8
 
     const v3, 0x7f091a3d
@@ -622,6 +638,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityDetectActivity.smali:641"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v6, 0x0
@@ -855,6 +873,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityDetectActivity.smali:876"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v6, 0x3e8
 
     const/4 v2, 0x2

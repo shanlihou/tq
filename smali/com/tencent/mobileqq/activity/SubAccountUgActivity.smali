@@ -30,6 +30,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountUgActivity.smali:33"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 51
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/SubAccountBaseActivity;-><init>()V
 
@@ -67,7 +69,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SubAccountUgActivity;Lcom/tencent/mobileqq/subaccount/SubAccountControll;Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 51
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/SubAccountUgActivity;->a(Lcom/tencent/mobileqq/subaccount/SubAccountControll;Ljava/lang/String;)V
 
@@ -78,6 +79,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountUgActivity.smali:82"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 126
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -195,6 +198,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountUgActivity.smali:201"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v6, 0x8
 
     .line 343
@@ -274,6 +279,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountUgActivity.smali:282"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 206
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/SubAccountBaseActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -782,6 +789,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountUgActivity.smali:792"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 369
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/SubAccountBaseActivity;->doOnDestroy()V
 
@@ -820,7 +829,6 @@
 .method protected doOnPause()V
     .locals 0
 
-    .prologue
     .line 364
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/SubAccountBaseActivity;->doOnPause()V
 
@@ -831,7 +839,6 @@
 .method protected doOnResume()V
     .locals 0
 
-    .prologue
     .line 359
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/SubAccountBaseActivity;->doOnResume()V
 
@@ -843,6 +850,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountUgActivity.smali:853"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0x7f0a144e
 
     .line 460
@@ -953,6 +962,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountUgActivity.smali:965"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x3
 
     .line 385
@@ -1129,6 +1140,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountUgActivity.smali:1143"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 482
     instance-of v0, p2, Lcom/tencent/mobileqq/data/MessageRecord;
 

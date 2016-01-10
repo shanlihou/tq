@@ -55,6 +55,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardFriendListActivity.smali:58"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/BaseForwardSelectionActivity;-><init>()V
 
@@ -67,6 +69,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardFriendListActivity.smali:72"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ForwardFriendListActivity;->a:Landroid/app/Dialog;
 
@@ -76,7 +80,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/ForwardFriendListActivity;Landroid/app/Dialog;)Landroid/app/Dialog;
     .locals 0
 
-    .prologue
     .line 54
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/ForwardFriendListActivity;->a:Landroid/app/Dialog;
 
@@ -87,6 +90,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardFriendListActivity.smali:93"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 265
     new-instance v9, Ljava/util/ArrayList;
 
@@ -190,6 +195,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardFriendListActivity.smali:198"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     invoke-direct {p0, p1, p2, p3}, Lcom/tencent/mobileqq/activity/ForwardFriendListActivity;->a(Landroid/content/Context;Lcom/tencent/mobileqq/app/QQAppInterface;I)Ljava/util/List;
 
@@ -202,6 +209,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardFriendListActivity.smali:212"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 90
@@ -298,6 +307,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardFriendListActivity.smali:310"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v9, 0xc8
 
     const/4 v8, 0x1
@@ -414,6 +425,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardFriendListActivity.smali:428"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/16 v3, 0x8
@@ -614,7 +627,6 @@
 .method private c()V
     .locals 0
 
-    .prologue
     .line 142
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/ForwardFriendListActivity;->a()Z
 
@@ -628,6 +640,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardFriendListActivity.smali:643"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v6, 0x1
@@ -804,6 +818,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardFriendListActivity.smali:821"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 80
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/ForwardFriendListActivity;->getIntent()Landroid/content/Intent;
 
@@ -852,6 +868,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardFriendListActivity.smali:871"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 377
@@ -955,6 +973,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardFriendListActivity.smali:976"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 257
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/BaseForwardSelectionActivity;->finish()V
 
@@ -981,6 +1001,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardFriendListActivity.smali:1004"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v4, 0x0

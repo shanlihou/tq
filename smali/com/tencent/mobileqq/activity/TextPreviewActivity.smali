@@ -125,6 +125,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:128"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v3, 0x0
 
     const/4 v2, 0x0
@@ -216,6 +218,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:221"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 95
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TextPreviewActivity;->a:Landroid/widget/ImageView;
 
@@ -226,6 +230,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:233"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 95
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TextPreviewActivity;->a:Lcom/etrump/mixlayout/FontManager;
 
@@ -236,6 +242,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:245"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 95
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TextPreviewActivity;->a:Lcom/tencent/mobileqq/widget/ContainerView;
 
@@ -246,6 +254,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:257"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 95
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TextPreviewActivity;->q:Ljava/lang/String;
 
@@ -256,6 +266,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:269"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v9, 0x7f020d41
 
     const/16 v8, 0x8
@@ -672,6 +684,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:687"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0x42
 
     .line 714
@@ -773,6 +787,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:790"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 737
     .line 740
     new-instance v0, Ljava/io/File;
@@ -934,6 +950,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:953"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     const/4 v3, 0x0
@@ -1014,6 +1032,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:1035"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 451
@@ -1212,6 +1232,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:1235"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     const/4 v2, 0x0
@@ -1291,6 +1313,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:1316"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 425
@@ -1367,6 +1391,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:1394"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 483
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -2468,6 +2494,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:2497"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v3, 0x0
 
     const/4 v7, 0x0
@@ -2959,7 +2987,6 @@
 .method protected onResume()V
     .locals 0
 
-    .prologue
     .line 314
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->onResume()V
 
@@ -2974,6 +3001,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TextPreviewActivity.smali:3004"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 419
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->onStart()V
 

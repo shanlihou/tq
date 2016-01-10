@@ -28,6 +28,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/SendVideoActivity.smali:31"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 51
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -43,6 +45,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/SendVideoActivity.smali:48"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x2
 
     const/4 v5, 0x1

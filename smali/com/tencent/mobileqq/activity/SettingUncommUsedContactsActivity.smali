@@ -27,6 +27,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SettingUncommUsedContactsActivity.smali:30"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 30
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -58,6 +60,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SettingUncommUsedContactsActivity.smali:63"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 181
     const/4 v0, 0x0
 
@@ -78,7 +82,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SettingUncommUsedContactsActivity;Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .prologue
     .line 30
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/SettingUncommUsedContactsActivity;->a(Landroid/widget/CompoundButton;Z)V
 
@@ -91,6 +94,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SettingUncommUsedContactsActivity.smali:97"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f0a2460
 
     const/4 v3, 0x1
@@ -256,6 +261,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SettingUncommUsedContactsActivity.smali:264"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 173
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SettingUncommUsedContactsActivity;->a:Lcom/tencent/mobileqq/widget/QQToastNotifier;
 
@@ -288,6 +295,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SettingUncommUsedContactsActivity.smali:298"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 41
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -309,6 +318,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SettingUncommUsedContactsActivity.smali:321"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 67
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -341,6 +352,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SettingUncommUsedContactsActivity.smali:355"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 52
@@ -457,6 +470,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SettingUncommUsedContactsActivity.smali:473"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 105
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SettingUncommUsedContactsActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 

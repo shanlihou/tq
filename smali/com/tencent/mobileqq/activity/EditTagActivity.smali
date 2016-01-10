@@ -53,6 +53,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:56"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 43
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -87,6 +89,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:92"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 175
     const v0, 0x7f09033f
 
@@ -178,6 +182,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:185"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 160
@@ -304,6 +310,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:313"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 203
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/EditTagActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -405,6 +413,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:416"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v6, 0x41200000    # 10.0f
 
     const/high16 v5, 0x40800000    # 4.0f
@@ -618,6 +628,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:631"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     const/4 v2, 0x1
@@ -802,6 +814,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:817"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 252
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/EditTagActivity;->a:Landroid/widget/TextView;
 
@@ -863,6 +877,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:880"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 414
@@ -912,7 +928,6 @@
 .method public b(I)V
     .locals 0
 
-    .prologue
     .line 394
     return-void
 .end method
@@ -921,6 +936,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:939"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 398
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/EditTagActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1026,6 +1043,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:1046"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 458
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/EditTagActivity;->a:Lcom/tencent/mobileqq/widget/QQToast;
 
@@ -1068,6 +1087,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:1090"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 108
@@ -1255,6 +1276,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:1279"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 63
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -1315,6 +1338,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:1341"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 102
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onDestroy()V
 
@@ -1333,6 +1358,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:1361"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onResume()V
 
@@ -1349,6 +1376,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditTagActivity.smali:1379"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 90
     const v0, 0x7f0a1a62
 

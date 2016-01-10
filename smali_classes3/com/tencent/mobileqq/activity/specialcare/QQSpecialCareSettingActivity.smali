@@ -64,6 +64,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity.smali:67"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 41
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -97,6 +99,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity.smali:102"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 41
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity;->a:Landroid/widget/Toast;
 
@@ -106,7 +110,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity;Landroid/widget/Toast;)Landroid/widget/Toast;
     .locals 0
 
-    .prologue
     .line 41
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity;->a:Landroid/widget/Toast;
 
@@ -117,6 +120,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity.smali:123"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 41
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity;->a:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -127,6 +132,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity.smali:135"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 41
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -136,7 +143,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity;Lcom/tencent/mobileqq/widget/QQProgressDialog;)Lcom/tencent/mobileqq/widget/QQProgressDialog;
     .locals 0
 
-    .prologue
     .line 41
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -147,6 +153,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity.smali:156"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -436,7 +444,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity;)V
     .locals 0
 
-    .prologue
     .line 41
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity;->c()V
 
@@ -447,6 +454,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity.smali:457"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 41
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity;->c:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -457,6 +466,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity.smali:469"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 156
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -493,7 +504,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity;)V
     .locals 0
 
-    .prologue
     .line 41
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity;->a()V
 
@@ -504,6 +514,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity.smali:517"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v6, 0x7f0a1936
 
     const/4 v5, 0x2
@@ -673,6 +685,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity.smali:688"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     const/4 v3, 0x1
@@ -912,6 +926,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity.smali:929"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 148
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -942,7 +958,6 @@
 .method protected doOnResume()V
     .locals 0
 
-    .prologue
     .line 105
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnResume()V
 
@@ -957,6 +972,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity.smali:975"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 405
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity;->getIntent()Landroid/content/Intent;
 
@@ -989,6 +1006,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity.smali:1009"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v7, 0x7f0a1326
 
     const/16 v6, 0x2003
@@ -1308,6 +1327,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialCareSettingActivity.smali:1330"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 242
     if-nez p1, :cond_0
 

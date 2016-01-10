@@ -46,6 +46,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$TmViewHolder.smali:49"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4472
     invoke-direct {p0}, Lcom/tencent/mobileqq/adapter/FacePreloadBaseAdapter$ViewHolder;-><init>()V
 

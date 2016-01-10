@@ -21,6 +21,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneMatchActivity.smali:24"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 17
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;-><init>()V
 
@@ -35,6 +37,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneMatchActivity.smali:40"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 24
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -86,6 +90,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneMatchActivity.smali:93"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 38
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/PhoneMatchActivity;->a:Lcom/tencent/mobileqq/phonecontact/ContactBindObserver;
 
@@ -115,6 +121,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneMatchActivity.smali:124"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 97
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;->finish()V
 
@@ -133,6 +141,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneMatchActivity.smali:144"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 47

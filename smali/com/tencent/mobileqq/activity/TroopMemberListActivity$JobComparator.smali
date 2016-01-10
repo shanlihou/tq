@@ -11,6 +11,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$JobComparator.smali:14"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4428
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -25,6 +27,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$JobComparator.smali:30"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x2
 
     .line 4432
@@ -49,6 +53,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$JobComparator.smali:56"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4428
     check-cast p1, Ljava/lang/String;
 

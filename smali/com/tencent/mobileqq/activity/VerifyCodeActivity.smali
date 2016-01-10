@@ -34,6 +34,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/VerifyCodeActivity.smali:37"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 33
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -75,6 +77,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/VerifyCodeActivity.smali:80"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v5, 0x0
@@ -295,7 +299,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/VerifyCodeActivity;Z)V
     .locals 0
 
-    .prologue
     .line 33
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/VerifyCodeActivity;->enableRightHighlight(Z)V
 
@@ -305,7 +308,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/VerifyCodeActivity;Z)V
     .locals 0
 
-    .prologue
     .line 33
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/VerifyCodeActivity;->enableRightHighlight(Z)V
 
@@ -316,6 +318,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/VerifyCodeActivity.smali:321"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 79
     const v0, 0x7f0a1405
 
@@ -346,7 +350,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/VerifyCodeActivity;Z)V
     .locals 0
 
-    .prologue
     .line 33
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/VerifyCodeActivity;->enableRightHighlight(Z)V
 
@@ -356,7 +359,6 @@
 .method public static synthetic d(Lcom/tencent/mobileqq/activity/VerifyCodeActivity;Z)V
     .locals 0
 
-    .prologue
     .line 33
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/VerifyCodeActivity;->enableRightHighlight(Z)V
 
@@ -369,6 +371,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/VerifyCodeActivity.smali:374"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 247
@@ -403,6 +407,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/VerifyCodeActivity.smali:410"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     .line 236
@@ -432,6 +438,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/VerifyCodeActivity.smali:441"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0x8
 
     const/4 v1, 0x0
@@ -471,6 +479,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/VerifyCodeActivity.smali:482"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 257
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/VerifyCodeActivity;->a:Lmqq/manager/VerifyCodeManager;
 
@@ -495,6 +505,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/VerifyCodeActivity.smali:508"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v2, 0x133504b
 
     .line 110
@@ -616,6 +628,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/VerifyCodeActivity.smali:631"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 149
     const/4 v0, 0x4
 

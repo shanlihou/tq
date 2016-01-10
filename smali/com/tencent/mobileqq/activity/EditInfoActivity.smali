@@ -132,6 +132,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:135"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, -0x1
 
     const/4 v2, 0x0
@@ -230,6 +232,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:235"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 478
     const v0, 0x7f0905f6
 
@@ -262,7 +266,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/EditInfoActivity;)V
     .locals 0
 
-    .prologue
     .line 47
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->finish()V
 
@@ -272,7 +275,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/EditInfoActivity;Z)V
     .locals 0
 
-    .prologue
     .line 47
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/EditInfoActivity;->b(Z)V
 
@@ -283,6 +285,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:288"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/EditInfoActivity;->e:Z
 
@@ -292,7 +296,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/EditInfoActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 47
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/EditInfoActivity;->e:Z
 
@@ -302,7 +305,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/EditInfoActivity;)V
     .locals 0
 
-    .prologue
     .line 47
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->finish()V
 
@@ -313,6 +315,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:318"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 394
@@ -422,6 +426,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:429"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/EditInfoActivity;->f:Z
 
@@ -431,7 +437,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/EditInfoActivity;)V
     .locals 0
 
-    .prologue
     .line 47
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->finish()V
 
@@ -441,7 +446,6 @@
 .method public static synthetic d(Lcom/tencent/mobileqq/activity/EditInfoActivity;)V
     .locals 0
 
-    .prologue
     .line 47
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->finish()V
 
@@ -451,7 +455,6 @@
 .method public static synthetic e(Lcom/tencent/mobileqq/activity/EditInfoActivity;)V
     .locals 0
 
-    .prologue
     .line 47
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->finish()V
 
@@ -462,6 +465,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:468"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 419
     const v0, 0x7f030106
 
@@ -478,6 +483,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:486"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 424
     const v0, 0x7f030105
 
@@ -582,6 +589,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:592"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 443
@@ -808,6 +817,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:820"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, -0x1
 
     const/4 v3, 0x0
@@ -989,6 +1000,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:1003"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 710
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/EditInfoActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1005,7 +1018,6 @@
 .method public a(Lcom/tencent/mobileqq/emoticonview/EmoticonInfo;Lcom/tencent/mobileqq/emoticonview/EmoticonInfo;Landroid/graphics/drawable/Drawable;)V
     .locals 0
 
-    .prologue
     .line 726
     return-void
 .end method
@@ -1014,6 +1026,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:1029"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 745
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/EditInfoActivity;->f:Z
 
@@ -1081,6 +1095,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:1098"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 720
     const/4 v0, 0x0
 
@@ -1091,6 +1107,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:1110"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 705
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/EditInfoActivity;->a:Landroid/widget/EditText;
 
@@ -1103,7 +1121,6 @@
 .method public b(Lcom/tencent/mobileqq/emoticonview/EmoticonInfo;)V
     .locals 0
 
-    .prologue
     .line 731
     return-void
 .end method
@@ -1111,7 +1128,6 @@
 .method public c()V
     .locals 0
 
-    .prologue
     .line 716
     return-void
 .end method
@@ -1119,7 +1135,6 @@
 .method public d()V
     .locals 0
 
-    .prologue
     .line 741
     return-void
 .end method
@@ -1128,6 +1143,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:1146"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 189
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -1173,7 +1190,6 @@
 .method public e()V
     .locals 0
 
-    .prologue
     .line 769
     return-void
 .end method
@@ -1181,7 +1197,6 @@
 .method public g()V
     .locals 0
 
-    .prologue
     .line 774
     return-void
 .end method
@@ -1190,6 +1205,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:1208"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 234
     const-string v0, "input_method"
 
@@ -1214,6 +1231,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:1234"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 240
     const-string v0, "input_method"
 
@@ -1259,6 +1278,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:1281"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v5, 0x7f0a0bcd
 
     const/4 v4, 0x1
@@ -1423,6 +1444,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:1447"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 548
@@ -1497,6 +1520,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:1523"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 250
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/EditInfoActivity;->i()V
 
@@ -1512,6 +1537,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditInfoActivity.smali:1540"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 224
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onDestroy()V
 
@@ -1544,7 +1571,6 @@
 .method protected onPause()V
     .locals 0
 
-    .prologue
     .line 218
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/EditInfoActivity;->i()V
 
@@ -1558,7 +1584,6 @@
 .method protected onResume()V
     .locals 0
 
-    .prologue
     .line 212
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/EditInfoActivity;->h()V
 
@@ -1572,7 +1597,6 @@
 .method public setting()V
     .locals 0
 
-    .prologue
     .line 736
     return-void
 .end method

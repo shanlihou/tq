@@ -53,6 +53,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatAnnounceActivity.smali:56"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 32
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -72,6 +74,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatAnnounceActivity.smali:77"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 287
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/HotChatAnnounceActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
@@ -141,7 +145,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/HotChatAnnounceActivity;)V
     .locals 0
 
-    .prologue
     .line 32
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/HotChatAnnounceActivity;->b()V
 
@@ -152,6 +155,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatAnnounceActivity.smali:158"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 303
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/HotChatAnnounceActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
@@ -204,6 +209,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatAnnounceActivity.smali:212"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -419,6 +426,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatAnnounceActivity.smali:429"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 207
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -443,6 +452,8 @@
     .locals 17
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatAnnounceActivity.smali:455"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 216
     move-object/from16 v0, p0
 

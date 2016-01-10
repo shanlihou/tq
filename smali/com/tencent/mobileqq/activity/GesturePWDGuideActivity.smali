@@ -16,6 +16,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDGuideActivity.smali:19"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 13
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -28,6 +30,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDGuideActivity.smali:33"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 30
     const v0, 0x7f0a1e4c
 
@@ -63,6 +67,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDGuideActivity.smali:70"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, -0x1
 
     .line 50
@@ -91,6 +97,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDGuideActivity.smali:100"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 22
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onCreate(Landroid/os/Bundle;)V
 

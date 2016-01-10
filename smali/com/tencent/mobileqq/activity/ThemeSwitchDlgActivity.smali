@@ -18,6 +18,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ThemeSwitchDlgActivity.smali:21"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 22
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -37,6 +39,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ThemeSwitchDlgActivity.smali:42"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 63
@@ -143,6 +147,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ThemeSwitchDlgActivity.smali:150"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 36
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -234,6 +240,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ThemeSwitchDlgActivity.smali:243"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 175
@@ -283,6 +291,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ThemeSwitchDlgActivity.smali:294"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 137
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ThemeSwitchDlgActivity;->a:Lcom/tencent/mobileqq/theme/NightModeLogic;
 
@@ -305,6 +315,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ThemeSwitchDlgActivity.smali:318"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 31
     const/4 v0, 0x1
 

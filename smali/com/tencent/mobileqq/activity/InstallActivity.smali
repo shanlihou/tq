@@ -19,6 +19,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/InstallActivity.smali:22"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 18
     invoke-direct {p0}, Lmqq/app/AppActivity;-><init>()V
 
@@ -38,6 +40,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/InstallActivity.smali:43"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 22
     invoke-super {p0, p1}, Lmqq/app/AppActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -138,6 +142,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/InstallActivity.smali:145"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 45
     invoke-super {p0}, Lmqq/app/AppActivity;->doOnDestroy()V
 
@@ -171,6 +177,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/InstallActivity.smali:180"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 64
     invoke-super {p0}, Lmqq/app/AppActivity;->onResume()V
 
@@ -193,6 +201,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/InstallActivity.smali:204"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 72
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/InstallActivity;->a:Z
 
@@ -223,6 +233,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/InstallActivity.smali:236"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 59
     const/4 v0, 0x1
 

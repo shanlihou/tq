@@ -15,6 +15,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/Face2FaceActivity.smali:18"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 21
@@ -32,7 +34,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .prologue
     .line 19
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -43,6 +44,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/Face2FaceActivity.smali:47"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 34
     const v0, 0x7f090652
 
@@ -147,6 +150,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/Face2FaceActivity.smali:153"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 25
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -173,6 +178,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/Face2FaceActivity.smali:181"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 62

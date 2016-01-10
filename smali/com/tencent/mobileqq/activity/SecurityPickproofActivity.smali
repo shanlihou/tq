@@ -46,6 +46,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:49"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 35
@@ -96,6 +98,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:101"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 35
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SecurityPickproofActivity;->a:Landroid/view/View;
 
@@ -106,6 +110,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:113"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 35
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SecurityPickproofActivity;->a:Landroid/widget/Button;
 
@@ -116,6 +122,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:125"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 35
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SecurityPickproofActivity;->b:Landroid/widget/TextView;
 
@@ -126,6 +134,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:137"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 35
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SecurityPickproofActivity;->f:Ljava/lang/String;
 
@@ -136,6 +146,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:149"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 202
     new-instance v1, Lorg/json/JSONObject;
 
@@ -172,6 +184,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:187"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 65
@@ -334,7 +348,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SecurityPickproofActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 35
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/SecurityPickproofActivity;->c:Z
 
@@ -345,6 +358,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:361"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 35
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SecurityPickproofActivity;->a:Landroid/widget/TextView;
 
@@ -355,6 +370,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:373"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 92
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/SecurityPickproofActivity;->d:Z
 
@@ -436,6 +453,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:456"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0x7f0a2351
 
     const v2, 0x7f0a234e
@@ -491,6 +510,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:513"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v2, 0x0
 
     .line 298
@@ -585,6 +606,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:609"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -609,6 +632,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:635"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v6, 0x7f0a234a
 
     const v5, 0x7f0a206d
@@ -923,6 +948,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:951"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 108
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnStop()V
 
@@ -945,6 +972,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:975"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 193
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/SecurityPickproofActivity;->d:Z
 
@@ -986,6 +1015,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityPickproofActivity.smali:1018"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v2, 0xb50001
 
     const/16 v3, 0x8

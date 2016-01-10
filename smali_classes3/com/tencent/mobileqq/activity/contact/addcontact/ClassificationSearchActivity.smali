@@ -12,6 +12,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/ClassificationSearchActivity.smali:15"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 18
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity;-><init>()V
 
@@ -24,6 +26,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/ClassificationSearchActivity.smali:29"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 23
     sput-object p2, Lcom/tencent/mobileqq/activity/contact/addcontact/ClassificationSearchActivity;->a:Lcom/tencent/mobileqq/activity/contact/addcontact/SearchResult;
 
@@ -42,6 +46,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/ClassificationSearchActivity.smali:49"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 93
     sget-object v0, Lcom/tencent/mobileqq/activity/contact/addcontact/ClassificationSearchActivity;->a:Lcom/tencent/mobileqq/activity/contact/addcontact/SearchResult;
 
@@ -56,6 +62,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/ClassificationSearchActivity.smali:65"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity;->a()V
 
@@ -107,6 +115,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/ClassificationSearchActivity.smali:118"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 83
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -154,6 +164,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/ClassificationSearchActivity.smali:167"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 29
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity;->doOnResume()V
 
@@ -197,6 +209,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/ClassificationSearchActivity.smali:212"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 46
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity;->doOnStop()V
 

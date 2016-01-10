@@ -51,6 +51,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockPushActivity.smali:54"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 44
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -94,6 +96,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockPushActivity.smali:99"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 44
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DevlockPushActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -103,7 +107,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/DevlockPushActivity;Lcom/tencent/mobileqq/widget/QQProgressDialog;)Lcom/tencent/mobileqq/widget/QQProgressDialog;
     .locals 0
 
-    .prologue
     .line 44
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/DevlockPushActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -114,6 +117,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockPushActivity.smali:120"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 44
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DevlockPushActivity;->a:Loicq/wlogin_sdk/devicelock/DevlockInfo;
 
@@ -123,7 +128,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/DevlockPushActivity;Loicq/wlogin_sdk/devicelock/DevlockInfo;)Loicq/wlogin_sdk/devicelock/DevlockInfo;
     .locals 0
 
-    .prologue
     .line 44
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/DevlockPushActivity;->a:Loicq/wlogin_sdk/devicelock/DevlockInfo;
 
@@ -133,7 +137,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/DevlockPushActivity;)V
     .locals 0
 
-    .prologue
     .line 44
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/DevlockPushActivity;->d()V
 
@@ -143,7 +146,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/DevlockPushActivity;Loicq/wlogin_sdk/devicelock/DevlockInfo;)V
     .locals 0
 
-    .prologue
     .line 44
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/DevlockPushActivity;->a(Loicq/wlogin_sdk/devicelock/DevlockInfo;)V
 
@@ -154,6 +156,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockPushActivity.smali:159"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v2, 0x0
@@ -498,6 +502,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockPushActivity.smali:505"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v2, 0x7f0a132c
 
     .line 165
@@ -610,6 +616,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockPushActivity.smali:619"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 384
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DevlockPushActivity;->a:Landroid/os/Handler;
 
@@ -627,6 +635,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockPushActivity.smali:638"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 407
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DevlockPushActivity;->a:Landroid/os/Handler;
 
@@ -646,6 +656,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockPushActivity.smali:659"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     .line 249
@@ -756,6 +768,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockPushActivity.smali:771"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 161
     const/4 v0, 0x0
 
@@ -766,6 +780,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockPushActivity.smali:783"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/16 v2, 0x3ea
@@ -1474,6 +1490,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockPushActivity.smali:1493"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 580
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/DevlockPushActivity;->a:Z
 
@@ -1500,6 +1518,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockPushActivity.smali:1521"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 344
@@ -1640,6 +1660,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockPushActivity.smali:1663"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     const/4 v1, 0x0
@@ -2109,7 +2131,6 @@
 .method protected onDestroy()V
     .locals 0
 
-    .prologue
     .line 590
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onDestroy()V
 

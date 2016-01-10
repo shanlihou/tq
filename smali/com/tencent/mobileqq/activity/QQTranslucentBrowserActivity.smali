@@ -12,6 +12,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQTranslucentBrowserActivity.smali:15"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 16
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;-><init>()V
 
@@ -24,6 +26,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQTranslucentBrowserActivity.smali:29"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, -0x2
 
     .line 64
@@ -99,6 +103,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQTranslucentBrowserActivity.smali:106"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v5, 0x0
 
     const/4 v4, 0x0
@@ -213,6 +219,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQTranslucentBrowserActivity.smali:222"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 80
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->onClick(Landroid/view/View;)V
 
@@ -233,6 +241,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQTranslucentBrowserActivity.smali:244"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 22
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->showPreview()Z
 

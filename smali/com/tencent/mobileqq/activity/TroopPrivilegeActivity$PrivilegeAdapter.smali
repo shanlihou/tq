@@ -14,6 +14,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivilegeActivity$PrivilegeAdapter.smali:17"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 90
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/TroopPrivilegeActivity$PrivilegeAdapter;->a:Lcom/tencent/mobileqq/activity/TroopPrivilegeActivity;
 
@@ -37,6 +39,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivilegeActivity$PrivilegeAdapter.smali:42"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopPrivilegeActivity$PrivilegeAdapter;->a:Ljava/util/List;
 
@@ -96,6 +100,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivilegeActivity$PrivilegeAdapter.smali:103"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 122
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopPrivilegeActivity$PrivilegeAdapter;->a:Ljava/util/List;
 
@@ -110,6 +116,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivilegeActivity$PrivilegeAdapter.smali:119"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 127
     if-ltz p1, :cond_0
 
@@ -143,6 +151,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivilegeActivity$PrivilegeAdapter.smali:154"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 136
     int-to-long v0, p1
 
@@ -153,6 +163,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivilegeActivity$PrivilegeAdapter.smali:166"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 141
     if-ltz p1, :cond_0
 

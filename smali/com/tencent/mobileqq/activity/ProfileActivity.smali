@@ -317,6 +317,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity.smali:320"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
@@ -375,6 +377,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity.smali:380"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 38
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -391,6 +395,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity.smali:398"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v3, 0x3c
 
     const/16 v2, 0x3b
@@ -567,6 +573,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity.smali:576"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 886
     .line 887
     iget v0, p0, Lcom/tencent/mobileqq/activity/ProfileActivity$AllInOne;->a:I
@@ -604,6 +612,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity.smali:615"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 223
     const-wide/16 v0, 0x0
 
@@ -671,6 +681,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity.smali:684"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 946
     .line 947
     if-eqz p1, :cond_0
@@ -793,6 +805,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity.smali:808"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 828
     invoke-static {}, Lcom/tencent/common/app/BaseApplicationImpl;->getContext()Lcom/tencent/qphone/base/util/BaseApplication;
 
@@ -920,6 +934,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity.smali:937"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1032
     if-eqz p0, :cond_0
 
@@ -978,6 +994,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity.smali:997"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 978
     if-eqz p0, :cond_1
 
@@ -1042,6 +1060,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity.smali:1063"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1013
     if-eqz p0, :cond_1
 
@@ -1114,6 +1134,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity.smali:1137"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1066
     sub-long v0, p2, p0
 
@@ -1144,6 +1166,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity.smali:1169"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 995
     if-eqz p0, :cond_1
 

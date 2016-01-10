@@ -34,6 +34,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityProtectActivity.smali:37"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x0
@@ -90,6 +92,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityProtectActivity.smali:95"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 37
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SecurityProtectActivity;->a:Landroid/widget/Button;
 
@@ -100,6 +104,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityProtectActivity.smali:107"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 37
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SecurityProtectActivity;->a:Landroid/widget/TextView;
 
@@ -109,7 +115,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SecurityProtectActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 37
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/SecurityProtectActivity;->c:Z
 
@@ -120,6 +125,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityProtectActivity.smali:128"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 37
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SecurityProtectActivity;->b:Landroid/widget/TextView;
 
@@ -132,6 +139,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityProtectActivity.smali:142"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v2, 0x0
 
     .line 190
@@ -238,6 +247,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityProtectActivity.smali:250"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 49
@@ -339,6 +350,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityProtectActivity.smali:353"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x4
 
     const/4 v6, 0x0
@@ -529,6 +542,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityProtectActivity.smali:545"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 71
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnStop()V
 
@@ -551,6 +566,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SecurityProtectActivity.smali:569"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v6, 0x0

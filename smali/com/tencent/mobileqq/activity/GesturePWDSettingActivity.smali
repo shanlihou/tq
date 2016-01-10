@@ -40,6 +40,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDSettingActivity.smali:43"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 20
@@ -70,6 +72,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDSettingActivity.smali:75"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 57
     const v0, 0x7f0a1e4c
 
@@ -185,6 +189,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDSettingActivity.smali:192"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v4, 0xa
 
     const/4 v3, 0x1
@@ -321,6 +327,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDSettingActivity.smali:330"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -384,6 +392,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDSettingActivity.smali:395"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x4
 
     const/4 v2, 0x0
@@ -440,6 +450,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDSettingActivity.smali:453"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x4
 
     const/4 v1, 0x0
@@ -489,6 +501,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDSettingActivity.smali:504"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 233
     const/16 v0, 0xa
 
@@ -524,6 +538,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDSettingActivity.smali:541"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 45
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -548,6 +564,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDSettingActivity.smali:567"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 269
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/GesturePWDSettingActivity;->a:Z
 
@@ -596,6 +614,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDSettingActivity.smali:617"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 250
     iget v0, p0, Lcom/tencent/mobileqq/activity/GesturePWDSettingActivity;->c:I
 

@@ -93,6 +93,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:96"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 91
@@ -142,6 +144,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:147"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 89
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -188,6 +192,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:195"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 89
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->a:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -197,7 +203,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;)V
     .locals 0
 
-    .prologue
     .line 89
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->n()V
 
@@ -207,7 +212,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;Lcom/tencent/mobileqq/vip/DownloadTask;)V
     .locals 0
 
-    .prologue
     .line 89
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->a(Lcom/tencent/mobileqq/vip/DownloadTask;)V
 
@@ -218,6 +222,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:225"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 311
     iget v0, p1, Lcom/tencent/mobileqq/vip/DownloadTask;->z:I
 
@@ -394,7 +400,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;)V
     .locals 0
 
-    .prologue
     .line 89
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->j()V
 
@@ -405,6 +410,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:413"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x2
 
     .line 844
@@ -512,6 +519,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:522"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 243
     const v0, 0x7f0913ba
 
@@ -550,6 +559,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:562"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 426
@@ -723,6 +734,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:737"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 676
     sget-object v0, Lcom/tencent/mobileqq/transfile/URLDrawableHelper;->a:Ljava/io/File;
 
@@ -774,6 +787,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:790"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 823
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -818,6 +833,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:836"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 835
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
@@ -866,6 +883,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:886"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 937
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->a:Lcom/tencent/mobileqq/widget/FormSimpleItem;
 
@@ -927,6 +946,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:949"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 688
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -985,6 +1006,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:1009"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v9, 0x30
 
     const/4 v7, -0x2
@@ -1171,6 +1194,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:1197"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 778
     .line 780
     if-eqz p1, :cond_0
@@ -1464,6 +1489,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:1492"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 703
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1486,6 +1513,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:1516"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1138
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->b:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -1528,6 +1557,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:1560"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 708
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1553,6 +1584,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:1587"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 718
     :try_start_0
     new-instance v0, Landroid/content/Intent;
@@ -1766,6 +1799,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:1802"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v12, 0x1
@@ -1982,6 +2017,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:2020"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 402
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -2019,6 +2056,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:2059"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 138
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnPostResume()V
 
@@ -2038,7 +2077,6 @@
 .method protected doOnResume()V
     .locals 0
 
-    .prologue
     .line 412
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->n()V
 
@@ -2052,7 +2090,6 @@
 .method protected doOnStart()V
     .locals 0
 
-    .prologue
     .line 418
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnStart()V
 
@@ -2067,6 +2104,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:2107"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 765
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -2126,6 +2165,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:2168"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 829
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -2158,6 +2199,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:2202"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 965
@@ -2226,6 +2269,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:2272"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1147
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->b:Lcom/tencent/mobileqq/widget/QQProgressDialog;
@@ -2268,6 +2313,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:2316"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     const/4 v12, 0x1
@@ -2408,6 +2455,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:2458"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v10, 0x3
@@ -2636,6 +2685,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:2688"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 456
@@ -2710,6 +2761,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:2764"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 385
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/QQSettingMsgHistoryActivity;->a:Z
 
@@ -2734,6 +2787,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingMsgHistoryActivity.smali:2790"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 957
     const v0, 0x7f0a158d
 

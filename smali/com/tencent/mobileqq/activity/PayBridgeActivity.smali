@@ -136,6 +136,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:139"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 204
@@ -150,6 +152,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:155"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v0, -0x1
@@ -184,6 +188,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:191"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3072
     new-instance v1, Landroid/app/Dialog;
 
@@ -275,6 +281,8 @@
     .locals 21
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:284"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1485
     new-instance v3, Landroid/os/Bundle;
 
@@ -682,6 +690,8 @@
     .locals 26
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:693"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1614
     new-instance v16, Landroid/os/Bundle;
 
@@ -1722,6 +1732,8 @@
     .locals 23
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:1735"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2343
     new-instance v15, Landroid/os/Bundle;
 
@@ -2702,6 +2714,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:2717"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2881
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
@@ -2761,6 +2775,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:2778"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3422
     packed-switch p0, :pswitch_data_0
 
@@ -2831,6 +2847,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:2850"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3403
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2878,6 +2896,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:2899"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, -0x1
 
     .line 2948
@@ -3290,6 +3310,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:3313"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1295
     new-instance v0, Landroid/content/Intent;
 
@@ -3350,6 +3372,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:3375"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3093
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/PayBridgeActivity;->d:Z
 
@@ -3374,6 +3398,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:3401"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1761
     const-string v0, "callbackSn"
 
@@ -3701,6 +3727,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:3730"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2671
     new-instance v0, Landroid/os/Bundle;
 
@@ -3746,6 +3774,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:3777"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 577
     const/4 v0, -0x1
 
@@ -3762,6 +3792,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:3795"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1171
     const-string v0, "offerid"
 
@@ -3973,6 +4005,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:4008"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3369
     if-eqz p0, :cond_0
 
@@ -4059,6 +4093,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:4096"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3334
     if-eqz p0, :cond_0
 
@@ -4142,6 +4178,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:4181"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3272
     if-nez p0, :cond_0
 
@@ -4367,6 +4405,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:4408"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3221
     if-eqz p0, :cond_0
 
@@ -4472,6 +4512,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:4515"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3161
     if-eqz p0, :cond_0
 
@@ -4639,6 +4681,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:4684"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 933
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -4722,7 +4766,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/PayBridgeActivity;Lcom/tencent/mobileqq/activity/qwallet/QWalletPushManager$PCPayData;)V
     .locals 0
 
-    .prologue
     .line 59
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/PayBridgeActivity;->a(Lcom/tencent/mobileqq/activity/qwallet/QWalletPushManager$PCPayData;)V
 
@@ -4733,6 +4776,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:4779"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3033
     if-nez p1, :cond_0
 
@@ -4821,6 +4866,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:4869"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 972
@@ -4973,6 +5020,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:5023"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1107
     if-nez p1, :cond_0
 
@@ -5040,6 +5089,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:5092"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v4, 0x0
 
     .line 3105
@@ -5232,6 +5283,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:5286"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, -0x1
 
     .line 1589
@@ -5309,6 +5362,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:5365"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 587
     sget-boolean v0, Lcom/tencent/mobileqq/activity/PayBridgeActivity;->c:Z
 
@@ -5319,6 +5374,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:5377"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     const/4 v1, 0x0
@@ -5377,6 +5434,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:5437"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1568
     if-eqz p0, :cond_0
 
@@ -5470,6 +5529,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:5532"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1128
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -5698,6 +5759,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:5762"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 957
     if-eqz p1, :cond_0
 
@@ -5759,6 +5822,8 @@
     .locals 16
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:5825"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1999
     new-instance v7, Landroid/os/Bundle;
 
@@ -6349,6 +6414,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:6417"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2900
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
@@ -6403,6 +6470,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:6473"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2684
     new-instance v0, Landroid/os/Bundle;
 
@@ -6448,6 +6517,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:6520"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 597
@@ -6511,6 +6582,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:6585"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1332
     const-string v0, "offerid"
 
@@ -6725,6 +6798,8 @@
     .locals 17
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:6801"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2113
     new-instance v8, Landroid/os/Bundle;
 
@@ -7365,6 +7440,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:7443"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2917
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PayBridgeActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -7404,6 +7481,8 @@
     .locals 19
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:7484"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 624
     const-string v1, "QWalletPayBridge.PayResult.ExtraKey"
 
@@ -7563,6 +7642,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:7645"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     const/4 v1, 0x5
@@ -8477,6 +8558,8 @@
     .locals 17
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:8561"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2231
     new-instance v11, Landroid/os/Bundle;
 
@@ -9112,6 +9195,8 @@
     .locals 18
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:9198"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 656
     const-string v1, "QWalletPayBridge.PayResult.ExtraKey"
 
@@ -9257,6 +9342,8 @@
     .locals 18
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:9345"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2561
     :try_start_0
     const-string v1, "offerId"
@@ -9716,6 +9803,8 @@
     .locals 18
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:9806"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 688
     const-string v1, "QWalletPayBridge.PayResult.ExtraKey"
 
@@ -9861,6 +9950,8 @@
     .locals 31
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:9953"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2701
     const-string v3, "callbackSn"
 
@@ -11144,6 +11235,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:11238"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, -0x1
@@ -11235,6 +11328,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:11331"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 746
@@ -11298,6 +11393,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:11396"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x2
 
     const/4 v8, 0x1
@@ -11573,6 +11670,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:11673"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 845
     const-string v0, "QWalletPayBridge.PayResult.ExtraKey"
 
@@ -11737,6 +11836,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:11839"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 887
@@ -11800,6 +11901,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:11904"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 910
@@ -11863,6 +11966,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:11969"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 2859
@@ -11926,6 +12031,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:12034"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1153
     if-eqz p0, :cond_0
 
@@ -11963,6 +12070,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:12073"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1317
     if-eqz p0, :cond_0
 
@@ -12000,6 +12109,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:12112"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1458
     if-eqz p0, :cond_0
 
@@ -12043,6 +12154,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:12157"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v7, 0xc
 
     const/4 v6, 0x1
@@ -12702,6 +12815,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:12818"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 398
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnDestroy()V
 
@@ -12718,6 +12833,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:12836"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 425
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnRestoreInstanceState(Landroid/os/Bundle;)V
 
@@ -12819,6 +12936,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:12939"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 404
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnSaveInstanceState(Landroid/os/Bundle;)V
 
@@ -12900,6 +13019,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:13022"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 448
@@ -13013,6 +13134,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayBridgeActivity.smali:13137"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     const/4 v0, -0x1

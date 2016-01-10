@@ -22,6 +22,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/ContactRecommendActivity.smali:25"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 24
@@ -35,7 +37,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .prologue
     .line 22
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -46,6 +47,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/ContactRecommendActivity.smali:50"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 57
     new-instance v0, Ljov;
 
@@ -61,6 +64,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/ContactRecommendActivity.smali:67"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, -0x1
@@ -157,6 +162,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/ContactRecommendActivity.smali:165"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 155
     new-instance v0, Landroid/content/Intent;
 
@@ -197,6 +204,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/ContactRecommendActivity.smali:207"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 32
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -216,6 +225,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/ContactRecommendActivity.smali:228"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/ContactRecommendActivity;->a:Lcom/tencent/mobileqq/activity/contact/newfriend/RecommendListView;
 
@@ -232,6 +243,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/ContactRecommendActivity.smali:246"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 40
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnStart()V
 
@@ -248,6 +261,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/ContactRecommendActivity.smali:264"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 46
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/ContactRecommendActivity;->a:Lcom/tencent/mobileqq/activity/contact/newfriend/RecommendListView;
 
@@ -263,7 +278,6 @@
 .method public onBackPressed()V
     .locals 0
 
-    .prologue
     .line 152
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/contact/newfriend/ContactRecommendActivity;->a()V
 

@@ -41,6 +41,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/RebindActivity.smali:44"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 16
@@ -64,6 +66,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/RebindActivity.smali:69"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 16
     iget v0, p0, Lcom/tencent/mobileqq/activity/phone/RebindActivity;->b:I
 
@@ -74,6 +78,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/RebindActivity.smali:81"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 16
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/RebindActivity;->e:Ljava/lang/String;
 
@@ -84,6 +90,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/RebindActivity.smali:93"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 16
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/phone/RebindActivity;->a:Z
 
@@ -94,6 +102,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/RebindActivity.smali:105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 16
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/phone/RebindActivity;->b:Z
 
@@ -106,6 +116,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/RebindActivity.smali:119"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v5, 0x0
@@ -284,6 +296,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/RebindActivity.smali:299"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/RebindActivity;->a:Lcom/tencent/mobileqq/phonecontact/ContactBindObserver;
 
@@ -313,6 +327,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/RebindActivity.smali:330"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 116
     const/4 v0, 0x1
 
@@ -336,6 +352,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/RebindActivity.smali:355"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 75
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/RebindActivity;->a:Landroid/widget/Button;
 

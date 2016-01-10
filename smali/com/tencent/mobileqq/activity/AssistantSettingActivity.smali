@@ -64,6 +64,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AssistantSettingActivity.smali:67"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 52
@@ -78,6 +80,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AssistantSettingActivity.smali:83"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 50
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -107,6 +111,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AssistantSettingActivity.smali:114"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v9, 0x7f0a1544
 
     const/16 v8, 0x8
@@ -895,7 +901,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AssistantSettingActivity;Z)V
     .locals 0
 
-    .prologue
     .line 50
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/AssistantSettingActivity;->a(Z)V
 
@@ -906,6 +911,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AssistantSettingActivity.smali:914"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v1, 0x0
 
     const/4 v4, 0x1
@@ -1029,6 +1036,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AssistantSettingActivity.smali:1039"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 100
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -1107,6 +1116,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AssistantSettingActivity.smali:1119"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 135
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AssistantSettingActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -1136,7 +1147,6 @@
 .method protected doOnResume()V
     .locals 0
 
-    .prologue
     .line 130
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnResume()V
 
@@ -1148,6 +1158,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AssistantSettingActivity.smali:1161"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 142
@@ -1222,6 +1234,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AssistantSettingActivity.smali:1237"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1109
     const v0, 0x7f0a154b
 
@@ -1236,6 +1250,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AssistantSettingActivity.smali:1253"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 123
     invoke-static {}, Lcom/tencent/widget/immersive/ImmersiveUtils;->isSupporImmersive()I
 

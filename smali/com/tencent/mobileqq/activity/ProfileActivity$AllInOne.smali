@@ -85,6 +85,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:88"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 404
@@ -101,6 +103,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:106"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, -0x1
 
     const/4 v1, 0x0
@@ -165,7 +169,6 @@
 .method public synthetic constructor <init>(Lhqt;)V
     .locals 0
 
-    .prologue
     .line 256
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/ProfileActivity$AllInOne;-><init>()V
 
@@ -176,6 +179,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:182"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, -0x1
 
     const/4 v1, 0x0
@@ -247,6 +252,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:255"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     .line 507
@@ -291,6 +298,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:301"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 525
@@ -376,6 +385,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:388"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     .line 551
@@ -434,6 +445,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:448"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v0, 0x1
@@ -541,6 +554,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:557"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 600
@@ -585,6 +600,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:603"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v0, 0x1
@@ -716,6 +733,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:736"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 654
     invoke-static {p0}, Lcom/tencent/mobileqq/activity/ProfileActivity$AllInOne;->h(Lcom/tencent/mobileqq/activity/ProfileActivity$AllInOne;)Z
 
@@ -740,6 +759,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:762"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 668
     iget v0, p0, Lcom/tencent/mobileqq/activity/ProfileActivity$AllInOne;->a:I
 
@@ -813,6 +834,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:837"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 690
     iget v0, p0, Lcom/tencent/mobileqq/activity/ProfileActivity$AllInOne;->a:I
 
@@ -874,6 +897,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:900"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v0, 0x1
@@ -969,6 +994,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:997"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 735
     .line 736
     iget v0, p0, Lcom/tencent/mobileqq/activity/ProfileActivity$AllInOne;->a:I
@@ -1005,6 +1032,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:1035"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 351
     const/4 v0, 0x0
 
@@ -1015,6 +1044,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:1047"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 469
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1319,6 +1350,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileActivity$AllInOne.smali:1353"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 356
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ProfileActivity$AllInOne;->a:Ljava/lang/String;
 

@@ -58,6 +58,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AgeSelectionActivity.smali:61"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 25
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -83,6 +85,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AgeSelectionActivity.smali:88"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 147
     sget-object v0, Lcom/tencent/mobileqq/util/NearbyProfileUtil;->c:[Ljava/lang/String;
 
@@ -102,6 +106,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AgeSelectionActivity.smali:109"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 25
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AgeSelectionActivity;->a:Lcom/tencent/mobileqq/conditionsearch/widget/IphonePickerView;
 
@@ -112,6 +118,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AgeSelectionActivity.smali:121"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 125
@@ -233,7 +241,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AgeSelectionActivity;)V
     .locals 0
 
-    .prologue
     .line 25
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/AgeSelectionActivity;->a()V
 
@@ -246,6 +253,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AgeSelectionActivity.smali:256"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v6, 0x1000000
 
     const/4 v5, 0x2
@@ -530,6 +539,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AgeSelectionActivity.smali:542"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 107
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AgeSelectionActivity;->a:Lcom/tencent/mobileqq/conditionsearch/widget/IphonePickerView;
 

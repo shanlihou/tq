@@ -30,6 +30,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberDialogActivity.smali:33"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 31
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;-><init>()V
 
@@ -52,6 +54,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberDialogActivity.smali:57"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 44
     new-instance v0, Landroid/content/Intent;
 
@@ -86,7 +90,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/phone/BindNumberDialogActivity;)V
     .locals 0
 
-    .prologue
     .line 31
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/phone/BindNumberDialogActivity;->b()V
 
@@ -97,6 +100,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberDialogActivity.smali:103"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 146
@@ -168,6 +173,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberDialogActivity.smali:176"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0xa
 
     const/4 v4, 0x1
@@ -307,6 +314,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberDialogActivity.smali:317"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 130
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/BindNumberDialogActivity;->a:Lcom/tencent/mobileqq/phonecontact/ContactBindObserver;
 
@@ -336,6 +345,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindNumberDialogActivity.smali:348"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 139
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;->finish()V
 

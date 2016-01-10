@@ -39,6 +39,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityChangeActivity.smali:42"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 62
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;-><init>()V
 
@@ -51,6 +53,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityChangeActivity.smali:56"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 62
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PhoneUnityChangeActivity;->a:Lcom/tencent/mobileqq/app/PhoneContactManagerImp;
 
@@ -60,7 +64,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/PhoneUnityChangeActivity;)V
     .locals 0
 
-    .prologue
     .line 62
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/PhoneUnityChangeActivity;->a()V
 
@@ -70,7 +73,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/PhoneUnityChangeActivity;I)V
     .locals 0
 
-    .prologue
     .line 62
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/PhoneUnityChangeActivity;->b(I)V
 
@@ -80,7 +82,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/PhoneUnityChangeActivity;IJ)V
     .locals 0
 
-    .prologue
     .line 62
     invoke-virtual {p0, p1, p2, p3}, Lcom/tencent/mobileqq/activity/PhoneUnityChangeActivity;->a(IJ)V
 
@@ -93,6 +94,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityChangeActivity.smali:97"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x2
 
     const/4 v2, 0x1
@@ -302,6 +305,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityChangeActivity.smali:308"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 304
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;->doOnActivityResult(IILandroid/content/Intent;)V
 
@@ -335,6 +340,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityChangeActivity.smali:343"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 86
@@ -392,6 +399,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityChangeActivity.smali:402"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 168
@@ -472,6 +481,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityChangeActivity.smali:484"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     const/4 v2, 0x1
@@ -607,6 +618,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityChangeActivity.smali:621"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0x7f0a132c
 
     .line 195

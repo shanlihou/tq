@@ -22,6 +22,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UserguideActivity.smali:25"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
@@ -39,6 +41,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UserguideActivity.smali:44"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     invoke-direct {p0}, Lmqq/app/AppActivity;-><init>()V
 
@@ -54,6 +58,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UserguideActivity.smali:61"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 63
     sget-boolean v0, Lcom/tencent/mobileqq/activity/UserguideActivity;->b:Z
 
@@ -64,6 +70,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UserguideActivity.smali:73"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v4, 0x0
 
     const/4 v1, 0x0
@@ -283,6 +291,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UserguideActivity.smali:294"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 195
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/UserguideActivity;->getIntent()Landroid/content/Intent;
 
@@ -342,6 +352,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UserguideActivity.smali:355"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/high16 v7, 0x3fe8000000000000L    # 0.75
 
     .line 107
@@ -486,6 +498,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UserguideActivity.smali:501"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 162
     invoke-super {p0}, Lmqq/app/AppActivity;->doOnDestroy()V
 
@@ -522,6 +536,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UserguideActivity.smali:539"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 155
     const/4 v0, 0x1
 
@@ -538,6 +554,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UserguideActivity.smali:557"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 141
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isDevelopLevel()Z
 
@@ -578,6 +596,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UserguideActivity.smali:599"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 173
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isDevelopLevel()Z
 

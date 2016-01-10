@@ -87,6 +87,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:90"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x0
@@ -143,6 +145,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:148"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 556
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity;->getActivity()Landroid/app/Activity;
 
@@ -171,7 +175,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity;)V
     .locals 0
 
-    .prologue
     .line 70
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity;->d()V
 
@@ -182,6 +185,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:188"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v2, 0x0
@@ -258,6 +263,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:266"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v3, 0x8
 
     const/4 v2, 0x1
@@ -704,6 +711,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:714"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     .line 274
@@ -924,6 +933,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:936"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 562
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -965,6 +976,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:979"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 238
@@ -1105,6 +1118,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1121"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 393
@@ -1231,6 +1246,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1249"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 571
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity;->a:Lcom/tencent/mobileqq/widget/PullRefreshHeader;
 
@@ -1248,6 +1265,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1268"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 535
@@ -1354,6 +1373,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1376"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x2
 
     const/4 v6, -0x2
@@ -1496,6 +1517,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1520"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 581
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity;->a:Lcom/tencent/mobileqq/widget/PullRefreshHeader;
 
@@ -1536,6 +1559,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1562"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 576
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity;->a:Lcom/tencent/mobileqq/widget/PullRefreshHeader;
 
@@ -1552,7 +1577,6 @@
 .method public c(ILandroid/view/View;Lcom/tencent/widget/ListView;)V
     .locals 0
 
-    .prologue
     .line 592
     return-void
 .end method
@@ -1561,6 +1585,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1588"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 478
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnActivityResult(IILandroid/content/Intent;)V
 
@@ -1596,6 +1622,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1625"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 144
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -1633,6 +1661,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1664"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 155
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity;->a:Lcom/tencent/mobileqq/app/TroopObserver;
 
@@ -1660,6 +1690,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1693"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 488
     const/4 v0, 0x4
 
@@ -1695,6 +1727,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1730"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 431
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity;->a:Lcom/tencent/mobileqq/app/TroopObserver;
 
@@ -1711,6 +1745,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1748"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 414
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity;->a:Z
 
@@ -1772,6 +1808,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1811"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 437
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity;->a:Lcom/tencent/mobileqq/app/TroopObserver;
 
@@ -1788,6 +1826,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/troop/ShowExternalTroopListActivity.smali:1829"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v6, 0x0

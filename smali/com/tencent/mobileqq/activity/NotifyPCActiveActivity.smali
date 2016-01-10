@@ -24,6 +24,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPCActiveActivity.smali:27"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 29
@@ -38,6 +40,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPCActiveActivity.smali:43"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 24
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -60,6 +64,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPCActiveActivity.smali:67"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     const/16 v5, 0xe6
@@ -262,6 +268,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPCActiveActivity.smali:271"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 159
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotifyPCActiveActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -290,6 +298,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPCActiveActivity.smali:301"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 140
     new-instance v0, Landroid/content/Intent;
 
@@ -318,6 +328,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPCActiveActivity.smali:331"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     const/4 v6, 0x0
@@ -458,6 +470,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPCActiveActivity.smali:473"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 177
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotifyPCActiveActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -503,7 +517,6 @@
 .method protected doOnPause()V
     .locals 0
 
-    .prologue
     .line 172
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnPause()V
 
@@ -514,7 +527,6 @@
 .method protected doOnResume()V
     .locals 0
 
-    .prologue
     .line 189
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnResume()V
 
@@ -525,7 +537,6 @@
 .method protected doOnStop()V
     .locals 0
 
-    .prologue
     .line 167
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnStop()V
 
@@ -536,7 +547,6 @@
 .method protected doOnUserLeaveHint()V
     .locals 0
 
-    .prologue
     .line 136
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnUserLeaveHint()V
 
@@ -548,6 +558,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPCActiveActivity.smali:561"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 148

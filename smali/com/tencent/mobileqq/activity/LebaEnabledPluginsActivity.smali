@@ -22,6 +22,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaEnabledPluginsActivity.smali:25"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 19
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -36,6 +38,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaEnabledPluginsActivity.smali:41"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     invoke-virtual {p2}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
@@ -74,6 +78,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaEnabledPluginsActivity.smali:81"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     if-eqz p1, :cond_0
 
@@ -96,6 +102,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaEnabledPluginsActivity.smali:105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     .line 26
@@ -189,6 +197,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaEnabledPluginsActivity.smali:200"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, -0x1
 
     .line 60

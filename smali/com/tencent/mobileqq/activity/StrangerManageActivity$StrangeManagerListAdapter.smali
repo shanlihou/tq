@@ -18,6 +18,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/StrangerManageActivity$StrangeManagerListAdapter.smali:21"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 785
@@ -57,6 +59,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/StrangerManageActivity$StrangeManagerListAdapter.smali:62"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 807
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/StrangerManageActivity$StrangeManagerListAdapter;->a:Lcom/tencent/mobileqq/activity/StrangerManageActivity;
 
@@ -104,6 +108,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/StrangerManageActivity$StrangeManagerListAdapter.smali:111"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 921
     if-nez p1, :cond_0
 
@@ -341,6 +347,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/StrangerManageActivity$StrangeManagerListAdapter.smali:350"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 792
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/StrangerManageActivity$StrangeManagerListAdapter;->a:Lcom/tencent/mobileqq/activity/StrangerManageActivity;
 
@@ -357,6 +365,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/StrangerManageActivity$StrangeManagerListAdapter.smali:368"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 797
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/StrangerManageActivity$StrangeManagerListAdapter;->a:Lcom/tencent/mobileqq/activity/StrangerManageActivity;
 
@@ -373,6 +383,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/StrangerManageActivity$StrangeManagerListAdapter.smali:386"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 802
     int-to-long v0, p1
 
@@ -383,6 +395,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/StrangerManageActivity$StrangeManagerListAdapter.smali:398"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v6, 0x8
 
     const/4 v5, 0x0

@@ -14,6 +14,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatDemoActivity.smali:17"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 17
     invoke-direct {p0}, Landroid/support/v4/app/FragmentActivity;-><init>()V
 
@@ -28,6 +30,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatDemoActivity.smali:33"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 32
@@ -103,6 +107,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatDemoActivity.smali:110"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 78
     invoke-super {p0}, Landroid/support/v4/app/FragmentActivity;->doOnDestroy()V
 
@@ -125,6 +131,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatDemoActivity.smali:134"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 61
     invoke-super {p0}, Landroid/support/v4/app/FragmentActivity;->doOnPause()V
 
@@ -154,6 +162,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatDemoActivity.smali:165"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 51
     invoke-super {p0}, Landroid/support/v4/app/FragmentActivity;->doOnResume()V
 
@@ -192,6 +202,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatDemoActivity.smali:205"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 70
     invoke-super {p0}, Landroid/support/v4/app/FragmentActivity;->doOnStop()V
 
@@ -214,6 +226,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatDemoActivity.smali:229"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 94
     invoke-super {p0, p1, p2, p3}, Landroid/support/v4/app/FragmentActivity;->onActivityResult(IILandroid/content/Intent;)V
 
@@ -236,6 +250,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatDemoActivity.smali:253"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 86
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/HotChatDemoActivity;->a:Lcom/tencent/mobileqq/activity/BaseChatPie;
 
@@ -262,6 +278,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatDemoActivity.smali:281"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 102
     invoke-super {p0, p1}, Landroid/support/v4/app/FragmentActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
@@ -284,6 +302,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HotChatDemoActivity.smali:305"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v1, 0x400
 
     .line 24

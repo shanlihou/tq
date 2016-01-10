@@ -38,6 +38,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSpaceCleanActivity.smali:41"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 45
@@ -75,6 +77,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSpaceCleanActivity.smali:80"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 45
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSpaceCleanActivity;->a:Landroid/view/View;
 
@@ -85,6 +89,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSpaceCleanActivity.smali:92"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 45
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSpaceCleanActivity;->a:Landroid/widget/Button;
 
@@ -95,6 +101,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSpaceCleanActivity.smali:104"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 45
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSpaceCleanActivity;->b:Landroid/widget/TextView;
 
@@ -104,7 +112,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQSpaceCleanActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 45
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/QQSpaceCleanActivity;->c:Z
 
@@ -115,6 +122,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSpaceCleanActivity.smali:125"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 45
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSpaceCleanActivity;->a:Landroid/widget/TextView;
 
@@ -127,6 +136,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSpaceCleanActivity.smali:139"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v2, 0x0
 
     .line 163
@@ -221,6 +232,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSpaceCleanActivity.smali:235"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 61
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -312,6 +325,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSpaceCleanActivity.smali:328"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0x8
 
     const/4 v6, 0x0
@@ -477,6 +492,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSpaceCleanActivity.smali:495"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 78
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnStop()V
 
@@ -499,6 +516,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSpaceCleanActivity.smali:519"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/16 v3, 0x8

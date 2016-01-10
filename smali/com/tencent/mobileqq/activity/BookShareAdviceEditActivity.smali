@@ -44,6 +44,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BookShareAdviceEditActivity.smali:47"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 44
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -68,6 +70,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BookShareAdviceEditActivity.smali:73"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 232
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BookShareAdviceEditActivity;->a:Landroid/content/Intent;
 
@@ -166,6 +170,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BookShareAdviceEditActivity.smali:173"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 127
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -196,6 +202,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BookShareAdviceEditActivity.smali:205"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 103
@@ -352,7 +360,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/BookShareAdviceEditActivity;)V
     .locals 0
 
-    .prologue
     .line 44
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/BookShareAdviceEditActivity;->a()V
 
@@ -363,6 +370,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BookShareAdviceEditActivity.smali:373"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 134
     invoke-static {p0}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -388,6 +397,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BookShareAdviceEditActivity.smali:400"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     const/4 v4, 0x0
@@ -685,6 +696,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BookShareAdviceEditActivity.smali:699"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 272
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/BookShareAdviceEditActivity;->getResources()Landroid/content/res/Resources;
 
@@ -781,6 +794,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BookShareAdviceEditActivity.smali:797"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 255
@@ -822,6 +837,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BookShareAdviceEditActivity.smali:840"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 70
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onCreate(Landroid/os/Bundle;)V
 

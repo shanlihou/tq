@@ -221,6 +221,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:224"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, -0x1
 
     const/4 v1, 0x0
@@ -369,6 +371,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:374"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget v0, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->D:I
 
@@ -379,6 +383,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:386"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->a:Landroid/view/View;
 
@@ -389,6 +395,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:398"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->a:Landroid/widget/EditText;
 
@@ -398,7 +406,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/DetailProfileActivity;)V
     .locals 0
 
-    .prologue
     .line 54
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->d()V
 
@@ -408,7 +415,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/DetailProfileActivity;Z)V
     .locals 0
 
-    .prologue
     .line 54
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->enableRightHighlight(Z)V
 
@@ -419,6 +425,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:428"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 887
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->a:Lgwg;
 
@@ -490,6 +498,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:501"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->b()Z
 
@@ -501,7 +511,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/DetailProfileActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 54
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->r:Z
 
@@ -512,6 +521,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:524"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     const/4 v1, 0x0
@@ -586,6 +597,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:600"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->f:Landroid/view/View;
 
@@ -596,6 +609,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:612"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->b:Landroid/widget/EditText;
 
@@ -605,7 +620,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/DetailProfileActivity;Z)V
     .locals 0
 
-    .prologue
     .line 54
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->enableRightHighlight(Z)V
 
@@ -616,6 +630,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:633"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 894
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->o:Z
 
@@ -669,6 +685,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:688"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->g:Landroid/view/View;
 
@@ -679,6 +697,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:700"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->c:Landroid/widget/EditText;
 
@@ -694,6 +714,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:717"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, -0x1
 
     const/4 v5, 0x0
@@ -1290,6 +1312,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:1315"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->j:Landroid/view/View;
 
@@ -1300,6 +1324,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:1327"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->d:Landroid/widget/EditText;
 
@@ -1310,6 +1336,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:1339"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     .line 903
@@ -1676,6 +1704,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:1707"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     const/high16 v4, 0x1000000
@@ -1848,6 +1878,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:1881"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v5, -0x1
@@ -1992,6 +2024,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:2027"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1240
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->a:Lcom/tencent/mobileqq/widget/QQToastNotifier;
 
@@ -2024,6 +2058,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:2061"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v3, 0x0
@@ -2184,6 +2220,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:2223"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 815
     iput p1, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->u:I
 
@@ -2237,6 +2275,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:2278"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 351
@@ -2342,6 +2382,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:2385"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 514
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -2425,6 +2467,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:2470"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 503
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->getResources()Landroid/content/res/Resources;
 
@@ -2447,6 +2491,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:2494"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 491
     if-eqz p3, :cond_0
 
@@ -2469,6 +2515,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:2518"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v5, 0x1
@@ -2873,6 +2921,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:2924"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 438
     .line 439
     const/4 v0, 0x0
@@ -2935,6 +2985,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:2988"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 832
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -2962,6 +3014,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:3017"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x4
 
     const/4 v2, 0x3
@@ -3189,6 +3243,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:3246"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 456
     .line 457
     const/4 v0, 0x0
@@ -3251,6 +3307,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:3310"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 475
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/DetailProfileActivity;->c:Ljava/lang/String;
 
@@ -3291,6 +3349,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:3352"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v2, -0x1
@@ -4139,6 +4199,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:4202"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 160
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -4195,6 +4257,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:4260"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 987
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -4238,7 +4302,6 @@
 .method protected doOnResume()V
     .locals 0
 
-    .prologue
     .line 999
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnResume()V
 
@@ -4250,6 +4313,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:4316"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 186
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnStart()V
 
@@ -4266,6 +4331,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:4334"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 192
     const/4 v0, 0x0
 
@@ -4276,6 +4343,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:4346"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 955
@@ -4336,6 +4405,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DetailProfileActivity.smali:4408"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x2
 
     const/4 v5, 0x0

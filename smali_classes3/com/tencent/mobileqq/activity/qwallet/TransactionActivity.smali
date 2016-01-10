@@ -95,6 +95,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:98"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -126,6 +128,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:131"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->a:I
 
@@ -136,6 +140,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:143"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->a:Landroid/content/Context;
 
@@ -146,6 +152,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:155"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->b:Landroid/view/View;
 
@@ -156,6 +164,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:167"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->b:Landroid/widget/Button;
 
@@ -166,6 +176,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:179"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->e:Landroid/widget/EditText;
 
@@ -176,6 +188,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:191"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->b:Landroid/widget/TextView;
 
@@ -186,6 +200,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:203"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->a:Ljava/lang/String;
 
@@ -195,7 +211,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .prologue
     .line 66
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->d:Ljava/lang/String;
 
@@ -206,6 +221,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:224"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 832
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -271,6 +288,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:291"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 846
     if-gez p2, :cond_0
 
@@ -335,6 +354,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:357"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 732
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->b:Z
 
@@ -458,6 +479,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:482"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->a(Ljava/lang/String;)Z
 
@@ -470,6 +493,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:496"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0x2e
 
     const/4 v0, 0x0
@@ -549,6 +574,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:577"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->a:Landroid/widget/Button;
 
@@ -559,6 +586,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:589"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->a:Landroid/widget/EditText;
 
@@ -569,6 +598,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:601"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->f:Ljava/lang/String;
 
@@ -579,6 +610,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:613"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 778
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
@@ -674,6 +707,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:710"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->c:Landroid/widget/EditText;
 
@@ -684,6 +719,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:722"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->d:Ljava/lang/String;
 
@@ -694,6 +731,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:734"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 691
     :try_start_0
     new-instance v0, Lorg/json/JSONObject;
@@ -885,6 +924,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:927"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 801
     :try_start_0
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -937,6 +978,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:981"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v6, 0x64
 
     const/4 v5, 0x2
@@ -1466,6 +1509,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:1512"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 254
     if-nez p2, :cond_0
 
@@ -1536,6 +1581,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:1584"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 811
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/qwallet/TransactionActivity;->c:Z
 
@@ -1571,6 +1618,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:1621"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 501
     new-instance v7, Ljava/lang/StringBuilder;
 
@@ -1757,6 +1806,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:1809"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 676
     new-instance v0, Lcooperation/qwallet/plugin/QWalletPayProgressDialog;
 
@@ -1780,6 +1831,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:1834"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v7, 0x1
@@ -2034,6 +2087,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:2090"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 246
@@ -2073,6 +2128,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:2131"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 435
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnPause()V
 
@@ -2089,6 +2146,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:2149"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0x80
 
     .line 424
@@ -2154,6 +2213,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:2216"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x5
 
     const/4 v0, 0x0
@@ -2591,6 +2652,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:2655"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v10, 0x8
 
     const/4 v3, 0x1
@@ -2933,6 +2996,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:2999"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     .line 543
@@ -2964,6 +3029,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TransactionActivity.smali:3032"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 196
     const/4 v0, 0x1
 

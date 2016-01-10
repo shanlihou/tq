@@ -79,6 +79,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:82"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 113
@@ -93,6 +95,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:98"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 67
@@ -136,6 +140,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:143"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 737
     const/4 v0, 0x0
 
@@ -190,6 +196,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:199"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 67
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AutoRemarkActivity;->a:Landroid/view/View;
 
@@ -200,6 +208,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:211"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 67
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AutoRemarkActivity;->a:Lcom/tencent/widget/Switch;
 
@@ -210,6 +220,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:223"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 255
@@ -272,6 +284,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:287"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v8, 0x7f0a2468
 
     const v7, 0x7f09026a
@@ -787,7 +801,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AutoRemarkActivity;Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 67
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/AutoRemarkActivity;->a(Ljava/lang/String;)V
 
@@ -798,6 +811,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:814"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 388
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AutoRemarkActivity;->a:Landroid/app/Dialog;
 
@@ -896,6 +911,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:914"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 67
     sget-boolean v0, Lcom/tencent/mobileqq/activity/AutoRemarkActivity;->a:Z
 
@@ -906,6 +923,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:926"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 819
     const/4 v0, 0x0
 
@@ -1188,6 +1207,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:1210"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     .line 634
@@ -1217,6 +1238,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:1241"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 67
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/AutoRemarkActivity;->c()Z
 
@@ -1229,6 +1252,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:1255"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x1
 
     const/4 v11, 0x0
@@ -1400,6 +1425,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:1428"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 606
     iget v0, p0, Lcom/tencent/mobileqq/activity/AutoRemarkActivity;->f:I
 
@@ -1452,6 +1479,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:1482"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 682
@@ -1518,6 +1547,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:1550"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 619
     iget v0, p0, Lcom/tencent/mobileqq/activity/AutoRemarkActivity;->f:I
 
@@ -1555,6 +1586,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:1589"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const-wide/16 v11, 0x0
@@ -1665,6 +1698,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:1701"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 914
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AutoRemarkActivity;->f:Ljava/lang/String;
 
@@ -1728,6 +1763,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:1766"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 722
     const-string v1, ""
 
@@ -1785,6 +1822,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:1825"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     const/4 v4, -0x1
@@ -1923,6 +1962,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:1965"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 237
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AutoRemarkActivity;->a:Landroid/widget/EditText;
 
@@ -2031,7 +2072,6 @@
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 225
     return-void
 .end method
@@ -2040,6 +2080,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:2083"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 273
     const/4 v0, -0x1
 
@@ -2141,6 +2183,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:2186"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v4, 0x2714
 
     const/4 v6, 0x0
@@ -2317,6 +2361,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:2364"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 153
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AutoRemarkActivity;->a:Landroid/app/Dialog;
 
@@ -2379,6 +2425,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:2428"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     const/4 v1, 0x0
@@ -2539,6 +2587,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AutoRemarkActivity.smali:2590"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     const/4 v5, 0x0
@@ -2778,7 +2828,6 @@
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 232
     return-void
 .end method

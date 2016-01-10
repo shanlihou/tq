@@ -54,6 +54,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity.smali:57"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 38
@@ -92,6 +94,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity.smali:97"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 30
     invoke-direct {p0}, Landroid/support/v4/app/FragmentActivity;-><init>()V
 
@@ -116,6 +120,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity.smali:123"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     iget v0, p0, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity;->h:I
 
@@ -126,6 +132,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity.smali:135"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 209
     new-instance v0, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchBaseFragment;
 
@@ -138,6 +146,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity.smali:149"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 137
@@ -332,6 +342,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity.smali:345"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 126
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity;->getIntent()Landroid/content/Intent;
 
@@ -386,6 +398,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity.smali:401"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 106
     const/4 v0, 0x0
 
@@ -496,6 +510,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity.smali:513"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 204
     invoke-super {p0}, Landroid/support/v4/app/FragmentActivity;->doOnDestroy()V
 
@@ -514,6 +530,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity.smali:533"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 198
     invoke-super {p0}, Landroid/support/v4/app/FragmentActivity;->doOnResume()V
 
@@ -530,6 +548,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity.smali:551"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 101
     const/4 v0, 0x1
 

@@ -61,6 +61,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JoinDiscussionActivity.smali:64"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 55
@@ -104,6 +106,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JoinDiscussionActivity.smali:109"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 140
     const v0, 0x7f0906da
 
@@ -178,6 +182,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JoinDiscussionActivity.smali:185"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 151
     const-string v0, "\u52a0\u5165\u8ba8\u8bba\u7ec4"
 
@@ -212,6 +218,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JoinDiscussionActivity.smali:221"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 173
     invoke-static {p0}, Lcom/tencent/mobileqq/utils/NetworkUtil;->e(Landroid/content/Context;)Z
 
@@ -287,6 +295,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JoinDiscussionActivity.smali:298"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 192
     invoke-static {p0}, Lcom/tencent/mobileqq/utils/NetworkUtil;->e(Landroid/content/Context;)Z
 
@@ -325,6 +335,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JoinDiscussionActivity.smali:338"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 206
@@ -424,6 +436,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JoinDiscussionActivity.smali:439"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 86
@@ -606,6 +620,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JoinDiscussionActivity.smali:623"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 126
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/JoinDiscussionActivity;->a:Lhgb;
 
@@ -627,6 +643,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JoinDiscussionActivity.smali:646"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 134
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->finish()V
 
@@ -644,7 +662,6 @@
 .method public onClick(Landroid/view/View;)V
     .locals 0
 
-    .prologue
     .line 242
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/JoinDiscussionActivity;->finish()V
 

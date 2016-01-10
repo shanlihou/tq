@@ -24,6 +24,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:27"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -122,6 +124,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:127"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3397
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter;->a:Lcom/tencent/mobileqq/activity/TroopMemberListActivity;
 
@@ -148,6 +152,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:155"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, -0x1
 
     .line 3377
@@ -218,6 +224,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:227"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3437
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter;->getItem(I)Ljava/lang/Object;
 
@@ -247,6 +255,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:258"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2961
     const-wide/high16 v0, -0x3fa7000000000000L    # -100.0
 
@@ -381,6 +391,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:394"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x7
 
     const/4 v4, 0x6
@@ -525,6 +537,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:540"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     .line 3449
@@ -605,6 +619,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:622"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 3415
@@ -743,6 +759,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:762"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 3406
@@ -782,6 +800,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:803"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2986
     invoke-static {}, Ljava/lang/System;->currentTimeMillis()J
 
@@ -3051,6 +3071,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:3074"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x7
 
     const/4 v6, 0x2
@@ -3267,6 +3289,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:3292"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 2732
@@ -3410,6 +3434,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:3437"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 2747
@@ -3523,6 +3549,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:3552"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2771
     const-wide/16 v0, 0x0
 
@@ -3533,6 +3561,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ListAdapter.smali:3564"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v8, 0x9
 
     const/4 v6, 0x1

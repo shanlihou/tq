@@ -12,6 +12,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OverloadTipsActivity.smali:15"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 12
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -31,6 +33,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OverloadTipsActivity.smali:36"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v1, 0x0
@@ -175,6 +179,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OverloadTipsActivity.smali:182"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 57
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/OverloadTipsActivity;->a:Lcom/tencent/mobileqq/utils/QQCustomDialog;
 
@@ -209,7 +215,6 @@
 .method public onBackPressed()V
     .locals 0
 
-    .prologue
     .line 66
     return-void
 .end method

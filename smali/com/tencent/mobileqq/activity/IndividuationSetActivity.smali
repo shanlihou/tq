@@ -219,6 +219,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:222"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     const/4 v4, 0x2
@@ -355,6 +357,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:360"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v3, 0x1
@@ -510,6 +514,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:517"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 698
@@ -559,7 +565,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;I)I
     .locals 0
 
-    .prologue
     .line 96
     iput p1, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->z:I
 
@@ -570,6 +575,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:578"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->a:Landroid/widget/ImageView;
 
@@ -580,6 +587,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:590"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->a:Lcom/tencent/image/URLImageView;
 
@@ -590,6 +599,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:602"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 865
     .line 866
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->b:Ljava/util/List;
@@ -620,6 +631,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:634"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 820
     const/4 v1, 0x0
 
@@ -679,6 +692,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:695"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->b:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -689,6 +704,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:707"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->a(I)Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -700,7 +717,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;)Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
     .locals 0
 
-    .prologue
     .line 96
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->b:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -711,6 +727,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:730"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v2, 0x1
@@ -779,6 +797,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:800"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1003
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -804,7 +824,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .prologue
     .line 96
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->e:Ljava/lang/String;
 
@@ -815,6 +834,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:837"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1485
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->a:Lcom/tencent/mobileqq/hitrate/PreloadProcHitSession;
 
@@ -2034,6 +2055,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:2058"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 946
@@ -2349,6 +2372,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:2375"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v5, 0x0
@@ -2500,6 +2525,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:2528"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v7, 0x7f020810
 
     const/4 v6, 0x0
@@ -2760,7 +2787,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;B)V
     .locals 0
 
-    .prologue
     .line 96
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->a(B)V
 
@@ -2770,7 +2796,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;LVipRecommend/MQQ/CommPayInfo;)V
     .locals 0
 
-    .prologue
     .line 96
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->a(LVipRecommend/MQQ/CommPayInfo;)V
 
@@ -2780,7 +2805,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;LVipRecommend/MQQ/PayParam;Z)V
     .locals 0
 
-    .prologue
     .line 96
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->a(LVipRecommend/MQQ/PayParam;Z)V
 
@@ -2790,7 +2814,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;)V
     .locals 0
 
-    .prologue
     .line 96
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->a(Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;)V
 
@@ -2800,7 +2823,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 96
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->b(Ljava/lang/String;)V
 
@@ -2811,6 +2833,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:2836"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 792
@@ -2891,6 +2915,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:2918"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 903
@@ -3167,6 +3193,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:3196"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 558
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -3222,6 +3250,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:3253"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->c:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -3231,7 +3261,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;)Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
     .locals 0
 
-    .prologue
     .line 96
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->c:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -3242,6 +3271,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:3274"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, -0xe74b13
 
     const/high16 v6, 0x41f00000    # 30.0f
@@ -3771,6 +3802,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:3805"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1289
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -3817,6 +3850,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:3853"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->d:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -3826,7 +3861,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;)Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
     .locals 0
 
-    .prologue
     .line 96
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->d:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -3837,6 +3871,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:3874"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 725
     new-instance v0, Lhfn;
 
@@ -3859,6 +3895,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:3898"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->e:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -3868,7 +3906,6 @@
 .method public static synthetic d(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;)Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
     .locals 0
 
-    .prologue
     .line 96
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->e:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -3879,6 +3916,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:3919"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 839
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->a:Lcom/tencent/mobileqq/redtouch/RedTouch;
 
@@ -3946,6 +3985,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:3988"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->f:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -3955,7 +3996,6 @@
 .method public static synthetic e(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;)Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
     .locals 0
 
-    .prologue
     .line 96
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->f:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -3966,6 +4006,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:4009"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 933
     const v0, 0x186a3
 
@@ -4024,6 +4066,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:4069"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->g:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -4033,7 +4077,6 @@
 .method public static synthetic f(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;)Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
     .locals 0
 
-    .prologue
     .line 96
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->g:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -4044,6 +4087,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:4090"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x4
 
     .line 1008
@@ -4144,6 +4189,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:4192"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->h:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -4153,7 +4200,6 @@
 .method public static synthetic g(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;)Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
     .locals 0
 
-    .prologue
     .line 96
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->h:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -4164,6 +4210,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:4213"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x3
 
     const v5, -0xe74b13
@@ -4784,6 +4832,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:4835"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->i:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -4793,7 +4843,6 @@
 .method public static synthetic h(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;)Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
     .locals 0
 
-    .prologue
     .line 96
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->i:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -4804,6 +4853,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:4856"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1168
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->a:Lcom/tencent/mobileqq/vas/IndividuationConfigInfo;
 
@@ -4981,6 +5032,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:5035"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->j:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -4990,7 +5043,6 @@
 .method public static synthetic i(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;)Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
     .locals 0
 
-    .prologue
     .line 96
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->j:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -5001,6 +5053,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:5056"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x2
 
     const/4 v2, 0x0
@@ -5433,6 +5487,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:5490"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->k:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -5442,7 +5498,6 @@
 .method public static synthetic j(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;)Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
     .locals 0
 
-    .prologue
     .line 96
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->k:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -5452,7 +5507,6 @@
 .method public static synthetic k(Lcom/tencent/mobileqq/activity/IndividuationSetActivity;Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;)Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
     .locals 0
 
-    .prologue
     .line 96
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/IndividuationSetActivity;->l:Lcom/tencent/pb/getbusiinfo/BusinessInfoCheckUpdate$AppInfo;
 
@@ -5465,6 +5519,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:5522"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x4
 
     .line 312
@@ -5520,6 +5576,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:5579"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1764
     const/16 v0, 0xfa1
 
@@ -5547,6 +5605,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:5608"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v4, 0x1000000
 
     const/4 v9, 0x2
@@ -5728,6 +5788,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:5791"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1782
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnDestroy()V
 
@@ -5815,6 +5877,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:5880"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1776
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnPause()V
 
@@ -5831,6 +5895,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:5898"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     .line 504
@@ -5997,6 +6063,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:6066"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 329
@@ -6067,6 +6135,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:6138"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1301
     const/4 v12, 0x0
 
@@ -7092,6 +7162,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/IndividuationSetActivity.smali:7165"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2181
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->onPostThemeChanged()V
 

@@ -29,6 +29,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QPayReminderActivity.smali:32"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 27
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;-><init>()V
 
@@ -41,6 +43,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QPayReminderActivity.smali:46"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v0, 0x1
@@ -287,6 +291,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QPayReminderActivity.smali:294"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 39
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/QPayReminderActivity;->getIntent()Landroid/content/Intent;
 
@@ -370,6 +376,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QPayReminderActivity.smali:379"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 113
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;->finish()V
 
@@ -388,6 +396,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QPayReminderActivity.smali:399"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QPayReminderActivity;->a:Landroid/widget/Button;
 

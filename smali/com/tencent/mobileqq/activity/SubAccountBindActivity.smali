@@ -34,6 +34,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBindActivity.smali:37"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 48
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/SubAccountBaseActivity;-><init>()V
 
@@ -86,6 +88,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBindActivity.smali:91"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 48
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SubAccountBindActivity;->a:Landroid/widget/LinearLayout;
 
@@ -96,6 +100,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBindActivity.smali:103"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 342
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SubAccountBindActivity;->a:Ljava/util/List;
 
@@ -141,6 +147,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBindActivity.smali:150"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 48
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SubAccountBindActivity;->a:Ljava/util/List;
 
@@ -151,6 +159,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBindActivity.smali:162"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 309
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SubAccountBindActivity;->a:Ljava/util/List;
 
@@ -286,6 +296,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBindActivity.smali:299"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 354
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SubAccountBindActivity;->a:Landroid/widget/LinearLayout;
 
@@ -498,6 +510,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBindActivity.smali:513"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -698,6 +712,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBindActivity.smali:715"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 76
@@ -776,6 +792,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBindActivity.smali:795"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 301
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SubAccountBindActivity;->a:Lcom/tencent/mobileqq/app/SubAccountBindObserver;
 

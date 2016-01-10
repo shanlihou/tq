@@ -18,6 +18,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberCardActivity$ViewHolder.smali:21"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3283
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

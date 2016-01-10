@@ -35,6 +35,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MoveToGroupActivity.smali:38"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 33
@@ -63,6 +65,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MoveToGroupActivity.smali:68"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 33
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/MoveToGroupActivity;->a:Lcom/tencent/mobileqq/app/FriendListObserver;
 
@@ -73,6 +77,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MoveToGroupActivity.smali:80"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 187
     new-instance v0, Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -98,7 +104,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/MoveToGroupActivity;)V
     .locals 0
 
-    .prologue
     .line 33
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/MoveToGroupActivity;->b()V
 
@@ -109,6 +114,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MoveToGroupActivity.smali:117"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 194
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/MoveToGroupActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -140,7 +147,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/MoveToGroupActivity;)V
     .locals 0
 
-    .prologue
     .line 33
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/MoveToGroupActivity;->c()V
 
@@ -151,6 +157,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MoveToGroupActivity.smali:160"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 202
@@ -225,6 +233,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MoveToGroupActivity.smali:236"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 78
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -350,6 +360,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MoveToGroupActivity.smali:363"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 136
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -369,6 +381,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MoveToGroupActivity.smali:384"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 145

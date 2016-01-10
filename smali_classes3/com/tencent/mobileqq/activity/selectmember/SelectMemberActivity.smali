@@ -279,6 +279,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:282"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 380
@@ -293,6 +295,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:298"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 189
@@ -353,6 +357,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:360"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 189
     iget v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->H:I
 
@@ -363,6 +369,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:372"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 189
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->c:Landroid/widget/TextView;
 
@@ -373,6 +381,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:384"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 189
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->a:Lcom/tencent/mobileqq/adapter/ContactsSearchResultAdapter;
 
@@ -383,6 +393,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:396"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 189
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->a(Ljava/lang/String;)Ljava/lang/String;
 
@@ -395,6 +407,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:410"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1324
     const/4 v1, 0x0
 
@@ -437,6 +451,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:454"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 189
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->a:Lkhi;
 
@@ -447,6 +463,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:466"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1877
     const/4 v0, 0x0
 
@@ -498,7 +516,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;)V
     .locals 0
 
-    .prologue
     .line 189
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->q()V
 
@@ -508,7 +525,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;B)V
     .locals 0
 
-    .prologue
     .line 189
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->a(B)V
 
@@ -519,6 +535,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:538"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 189
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->o:Z
 
@@ -529,6 +547,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:550"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 189
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->b(Ljava/lang/String;Ljava/lang/String;ILjava/lang/String;)Z
 
@@ -541,6 +561,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:564"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2137
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->getString(I)Ljava/lang/String;
 
@@ -556,6 +578,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:581"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     const/4 v4, 0x1
@@ -668,6 +692,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:695"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v0, 0x1
@@ -753,6 +779,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:782"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2141
     const/16 v0, 0x7d0
 
@@ -801,6 +829,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:832"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2758
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -849,6 +879,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:882"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2438
     const/4 v0, 0x1
 
@@ -879,6 +911,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:914"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v6, 0xa
 
     const/4 v3, 0x1
@@ -986,6 +1020,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:1023"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     const/4 v3, 0x0
@@ -1384,6 +1420,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:1423"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -1585,6 +1623,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:1626"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0x7f0a1e28
 
     const/4 v2, 0x0
@@ -1675,6 +1715,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:1718"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     .line 851
@@ -1742,6 +1784,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:1787"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1688
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->a:Landroid/app/Dialog;
 
@@ -1846,6 +1890,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:1893"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1705
     new-instance v0, Lkgo;
 
@@ -1890,6 +1936,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:1939"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2569
     const v0, 0x7f091a83
 
@@ -1936,6 +1984,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:1987"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2581
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->a:Lcom/tencent/av/service/QavWrapper;
 
@@ -1960,6 +2010,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:2013"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 2667
@@ -2237,6 +2289,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:2292"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2731
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->c:Ljava/util/ArrayList;
 
@@ -2399,6 +2453,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:2456"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 2449
@@ -2484,6 +2540,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:2543"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2610
     const-string v0, "pstn"
 
@@ -2580,6 +2638,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:2641"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2153
     new-instance v0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity$ResultRecord;
 
@@ -2605,6 +2665,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:2668"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 841
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->c:Ljava/util/ArrayList;
 
@@ -2638,6 +2700,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:2703"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2470
     invoke-static {}, Lcom/tencent/mobileqq/util/Utils;->a()J
 
@@ -2706,6 +2770,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:2773"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1313
     const/4 v0, 0x0
 
@@ -2762,6 +2828,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:2831"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     const/16 v2, 0xbb8
@@ -2835,6 +2903,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:2906"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1001
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->a:Landroid/widget/GridView;
 
@@ -2916,6 +2986,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:2989"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2484
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -2985,6 +3057,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:3060"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 762
     if-eqz p1, :cond_1
 
@@ -3127,6 +3201,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:3204"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1940
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->c:Ljava/util/ArrayList;
 
@@ -3153,6 +3229,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:3232"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 1301
@@ -3204,6 +3282,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:3285"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 1949
@@ -3264,6 +3344,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:3347"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v8, 0x270f
 
     const/4 v7, 0x1
@@ -3443,6 +3525,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:3528"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v3, 0x42200000    # 40.0f
 
     const/high16 v4, 0x41200000    # 10.0f
@@ -3582,6 +3666,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:3669"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v1, 0x8
 
     const/4 v2, 0x0
@@ -3683,6 +3769,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:3772"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2496
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -3832,6 +3920,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:3923"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2062
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->n:Z
 
@@ -3842,6 +3932,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:3935"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v6, 0x0
@@ -3952,6 +4044,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:4047"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f0a1c99
 
     const/4 v1, 0x0
@@ -4149,6 +4243,8 @@
     .locals 17
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:4246"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1357
     move-object/from16 v0, p0
 
@@ -5432,6 +5528,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:5531"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2036
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->a:Landroid/widget/EditText;
 
@@ -5557,6 +5655,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:5658"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 582
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->a:Lcom/tencent/common/app/InnerFrameManager;
 
@@ -5576,6 +5676,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:5679"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v3, 0x1
@@ -5767,6 +5869,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:5872"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 565
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnDestroy()V
 
@@ -5831,6 +5935,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:5938"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 589
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnNewIntent(Landroid/content/Intent;)V
 
@@ -5859,6 +5965,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:5968"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 549
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnPause()V
 
@@ -5880,6 +5988,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:5991"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 541
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnResume()V
 
@@ -5901,6 +6011,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:6014"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 533
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnStart()V
 
@@ -5921,6 +6033,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:6036"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 557
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnStop()V
 
@@ -5946,6 +6060,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:6063"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v8, 0x12c
 
     const/4 v7, 0x1
@@ -6087,6 +6203,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:6206"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 2053
@@ -6136,6 +6254,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:6257"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2187
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->finish()V
 
@@ -6219,6 +6339,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:6342"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 2165
@@ -6273,6 +6395,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:6398"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 2176
@@ -6308,6 +6432,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:6435"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x4
 
     const/4 v3, 0x0
@@ -6491,6 +6617,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:6620"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 2713
@@ -6597,6 +6725,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity.smali:6728"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 476
     const/4 v0, 0x1
 

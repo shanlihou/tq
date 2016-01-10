@@ -24,6 +24,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserDelegationActivity.smali:27"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 29
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -43,6 +45,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserDelegationActivity.smali:48"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 55
@@ -126,6 +130,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserDelegationActivity.smali:133"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 76
@@ -209,6 +215,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserDelegationActivity.smali:218"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 50
     const/4 v0, 0x1
 

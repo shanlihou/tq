@@ -32,6 +32,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopRequestRefuseActivity.smali:35"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 38
@@ -73,7 +75,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/TroopRequestRefuseActivity;Z)V
     .locals 0
 
-    .prologue
     .line 38
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/TroopRequestRefuseActivity;->enableRightHighlight(Z)V
 
@@ -83,7 +84,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/TroopRequestRefuseActivity;Z)V
     .locals 0
 
-    .prologue
     .line 38
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/TroopRequestRefuseActivity;->enableRightHighlight(Z)V
 
@@ -96,6 +96,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopRequestRefuseActivity.smali:99"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 201
     const-string v0, "share_troop_request_refuse"
 
@@ -139,6 +141,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopRequestRefuseActivity.smali:144"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 214
     const-string v0, "share_troop_request_refuse"
 
@@ -184,6 +188,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopRequestRefuseActivity.smali:191"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v11, 0x0
 
     .line 105
@@ -341,6 +347,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopRequestRefuseActivity.smali:350"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0x77
 
     .line 168
@@ -398,7 +406,6 @@
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 159
     return-void
 .end method
@@ -407,6 +414,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopRequestRefuseActivity.smali:417"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v12, 0x1
 
     const/4 v6, 0x0
@@ -602,6 +611,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopRequestRefuseActivity.smali:614"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 89
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopRequestRefuseActivity;->a:Landroid/widget/EditText;
 
@@ -640,6 +651,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopRequestRefuseActivity.smali:654"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 135
@@ -768,7 +781,6 @@
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 164
     return-void
 .end method

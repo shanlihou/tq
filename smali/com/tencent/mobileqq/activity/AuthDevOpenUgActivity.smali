@@ -85,6 +85,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevOpenUgActivity.smali:88"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 47
@@ -129,6 +131,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevOpenUgActivity.smali:134"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AuthDevOpenUgActivity;->a:Loicq/wlogin_sdk/devicelock/DevlockInfo;
 
@@ -138,7 +142,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AuthDevOpenUgActivity;Loicq/wlogin_sdk/devicelock/DevlockInfo;)V
     .locals 0
 
-    .prologue
     .line 47
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/AuthDevOpenUgActivity;->a(Loicq/wlogin_sdk/devicelock/DevlockInfo;)V
 
@@ -148,7 +151,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AuthDevOpenUgActivity;ZI)V
     .locals 0
 
-    .prologue
     .line 47
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/AuthDevOpenUgActivity;->a(ZI)V
 
@@ -159,6 +161,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevOpenUgActivity.smali:164"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     .line 232
@@ -304,6 +308,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevOpenUgActivity.smali:311"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     const/4 v4, 0x0
@@ -559,6 +565,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevOpenUgActivity.smali:568"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 699
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/AuthDevOpenUgActivity;->getIntent()Landroid/content/Intent;
 
@@ -674,6 +682,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevOpenUgActivity.smali:685"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 266
     const v0, 0x7f09112e
 
@@ -840,6 +850,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevOpenUgActivity.smali:853"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 683
     invoke-virtual {p0, p1, p2}, Lcom/tencent/mobileqq/activity/AuthDevOpenUgActivity;->setResult(ILandroid/content/Intent;)V
 
@@ -883,6 +895,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevOpenUgActivity.smali:898"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0x3ea
 
     const/4 v10, 0x0
@@ -1723,6 +1737,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevOpenUgActivity.smali:1740"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -2499,7 +2515,6 @@
 .method protected doOnDestroy()V
     .locals 0
 
-    .prologue
     .line 226
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -2511,6 +2526,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevOpenUgActivity.smali:2529"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 670
@@ -2564,6 +2581,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevOpenUgActivity.smali:2584"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     const/4 v5, 0x0

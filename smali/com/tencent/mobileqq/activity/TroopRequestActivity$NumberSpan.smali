@@ -18,6 +18,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopRequestActivity$NumberSpan.smali:21"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 393
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/TroopRequestActivity$NumberSpan;->a:Lcom/tencent/mobileqq/activity/TroopRequestActivity;
 
@@ -45,6 +47,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopRequestActivity$NumberSpan.smali:50"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v10, 0x3
 
     const/4 v13, 0x2
@@ -428,6 +432,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopRequestActivity$NumberSpan.smali:435"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 469
     const v0, -0xe0450d
 

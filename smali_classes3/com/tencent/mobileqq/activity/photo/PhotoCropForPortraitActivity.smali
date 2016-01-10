@@ -12,6 +12,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoCropForPortraitActivity.smali:15"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 26
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/photo/PhotoCropActivity;-><init>()V
 
@@ -26,6 +28,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoCropForPortraitActivity.smali:31"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 50
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/photo/PhotoCropForPortraitActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -187,6 +191,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoCropForPortraitActivity.smali:194"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v3, 0x1000000
 
     .line 32

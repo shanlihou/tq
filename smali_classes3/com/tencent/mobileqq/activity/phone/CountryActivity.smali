@@ -40,6 +40,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/CountryActivity.smali:43"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 51
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -60,6 +62,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/CountryActivity.smali:65"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 51
     invoke-static {p0, p1, p2}, Lcom/tencent/mobileqq/activity/phone/CountryActivity;->b(Landroid/view/ViewGroup;Landroid/view/LayoutInflater;Z)Landroid/view/View;
 
@@ -72,6 +76,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/CountryActivity.smali:79"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 305
     invoke-virtual {p0}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
@@ -122,6 +128,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/CountryActivity.smali:131"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 291
     const v0, 0x7f03016f
 
@@ -202,6 +210,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/CountryActivity.smali:213"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 166
     invoke-virtual {p1}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
@@ -273,6 +283,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/CountryActivity.smali:286"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 158
     const-string v0, "$"
 
@@ -326,6 +338,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/CountryActivity.smali:341"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v10, 0x1
 
     const/4 v3, 0x0
@@ -785,6 +799,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/CountryActivity.smali:802"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v5, 0x12c
 
     const/4 v3, 0x1

@@ -17,6 +17,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayLSUnlockActivity.smali:20"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 14
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQLSUnlockActivity;-><init>()V
 
@@ -31,6 +33,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PayLSUnlockActivity.smali:36"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 22
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/QQLSUnlockActivity;->onCreate(Landroid/os/Bundle;)V
 

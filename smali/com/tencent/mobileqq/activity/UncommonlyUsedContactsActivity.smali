@@ -53,6 +53,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:56"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 75
@@ -94,6 +96,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:99"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     const/4 v3, 0x0
@@ -303,7 +307,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/UncommonlyUsedContactsActivity;)V
     .locals 0
 
-    .prologue
     .line 75
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/UncommonlyUsedContactsActivity;->c()V
 
@@ -313,7 +316,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/UncommonlyUsedContactsActivity;I)V
     .locals 0
 
-    .prologue
     .line 75
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/UncommonlyUsedContactsActivity;->b(I)V
 
@@ -324,6 +326,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:329"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f0a2486
 
     const v2, 0x7f0a20f0
@@ -485,6 +489,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:492"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x4
 
     const/4 v4, 0x0
@@ -706,6 +712,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:715"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 445
@@ -947,6 +955,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:958"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v11, 0xc8
 
     const/4 v10, 0x1
@@ -1073,6 +1083,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:1086"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 889
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/UncommonlyUsedContactsActivity;->a:Lcom/tencent/mobileqq/widget/QQToastNotifier;
 
@@ -1111,6 +1123,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:1126"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 682
@@ -1197,6 +1211,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:1214"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 831
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/UncommonlyUsedContactsActivity;->getActivity()Landroid/app/Activity;
 
@@ -1258,6 +1274,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:1277"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 116
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -1284,6 +1302,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:1305"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 134
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnDestroy()V
 
@@ -1332,6 +1352,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:1355"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 126
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnStart()V
 
@@ -1352,6 +1374,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:1377"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 898
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->finish()V
 
@@ -1370,6 +1394,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:1397"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 508
@@ -1538,6 +1564,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity.smali:1567"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 149
     const/4 v0, 0x1
 

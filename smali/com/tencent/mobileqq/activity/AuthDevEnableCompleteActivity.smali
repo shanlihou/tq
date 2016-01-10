@@ -45,6 +45,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevEnableCompleteActivity.smali:48"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 28
@@ -76,6 +78,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevEnableCompleteActivity.smali:81"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     const/4 v5, 0x0
@@ -262,6 +266,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevEnableCompleteActivity.smali:269"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v12, 0x2
 
     const/4 v7, 0x0
@@ -583,7 +589,6 @@
 .method public a(ILandroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 311
     invoke-virtual {p0, p1, p2}, Lcom/tencent/mobileqq/activity/AuthDevEnableCompleteActivity;->setResult(ILandroid/content/Intent;)V
 
@@ -597,7 +602,6 @@
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 295
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onActivityResult(IILandroid/content/Intent;)V
 
@@ -609,6 +613,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevEnableCompleteActivity.smali:616"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 306
     const/4 v0, 0x0
 
@@ -619,6 +625,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevEnableCompleteActivity.smali:628"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v7, 0x7f040012
 
     const/4 v4, 0x2
@@ -884,6 +892,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevEnableCompleteActivity.smali:895"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 61
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/AuthDevEnableCompleteActivity;->getIntent()Landroid/content/Intent;
 

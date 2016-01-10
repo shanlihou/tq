@@ -16,6 +16,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/PeakActivity.smali:19"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 24
@@ -31,7 +33,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .prologue
     .line 19
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity2;-><init>()V
 
@@ -44,6 +45,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/PeakActivity.smali:48"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 84
     const/4 v0, 0x0
 
@@ -83,6 +86,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/PeakActivity.smali:89"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 30
     sget-object v0, Lcom/tencent/mobileqq/activity/aio/photo/AIOGalleryUtils;->a:Landroid/os/Handler;
 
@@ -171,6 +176,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/PeakActivity.smali:179"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 50
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity2;->onDestroy()V
 
@@ -243,7 +250,6 @@
 .method public onPause()V
     .locals 0
 
-    .prologue
     .line 69
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity2;->onPause()V
 
@@ -260,7 +266,6 @@
 .method public onResume()V
     .locals 0
 
-    .prologue
     .line 77
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity2;->onResume()V
 

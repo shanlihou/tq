@@ -144,6 +144,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:147"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v3, -0x1
 
     const/4 v2, -0x1
@@ -269,6 +271,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:274"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 83
     invoke-super {p0}, Landroid/app/Activity;->getIntent()Landroid/content/Intent;
 
@@ -280,7 +284,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity;)V
     .locals 0
 
-    .prologue
     .line 83
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->finish()V
 
@@ -293,6 +296,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:299"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 741
     packed-switch p1, :pswitch_data_0
 
@@ -340,6 +345,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:348"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 492
@@ -442,6 +449,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:452"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     const/4 v1, 0x1
@@ -565,6 +574,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:577"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     const/4 v3, 0x0
@@ -800,6 +811,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:814"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1421
     invoke-static {p1}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -899,6 +912,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:915"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1439
     sget-object v0, Landroid/os/Build;->MODEL:Ljava/lang/String;
 
@@ -928,6 +943,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:946"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 517
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -985,6 +1002,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:1005"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v12, 0x1
 
     .line 882
@@ -1360,6 +1379,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:1382"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 527
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1479,6 +1500,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:1503"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1369
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity;->b:Landroid/widget/TextView;
 
@@ -1528,6 +1551,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:1554"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 552
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity;->a:Lmqq/os/MqqHandler;
 
@@ -1543,6 +1568,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:1571"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 644
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnBackPressed()V
 
@@ -1561,6 +1588,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:1591"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     const/4 v3, 0x1
@@ -1964,6 +1993,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:1996"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 651
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnDestroy()V
 
@@ -2079,6 +2110,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:2113"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1192
     packed-switch p1, :pswitch_data_0
 
@@ -2130,6 +2163,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:2166"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 576
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity;->a:Landroid/media/MediaPlayer;
 
@@ -2201,6 +2236,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:2239"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 591
@@ -2352,6 +2389,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:2392"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 558
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -2399,6 +2438,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:2441"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 568
     invoke-static {}, Lcom/tencent/util/VersionUtils;->b()Z
 
@@ -2431,6 +2472,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:2475"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 718
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity;->a:Landroid/media/MediaPlayer;
 
@@ -2465,6 +2508,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:2511"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 727
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity;->a:Landroid/media/MediaPlayer;
 
@@ -2538,6 +2583,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:2586"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, -0x1
 
     const/high16 v7, 0x40000000    # 2.0f
@@ -2730,6 +2777,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:2780"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 862
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity;->a:Landroid/media/MediaPlayer;
 
@@ -2754,6 +2803,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:2806"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 984
     const v0, 0x7f0a22f6
 
@@ -2987,6 +3038,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:3041"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 238
     const/4 v0, 0x0
 
@@ -2997,6 +3050,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:3053"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     .line 1029
@@ -3042,6 +3097,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:3100"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     const/4 v3, 0x0
@@ -3165,6 +3222,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:3225"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     .line 1065
@@ -3242,6 +3301,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:3304"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 1124
@@ -3367,6 +3428,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:3431"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 1206
@@ -3523,6 +3586,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:3589"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 1383
@@ -3578,6 +3643,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:3646"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1376
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->onBackPressed()V
 
@@ -3596,6 +3663,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:3666"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1154
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -3714,6 +3783,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:3786"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v10, 0x1
 
     const/4 v3, 0x2
@@ -3838,6 +3909,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:3912"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 848
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -3902,6 +3975,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:3978"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 629
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->onSaveInstanceState(Landroid/os/Bundle;)V
 
@@ -3978,6 +4053,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:4056"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1395
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity;->c:Landroid/widget/TextView;
 
@@ -4003,6 +4080,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:4083"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1404
     const/16 v1, 0xe8
 
@@ -4039,6 +4118,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:4121"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 455
     const/4 v0, 0x1
 
@@ -4051,7 +4132,6 @@
 .method public surfaceChanged(Landroid/view/SurfaceHolder;III)V
     .locals 0
 
-    .prologue
     .line 699
     return-void
 .end method
@@ -4060,6 +4140,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:4143"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 680
@@ -4133,6 +4215,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayActivity.smali:4218"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     .line 703

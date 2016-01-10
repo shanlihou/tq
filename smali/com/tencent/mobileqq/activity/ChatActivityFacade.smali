@@ -40,6 +40,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:43"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
@@ -83,7 +85,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .prologue
     .line 205
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -95,6 +96,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:99"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, -0x1
 
     .line 1535
@@ -160,6 +163,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:166"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 3044
@@ -195,6 +200,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:203"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 398
     const-wide/16 v1, 0x0
 
@@ -239,6 +246,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:249"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 889
     invoke-static {p3}, Lcom/tencent/mobileqq/structmsg/StructMsgHelper;->a(Ljava/util/ArrayList;)Lcom/tencent/mobileqq/structmsg/AbsStructMsg;
 
@@ -307,6 +316,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:319"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3097
     const-wide/16 v0, 0x0
 
@@ -354,6 +365,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:368"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v10, 0x0
@@ -422,6 +435,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:438"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1647
     invoke-static/range {p0 .. p12}, Lcom/tencent/mobileqq/activity/ChatActivityFacade;->b(Lcom/tencent/mobileqq/app/QQAppInterface;Lcom/tencent/mobileqq/activity/aio/SessionInfo;Ljava/lang/String;JIZBBSILjava/util/ArrayList;Lcom/tencent/mobileqq/activity/ChatActivityFacade$SendMsgParams;)J
 
@@ -434,6 +449,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:452"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2476
     if-eqz p1, :cond_0
 
@@ -536,6 +553,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:556"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 855
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/aio/ChatAdapter1;->a()Ljava/util/List;
 
@@ -578,6 +597,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:600"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 954
     const/4 v1, 0x0
 
@@ -663,6 +684,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:687"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3117
     const/4 v0, 0x0
 
@@ -709,6 +732,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:735"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v4, 0x1
@@ -784,6 +809,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:812"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x3
 
     const/4 v0, 0x0
@@ -922,6 +949,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:952"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3369
     if-eqz p2, :cond_0
 
@@ -1411,6 +1440,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:1443"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 205
     sget-object v0, Lcom/tencent/mobileqq/activity/ChatActivityFacade;->a:Lgmr;
 
@@ -1421,6 +1452,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:1455"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v0, 0x1e
 
     const/4 v2, 0x0
@@ -1535,6 +1568,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:1571"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 205
     sget-object v0, Lcom/tencent/mobileqq/activity/ChatActivityFacade;->a:Ljava/lang/String;
 
@@ -1545,6 +1580,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:1583"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 825
@@ -1694,6 +1731,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:1734"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 2529
@@ -1791,6 +1830,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:1833"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2336
     const-string v1, "..."
 
@@ -2059,6 +2100,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:2103"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2516
     invoke-static {p1, p2}, Lcom/tencent/mobileqq/activity/ChatActivityFacade;->b(Lcom/tencent/mobileqq/app/QQAppInterface;Lcom/tencent/mobileqq/data/ChatMessage;)V
 
@@ -2130,6 +2173,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:2176"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 2660
@@ -2221,6 +2266,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:2269"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2214
     .line 2215
     const/16 v1, 0x3e9
@@ -2401,6 +2448,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:2451"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 1791
@@ -2595,6 +2644,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:2647"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v7, -0x7e3
 
     const/4 v12, 0x0
@@ -2746,6 +2797,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:2800"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 923
     invoke-virtual {p0}, Lcom/tencent/mobileqq/app/QQAppInterface;->a()Lcom/tencent/mobileqq/app/message/QQMessageFacade;
 
@@ -2824,6 +2877,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:2880"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1927
     const-string v0, "not_forward"
 
@@ -2905,6 +2960,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:2963"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1959
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isDevelopLevel()Z
 
@@ -3727,6 +3784,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:3787"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v5, 0x0
@@ -4261,6 +4320,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:4323"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3137
     invoke-virtual {p0}, Lcom/tencent/mobileqq/app/QQAppInterface;->a()Lcom/tencent/mobileqq/app/message/QQMessageFacade;
 
@@ -4336,6 +4397,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:4400"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v0, -0x1
 
     const/16 v7, 0x3ee
@@ -4488,6 +4551,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:4554"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v0, -0x1
 
     const/4 v3, 0x1
@@ -4608,6 +4673,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:4676"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 3263
@@ -4728,6 +4795,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:4798"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1138
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -5044,6 +5113,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:5116"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     .line 3221
@@ -5182,6 +5253,8 @@
     .locals 17
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:5256"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2426
     invoke-static/range {p3 .. p3}, Lcom/tencent/mobileqq/utils/FileUtils;->b(Ljava/lang/String;)Z
 
@@ -5472,6 +5545,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:5548"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1846
     new-instance v5, Lcom/tencent/mobileqq/activity/ChatActivityFacade$SendMsgParams;
 
@@ -5497,6 +5572,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:5575"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 714
@@ -5677,6 +5754,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:5757"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 222
     invoke-static {}, Lcom/tencent/mobileqq/structmsg/TestStructMsg;->a()Ljava/util/List;
 
@@ -5756,7 +5835,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/app/QQAppInterface;Lcom/tencent/mobileqq/activity/aio/SessionInfo;LNS_MOBILE_AIONewestFeed/AIONewestFeedRsp;Lcom/tencent/mobileqq/activity/aio/ChatAdapter1;)V
     .locals 0
 
-    .prologue
     .line 205
     invoke-static {p0, p1, p2, p3}, Lcom/tencent/mobileqq/activity/ChatActivityFacade;->b(Lcom/tencent/mobileqq/app/QQAppInterface;Lcom/tencent/mobileqq/activity/aio/SessionInfo;LNS_MOBILE_AIONewestFeed/AIONewestFeedRsp;Lcom/tencent/mobileqq/activity/aio/ChatAdapter1;)V
 
@@ -5767,6 +5845,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:5848"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 865
     if-nez p2, :cond_1
 
@@ -5845,6 +5925,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:5928"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v8, -0x7df
 
     const/4 v1, 0x1
@@ -6031,6 +6113,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:6116"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v9, 0x0
 
     const/4 v8, 0x1
@@ -6169,6 +6253,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:6256"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3164
     invoke-virtual {p0}, Lcom/tencent/mobileqq/app/QQAppInterface;->a()Lcom/tencent/mobileqq/app/message/QQMessageFacade;
 
@@ -6206,6 +6292,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:6295"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2400
     iget v0, p1, Lcom/tencent/mobileqq/activity/aio/SessionInfo;->a:I
 
@@ -6273,6 +6361,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:6364"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 980
@@ -6328,6 +6418,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:6421"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2783
     const-wide/16 v0, -0x1
 
@@ -6403,6 +6495,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:6498"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 310
@@ -6474,6 +6568,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:6571"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2319
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -6533,6 +6629,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:6632"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v9, 0x8
 
     const/16 v4, -0xfb4
@@ -6788,6 +6886,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:6889"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     .line 2376
@@ -6881,6 +6981,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:6984"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2505
     invoke-virtual {p0}, Lcom/tencent/mobileqq/app/QQAppInterface;->a()Lcom/tencent/mobileqq/app/message/QQMessageFacade;
 
@@ -6929,6 +7031,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:7034"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2815
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -7051,6 +7155,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:7158"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 994
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -7885,6 +7991,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:7994"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x3
 
     const/4 v2, 0x0
@@ -7959,6 +8067,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:8070"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 350
     new-instance v0, Lgmb;
 
@@ -7994,7 +8104,6 @@
 .method public static a(Lcom/tencent/mobileqq/data/RecentEmotionData;Ljava/lang/String;IIILjava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 1492
     iput-object p1, p0, Lcom/tencent/mobileqq/data/RecentEmotionData;->uin:Ljava/lang/String;
 
@@ -8018,6 +8127,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:8130"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3059
     sget-boolean v0, Lcom/tencent/common/config/AppSetting;->l:Z
 
@@ -8100,6 +8211,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:8214"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 2551
@@ -8207,6 +8320,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:8323"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 3181
@@ -8330,6 +8445,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:8448"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 941
     iget-object v0, p1, Lcom/tencent/mobileqq/activity/aio/SessionInfo;->a:Ljava/lang/String;
 
@@ -8361,6 +8478,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:8481"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 2955
@@ -8383,6 +8502,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:8505"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 205
     invoke-static/range {p0 .. p5}, Lcom/tencent/mobileqq/activity/ChatActivityFacade;->b(Lcom/tencent/mobileqq/app/QQAppInterface;Lcom/tencent/mobileqq/persistence/EntityManager;IILjava/lang/String;Ljava/util/List;)Z
 
@@ -8395,6 +8516,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:8519"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3331
     invoke-virtual {p0}, Lcom/tencent/mobileqq/app/QQAppInterface;->a()Lcom/tencent/mobileqq/app/message/QQMessageFacade;
 
@@ -8430,6 +8553,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:8556"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v0, 0x0
@@ -8514,6 +8639,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:8642"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     .line 1881
@@ -8645,6 +8772,8 @@
     .locals 22
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:8775"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1551
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -9184,6 +9313,8 @@
     .locals 16
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:9316"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1656
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -9822,6 +9953,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:9956"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 2570
@@ -9913,6 +10046,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:10049"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 905
     sget v0, Lcom/tencent/mobileqq/service/MobileQQService;->c:I
 
@@ -10040,6 +10175,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:10178"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 1775
@@ -10118,6 +10255,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:10258"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v10, 0x2
 
     const/4 v9, 0x1
@@ -10513,6 +10652,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:10655"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 769
     iget-wide v0, p2, LNS_MOBILE_AIONewestFeed/AIONewestFeedRsp;->uOpuin:J
 
@@ -10707,6 +10848,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:10851"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v1, 0x32
 
     const/4 v3, 0x0
@@ -10898,6 +11041,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:11044"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2638
     sget-object v0, Lcom/tencent/mobileqq/activity/ChatActivityFacade;->a:Ljava/util/List;
 
@@ -11035,6 +11180,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:11183"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v2, 0x0
@@ -11212,6 +11359,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:11362"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1841
     const/4 v4, 0x0
 
@@ -11237,6 +11386,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:11389"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 419
     iget v0, p1, Lcom/tencent/mobileqq/activity/aio/SessionInfo;->a:I
 
@@ -11968,6 +12119,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:12122"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v7, -0xfa5
 
     .line 586
@@ -12037,6 +12190,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:12193"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v3, 0x12
 
     .line 2803

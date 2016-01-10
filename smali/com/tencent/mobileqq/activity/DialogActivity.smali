@@ -16,6 +16,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DialogActivity.smali:19"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 18
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -27,7 +29,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/DialogActivity;Lcom/tencent/mobileqq/utils/QQCustomDialog;)V
     .locals 0
 
-    .prologue
     .line 18
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/DialogActivity;->a(Lcom/tencent/mobileqq/utils/QQCustomDialog;)V
 
@@ -38,6 +39,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DialogActivity.smali:42"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     .line 75
@@ -110,6 +113,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DialogActivity.smali:116"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 31
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/DialogActivity;->getIntent()Landroid/content/Intent;
 
@@ -142,6 +147,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DialogActivity.smali:150"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 40
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnResume()V
 
@@ -208,6 +215,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DialogActivity.smali:218"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 26
     const/4 v0, 0x1
 

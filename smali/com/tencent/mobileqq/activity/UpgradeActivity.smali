@@ -46,6 +46,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeActivity.smali:49"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x0
@@ -81,7 +83,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/UpgradeActivity;)V
     .locals 0
 
-    .prologue
     .line 43
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/UpgradeActivity;->f()V
 
@@ -91,7 +92,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/UpgradeActivity;Z)V
     .locals 0
 
-    .prologue
     .line 43
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/UpgradeActivity;->a(Z)V
 
@@ -102,6 +102,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeActivity.smali:105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 466
@@ -149,6 +151,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeActivity.smali:154"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 439
@@ -236,7 +240,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/UpgradeActivity;)V
     .locals 0
 
-    .prologue
     .line 43
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/UpgradeActivity;->g()V
 
@@ -247,6 +250,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeActivity.smali:253"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     const-string v0, "\u4e0b\u8f7d\u6682\u505c"
 
@@ -270,6 +275,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeActivity.smali:278"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 116
     const-string v0, "\u4e0b\u8f7dQQ\u5931\u8d25"
 
@@ -293,6 +300,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeActivity.smali:303"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     const/4 v4, 0x1
@@ -506,7 +515,6 @@
 .method private f()V
     .locals 0
 
-    .prologue
     .line 478
     return-void
 .end method
@@ -514,7 +522,6 @@
 .method private g()V
     .locals 0
 
-    .prologue
     .line 485
     return-void
 .end method
@@ -522,7 +529,6 @@
 .method private h()V
     .locals 0
 
-    .prologue
     .line 492
     return-void
 .end method
@@ -533,6 +539,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeActivity.smali:542"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 420
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/UpgradeActivity;->finish()V
 
@@ -551,6 +559,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeActivity.smali:562"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 427
@@ -598,6 +608,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeActivity.smali:611"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 72
@@ -700,7 +712,6 @@
 .method protected onAccountChanged()V
     .locals 0
 
-    .prologue
     .line 104
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->onAccountChanged()V
 
@@ -715,6 +726,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeActivity.smali:729"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 184
     const/4 v0, 0x0
 

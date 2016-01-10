@@ -17,6 +17,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity$MapRuntime.smali:20"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2160
     invoke-direct {p0}, Lcom/tencent/mobileqq/pluginsdk/PluginRuntime;-><init>()V
 
@@ -38,6 +40,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity$MapRuntime.smali:43"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2165
     invoke-static {}, Ljava/lang/Thread;->getDefaultUncaughtExceptionHandler()Ljava/lang/Thread$UncaughtExceptionHandler;
 
@@ -130,6 +134,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity$MapRuntime.smali:137"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2211
     const-string v0, "QQMapActivity"
 

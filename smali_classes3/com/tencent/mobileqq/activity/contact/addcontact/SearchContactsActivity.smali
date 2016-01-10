@@ -8,6 +8,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchContactsActivity.smali:11"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 15
 
     const-string v1, "init"
@@ -26,6 +28,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchContactsActivity.smali:31"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 84
     new-instance v0, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchContactsFragment;
 
@@ -40,6 +44,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchContactsActivity.smali:47"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 18
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity;->a()V
 
@@ -174,6 +180,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchContactsActivity.smali:183"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 72

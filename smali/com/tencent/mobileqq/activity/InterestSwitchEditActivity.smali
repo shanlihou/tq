@@ -72,6 +72,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/InterestSwitchEditActivity.smali:75"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 18
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -90,7 +92,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/InterestSwitchEditActivity;Lcom/tencent/mobileqq/data/Card;)Lcom/tencent/mobileqq/data/Card;
     .locals 0
 
-    .prologue
     .line 18
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/InterestSwitchEditActivity;->a:Lcom/tencent/mobileqq/data/Card;
 
@@ -101,6 +102,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/InterestSwitchEditActivity.smali:105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x1
@@ -373,7 +376,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/InterestSwitchEditActivity;)V
     .locals 0
 
-    .prologue
     .line 18
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/InterestSwitchEditActivity;->a()V
 
@@ -386,6 +388,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/InterestSwitchEditActivity.smali:391"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -773,6 +777,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/InterestSwitchEditActivity.smali:780"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 112
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -791,6 +797,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/InterestSwitchEditActivity.smali:800"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v2, 0x1

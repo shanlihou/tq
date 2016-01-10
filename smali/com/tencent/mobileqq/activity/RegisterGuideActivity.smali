@@ -25,6 +25,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterGuideActivity.smali:28"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 32
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -42,6 +44,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterGuideActivity.smali:47"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 58
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/RegisterGuideActivity;->getResources()Landroid/content/res/Resources;
 
@@ -98,7 +102,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RegisterGuideActivity;)V
     .locals 0
 
-    .prologue
     .line 32
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/RegisterGuideActivity;->c()V
 
@@ -109,6 +112,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterGuideActivity.smali:115"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 67
     :try_start_0
     new-instance v0, Landroid/graphics/drawable/BitmapDrawable;
@@ -225,6 +230,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterGuideActivity.smali:233"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 125
     new-instance v9, Landroid/view/animation/AnimationSet;
 
@@ -355,6 +362,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterGuideActivity.smali:365"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 145
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/RegisterGuideActivity;->finish()V
 
@@ -387,6 +396,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterGuideActivity.smali:399"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 43
     const/4 v0, 0x0
 
@@ -461,6 +472,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterGuideActivity.smali:475"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 112
     if-eqz p1, :cond_0
 
@@ -492,7 +505,6 @@
 .method protected onAccountChanged()V
     .locals 0
 
-    .prologue
     .line 153
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->onAccountChanged()V
 
@@ -507,6 +519,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterGuideActivity.smali:522"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v3, 0x4000000
 
     .line 90
@@ -589,7 +603,6 @@
 .method protected onLogout(Lmqq/app/Constants$LogoutReason;)V
     .locals 0
 
-    .prologue
     .line 160
     return-void
 .end method

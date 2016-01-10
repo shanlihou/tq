@@ -67,6 +67,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:70"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -100,6 +102,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity;->f:I
 
@@ -110,6 +114,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:117"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity;->a:Lcom/tencent/mobileqq/app/FriendListHandler;
 
@@ -120,6 +126,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:129"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity;->a:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -130,6 +138,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:141"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -139,7 +149,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity;Lcom/tencent/mobileqq/widget/QQProgressDialog;)Lcom/tencent/mobileqq/widget/QQProgressDialog;
     .locals 0
 
-    .prologue
     .line 47
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -150,6 +159,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:162"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity;->b:Ljava/lang/String;
 
@@ -160,6 +171,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:174"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 105
     const v0, 0x7f091417
 
@@ -295,7 +308,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity;)V
     .locals 0
 
-    .prologue
     .line 47
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity;->e()V
 
@@ -306,6 +318,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:321"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity;->a:Z
 
@@ -316,6 +330,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:333"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity;->b:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -326,6 +342,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:345"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 154
@@ -475,7 +493,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity;)V
     .locals 0
 
-    .prologue
     .line 47
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity;->c()V
 
@@ -486,6 +503,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:506"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/16 v3, 0x8
@@ -679,6 +698,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:701"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 239
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -716,6 +737,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:740"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v6, 0x7f0a1936
 
     const/4 v5, 0x2
@@ -1019,6 +1042,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:1045"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 334
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1105,6 +1130,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:1133"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v12, 0x1
 
     const/4 v6, 0x0
@@ -1257,6 +1284,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:1287"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 191
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -1346,7 +1375,6 @@
 .method protected doOnResume()V
     .locals 0
 
-    .prologue
     .line 185
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnResume()V
 
@@ -1361,6 +1389,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:1392"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     const/4 v3, 0x1
@@ -1577,6 +1607,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QQSpecialFriendSettingActivity.smali:1610"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v6, 0x0

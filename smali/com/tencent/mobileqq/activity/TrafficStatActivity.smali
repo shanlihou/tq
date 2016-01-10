@@ -27,6 +27,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TrafficStatActivity.smali:30"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v1, 0x0
 
     const/4 v3, 0x0
@@ -103,6 +105,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TrafficStatActivity.smali:108"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 53
     new-instance v0, Ljava/util/Vector;
 
@@ -268,6 +272,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TrafficStatActivity.smali:275"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 154
     if-nez p1, :cond_0
 
@@ -620,6 +626,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TrafficStatActivity.smali:629"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 120
     new-instance v1, Lmqq/app/NewIntent;
 
@@ -734,6 +742,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TrafficStatActivity.smali:745"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 30
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -801,6 +811,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TrafficStatActivity.smali:814"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 214
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TrafficStatActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -817,6 +829,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TrafficStatActivity.smali:832"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 138
     const/4 v0, 0x3
 

@@ -28,6 +28,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:31"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 34
@@ -46,6 +48,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:51"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 33
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;-><init>()V
 
@@ -74,6 +78,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:81"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 33
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity;->t:Ljava/lang/String;
 
@@ -84,6 +90,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:93"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 33
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity;->t:Ljava/lang/String;
 
@@ -96,6 +104,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:107"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 183
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity;->a:Lcom/tencent/mobileqq/richmedia/dc/DCAIOPreview;
 
@@ -119,6 +129,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:132"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 191
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity;->a:Lcom/tencent/mobileqq/richmedia/dc/DCAIOPreviewProgressive;
 
@@ -142,6 +154,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:157"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 307
     const/4 v0, 0x0
 
@@ -152,6 +166,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:169"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 311
@@ -168,6 +184,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:187"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 207
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity;->a:Lcom/tencent/common/galleryactivity/GalleryManager;
 
@@ -181,6 +199,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:202"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 275
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity;->a:Lcom/tencent/common/galleryactivity/GalleryManager;
 
@@ -202,6 +222,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:225"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 200
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
@@ -218,6 +240,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:243"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 162
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -296,6 +320,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:323"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 283
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onDestroy()V
 
@@ -362,6 +388,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:391"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 212
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity;->a:Lcom/tencent/common/galleryactivity/GalleryManager;
 
@@ -390,6 +418,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:421"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 230
     invoke-static {}, Lcom/tencent/common/app/BaseApplicationImpl;->getContext()Lcom/tencent/qphone/base/util/BaseApplication;
 
@@ -465,6 +495,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:498"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 249
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onResume()V
 
@@ -540,6 +572,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/photo/AIOGalleryActivity.smali:575"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 220
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onWindowFocusChanged(Z)V
 

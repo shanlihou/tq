@@ -41,6 +41,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/SettingActivity2.smali:44"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 45
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;-><init>()V
 
@@ -60,6 +62,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/SettingActivity2.smali:65"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v8, 0x8
 
     const/4 v7, 0x4
@@ -377,6 +381,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/SettingActivity2.smali:384"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0x7f0a132c
 
     .line 186
@@ -424,6 +430,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/SettingActivity2.smali:433"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 263
     invoke-static {p0}, Lcom/tencent/mobileqq/utils/NetworkUtil;->e(Landroid/content/Context;)Z
 
@@ -529,7 +537,6 @@
 .method public doOnActivityResult(IILandroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 362
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;->doOnActivityResult(IILandroid/content/Intent;)V
 
@@ -544,6 +551,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/SettingActivity2.smali:554"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 75
@@ -599,6 +608,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/SettingActivity2.smali:611"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 170
@@ -651,6 +662,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/SettingActivity2.smali:665"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     const/4 v2, 0x1

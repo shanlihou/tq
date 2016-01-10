@@ -87,6 +87,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:90"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x5
 
     const/4 v2, 0x0
@@ -171,6 +173,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:176"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x5
 
     const/4 v4, 0x0
@@ -269,6 +273,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:276"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 56
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/GesturePWDUnlockActivity;->e:Z
 
@@ -278,7 +284,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/GesturePWDUnlockActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 56
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/GesturePWDUnlockActivity;->e:Z
 
@@ -289,6 +294,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:297"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 143
@@ -427,6 +434,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:437"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x5
 
     const/4 v6, 0x1
@@ -718,7 +727,6 @@
 .method public a()V
     .locals 0
 
-    .prologue
     .line 259
     return-void
 .end method
@@ -727,6 +735,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:738"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     const/4 v4, 0x1
@@ -995,7 +1005,6 @@
 .method public b()V
     .locals 0
 
-    .prologue
     .line 351
     return-void
 .end method
@@ -1003,7 +1012,6 @@
 .method public b(Ljava/util/List;)V
     .locals 0
 
-    .prologue
     .line 361
     return-void
 .end method
@@ -1012,6 +1020,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:1023"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     const/4 v4, 0x0
@@ -1146,6 +1156,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:1159"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 454
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1244,6 +1256,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:1259"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, -0x1
 
     .line 400
@@ -1284,6 +1298,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:1301"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v3, 0x400
 
     const/4 v4, 0x1
@@ -1384,6 +1400,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:1403"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 365
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnDestroy()V
 
@@ -1421,6 +1439,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:1442"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 419
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnStop()V
 
@@ -1449,6 +1469,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:1472"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v3, 0x4000000
 
     const/4 v5, 0x1
@@ -1722,6 +1744,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:1747"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v3, 0x0
@@ -1832,6 +1856,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:1859"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 378
     const/4 v0, 0x0
 
@@ -1855,6 +1881,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:1884"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 138
     const/4 v0, 0x0
 
@@ -1864,7 +1892,6 @@
 .method public onAnimationEnd(Landroid/view/animation/Animation;)V
     .locals 0
 
-    .prologue
     .line 646
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/GesturePWDUnlockActivity;->f()V
 
@@ -1875,7 +1902,6 @@
 .method public onAnimationRepeat(Landroid/view/animation/Animation;)V
     .locals 0
 
-    .prologue
     .line 642
     return-void
 .end method
@@ -1883,7 +1909,6 @@
 .method public onAnimationStart(Landroid/view/animation/Animation;)V
     .locals 0
 
-    .prologue
     .line 637
     return-void
 .end method
@@ -1892,6 +1917,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:1920"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     .line 386
@@ -1929,6 +1956,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:1959"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     const/4 v8, 0x0
@@ -1996,7 +2025,6 @@
 .method protected onLogout(Lmqq/app/Constants$LogoutReason;)V
     .locals 0
 
-    .prologue
     .line 667
     return-void
 .end method
@@ -2005,6 +2033,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDUnlockActivity.smali:2036"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 102
     const/4 v0, 0x1
 

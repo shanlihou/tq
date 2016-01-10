@@ -55,6 +55,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoCropActivity.smali:58"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -73,6 +75,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoCropActivity.smali:78"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v0, 0x0
@@ -224,6 +228,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoCropActivity.smali:231"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 191
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/photo/PhotoCropActivity;->a:Z
 
@@ -264,6 +270,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoCropActivity.smali:273"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 120
@@ -363,6 +371,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoCropActivity.smali:374"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     .line 80
@@ -428,6 +438,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoCropActivity.smali:441"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 202
     const/4 v0, 0x0
 
@@ -438,6 +450,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoCropActivity.smali:453"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -512,6 +526,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoCropActivity.smali:529"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 138
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 

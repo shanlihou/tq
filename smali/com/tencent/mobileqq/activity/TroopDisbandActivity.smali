@@ -69,6 +69,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity.smali:72"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -96,6 +98,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity.smali:101"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 142
     const v0, 0x7f091437
 
@@ -326,6 +330,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity.smali:333"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x2
 
     .line 110
@@ -516,6 +522,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity.smali:525"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v8, 0x7f09143c
 
     const/16 v7, 0x8
@@ -780,6 +788,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity.smali:791"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v0, 0x7d
 
     const/4 v5, 0x2
@@ -939,6 +949,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity.smali:952"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 88
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -999,6 +1011,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity.smali:1014"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 406
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopDisbandActivity;->a:Lcom/tencent/mobileqq/app/TroopObserver;
 
@@ -1036,6 +1050,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity.smali:1053"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 779
     if-nez p1, :cond_1
 
@@ -1174,6 +1190,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity.smali:1193"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x4
 
     const/4 v0, 0x1
@@ -1573,7 +1591,6 @@
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
     .locals 0
 
-    .prologue
     .line 417
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 

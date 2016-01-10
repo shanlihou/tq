@@ -45,6 +45,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneLaunchActivity.smali:48"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 36
@@ -71,6 +73,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneLaunchActivity.smali:76"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 36
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/PhoneLaunchActivity;->a:Landroid/widget/Button;
 
@@ -81,6 +85,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneLaunchActivity.smali:88"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 36
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/phone/PhoneLaunchActivity;->b:Z
 
@@ -91,6 +97,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneLaunchActivity.smali:100"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 36
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/phone/PhoneLaunchActivity;->d:Z
 
@@ -101,6 +109,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneLaunchActivity.smali:112"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 245
     new-instance v0, Landroid/content/Intent;
 
@@ -121,6 +131,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneLaunchActivity.smali:134"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 36
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/phone/PhoneLaunchActivity;->c:Z
 
@@ -133,6 +145,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneLaunchActivity.smali:148"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 111
@@ -227,6 +241,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneLaunchActivity.smali:244"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 176
     const/4 v0, 0x1
 
@@ -272,6 +288,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneLaunchActivity.smali:291"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -525,6 +543,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneLaunchActivity.smali:546"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 191
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;->finish()V
 
@@ -549,6 +569,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneLaunchActivity.smali:572"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v3, 0x0
 
     const/4 v7, 0x2

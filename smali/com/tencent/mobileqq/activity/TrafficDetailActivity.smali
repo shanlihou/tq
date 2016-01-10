@@ -23,6 +23,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TrafficDetailActivity.smali:26"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 22
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -302,6 +304,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TrafficDetailActivity.smali:307"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 44
     new-instance v1, Lmqq/app/NewIntent;
 
@@ -416,6 +420,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TrafficDetailActivity.smali:423"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v7, 0x0
 
     const/4 v3, 0x2
@@ -613,6 +619,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TrafficDetailActivity.smali:622"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x3
 
     .line 29
@@ -707,6 +715,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TrafficDetailActivity.smali:718"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TrafficDetailActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -723,6 +733,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TrafficDetailActivity.smali:736"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 62
     const/4 v0, 0x3
 

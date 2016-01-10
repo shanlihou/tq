@@ -22,6 +22,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QuickLoginActivity.smali:25"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 26
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -41,6 +43,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QuickLoginActivity.smali:46"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 26
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QuickLoginActivity;->a:Lmqq/observer/AccountObserver;
 
@@ -51,6 +55,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QuickLoginActivity.smali:58"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 45
     const v0, 0x7f090186
 
@@ -83,6 +89,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QuickLoginActivity.smali:92"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x1
 
     const/4 v7, 0x0
@@ -213,6 +221,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QuickLoginActivity.smali:224"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 81
     new-instance v0, Ljava/io/File;
 
@@ -348,6 +358,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QuickLoginActivity.smali:361"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 36
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnCreate(Landroid/os/Bundle;)Z
 

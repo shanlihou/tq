@@ -24,6 +24,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UncommonlyUsedContactsActivity$ListItem.smali:27"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 492
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/UncommonlyUsedContactsActivity$ListItem;->a:Lcom/tencent/mobileqq/activity/UncommonlyUsedContactsActivity;
 
@@ -48,7 +50,6 @@
 .method public a(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 498
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/UncommonlyUsedContactsActivity$ListItem;->a:Ljava/lang/String;
 

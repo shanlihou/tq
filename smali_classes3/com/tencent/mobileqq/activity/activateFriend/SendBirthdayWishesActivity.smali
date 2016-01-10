@@ -64,6 +64,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:67"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 51
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -111,6 +113,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:116"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 51
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity;->a:Ljava/lang/Runnable;
 
@@ -121,6 +125,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:128"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 51
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity;->a:Lmqq/os/MqqHandler;
 
@@ -131,6 +137,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:140"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v2, 0x2
@@ -206,7 +214,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity;I)V
     .locals 0
 
-    .prologue
     .line 51
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity;->a(I)V
 
@@ -217,6 +224,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:227"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v7, 0x7f090358
 
     const/16 v6, 0x8
@@ -676,6 +685,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:688"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -828,6 +839,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:842"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 361
     const/4 v0, 0x2
 
@@ -889,6 +902,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:905"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 273
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -933,6 +948,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:951"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 345
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity;->a:Lmqq/os/MqqHandler;
 
@@ -950,6 +967,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:970"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 414
     instance-of v0, p1, Lcom/tencent/mobileqq/emoticonview/SystemEmoticonInfo;
 
@@ -1001,7 +1020,6 @@
 .method public a(Lcom/tencent/mobileqq/emoticonview/EmoticonInfo;Lcom/tencent/mobileqq/emoticonview/EmoticonInfo;Landroid/graphics/drawable/Drawable;)V
     .locals 0
 
-    .prologue
     .line 437
     return-void
 .end method
@@ -1010,6 +1028,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:1031"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 431
     const/4 v0, 0x1
 
@@ -1020,6 +1040,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:1043"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 386
@@ -1066,6 +1088,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:1091"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 395
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity;->a:Landroid/widget/EditText;
 
@@ -1139,7 +1163,6 @@
 .method public b(Lcom/tencent/mobileqq/emoticonview/EmoticonInfo;)V
     .locals 0
 
-    .prologue
     .line 442
     return-void
 .end method
@@ -1147,7 +1170,6 @@
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 377
     return-void
 .end method
@@ -1155,7 +1177,6 @@
 .method public c()V
     .locals 0
 
-    .prologue
     .line 427
     return-void
 .end method
@@ -1163,7 +1184,6 @@
 .method public d()V
     .locals 0
 
-    .prologue
     .line 452
     return-void
 .end method
@@ -1172,6 +1192,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:1195"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     const/4 v1, -0x1
@@ -1397,6 +1419,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:1422"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 474
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1420,6 +1444,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:1447"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 282
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -1439,6 +1465,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:1468"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 468
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->finish()V
 
@@ -1457,6 +1485,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:1488"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 265
     const/4 v0, 0x0
 
@@ -1466,7 +1496,6 @@
 .method public o()V
     .locals 0
 
-    .prologue
     .line 483
     return-void
 .end method
@@ -1475,6 +1504,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:1507"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 457
@@ -1536,6 +1567,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/activateFriend/SendBirthdayWishesActivity.smali:1570"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x2
 
     const/4 v5, 0x1
@@ -1808,7 +1841,6 @@
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 381
     return-void
 .end method
@@ -1816,7 +1848,6 @@
 .method public setting()V
     .locals 0
 
-    .prologue
     .line 447
     return-void
 .end method

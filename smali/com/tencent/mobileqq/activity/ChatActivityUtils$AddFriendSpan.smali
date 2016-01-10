@@ -12,6 +12,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityUtils$AddFriendSpan.smali:15"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3402
     invoke-direct {p0, p1}, Landroid/text/style/URLSpan;-><init>(Ljava/lang/String;)V
 
@@ -35,6 +37,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityUtils$AddFriendSpan.smali:40"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3409
     invoke-virtual {p1}, Landroid/view/View;->getContext()Landroid/content/Context;
 
@@ -88,6 +92,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityUtils$AddFriendSpan.smali:95"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3422
     iget v0, p0, Lcom/tencent/mobileqq/activity/ChatActivityUtils$AddFriendSpan;->a:I
 

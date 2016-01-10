@@ -32,6 +32,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade$SendMsgParams.smali:35"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1825
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

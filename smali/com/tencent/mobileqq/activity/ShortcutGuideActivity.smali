@@ -21,6 +21,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutGuideActivity.smali:24"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 48
     invoke-direct {p0}, Lmqq/app/AppActivity;-><init>()V
 
@@ -43,6 +45,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutGuideActivity.smali:48"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 252
@@ -257,6 +261,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutGuideActivity.smali:264"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 218
@@ -344,6 +350,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutGuideActivity.smali:353"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 288
     array-length v0, p0
 
@@ -372,6 +380,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutGuideActivity.smali:383"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f0913fd
 
     const v1, 0x7f0913fc    # 1.82208E38f
@@ -676,6 +686,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutGuideActivity.smali:689"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 304
     invoke-virtual {p2}, Landroid/view/MotionEvent;->getX()F
 
@@ -749,6 +761,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutGuideActivity.smali:764"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 312
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/ShortcutGuideActivity;->getResources()Landroid/content/res/Resources;
 
@@ -777,6 +791,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutGuideActivity.smali:794"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 241
     if-eqz p1, :cond_0
 
@@ -818,6 +834,8 @@
     .locals 15
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutGuideActivity.smali:837"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     invoke-super/range {p0 .. p1}, Lmqq/app/AppActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -1196,6 +1214,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutGuideActivity.smali:1217"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 182
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/ShortcutGuideActivity;->setIntent(Landroid/content/Intent;)V
 
@@ -1237,6 +1257,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutGuideActivity.smali:1260"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 194
@@ -1364,6 +1386,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutGuideActivity.smali:1389"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 296
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 
@@ -1399,6 +1423,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutGuideActivity.smali:1426"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     .line 54

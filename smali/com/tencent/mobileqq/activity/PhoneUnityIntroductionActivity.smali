@@ -19,6 +19,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityIntroductionActivity.smali:22"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 28
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -33,6 +35,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityIntroductionActivity.smali:38"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 68
@@ -88,6 +92,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityIntroductionActivity.smali:95"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 34
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -221,7 +227,6 @@
 .method protected doOnDestroy()V
     .locals 0
 
-    .prologue
     .line 60
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -233,6 +238,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityIntroductionActivity.smali:241"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v7, 0x0

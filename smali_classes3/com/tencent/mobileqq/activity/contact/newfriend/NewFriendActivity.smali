@@ -92,6 +92,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:95"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 52
@@ -131,6 +133,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:136"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 351
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -177,7 +181,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;I)I
     .locals 0
 
-    .prologue
     .line 52
     iput p1, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->j:I
 
@@ -188,6 +191,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:194"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a:Landroid/widget/ImageView;
 
@@ -198,6 +203,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:206"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a:Lcom/tencent/mobileqq/activity/contact/newfriend/BaseNewFriendView$INewFriendContext;
 
@@ -208,6 +215,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:218"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a:Lcom/tencent/mobileqq/activity/contact/newfriend/BaseNewFriendView;
 
@@ -218,6 +227,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:230"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a:Lcom/tencent/mobileqq/activity/contact/newfriend/SystemMsgListView;
 
@@ -228,6 +239,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:242"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a:Lcom/tencent/mobileqq/widget/TabBarView;
 
@@ -238,6 +251,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:254"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 346
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -289,7 +304,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;)V
     .locals 0
 
-    .prologue
     .line 52
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->i()V
 
@@ -299,7 +313,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;Z)V
     .locals 0
 
-    .prologue
     .line 52
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->b(Z)V
 
@@ -309,7 +322,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;ZZ)V
     .locals 0
 
-    .prologue
     .line 52
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a(ZZ)V
 
@@ -320,6 +332,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:335"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 305
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -380,6 +394,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:397"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, -0x1
 
     .line 726
@@ -459,6 +475,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:478"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v2, 0x0
@@ -528,6 +546,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:549"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a()Z
 
@@ -539,7 +559,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;)V
     .locals 0
 
-    .prologue
     .line 52
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->g()V
 
@@ -550,6 +569,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:572"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v9, -0x64
 
     const/4 v8, 0x1
@@ -674,6 +695,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:698"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 548
@@ -765,6 +788,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:791"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->b()Z
 
@@ -777,6 +802,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:805"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 107
     new-instance v0, Ljox;
 
@@ -792,6 +819,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:822"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v12, 0x8
 
     const/4 v2, 0x1
@@ -1245,6 +1274,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:1277"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0x7f0a144e
 
     .line 250
@@ -1431,6 +1462,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:1465"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 281
     const/4 v0, 0x1
 
@@ -1447,6 +1480,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:1483"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v3, 0x0
@@ -1552,6 +1587,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:1590"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     const/4 v3, 0x0
@@ -1646,6 +1683,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:1686"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -1691,6 +1730,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:1733"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 665
     .line 666
     packed-switch p1, :pswitch_data_0
@@ -1726,6 +1767,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:1770"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 399
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a:Lcom/tencent/mobileqq/activity/contact/newfriend/CircleGroupListView;
 
@@ -1765,6 +1808,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:1811"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 423
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a:Lcom/tencent/mobileqq/activity/contact/newfriend/BaseNewFriendView;
 
@@ -1841,6 +1886,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:1889"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 407
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a:Lcom/tencent/mobileqq/activity/contact/newfriend/RecommendListView;
 
@@ -1878,6 +1925,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:1928"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 415
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a:Lcom/tencent/mobileqq/activity/contact/newfriend/SystemMsgListView;
 
@@ -1915,6 +1964,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:1967"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 569
@@ -1983,6 +2034,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:2037"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 505
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/activity/BaseForwardSelectionActivity;->doOnActivityResult(IILandroid/content/Intent;)V
 
@@ -2005,6 +2058,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:2061"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 682
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a:Landroid/view/View;
 
@@ -2052,6 +2107,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:2110"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v2, 0x1000000
 
     .line 91
@@ -2098,6 +2155,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:2158"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 484
@@ -2170,7 +2229,6 @@
 .method protected doOnNewIntent(Landroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 756
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/BaseForwardSelectionActivity;->doOnNewIntent(Landroid/content/Intent;)V
 
@@ -2185,6 +2243,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:2246"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 464
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a:Lcom/tencent/mobileqq/activity/contact/newfriend/BaseNewFriendView;
 
@@ -2223,6 +2283,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:2286"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 454
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/BaseForwardSelectionActivity;->doOnResume()V
 
@@ -2250,6 +2312,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:2315"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 446
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/BaseForwardSelectionActivity;->doOnStart()V
 
@@ -2272,6 +2336,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:2339"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 476
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity;->a:Lcom/tencent/mobileqq/activity/contact/newfriend/BaseNewFriendView;
 
@@ -2294,6 +2360,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:2363"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 513
@@ -2352,6 +2420,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:2423"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 86
     const/4 v0, 0x1
 
@@ -2365,6 +2435,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/newfriend/NewFriendActivity.smali:2438"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 633
     instance-of v0, p2, Lcom/tencent/mobileqq/newfriend/NewFriendMessage;
 

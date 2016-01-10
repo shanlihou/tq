@@ -66,6 +66,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:69"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 64
@@ -84,6 +86,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:89"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 62
     invoke-direct {p0}, Lcom/tencent/mobileqq/nearby/NearbyBaseActivity2;-><init>()V
 
@@ -120,6 +124,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:127"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 62
     sget-object v0, Lcom/tencent/mobileqq/activity/FreshNewsEditActivity;->d:Ljava/lang/String;
 
@@ -129,7 +135,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/FreshNewsEditActivity;)V
     .locals 0
 
-    .prologue
     .line 62
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/FreshNewsEditActivity;->f()V
 
@@ -140,6 +145,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:148"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v5, 0x9
 
     .line 456
@@ -263,6 +270,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:273"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v3, 0x23
 
     const/4 v5, 0x1
@@ -428,7 +437,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/FreshNewsEditActivity;)V
     .locals 0
 
-    .prologue
     .line 62
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/FreshNewsEditActivity;->e()V
 
@@ -439,6 +447,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:450"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, -0x1
 
     .line 169
@@ -514,7 +524,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/FreshNewsEditActivity;)V
     .locals 0
 
-    .prologue
     .line 62
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/FreshNewsEditActivity;->c()V
 
@@ -525,6 +534,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:537"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 233
@@ -592,6 +603,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:606"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 448
@@ -627,6 +640,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:643"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 621
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/FreshNewsEditActivity;->a:Z
 
@@ -649,6 +664,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:667"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 431
     packed-switch p2, :pswitch_data_0
 
@@ -741,6 +758,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:761"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 612
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FreshNewsEditActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressNotifier;
 
@@ -773,6 +792,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:795"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 251
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/nearby/NearbyBaseActivity2;->doOnActivityResult(IILandroid/content/Intent;)V
 
@@ -868,6 +889,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:892"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f0a132c
 
     const/high16 v3, 0x41f00000    # 30.0f
@@ -1100,6 +1123,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:1126"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 191
     invoke-super {p0}, Lcom/tencent/mobileqq/nearby/NearbyBaseActivity2;->doOnDestroy()V
 
@@ -1126,6 +1151,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:1154"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 273
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/nearby/NearbyBaseActivity2;->doOnNewIntent(Landroid/content/Intent;)V
 
@@ -1195,6 +1222,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:1225"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 183
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FreshNewsEditActivity;->a:Lcom/tencent/mobileqq/freshnews/FreshNewsDragGridView;
 
@@ -1217,6 +1246,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:1249"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 159
     invoke-super {p0}, Lcom/tencent/mobileqq/nearby/NearbyBaseActivity2;->finish()V
 
@@ -1241,6 +1272,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:1275"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     .line 200
@@ -1319,6 +1352,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FreshNewsEditActivity.smali:1355"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v11, 0xc8
 
     const/4 v10, 0x0

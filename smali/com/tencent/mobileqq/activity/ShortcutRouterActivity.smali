@@ -22,6 +22,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutRouterActivity.smali:25"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 33
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -42,6 +44,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutRouterActivity.smali:47"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, -0x1
 
     const/4 v1, 0x0
@@ -123,6 +127,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutRouterActivity.smali:130"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 151
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/ShortcutRouterActivity;->getAppRuntime()Lmqq/app/AppRuntime;
 
@@ -269,6 +275,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutRouterActivity.smali:278"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v6, 0x1
@@ -564,7 +572,6 @@
 .method protected doOnDestroy()V
     .locals 0
 
-    .prologue
     .line 118
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnDestroy()V
 
@@ -575,7 +582,6 @@
 .method public onBackPressed()V
     .locals 0
 
-    .prologue
     .line 192
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/ShortcutRouterActivity;->finish()V
 
@@ -586,7 +592,6 @@
 .method protected onStop()V
     .locals 0
 
-    .prologue
     .line 112
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->onStop()V
 
@@ -601,6 +606,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ShortcutRouterActivity.smali:609"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 187
     const/4 v0, 0x1
 

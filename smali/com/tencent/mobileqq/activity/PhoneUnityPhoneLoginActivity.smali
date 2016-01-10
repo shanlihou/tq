@@ -25,6 +25,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityPhoneLoginActivity.smali:28"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 23
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -44,6 +46,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityPhoneLoginActivity.smali:49"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 23
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PhoneUnityPhoneLoginActivity;->a:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -56,6 +60,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityPhoneLoginActivity.smali:63"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 84
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -148,6 +154,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityPhoneLoginActivity.smali:157"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 112
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PhoneUnityPhoneLoginActivity;->a:Lcom/tencent/mobileqq/app/SecSvcObserver;
 
@@ -164,6 +172,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityPhoneLoginActivity.smali:175"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 144
     new-instance v0, Landroid/content/Intent;
 
@@ -198,6 +208,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityPhoneLoginActivity.smali:211"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 119

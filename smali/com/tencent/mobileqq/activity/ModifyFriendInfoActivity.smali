@@ -48,6 +48,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ModifyFriendInfoActivity.smali:51"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 34
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -98,6 +100,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ModifyFriendInfoActivity.smali:103"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 154
     new-instance v0, Lhlv;
 
@@ -117,6 +121,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ModifyFriendInfoActivity.smali:124"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 195
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ModifyFriendInfoActivity;->centerView:Landroid/widget/TextView;
 
@@ -223,6 +229,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ModifyFriendInfoActivity.smali:232"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 94
     new-instance v0, Lhlr;
 
@@ -242,6 +250,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ModifyFriendInfoActivity.smali:253"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v3, 0x1
@@ -401,6 +411,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ModifyFriendInfoActivity.smali:414"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 50
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -509,6 +521,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ModifyFriendInfoActivity.smali:524"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 71
@@ -548,6 +562,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ModifyFriendInfoActivity.smali:565"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 323
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onDestroy()V
 
@@ -563,7 +579,6 @@
 .method protected onResume()V
     .locals 0
 
-    .prologue
     .line 234
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onResume()V
 

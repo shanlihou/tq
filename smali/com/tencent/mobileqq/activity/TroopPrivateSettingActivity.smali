@@ -58,6 +58,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:61"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 88
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -96,6 +98,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:101"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 709
     if-gez p1, :cond_0
 
@@ -121,7 +125,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/TroopPrivateSettingActivity;)V
     .locals 0
 
-    .prologue
     .line 88
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/TroopPrivateSettingActivity;->e()V
 
@@ -132,6 +135,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:138"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 497
@@ -231,6 +236,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:239"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 540
@@ -376,6 +383,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:386"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v12, 0x1
 
     const/4 v6, 0x0
@@ -602,6 +611,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:614"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 604
@@ -733,6 +744,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:747"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/32 v7, 0x2000000
 
     const/4 v4, 0x1
@@ -856,6 +869,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:872"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 637
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopPrivateSettingActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -937,6 +952,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:955"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 525
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopPrivateSettingActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1001,6 +1018,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:1021"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v1, 0x0
@@ -1086,6 +1105,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:1108"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, -0x1
 
     .line 481
@@ -1149,6 +1170,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:1173"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 590
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopPrivateSettingActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1212,7 +1235,6 @@
 .method protected doOnActivityResult(IILandroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 473
     packed-switch p1, :pswitch_data_0
 
@@ -1237,6 +1259,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:1262"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 118
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -1880,6 +1904,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:1907"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 244
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnStart()V
 
@@ -1901,6 +1927,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:1930"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 251
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnStop()V
 
@@ -1922,6 +1950,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:1953"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 258
     iget v0, p0, Lcom/tencent/mobileqq/activity/TroopPrivateSettingActivity;->j:I
 
@@ -1943,6 +1973,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:1976"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 287
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->getTag()Ljava/lang/Object;
 
@@ -2004,6 +2036,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivateSettingActivity.smali:2039"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 265

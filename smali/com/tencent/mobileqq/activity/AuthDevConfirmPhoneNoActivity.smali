@@ -65,6 +65,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevConfirmPhoneNoActivity.smali:68"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 26
@@ -106,6 +108,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevConfirmPhoneNoActivity.smali:111"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 101
@@ -360,7 +364,6 @@
 .method public a(ILandroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 319
     invoke-virtual {p0, p1, p2}, Lcom/tencent/mobileqq/activity/AuthDevConfirmPhoneNoActivity;->setResult(ILandroid/content/Intent;)V
 
@@ -375,6 +378,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevConfirmPhoneNoActivity.smali:381"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     const/4 v3, 0x1
@@ -569,6 +574,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevConfirmPhoneNoActivity.smali:577"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 313
@@ -587,6 +594,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevConfirmPhoneNoActivity.smali:597"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v4, 0x3ea
 
     const/4 v7, 0x0
@@ -956,6 +965,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevConfirmPhoneNoActivity.smali:968"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     .line 64

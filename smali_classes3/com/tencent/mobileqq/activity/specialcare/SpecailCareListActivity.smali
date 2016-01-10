@@ -100,6 +100,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:103"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 110
@@ -170,6 +172,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:175"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -180,6 +184,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:187"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->a:[Ljava/lang/String;
 
@@ -190,6 +196,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:199"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -200,6 +208,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:211"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -210,6 +220,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:223"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -220,6 +232,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:235"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -230,6 +244,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:247"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -240,6 +256,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:259"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -250,6 +268,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:271"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -260,6 +280,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:283"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -270,6 +292,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:295"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -280,6 +304,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:307"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -290,6 +316,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:319"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -300,6 +328,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:331"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -310,6 +340,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:343"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -320,6 +352,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:355"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -330,6 +364,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:367"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -340,6 +376,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:379"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -350,6 +388,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:391"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -360,6 +400,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:403"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -370,6 +412,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:415"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -380,6 +424,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:427"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     iget v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->mDensity:F
 
@@ -392,6 +438,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:441"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v4, 0x8
 
     const/4 v2, 0x1
@@ -682,6 +730,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:733"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v8, 0x8
 
     const/4 v7, 0x2
@@ -930,6 +980,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:983"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1591
     if-lez p1, :cond_0
 
@@ -959,6 +1011,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:1014"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 382
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1117,6 +1171,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:1174"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 629
     const/4 v0, 0x0
 
@@ -1177,6 +1233,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:1236"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 1602
@@ -1264,6 +1322,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:1325"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v8, 0x8
 
     const/4 v7, 0x0
@@ -1440,6 +1500,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:1503"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 621
@@ -1499,6 +1561,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:1564"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 598
@@ -1623,6 +1687,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:1690"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v12, -0x1
 
     const/4 v6, 0x0
@@ -1967,6 +2033,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:2036"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v2, 0x0
@@ -2090,6 +2158,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:2161"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x2
 
     const/4 v7, 0x1
@@ -2665,6 +2735,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:2738"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 510
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -2720,6 +2792,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:2795"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 744
@@ -2836,6 +2910,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:2913"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 768
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->b:Landroid/view/View;
 
@@ -2879,6 +2955,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:2958"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 777
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -2931,6 +3009,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:3012"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 789
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -2963,6 +3043,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:3046"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v12, 0x42080000    # 34.0f
 
     const/high16 v11, 0x3f800000    # 1.0f
@@ -3377,6 +3459,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:3462"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/high16 v11, 0x3f800000    # 1.0f
@@ -3799,6 +3883,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:3886"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 530
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/specialcare/SpecailCareListActivity;->c:Z
 
@@ -3831,6 +3917,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity.smali:3920"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 797
     instance-of v0, p1, Landroid/widget/ImageView;
 

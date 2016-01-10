@@ -56,6 +56,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:59"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 24
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -68,6 +70,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:73"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 24
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/OpenidToUinActivity;->a:J
 
@@ -77,7 +81,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/OpenidToUinActivity;J)J
     .locals 0
 
-    .prologue
     .line 24
     iput-wide p1, p0, Lcom/tencent/mobileqq/activity/OpenidToUinActivity;->a:J
 
@@ -88,6 +91,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:94"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 24
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/OpenidToUinActivity;->a:Landroid/app/Dialog;
 
@@ -98,6 +103,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:106"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 24
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/OpenidToUinActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -108,6 +115,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:118"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 157
@@ -351,6 +360,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:363"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 24
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/OpenidToUinActivity;->a(I)Ljava/lang/String;
 
@@ -363,6 +374,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:377"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 82
     const-wide/16 v0, 0x0
 
@@ -453,6 +466,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:469"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 201
     packed-switch p3, :pswitch_data_0
 
@@ -645,7 +660,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/OpenidToUinActivity;)V
     .locals 0
 
-    .prologue
     .line 24
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/OpenidToUinActivity;->a()V
 
@@ -655,7 +669,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/OpenidToUinActivity;JI)V
     .locals 0
 
-    .prologue
     .line 24
     invoke-direct {p0, p1, p2, p3}, Lcom/tencent/mobileqq/activity/OpenidToUinActivity;->a(JI)V
 
@@ -665,7 +678,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/OpenidToUinActivity;Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 24
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/OpenidToUinActivity;->a(Ljava/lang/String;)V
 
@@ -676,6 +688,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:691"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 181
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/OpenidToUinActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -697,6 +711,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:714"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 117
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/OpenidToUinActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -730,6 +746,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:749"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 123
     new-instance v0, Lhpd;
 
@@ -750,6 +768,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:771"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 150
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/OpenidToUinActivity;->a:Lcom/tencent/mobileqq/utils/sso/SsosvrrObserver;
 
@@ -765,6 +785,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:788"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 54
@@ -859,7 +881,6 @@
 .method protected doOnDestroy()V
     .locals 0
 
-    .prologue
     .line 112
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/OpenidToUinActivity;->d()V
 
@@ -874,6 +895,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/OpenidToUinActivity.smali:898"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 187
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/OpenidToUinActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 

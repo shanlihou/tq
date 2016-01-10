@@ -14,6 +14,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity$MyOvershotInterpolator.smali:17"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 393
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/HongbaoShowerActivity$MyOvershotInterpolator;->a:Lcom/tencent/mobileqq/activity/HongbaoShowerActivity;
 
@@ -30,6 +32,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity$MyOvershotInterpolator.smali:35"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 398
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/HongbaoShowerActivity$MyOvershotInterpolator;->a:Z
 

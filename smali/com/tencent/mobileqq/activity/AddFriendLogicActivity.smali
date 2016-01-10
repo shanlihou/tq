@@ -64,6 +64,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:67"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 62
@@ -78,6 +80,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:83"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -121,6 +125,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:128"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     iget v0, p0, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->h:I
 
@@ -130,7 +136,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;I)I
     .locals 0
 
-    .prologue
     .line 49
     iput p1, p0, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->i:I
 
@@ -141,6 +146,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:149"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 85
     const/4 v10, 0x0
 
@@ -175,6 +182,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:185"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 103
     new-instance v0, Landroid/content/Intent;
 
@@ -274,6 +283,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:286"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 69
     new-instance v0, Landroid/content/Intent;
 
@@ -337,6 +348,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:351"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 611
     const/4 v9, 0x0
 
@@ -369,6 +382,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:385"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 626
     new-instance v0, Landroid/content/Intent;
 
@@ -436,6 +451,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:454"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->b:Lcom/tencent/mobileqq/utils/QQCustomDialog;
 
@@ -445,7 +462,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;Lcom/tencent/mobileqq/utils/QQCustomDialog;)Lcom/tencent/mobileqq/utils/QQCustomDialog;
     .locals 0
 
-    .prologue
     .line 49
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->b:Lcom/tencent/mobileqq/utils/QQCustomDialog;
 
@@ -456,6 +472,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:475"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -466,6 +484,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:487"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->f:Ljava/lang/String;
 
@@ -475,7 +495,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;)V
     .locals 0
 
-    .prologue
     .line 49
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->b()V
 
@@ -486,6 +505,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:508"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v1, 0x1
@@ -680,6 +701,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:704"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0x2714
 
     const/4 v3, 0x2
@@ -902,6 +925,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:928"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     iget v0, p0, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->g:I
 
@@ -912,6 +937,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:940"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 198
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -985,7 +1012,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;)V
     .locals 0
 
-    .prologue
     .line 49
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->d()V
 
@@ -996,6 +1022,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:1025"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -1203,6 +1231,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:1234"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     iget v0, p0, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->i:I
 
@@ -1213,6 +1243,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:1246"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 219
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -1345,6 +1377,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:1380"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v9, 0x93
 
     const/4 v8, 0x1
@@ -1733,6 +1767,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:1770"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 691
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->a:Lcom/tencent/mobileqq/utils/QQCustomDialog;
 
@@ -1810,6 +1846,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:1849"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 570
     new-instance v0, Landroid/content/Intent;
 
@@ -1880,6 +1918,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:1921"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 127
@@ -1988,6 +2028,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:2031"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 559
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->a:Lgeg;
 
@@ -2020,7 +2062,6 @@
 .method protected onActivityResult(IILandroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 589
     invoke-virtual {p0, p2, p3}, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->setResult(ILandroid/content/Intent;)V
 
@@ -2035,6 +2076,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendLogicActivity.smali:2079"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 323
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendLogicActivity;->e:Ljava/lang/String;
 

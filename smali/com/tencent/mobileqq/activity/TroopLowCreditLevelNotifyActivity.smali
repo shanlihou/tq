@@ -65,6 +65,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:68"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x4
 
     .line 55
@@ -113,6 +115,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:118"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v5, 0x1
 
     .line 573
@@ -264,6 +268,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:271"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v2, 0x7f0a0ba9
 
     const/4 v6, 0x2
@@ -494,6 +500,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:503"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 287
@@ -649,6 +657,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:660"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const-wide/16 v6, 0x1
@@ -845,6 +855,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:858"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 417
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity;->a:Landroid/content/Context;
 
@@ -931,6 +943,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:946"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 552
     new-instance v0, Landroid/content/Intent;
 
@@ -1027,6 +1041,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:1044"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v6, 0x2
@@ -1295,6 +1311,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:1314"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     .line 261
@@ -1483,6 +1501,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:1504"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 436
@@ -1525,6 +1545,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:1548"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 603
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -1567,6 +1589,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:1592"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 613
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -1594,6 +1618,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:1621"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, -0x1
 
     const/4 v2, 0x1
@@ -1695,6 +1721,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:1724"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 81
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -1789,6 +1817,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:1820"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 365
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -1808,6 +1838,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopLowCreditLevelNotifyActivity.smali:1841"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v7, 0x3e8
 
     const/4 v6, 0x3

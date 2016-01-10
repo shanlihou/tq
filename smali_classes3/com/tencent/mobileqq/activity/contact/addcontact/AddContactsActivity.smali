@@ -55,6 +55,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:58"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 30
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -88,6 +90,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:93"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 30
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;->a:Lcom/tencent/mobileqq/activity/contact/addcontact/ContactBaseView;
 
@@ -98,6 +102,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 30
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;->a:Lcom/tencent/mobileqq/widget/TabBarView;
 
@@ -108,6 +114,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:117"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v6, 0x7f0a1837
 
     const v5, 0x7f0a1836
@@ -328,6 +336,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:339"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 305
     new-instance v0, Landroid/content/Intent;
 
@@ -346,6 +356,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:359"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 310
     new-instance v0, Landroid/content/Intent;
 
@@ -368,7 +380,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;)V
     .locals 0
 
-    .prologue
     .line 30
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;->c()V
 
@@ -378,7 +389,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;I)V
     .locals 0
 
-    .prologue
     .line 30
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;->setContentBackgroundResource(I)V
 
@@ -389,6 +399,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:402"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 259
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;->a:Lcom/tencent/mobileqq/activity/contact/addcontact/ContactBaseView;
 
@@ -465,6 +477,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:480"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 151
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;->getIntent()Landroid/content/Intent;
 
@@ -493,6 +507,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:510"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 318
@@ -555,7 +571,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;)V
     .locals 0
 
-    .prologue
     .line 30
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;->d()V
 
@@ -566,6 +581,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:584"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 178
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;->a:Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsView;
 
@@ -598,7 +615,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;)V
     .locals 0
 
-    .prologue
     .line 30
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;->e()V
 
@@ -609,6 +625,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:628"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 186
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;->a:Lcom/tencent/mobileqq/activity/contact/addcontact/TroopView;
 
@@ -642,6 +660,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:663"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 194
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;->a:Lcom/tencent/mobileqq/activity/contact/addcontact/PublicView;
 
@@ -677,6 +697,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:700"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 330
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;->a:Lcom/tencent/mobileqq/activity/contact/addcontact/ContactBaseView;
 
@@ -715,6 +737,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:740"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 252
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnActivityResult(IILandroid/content/Intent;)V
 
@@ -737,6 +761,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:764"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 114
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -770,6 +796,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:799"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 238
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity;->a:Lcom/tencent/mobileqq/activity/contact/addcontact/AddContactsView;
 
@@ -814,6 +842,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:845"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 222
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnPause()V
 
@@ -836,6 +866,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:869"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 211
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnResume()V
 
@@ -871,6 +903,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:906"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 203
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnStart()V
 
@@ -893,6 +927,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:930"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 230
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnResume()V
 
@@ -915,6 +951,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:954"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 280
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -943,6 +981,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/AddContactsActivity.smali:984"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     const/4 v0, 0x1
 

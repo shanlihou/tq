@@ -28,6 +28,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/TosActivity.smali:31"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 19
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -40,6 +42,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/TosActivity.smali:45"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 29
     new-instance v0, Landroid/content/Intent;
 
@@ -58,6 +62,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/TosActivity.smali:65"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 34
     new-instance v0, Landroid/content/Intent;
 
@@ -88,6 +94,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/TosActivity.smali:97"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     const/4 v3, 0x1
@@ -217,6 +225,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/TosActivity.smali:228"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 83
     new-instance v0, Landroid/widget/TextView;
 

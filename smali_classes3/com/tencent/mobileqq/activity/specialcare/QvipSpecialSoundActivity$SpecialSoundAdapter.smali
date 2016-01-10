@@ -14,6 +14,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity$SpecialSoundAdapter.smali:17"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 395
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity$SpecialSoundAdapter;->a:Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;
 
@@ -42,7 +44,6 @@
 .method public a(Ljava/util/List;)V
     .locals 0
 
-    .prologue
     .line 400
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity$SpecialSoundAdapter;->a:Ljava/util/List;
 
@@ -57,6 +58,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity$SpecialSoundAdapter.smali:61"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 406
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity$SpecialSoundAdapter;->a:Ljava/util/List;
 
@@ -71,6 +74,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity$SpecialSoundAdapter.smali:77"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 411
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity$SpecialSoundAdapter;->a:Ljava/util/List;
 
@@ -85,6 +90,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity$SpecialSoundAdapter.smali:93"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 416
     int-to-long v0, p1
 
@@ -95,6 +102,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity$SpecialSoundAdapter.smali:105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const v7, 0x7f091631

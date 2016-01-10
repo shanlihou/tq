@@ -52,6 +52,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:55"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 74
@@ -70,6 +72,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:75"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     .line 72
@@ -96,6 +100,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:103"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 101
     invoke-virtual {p0}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
 
@@ -126,6 +132,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:135"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 72
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/MayKnowManActivity;->setLastActivityName()Ljava/lang/String;
 
@@ -138,6 +146,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:149"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 504
@@ -451,6 +461,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:464"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 96
     new-instance v0, Landroid/content/Intent;
 
@@ -469,6 +481,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:484"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 480
     .line 481
     const/4 v2, 0x0
@@ -643,7 +657,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/MayKnowManActivity;)V
     .locals 0
 
-    .prologue
     .line 72
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/MayKnowManActivity;->d()V
 
@@ -654,6 +667,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:670"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 347
@@ -717,6 +732,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:735"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 72
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/MayKnowManActivity;->a(II)Z
 
@@ -729,6 +746,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:749"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 170
@@ -868,6 +887,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:890"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 358
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/MayKnowManActivity;->b()V
 
@@ -923,6 +944,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:947"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 335
@@ -991,6 +1014,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:1017"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 300
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/MayKnowManActivity;->a:Lhlo;
 
@@ -1010,6 +1035,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:1038"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 308
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/MayKnowManActivity;->a:Landroid/view/View;
 
@@ -1135,6 +1162,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:1165"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 384
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/MayKnowManActivity;->a:Landroid/app/Dialog;
 
@@ -1169,6 +1198,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:1201"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 145
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/MayKnowManActivity;->finish()V
 
@@ -1182,6 +1213,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:1216"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 108
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -1238,6 +1271,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:1274"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 151
     const/4 v0, 0x0
 
@@ -1260,6 +1295,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MayKnowManActivity.smali:1298"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 136
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/MayKnowManActivity;->a:Lcom/tencent/mobileqq/app/LBSObserver;
 
@@ -1286,7 +1323,6 @@
 .method public setTitle(I)V
     .locals 0
 
-    .prologue
     .line 161
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->setTitle(I)V
 
@@ -1297,7 +1333,6 @@
 .method public setTitle(Ljava/lang/CharSequence;)V
     .locals 0
 
-    .prologue
     .line 166
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->setTitle(Ljava/lang/CharSequence;)V
 

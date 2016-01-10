@@ -19,6 +19,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBaseActivity.smali:22"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 24
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -33,6 +35,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBaseActivity.smali:38"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 141
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SubAccountBaseActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -70,6 +74,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBaseActivity.smali:77"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 112
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SubAccountBaseActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -146,6 +152,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBaseActivity.smali:155"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 101
     const/4 v0, 0x0
 
@@ -167,6 +175,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBaseActivity.smali:178"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 89
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SubAccountBaseActivity;->b()V
 
@@ -217,6 +227,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBaseActivity.smali:230"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 51
     if-nez p3, :cond_0
 
@@ -277,6 +289,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBaseActivity.smali:292"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 69
     if-nez p4, :cond_0
 
@@ -328,6 +342,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBaseActivity.smali:345"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 129
     invoke-static {}, Lcom/tencent/qphone/base/util/BaseApplication;->getContext()Lcom/tencent/qphone/base/util/BaseApplication;
 
@@ -345,6 +361,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBaseActivity.smali:364"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 150
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SubAccountBaseActivity;->a:Lcom/tencent/mobileqq/utils/QQCustomDialog;
 
@@ -387,6 +405,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBaseActivity.smali:408"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 105
     const/4 v0, 0x2
 
@@ -410,6 +430,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBaseActivity.smali:433"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 134
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SubAccountBaseActivity;->a()Z
 
@@ -435,7 +457,6 @@
 .method protected c()V
     .locals 0
 
-    .prologue
     .line 188
     return-void
 .end method
@@ -444,6 +465,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBaseActivity.smali:468"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 31
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -470,6 +493,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SubAccountBaseActivity.smali:496"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 37
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -498,7 +523,6 @@
 .method public finish()V
     .locals 0
 
-    .prologue
     .line 161
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SubAccountBaseActivity;->a()V
 
@@ -515,7 +539,6 @@
 .method public onClick(Landroid/content/DialogInterface;I)V
     .locals 0
 
-    .prologue
     .line 170
     packed-switch p2, :pswitch_data_0
 

@@ -83,6 +83,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:86"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 46
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -139,6 +141,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:144"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -183,6 +187,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:190"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x3
 
     const/4 v4, 0x1
@@ -359,6 +365,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:368"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 586
@@ -439,6 +447,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:450"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 618
     new-instance v1, Ljava/io/File;
 
@@ -526,6 +536,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:539"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     .line 500
@@ -737,6 +749,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:752"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v7, 0x7f0a1e70
 
     const/4 v5, 0x2
@@ -1253,6 +1267,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:1270"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 699
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -1282,6 +1298,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:1301"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 636
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnNewIntent(Landroid/content/Intent;)V
 
@@ -1315,6 +1333,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:1336"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 490
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1348,6 +1368,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:1371"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 469
@@ -1420,6 +1442,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:1445"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 452
     invoke-static {}, Lcom/tencent/mobileqq/emoticon/EmojiListenerManager;->a()Lcom/tencent/mobileqq/emoticon/EmojiListenerManager;
 
@@ -1464,6 +1488,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:1491"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 645
@@ -1633,6 +1659,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EmosmActivity.smali:1662"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 461
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 

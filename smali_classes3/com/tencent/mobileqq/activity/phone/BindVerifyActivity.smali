@@ -62,6 +62,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:65"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 43
@@ -88,6 +90,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:93"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 43
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/BindVerifyActivity;->a:Landroid/widget/Button;
 
@@ -98,6 +102,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 43
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/BindVerifyActivity;->a:Landroid/widget/TextView;
 
@@ -108,6 +114,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:117"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 43
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/BindVerifyActivity;->b:Lcom/tencent/mobileqq/phonecontact/ContactBindObserver;
 
@@ -117,7 +125,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/phone/BindVerifyActivity;Lcom/tencent/mobileqq/phonecontact/ContactBindObserver;)Lcom/tencent/mobileqq/phonecontact/ContactBindObserver;
     .locals 0
 
-    .prologue
     .line 43
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/phone/BindVerifyActivity;->b:Lcom/tencent/mobileqq/phonecontact/ContactBindObserver;
 
@@ -128,6 +135,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:138"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 43
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/BindVerifyActivity;->c:Ljava/lang/String;
 
@@ -138,6 +147,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:150"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v5, 0x0
@@ -294,6 +305,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:308"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 43
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/phone/BindVerifyActivity;->b:Z
 
@@ -304,6 +317,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:320"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 43
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/BindVerifyActivity;->d:Ljava/lang/String;
 
@@ -314,6 +329,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:332"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 43
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/phone/BindVerifyActivity;->c:Z
 
@@ -324,6 +341,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:344"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 255
@@ -483,7 +502,6 @@
 .method public afterTextChanged(Landroid/text/Editable;)V
     .locals 0
 
-    .prologue
     .line 324
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/phone/BindVerifyActivity;->b()V
 
@@ -495,6 +513,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:516"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 345
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/BindVerifyActivity;->a:Landroid/widget/CheckBox;
 
@@ -547,7 +567,6 @@
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 330
     return-void
 .end method
@@ -555,7 +574,6 @@
 .method protected doOnActivityResult(IILandroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 157
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;->doOnActivityResult(IILandroid/content/Intent;)V
 
@@ -577,6 +595,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:598"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     .line 314
@@ -654,6 +674,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:677"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 75
@@ -867,6 +889,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:892"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 144
@@ -911,7 +935,6 @@
 .method protected doOnNewIntent(Landroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 138
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;->doOnNewIntent(Landroid/content/Intent;)V
 
@@ -926,6 +949,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:952"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 388
     invoke-static {p1, p2}, Lcom/tencent/mobileqq/util/Utils;->d(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
@@ -958,6 +983,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:986"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 357
@@ -1075,6 +1102,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:1105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 339
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/BindVerifyActivity;->a:Landroid/widget/CheckBox;
 
@@ -1092,6 +1121,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:1124"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 396
     new-instance v12, Landroid/content/Intent;
 
@@ -1255,6 +1286,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/BindVerifyActivity.smali:1289"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     .line 166
@@ -1388,7 +1421,6 @@
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 335
     return-void
 .end method

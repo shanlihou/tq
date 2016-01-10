@@ -8,6 +8,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TimePickerActivity.smali:11"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 8
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
@@ -22,6 +24,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TimePickerActivity.smali:27"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 38
     invoke-static {}, Lcom/tencent/mqq/shared_file_accessor/SharedPreferencesProxyManager;->getInstance()Lcom/tencent/mqq/shared_file_accessor/SharedPreferencesProxyManager;
 
@@ -38,6 +42,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TimePickerActivity.smali:45"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 12
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 
@@ -53,7 +59,6 @@
 .method protected onDestroy()V
     .locals 0
 
-    .prologue
     .line 33
     invoke-super {p0}, Landroid/app/Activity;->onDestroy()V
 
@@ -64,7 +69,6 @@
 .method protected onPause()V
     .locals 0
 
-    .prologue
     .line 26
     invoke-super {p0}, Landroid/app/Activity;->onPause()V
 
@@ -75,7 +79,6 @@
 .method protected onResume()V
     .locals 0
 
-    .prologue
     .line 19
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 

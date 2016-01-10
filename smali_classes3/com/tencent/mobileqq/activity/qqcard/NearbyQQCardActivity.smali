@@ -29,6 +29,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qqcard/NearbyQQCardActivity.smali:32"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 18
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -43,6 +45,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qqcard/NearbyQQCardActivity.smali:48"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v7, 0x0
@@ -280,6 +284,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qqcard/NearbyQQCardActivity.smali:287"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v7, 0x0
@@ -392,7 +398,6 @@
 .method protected doOnSaveInstanceState(Landroid/os/Bundle;)V
     .locals 0
 
-    .prologue
     .line 52
     return-void
 .end method

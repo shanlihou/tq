@@ -450,6 +450,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:453"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 469
@@ -488,6 +490,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:493"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, -0x1
 
     const/4 v6, 0x1
@@ -726,6 +730,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:733"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->e:Landroid/view/View;
 
@@ -736,6 +742,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:745"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/mobileqq/webviewplugin/WebViewPluginEngine;
 
@@ -746,6 +754,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:757"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->b()Ljava/lang/String;
 
@@ -758,6 +768,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:771"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a(Ljava/lang/String;[B)Ljava/net/HttpURLConnection;
 
@@ -770,6 +782,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:785"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v1, 0x0
@@ -904,6 +918,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:921"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->mRuntime:Lmqq/app/AppRuntime;
 
@@ -914,6 +930,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:933"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lmqq/os/MqqHandler;
 
@@ -923,7 +941,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQBrowserActivity;Lmqq/os/MqqHandler;)Lmqq/os/MqqHandler;
     .locals 0
 
-    .prologue
     .line 221
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lmqq/os/MqqHandler;
 
@@ -934,6 +951,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:954"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 664
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->ad:Ljava/lang/String;
 
@@ -981,7 +1000,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQBrowserActivity;)V
     .locals 0
 
-    .prologue
     .line 221
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->q()V
 
@@ -991,7 +1009,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQBrowserActivity;Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 221
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->b(Ljava/lang/String;)V
 
@@ -1001,7 +1018,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQBrowserActivity;Ljava/lang/String;I)V
     .locals 0
 
-    .prologue
     .line 221
     invoke-virtual {p0, p1, p2}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a(Ljava/lang/String;I)V
 
@@ -1011,7 +1027,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQBrowserActivity;Ljava/lang/String;Z)V
     .locals 0
 
-    .prologue
     .line 221
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->b(Ljava/lang/String;Z)V
 
@@ -1022,6 +1037,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1040"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4711
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->G:Z
 
@@ -1067,6 +1084,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1087"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     invoke-super {p0}, Landroid/app/Activity;->isFinishing()Z
 
@@ -1079,6 +1098,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1101"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->g:Landroid/view/View;
 
@@ -1089,6 +1110,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1113"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/mobileqq/webviewplugin/WebViewPluginEngine;
 
@@ -1099,6 +1122,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1125"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3408
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->r:Z
 
@@ -1290,6 +1315,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1318"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x2
 
     .line 3925
@@ -1504,6 +1531,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1534"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->G:Ljava/lang/String;
 
@@ -1514,6 +1543,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1546"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->mRuntime:Lmqq/app/AppRuntime;
 
@@ -1523,7 +1554,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/QQBrowserActivity;)V
     .locals 0
 
-    .prologue
     .line 221
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->u()V
 
@@ -1534,6 +1564,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1567"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 4724
@@ -1560,6 +1592,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1595"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1383
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1694,6 +1728,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1731"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1436
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -1745,6 +1781,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1784"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     invoke-super {p0}, Landroid/app/Activity;->isFinishing()Z
 
@@ -1757,6 +1795,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1798"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->f:Landroid/view/View;
 
@@ -1767,6 +1807,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1810"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/mobileqq/webviewplugin/WebViewPluginEngine;
 
@@ -1777,6 +1819,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1822"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->G:Ljava/lang/String;
 
@@ -1787,6 +1831,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1834"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->mRuntime:Lmqq/app/AppRuntime;
 
@@ -1797,6 +1843,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:1846"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     const/4 v2, 0x1
@@ -2229,6 +2277,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:2280"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     invoke-super {p0}, Landroid/app/Activity;->isFinishing()Z
 
@@ -2241,6 +2291,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:2294"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/mobileqq/webviewplugin/WebViewPluginEngine;
 
@@ -2251,6 +2303,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:2306"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->mRuntime:Lmqq/app/AppRuntime;
 
@@ -2261,6 +2315,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:2318"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/mobileqq/webviewplugin/WebViewPluginEngine;
 
@@ -2271,6 +2327,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:2330"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->mRuntime:Lmqq/app/AppRuntime;
 
@@ -2281,6 +2339,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:2342"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/mobileqq/webviewplugin/WebViewPluginEngine;
 
@@ -2291,6 +2351,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:2354"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 221
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->mRuntime:Lmqq/app/AppRuntime;
 
@@ -2301,6 +2363,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:2366"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x1
 
     const/4 v6, 0x0
@@ -2649,6 +2713,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:2716"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 2314
@@ -2714,6 +2780,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:2783"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2340
     new-instance v0, Lhsq;
 
@@ -2735,6 +2803,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:2806"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v2, 0x0
@@ -2859,6 +2929,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:2932"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4782
     .line 4784
     new-instance v0, Ljava/io/File;
@@ -3035,6 +3107,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3110"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4953
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/biz/webviewplugin/OfflinePlugin;
 
@@ -3080,6 +3154,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3157"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4819
     iget v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->P:I
 
@@ -3090,6 +3166,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3169"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3809
     invoke-super {p0, p1, p2}, Lcom/tencent/biz/webviewbase/AbsBaseWebViewActivity;->switchRequestCode(Lcom/tencent/mobileqq/webviewplugin/WebViewPlugin;B)I
 
@@ -3102,6 +3180,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3183"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 423
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->i:J
 
@@ -3112,6 +3192,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3195"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4814
     sget-object v0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->sTopActivity:Lcom/tencent/mobileqq/app/BaseActivity;
 
@@ -3122,6 +3204,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3207"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4834
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->b:Landroid/content/SharedPreferences;
 
@@ -3132,6 +3216,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3219"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 496
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->c:Landroid/os/Handler;
 
@@ -3145,6 +3231,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3234"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     const/4 v6, 0x1
@@ -3420,6 +3508,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3511"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4844
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/mobileqq/widget/WebViewProgressBar;
 
@@ -3430,6 +3520,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3523"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 3369
@@ -3554,6 +3646,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3649"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4849
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->mSystemBarComp:Lcom/tencent/widget/immersive/SystemBarCompact;
 
@@ -3564,6 +3658,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3661"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3037
     const-string v0, "http://cgi.connect.qq.com/api/get_openids_by_appids"
 
@@ -3616,6 +3712,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3715"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2435
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->c:Ljava/util/ArrayList;
 
@@ -3625,7 +3723,6 @@
 .method public a(I)V
     .locals 0
 
-    .prologue
     .line 4824
     iput p1, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->P:I
 
@@ -3636,7 +3733,6 @@
 .method public a(J)V
     .locals 0
 
-    .prologue
     .line 4829
     iput-wide p1, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->y:J
 
@@ -3648,6 +3744,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:3747"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     const/4 v2, 0x1
@@ -4121,6 +4219,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:4222"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v10, 0x1
 
     const-wide/16 v5, 0x0
@@ -4294,6 +4394,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:4397"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4078
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Landroid/widget/FrameLayout;
 
@@ -4313,6 +4415,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:4418"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4457
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/mobileqq/widget/WebViewProgressBarController;
 
@@ -4355,6 +4459,8 @@
     .locals 15
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:4462"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4681
     invoke-direct/range {p0 .. p1}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a(Lcom/tencent/smtt/sdk/WebView;)V
 
@@ -4607,6 +4713,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:4716"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4468
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->aN:Ljava/lang/String;
 
@@ -4658,6 +4766,8 @@
     .locals 23
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:4769"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4490
     move-object/from16 v0, p0
 
@@ -5332,7 +5442,6 @@
 .method protected a(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 4029
     return-void
 .end method
@@ -5341,6 +5450,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:5453"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v4, 0x8
 
     const/4 v3, 0x0
@@ -5467,7 +5578,6 @@
 .method public a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZII)V
     .locals 0
 
-    .prologue
     .line 3994
     return-void
 .end method
@@ -5475,7 +5585,6 @@
 .method public a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZIILcom/tencent/mobileqq/webviewplugin/JsBridgeListener;)V
     .locals 0
 
-    .prologue
     .line 5015
     invoke-super/range {p0 .. p7}, Lcom/tencent/biz/webviewbase/AbsBaseWebViewActivity;->a(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;ZIILcom/tencent/mobileqq/webviewplugin/JsBridgeListener;)V
 
@@ -5487,6 +5596,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:5599"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     .line 2106
@@ -5540,7 +5651,6 @@
 .method public a(Z)V
     .locals 0
 
-    .prologue
     .line 5019
     invoke-super {p0, p1}, Lcom/tencent/biz/webviewbase/AbsBaseWebViewActivity;->a(Z)V
 
@@ -5552,6 +5662,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:5665"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 4742
@@ -5736,6 +5848,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:5851"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4009
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/biz/webviewplugin/Share;
 
@@ -5766,6 +5880,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:5883"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x5
 
     const/4 v0, 0x1
@@ -5874,6 +5990,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:5993"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x4
 
     const/4 v11, 0x2
@@ -6528,6 +6646,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:6649"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 5027
     iget v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->W:I
 
@@ -6538,6 +6658,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:6661"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 429
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->j:J
 
@@ -6551,6 +6673,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:6676"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v10, 0x0
 
     const v8, 0x7f03005b
@@ -7108,7 +7232,6 @@
 .method public b(I)V
     .locals 0
 
-    .prologue
     .line 4884
     invoke-super {p0, p1}, Lcom/tencent/biz/webviewbase/AbsBaseWebViewActivity;->b(I)V
 
@@ -7119,7 +7242,6 @@
 .method public b(J)V
     .locals 0
 
-    .prologue
     .line 4894
     iput-wide p1, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->c:J
 
@@ -7131,6 +7253,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:7256"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x2
 
     const/4 v8, 0x4
@@ -7758,6 +7882,8 @@
     .locals 26
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:7885"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4578
     move-object/from16 v0, p0
 
@@ -8432,6 +8558,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:8561"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4669
     new-instance v1, Ljava/lang/StringBuilder;
 
@@ -8537,6 +8665,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:8668"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4732
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -8589,7 +8719,6 @@
 .method public b(Z)V
     .locals 0
 
-    .prologue
     .line 1582
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->y:Z
 
@@ -8601,6 +8730,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:8733"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3805
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->g:Z
 
@@ -8611,6 +8742,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:8745"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1324
     .line 1326
     const/16 v1, 0x26
@@ -8674,6 +8807,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:8810"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4909
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->x:J
 
@@ -8683,7 +8818,6 @@
 .method public c()V
     .locals 0
 
-    .prologue
     .line 3034
     return-void
 .end method
@@ -8692,6 +8826,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:8829"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x1
 
     const/4 v8, 0x0
@@ -9002,6 +9138,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:9141"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 1563
@@ -9059,7 +9197,6 @@
 .method public c(Z)V
     .locals 0
 
-    .prologue
     .line 4859
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->j:Z
 
@@ -9071,6 +9208,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:9211"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4854
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->F:Z
 
@@ -9081,6 +9220,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:9223"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 5023
     sget v0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->R:I
 
@@ -9091,6 +9232,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:9235"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4914
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->w:J
 
@@ -9101,6 +9244,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:9247"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 943
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/biz/webviewplugin/OfflinePlugin;
 
@@ -9159,7 +9304,6 @@
 .method public d(Z)V
     .locals 0
 
-    .prologue
     .line 4864
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->mNeedStatusTrans:Z
 
@@ -9171,6 +9315,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:9318"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, -0x1
 
     .line 3815
@@ -9333,6 +9479,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:9482"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v5, 0x0
@@ -9637,6 +9785,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:9788"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3700
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->getIntent()Landroid/content/Intent;
 
@@ -10184,6 +10334,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:10337"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 3852
@@ -10255,6 +10407,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:10410"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3690
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/mobileqq/vas/ColorRingPlayer;
 
@@ -10277,6 +10431,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:10434"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     .line 3786
@@ -10363,6 +10519,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:10522"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3875
     new-instance v0, Landroid/content/Intent;
 
@@ -10412,7 +10570,6 @@
 .method public doOnWindowFocusChanged(Z)V
     .locals 0
 
-    .prologue
     .line 1225
     invoke-super {p0, p1}, Lcom/tencent/biz/webviewbase/AbsBaseWebViewActivity;->doOnWindowFocusChanged(Z)V
 
@@ -10424,6 +10581,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:10584"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4919
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->q:J
 
@@ -10434,6 +10593,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:10596"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4002
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/biz/webviewplugin/Share;
 
@@ -10457,7 +10618,6 @@
 .method public e()V
     .locals 0
 
-    .prologue
     .line 4879
     invoke-super {p0}, Lcom/tencent/biz/webviewbase/AbsBaseWebViewActivity;->e()V
 
@@ -10468,7 +10628,6 @@
 .method public e(Z)V
     .locals 0
 
-    .prologue
     .line 4869
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->mActNeedImmersive:Z
 
@@ -10480,6 +10639,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:10642"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4924
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->r:J
 
@@ -10490,6 +10651,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:10654"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4991
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->aT:Ljava/lang/String;
 
@@ -10500,6 +10663,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:10666"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x2
 
     const/4 v1, 0x0
@@ -10857,6 +11022,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11025"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 958
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/biz/webviewplugin/OfflinePlugin;
 
@@ -10914,6 +11081,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11084"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 3453
@@ -10967,6 +11136,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11139"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4929
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->s:J
 
@@ -10977,6 +11148,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11151"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4996
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->aS:Ljava/lang/String;
 
@@ -10987,6 +11160,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11163"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 859
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -11018,6 +11193,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11196"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4899
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->u:Z
 
@@ -11028,6 +11205,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11208"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3983
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->ad:Ljava/lang/String;
 
@@ -11081,6 +11260,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11263"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1862
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/biz/webviewplugin/Share;
 
@@ -11091,6 +11272,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11275"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 5006
     invoke-super {p0}, Lcom/tencent/biz/webviewbase/AbsBaseWebViewActivity;->getTitleBarHeight()I
 
@@ -11103,6 +11286,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11289"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 939
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/biz/ui/TouchWebView;
 
@@ -11113,6 +11298,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11301"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4934
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->t:J
 
@@ -11123,6 +11310,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11313"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 5001
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->aU:Ljava/lang/String;
 
@@ -11133,6 +11322,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11325"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 1339
@@ -11285,6 +11476,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11479"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4904
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->C:Z
 
@@ -11295,6 +11488,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11491"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v5, 0x8
 
     const/4 v2, 0x0
@@ -11652,6 +11847,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11850"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1896
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->b:Landroid/view/View;
 
@@ -11673,6 +11870,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11873"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4939
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->u:J
 
@@ -11683,6 +11882,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11885"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 1866
@@ -11704,6 +11905,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11908"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4980
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->v()V
 
@@ -11729,6 +11932,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11935"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 5010
     invoke-super {p0}, Lcom/tencent/biz/webviewbase/AbsBaseWebViewActivity;->isResume()Z
 
@@ -11741,6 +11946,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11949"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4839
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->E:Z
 
@@ -11751,6 +11958,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11961"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1220
     const/4 v0, 0x0
 
@@ -11761,6 +11970,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11973"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4944
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->v:J
 
@@ -11776,6 +11987,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:11990"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1874
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/biz/ui/TouchWebView;
 
@@ -11858,6 +12071,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:12074"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4949
     const-wide/16 v0, 0x0
 
@@ -11868,6 +12083,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:12086"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v2, 0x0
 
     const/4 v4, 0x1
@@ -12283,6 +12500,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:12503"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4967
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->v()V
 
@@ -12308,6 +12527,8 @@
     .locals 17
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:12530"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2947
     move-object/from16 v0, p0
 
@@ -12750,6 +12971,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:12974"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4973
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->v()V
 
@@ -12775,6 +12998,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:13001"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3961
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Landroid/widget/ProgressBar;
 
@@ -12796,6 +13021,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:13024"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4986
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->e:J
 
@@ -12806,6 +13033,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:13036"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3967
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Landroid/widget/ProgressBar;
 
@@ -12827,6 +13056,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:13059"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4889
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->c:J
 
@@ -12837,6 +13068,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:13071"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v7, 0x8
 
     const-wide/16 v5, 0x0
@@ -13146,6 +13379,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:13382"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3049
     .line 3050
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->ad:Ljava/lang/String;
@@ -13239,6 +13474,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:13477"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1903
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/biz/ui/TouchWebView;
 
@@ -13927,6 +14164,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:14167"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     const/4 v4, 0x0
@@ -14070,6 +14309,8 @@
     .locals 17
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:14312"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 973
     invoke-virtual/range {p0 .. p0}, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->getIntent()Landroid/content/Intent;
 
@@ -15226,6 +15467,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:15470"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3071
     invoke-super {p0}, Lcom/tencent/biz/webviewbase/AbsBaseWebViewActivity;->onCreateCenterView()Landroid/view/View;
 
@@ -15243,6 +15486,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:15489"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2690
     invoke-virtual/range {p2 .. p2}, Landroid/view/View;->getTag()Ljava/lang/Object;
 
@@ -16567,6 +16812,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:16815"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3675
     invoke-super {p0, p1, p2}, Lcom/tencent/biz/webviewbase/AbsBaseWebViewActivity;->onTouch(Landroid/view/View;Landroid/view/MotionEvent;)Z
 
@@ -16617,6 +16864,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:16867"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4321
     invoke-super {p0, p1}, Lcom/tencent/biz/webviewbase/AbsBaseWebViewActivity;->onWindowFocusChanged(Z)V
 
@@ -16692,6 +16941,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:16944"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4331
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->d:Landroid/view/View;
 
@@ -16773,6 +17024,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:17027"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3914
     invoke-super {p0}, Lcom/tencent/biz/webviewbase/AbsBaseWebViewActivity;->receiveScreenOff()V
 
@@ -16821,6 +17074,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:17077"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 2065
@@ -16955,7 +17210,6 @@
 .method public setImmersiveStatus()V
     .locals 0
 
-    .prologue
     .line 4874
     invoke-super {p0}, Lcom/tencent/biz/webviewbase/AbsBaseWebViewActivity;->setImmersiveStatus()V
 
@@ -16967,6 +17221,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:17224"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3978
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/biz/webviewplugin/Share;
 
@@ -16981,6 +17237,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:17240"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3974
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQBrowserActivity;->a:Lcom/tencent/biz/webviewplugin/Share;
 
@@ -17005,6 +17263,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:17266"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     const/4 v2, 0x0
@@ -17217,6 +17477,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBrowserActivity.smali:17480"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v11, 0x0
 
     const/16 v10, 0x400

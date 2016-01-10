@@ -23,6 +23,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBroadcastActivity.smali:26"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 38
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/BaseSystemActivity;-><init>()V
 
@@ -43,6 +45,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBroadcastActivity.smali:48"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f0a144e
 
     const/16 v0, 0x3e7
@@ -151,6 +155,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBroadcastActivity.smali:158"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 107
@@ -175,6 +181,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBroadcastActivity.smali:184"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 80
@@ -214,6 +222,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBroadcastActivity.smali:225"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 67
     const v0, 0x7f0a1a3d
 
@@ -228,6 +238,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBroadcastActivity.smali:241"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 88
     sget-object v0, Lcom/tencent/mobileqq/app/AppConstants;->ar:Ljava/lang/String;
 
@@ -241,7 +253,6 @@
 .method protected a()V
     .locals 0
 
-    .prologue
     .line 368
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQBroadcastActivity;->c()V
 
@@ -253,6 +264,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBroadcastActivity.smali:267"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 59
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/BaseSystemActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -289,6 +302,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQBroadcastActivity.smali:305"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 98
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/BaseSystemActivity;->onDestroy()V
 
@@ -312,7 +327,6 @@
 .method protected onResume()V
     .locals 0
 
-    .prologue
     .line 93
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/BaseSystemActivity;->onResume()V
 

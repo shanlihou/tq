@@ -50,6 +50,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDCreateActivity.smali:53"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 29
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -87,6 +89,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDCreateActivity.smali:92"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 72
     const/4 v0, 0x0
 
@@ -103,6 +107,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDCreateActivity.smali:110"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v4, 0x43700000    # 240.0f
 
     .line 78
@@ -295,6 +301,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDCreateActivity.smali:304"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 272
@@ -339,6 +347,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDCreateActivity.smali:350"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f020b20
 
     const v3, 0x7f020b1f
@@ -574,6 +584,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDCreateActivity.smali:587"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 251
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/GesturePWDCreateActivity;->c()V
 
@@ -645,6 +657,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDCreateActivity.smali:660"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 63
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -669,6 +683,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GesturePWDCreateActivity.smali:686"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 292
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->finish()V
 

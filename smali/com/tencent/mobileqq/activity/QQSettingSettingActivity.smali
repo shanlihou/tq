@@ -85,6 +85,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:88"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 64
@@ -99,6 +101,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:104"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x0
@@ -196,7 +200,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;Lcom/tencent/mobileqq/app/upgrade/UpgradeDetailWrapper;)Lcom/tencent/mobileqq/app/upgrade/UpgradeDetailWrapper;
     .locals 0
 
-    .prologue
     .line 61
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;->a:Lcom/tencent/mobileqq/app/upgrade/UpgradeDetailWrapper;
 
@@ -206,7 +209,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;)V
     .locals 0
 
-    .prologue
     .line 61
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;->d()V
 
@@ -216,7 +218,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;Lcom/tencent/mobileqq/data/Card;)V
     .locals 0
 
-    .prologue
     .line 61
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;->c(Lcom/tencent/mobileqq/data/Card;)V
 
@@ -226,7 +227,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;ZLandroid/os/Bundle;)V
     .locals 0
 
-    .prologue
     .line 61
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;->a(ZLandroid/os/Bundle;)V
 
@@ -237,6 +237,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:240"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v5, 0x7f0a2112
 
     const/4 v0, 0x1
@@ -382,7 +384,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 61
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;->c:Z
 
@@ -392,7 +393,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;)V
     .locals 0
 
-    .prologue
     .line 61
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;->e()V
 
@@ -403,6 +403,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:406"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 127
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;->b:Lcom/tencent/mobileqq/redtouch/RedTouch;
 
@@ -443,6 +445,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:448"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v7, 0xc8
 
     const/4 v6, 0x2
@@ -696,6 +700,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:703"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 139
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;->a:Lcom/tencent/mobileqq/redtouch/RedTouch;
 
@@ -736,6 +742,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:745"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 386
     const v0, 0x7f0913e3
 
@@ -782,6 +790,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:793"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     .line 739
@@ -860,6 +870,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:873"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 936
@@ -1012,6 +1024,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:1027"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v1, 0x0
@@ -1126,6 +1140,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:1143"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     const v6, 0x7f09070c
@@ -1531,6 +1547,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:1550"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 444
     const v0, 0x7f091395
 
@@ -1583,6 +1601,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:1604"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     const/4 v4, 0x0
@@ -1724,6 +1744,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:1747"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 856
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
@@ -1789,6 +1811,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:1814"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     const/16 v6, 0x8
@@ -1927,6 +1951,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:1954"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     const/4 v1, 0x0
@@ -1978,6 +2004,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:2007"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 962
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQSettingSettingActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -2029,6 +2057,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:2060"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v5, 0x7f0a1c2f
 
     const v4, 0x7f0213cd
@@ -2317,6 +2347,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:2350"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     const/4 v3, 0x0
@@ -2424,6 +2456,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:2459"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v0, 0x0
@@ -2502,6 +2536,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:2539"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x1
 
     const/high16 v6, 0x42200000    # 40.0f
@@ -2909,6 +2945,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:2948"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 434
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -2949,6 +2987,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:2990"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 355
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnPause()V
 
@@ -2971,6 +3011,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:3014"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 286
@@ -3060,6 +3102,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:3105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     const/high16 v4, 0x42200000    # 40.0f
@@ -3224,6 +3268,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:3271"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v12, 0x1
 
     const/4 v6, 0x0
@@ -3733,6 +3779,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQSettingSettingActivity.smali:3782"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     const/high16 v4, 0x42200000    # 40.0f

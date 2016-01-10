@@ -27,6 +27,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchFriendListActivity.smali:30"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 30
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -46,6 +48,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchFriendListActivity.smali:51"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 30
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SearchFriendListActivity;->a:Liar;
 
@@ -56,6 +60,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchFriendListActivity.smali:63"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 30
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SearchFriendListActivity;->a:Ljava/util/ArrayList;
 
@@ -68,6 +74,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchFriendListActivity.smali:77"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     .line 98
@@ -252,6 +260,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchFriendListActivity.smali:263"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v1, 0x7f0200bd
 
     .line 41
@@ -351,6 +361,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchFriendListActivity.smali:364"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 180
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SearchFriendListActivity;->a:Lcom/tencent/mobileqq/app/FriendListObserver;
 
@@ -367,6 +379,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchFriendListActivity.smali:382"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v5, 0x2714
 
     const/4 v7, 0x2

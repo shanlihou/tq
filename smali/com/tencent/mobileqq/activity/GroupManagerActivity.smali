@@ -81,6 +81,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:84"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 54
@@ -99,6 +101,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:104"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 52
@@ -159,6 +163,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:166"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget v0, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->k:I
 
@@ -168,7 +174,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/GroupManagerActivity;I)I
     .locals 0
 
-    .prologue
     .line 52
     iput p1, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->k:I
 
@@ -178,7 +183,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/GroupManagerActivity;Landroid/app/Dialog;)Landroid/app/Dialog;
     .locals 0
 
-    .prologue
     .line 52
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->a:Landroid/app/Dialog;
 
@@ -189,6 +193,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:196"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->a:Landroid/content/DialogInterface$OnClickListener;
 
@@ -199,6 +205,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:208"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->a:Landroid/os/Handler;
 
@@ -209,6 +217,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:220"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->a:Lcom/tencent/mobileqq/adapter/GroupEditeDragSortAdapter;
 
@@ -219,6 +229,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:232"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->a:Lcom/tencent/mobileqq/data/Groups;
 
@@ -228,7 +240,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/GroupManagerActivity;Lcom/tencent/mobileqq/data/Groups;)Lcom/tencent/mobileqq/data/Groups;
     .locals 0
 
-    .prologue
     .line 52
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->a:Lcom/tencent/mobileqq/data/Groups;
 
@@ -239,6 +250,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:253"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->a:Lcom/tencent/mobileqq/emosm/view/DragSortListView;
 
@@ -249,6 +262,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:265"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->a:Lcom/tencent/mobileqq/utils/QQCustomDialogWtihInput;
 
@@ -258,7 +273,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/GroupManagerActivity;Lcom/tencent/mobileqq/utils/QQCustomDialogWtihInput;)Lcom/tencent/mobileqq/utils/QQCustomDialogWtihInput;
     .locals 0
 
-    .prologue
     .line 52
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->a:Lcom/tencent/mobileqq/utils/QQCustomDialogWtihInput;
 
@@ -269,6 +283,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:286"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 513
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->c()V
 
@@ -328,6 +344,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:347"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 85
     new-instance v0, Landroid/content/Intent;
 
@@ -352,7 +370,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/GroupManagerActivity;B)V
     .locals 0
 
-    .prologue
     .line 52
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->a(B)V
 
@@ -363,6 +380,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:383"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->a:Z
 
@@ -372,7 +391,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/GroupManagerActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 52
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->a:Z
 
@@ -382,7 +400,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/GroupManagerActivity;Landroid/app/Dialog;)Landroid/app/Dialog;
     .locals 0
 
-    .prologue
     .line 52
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->b:Landroid/app/Dialog;
 
@@ -393,6 +410,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:413"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->b:Landroid/content/DialogInterface$OnClickListener;
 
@@ -403,6 +422,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:425"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->b:Z
 
@@ -412,7 +433,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/GroupManagerActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 52
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->c:Z
 
@@ -422,7 +442,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/GroupManagerActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 52
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->b:Z
 
@@ -433,6 +452,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:455"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 188
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->leftView:Landroid/widget/TextView;
 
@@ -462,6 +483,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:486"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 200
     const v0, 0x102000a
 
@@ -611,6 +634,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:637"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -650,6 +675,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:678"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     .line 145
@@ -915,6 +942,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:945"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     const/4 v2, 0x0
@@ -1024,6 +1053,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:1056"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 626
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1104,6 +1135,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:1138"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v2, 0x0
@@ -1169,6 +1202,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:1205"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v2, 0x0
@@ -1234,6 +1269,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:1272"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v2, 0x0
@@ -1304,6 +1341,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:1344"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 181
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1362,6 +1401,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:1404"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v2, 0x0
@@ -1427,6 +1468,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:1471"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 562
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/GroupManagerActivity;->a:Landroid/app/Dialog;
 
@@ -1461,6 +1504,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:1507"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 92
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1532,6 +1577,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:1580"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 113
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1574,6 +1621,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:1624"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 123
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->finish()V
 
@@ -1592,6 +1641,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:1644"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 136
     const/16 v0, 0x1c8
 
@@ -1627,6 +1678,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/GroupManagerActivity.smali:1681"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 129
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onBackEvent()Z
 

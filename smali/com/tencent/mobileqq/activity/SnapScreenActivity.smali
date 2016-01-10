@@ -44,6 +44,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SnapScreenActivity.smali:47"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 62
@@ -75,7 +77,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .prologue
     .line 54
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
@@ -87,6 +88,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SnapScreenActivity.smali:91"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 78
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/SnapScreenActivity;->a:Landroid/content/Context;
 
@@ -273,7 +276,6 @@
 .method private d()V
     .locals 0
 
-    .prologue
     .line 155
     return-void
 .end method
@@ -283,7 +285,6 @@
 .method public a()V
     .locals 0
 
-    .prologue
     .line 162
     return-void
 .end method
@@ -292,6 +293,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SnapScreenActivity.smali:296"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0x8
 
     const/4 v1, 0x0
@@ -351,6 +354,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SnapScreenActivity.smali:357"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 174
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SnapScreenActivity;->a:Landroid/view/ViewGroup;
 
@@ -375,6 +380,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SnapScreenActivity.smali:383"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 178
@@ -453,7 +460,6 @@
 .method public c()V
     .locals 0
 
-    .prologue
     .line 194
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SnapScreenActivity;->a()V
 
@@ -465,6 +471,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SnapScreenActivity.smali:474"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 553
     invoke-static {}, Lcom/tencent/mqq/shared_file_accessor/SharedPreferencesProxyManager;->getInstance()Lcom/tencent/mqq/shared_file_accessor/SharedPreferencesProxyManager;
 
@@ -481,6 +489,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SnapScreenActivity.smali:492"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 70
     invoke-super {p0, p1}, Landroid/app/Activity;->onCreate(Landroid/os/Bundle;)V
 

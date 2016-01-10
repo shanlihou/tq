@@ -25,6 +25,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopClassChoiceActivity.smali:28"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 37
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -38,6 +40,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopClassChoiceActivity.smali:43"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 37
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopClassChoiceActivity;->a:Lihc;
 
@@ -48,6 +52,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopClassChoiceActivity.smali:55"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 37
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopClassChoiceActivity;->b:Ljava/lang/String;
 
@@ -58,6 +64,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopClassChoiceActivity.smali:67"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/TroopClassChoiceActivity;->getIntent()Landroid/content/Intent;
 
@@ -223,6 +231,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopClassChoiceActivity.smali:234"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 87
     const v0, 0x7f0200bd
 
@@ -268,6 +278,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopClassChoiceActivity.smali:281"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 167
     invoke-static {p0}, Lcom/tencent/mobileqq/troopinfo/GroupCatalogTool;->a(Landroid/content/Context;)Lcom/tencent/mobileqq/troopinfo/GroupCatalogTool;
 
@@ -287,6 +299,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopClassChoiceActivity.smali:302"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 244
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopClassChoiceActivity;->a:Ljava/util/ArrayList;
 
@@ -394,6 +408,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopClassChoiceActivity.smali:411"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, -0x1
 
     .line 234
@@ -414,6 +430,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopClassChoiceActivity.smali:433"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 46
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onCreate(Landroid/os/Bundle;)V
 

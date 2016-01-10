@@ -30,6 +30,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/MessageShareActivity.smali:33"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 44
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -60,6 +62,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/MessageShareActivity.smali:65"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 103
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/aio/MessageShareActivity;->a:Landroid/os/Bundle;
 
@@ -81,6 +85,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/MessageShareActivity.smali:88"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 190
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/aio/MessageShareActivity;->a:Landroid/app/Dialog;
 
@@ -108,6 +114,8 @@
     .locals 16
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/MessageShareActivity.smali:117"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 111
     move-object/from16 v0, p1
 
@@ -638,6 +646,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/MessageShareActivity.smali:649"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     .line 60
@@ -751,6 +761,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/MessageShareActivity.smali:764"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v5, 0x14d
 
     const/4 v4, 0x2

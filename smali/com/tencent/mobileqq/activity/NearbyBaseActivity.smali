@@ -89,6 +89,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:92"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x4
 
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
@@ -161,6 +163,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:166"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v4, -0x1
@@ -271,6 +275,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:278"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 158
     const v0, 0x7f03015c
 
@@ -281,6 +287,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:290"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 818
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/NearbyBaseActivity;->a()Lcom/tencent/mobileqq/webview/AbsWebView;
 
@@ -333,6 +341,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:344"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 680
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NearbyBaseActivity;->c:[I
 
@@ -350,6 +360,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:363"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 779
     const/4 v0, 0x0
 
@@ -380,6 +392,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:395"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     .line 661
@@ -500,6 +514,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:517"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 757
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NearbyBaseActivity;->a:Lcom/tencent/mobileqq/widget/QQViewPager;
 
@@ -550,6 +566,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:569"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x3
 
     const/4 v8, 0x2
@@ -1030,6 +1048,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:1051"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     const/4 v6, 0x0
@@ -1298,6 +1318,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:1321"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     const/16 v5, 0x8
@@ -1631,6 +1653,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:1656"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 168
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1690,6 +1714,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:1717"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 163
     const v0, 0x7f0200bd
 
@@ -1700,6 +1726,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:1729"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 798
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isDevelopLevel()Z
 
@@ -1739,6 +1767,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:1770"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 685
     const/4 v0, 0x0
 
@@ -1775,6 +1805,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:1808"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 345
     const v0, 0x7f0a1ac4
 
@@ -1889,6 +1921,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:1924"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 789
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isDevelopLevel()Z
 
@@ -1928,6 +1962,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:1965"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 618
     new-instance v0, Lhmv;
 
@@ -1948,6 +1984,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:1987"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 807
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/NearbyBaseActivity;->a()Lcom/tencent/mobileqq/webview/AbsWebView;
 
@@ -2002,6 +2040,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2043"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 645
     new-instance v0, Lhmw;
 
@@ -2021,6 +2061,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2064"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 423
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -2056,6 +2098,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2101"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x2
 
     const/4 v8, 0x1
@@ -2217,6 +2261,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2264"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 547
     :try_start_0
     invoke-super {p0}, Lcom/tencent/mobileqq/nearby/NearbyBaseActivity2;->doOnDestroy()V
@@ -2330,6 +2376,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2379"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 432
@@ -2431,6 +2479,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2482"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 372
     invoke-super {p0}, Lcom/tencent/mobileqq/nearby/NearbyBaseActivity2;->doOnPause()V
 
@@ -2467,6 +2517,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2520"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 363
     invoke-super {p0}, Lcom/tencent/mobileqq/nearby/NearbyBaseActivity2;->doOnResume()V
 
@@ -2494,6 +2546,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2549"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 454
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/nearby/NearbyBaseActivity2;->doOnSaveInstanceState(Landroid/os/Bundle;)V
 
@@ -2522,6 +2576,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2579"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 179
@@ -2551,6 +2607,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2610"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 828
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isDevelopLevel()Z
 
@@ -2590,6 +2648,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2651"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 837
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isDevelopLevel()Z
 
@@ -2629,6 +2689,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2692"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 872
@@ -2683,6 +2745,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2748"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 411
     const-string v0, "input_method"
 
@@ -2739,6 +2803,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2806"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 846
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isDevelopLevel()Z
 
@@ -2778,6 +2844,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2847"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 882
@@ -2832,6 +2900,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2903"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 864
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isDevelopLevel()Z
 
@@ -2871,6 +2941,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2944"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 892
     sget-boolean v0, Lcom/tencent/mobileqq/webprocess/WebAccelerateHelper;->a:Z
 
@@ -2909,6 +2981,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:2984"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v5, 0x0
@@ -3044,6 +3118,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:3121"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 855
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isDevelopLevel()Z
 
@@ -3083,6 +3159,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:3162"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 921
@@ -3137,6 +3215,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:3218"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 931
     const-wide/16 v0, 0x0
 
@@ -3147,6 +3227,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:3230"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 936
     const-wide/16 v0, 0x0
 
@@ -3157,6 +3239,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:3242"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 901
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/NearbyBaseActivity;->a()Lcom/tencent/mobileqq/webview/AbsWebView;
 
@@ -3211,6 +3295,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:3298"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 911
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/NearbyBaseActivity;->a()Lcom/tencent/mobileqq/webview/AbsWebView;
 
@@ -3265,6 +3351,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:3354"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 941
     const-wide/16 v0, 0x0
 
@@ -3275,6 +3363,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:3366"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 390
     iget v0, p0, Lcom/tencent/mobileqq/activity/NearbyBaseActivity;->e:I
 
@@ -3353,6 +3443,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:3446"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 382
     sget v0, Landroid/os/Build$VERSION;->SDK_INT:I
 
@@ -3378,6 +3470,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearbyBaseActivity.smali:3473"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 538
     iget v0, p0, Lcom/tencent/mobileqq/activity/NearbyBaseActivity;->b:I
 

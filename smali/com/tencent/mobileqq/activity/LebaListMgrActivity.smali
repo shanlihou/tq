@@ -41,6 +41,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaListMgrActivity.smali:44"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 50
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -86,6 +88,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaListMgrActivity.smali:91"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 50
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/LebaListMgrActivity;->a:Landroid/view/View;
 
@@ -96,6 +100,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaListMgrActivity.smali:103"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 50
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/LebaListMgrActivity;->a:Landroid/widget/TextView;
 
@@ -106,6 +112,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaListMgrActivity.smali:115"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 50
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/LebaListMgrActivity;->a:Lcom/tencent/mobileqq/adapter/LebaListMgrAdapter;
 
@@ -116,6 +124,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaListMgrActivity.smali:127"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 50
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/LebaListMgrActivity;->a:Lcom/tencent/widget/XListView;
 
@@ -126,6 +136,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaListMgrActivity.smali:139"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     const/4 v6, 0x0
@@ -388,7 +400,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/LebaListMgrActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 50
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/LebaListMgrActivity;->a:Z
 
@@ -401,6 +412,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaListMgrActivity.smali:415"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 406
     if-eqz p1, :cond_0
 
@@ -450,6 +463,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaListMgrActivity.smali:466"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 275
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/LebaListMgrActivity;->a:Z
 
@@ -950,6 +965,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaListMgrActivity.smali:968"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 401
     if-eqz p1, :cond_0
 
@@ -972,6 +989,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaListMgrActivity.smali:992"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 63
@@ -1025,6 +1044,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaListMgrActivity.smali:1047"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 77
@@ -1087,6 +1108,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LebaListMgrActivity.smali:1111"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 388
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onActivityResult(IILandroid/content/Intent;)V
 

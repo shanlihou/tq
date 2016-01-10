@@ -42,6 +42,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TenpayJumpActivity.smali:45"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 67
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -54,6 +56,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TenpayJumpActivity.smali:59"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v3, -0x1
@@ -144,6 +148,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TenpayJumpActivity.smali:151"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 385
     :try_start_0
     invoke-virtual {p1}, Landroid/content/Context;->getResources()Landroid/content/res/Resources;
@@ -196,6 +202,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TenpayJumpActivity.smali:205"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, -0x1
 
     .line 337
@@ -274,6 +282,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TenpayJumpActivity.smali:285"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 311
     new-instance v0, Lcooperation/qwallet/plugin/QWalletPayProgressDialog;
 
@@ -359,6 +369,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TenpayJumpActivity.smali:372"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 190
     if-nez p2, :cond_0
 
@@ -429,6 +441,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TenpayJumpActivity.smali:444"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 395
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/qwallet/TenpayJumpActivity;->isFinishing()Z
 
@@ -460,6 +474,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TenpayJumpActivity.smali:477"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 158
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -613,6 +629,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TenpayJumpActivity.smali:632"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x1
 
     const/4 v0, 0x0
@@ -893,6 +911,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TenpayJumpActivity.smali:914"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v6, 0x1117a
 
     const/4 v1, 0x0
@@ -1274,6 +1294,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/qwallet/TenpayJumpActivity.smali:1297"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 98
     const/4 v0, 0x1
 

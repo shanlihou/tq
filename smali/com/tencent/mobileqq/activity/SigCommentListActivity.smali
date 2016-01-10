@@ -45,6 +45,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SigCommentListActivity.smali:48"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 37
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -64,6 +66,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SigCommentListActivity.smali:69"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     const/4 v5, 0x2
@@ -305,7 +309,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SigCommentListActivity;I)V
     .locals 0
 
-    .prologue
     .line 37
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/SigCommentListActivity;->a(I)V
 
@@ -318,6 +321,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SigCommentListActivity.smali:324"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 114
@@ -390,6 +395,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SigCommentListActivity.smali:398"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     const/4 v4, 0x1
@@ -558,6 +565,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SigCommentListActivity.smali:568"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 102
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SigCommentListActivity;->a:Lcom/tencent/mobileqq/app/SignatureObserver;
 
@@ -593,7 +602,6 @@
 .method protected doOnPause()V
     .locals 0
 
-    .prologue
     .line 97
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnPause()V
 
@@ -604,7 +612,6 @@
 .method protected doOnResume()V
     .locals 0
 
-    .prologue
     .line 91
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnResume()V
 
@@ -616,6 +623,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SigCommentListActivity.smali:626"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x1

@@ -101,6 +101,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:104"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 94
     invoke-direct {p0}, Lcom/tencent/mobileqq/forward/ForwardBaseActivity;-><init>()V
 
@@ -156,6 +158,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:161"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 94
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ForwardRecentActivity;->a:Lcom/tencent/widget/XListView;
 
@@ -166,6 +170,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:173"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 1285
@@ -288,6 +294,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:297"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 94
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ForwardRecentActivity;->a:Ljava/util/List;
 
@@ -298,6 +306,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:309"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 734
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ForwardRecentActivity;->a:Lcom/tencent/mobileqq/forward/ForwardBaseOption;
 
@@ -312,6 +322,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:325"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x2
 
     const/4 v5, 0x1
@@ -809,6 +821,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:824"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v9, 0xc8
 
     const/4 v8, 0x1
@@ -953,7 +967,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/ForwardRecentActivity;)V
     .locals 0
 
-    .prologue
     .line 94
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/ForwardRecentActivity;->g()V
 
@@ -963,7 +976,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/ForwardRecentActivity;I)V
     .locals 0
 
-    .prologue
     .line 94
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/ForwardRecentActivity;->a(I)V
 
@@ -974,6 +986,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:989"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v3, 0x8
 
     const/4 v2, 0x2
@@ -1126,7 +1140,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/ForwardRecentActivity;)V
     .locals 0
 
-    .prologue
     .line 94
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/ForwardRecentActivity;->b()V
 
@@ -1137,6 +1150,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:1153"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v6, 0x7f090152
 
     const v5, 0x7f030615
@@ -1257,6 +1272,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:1275"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 560
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/ForwardRecentActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
@@ -1320,6 +1337,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:1340"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 591
@@ -1478,6 +1497,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:1500"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 643
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/ForwardRecentActivity;->getLayoutInflater()Landroid/view/LayoutInflater;
 
@@ -1541,6 +1562,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:1565"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 707
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ForwardRecentActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1631,6 +1654,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:1657"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 1198
@@ -1762,6 +1787,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:1790"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     .line 1362
@@ -2009,6 +2036,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:2039"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v5, 0x0
 
     const/4 v1, 0x1
@@ -2264,6 +2293,8 @@
     .locals 16
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:2296"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1051
     const/4 v3, -0x1
 
@@ -2736,6 +2767,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:2770"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 1412
@@ -2765,6 +2798,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:2801"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 157
     const v0, 0x7f0d02b6
 
@@ -2811,6 +2846,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:2849"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 337
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ForwardRecentActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -2886,6 +2923,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:2926"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v10, 0x2
 
     const/4 v9, -0x1
@@ -3250,6 +3289,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:3292"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 228
     invoke-super {p0}, Lcom/tencent/mobileqq/forward/ForwardBaseActivity;->doOnResume()V
 
@@ -3348,6 +3389,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForwardRecentActivity.smali:3392"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1406
     invoke-super {p0}, Lcom/tencent/mobileqq/forward/ForwardBaseActivity;->finish()V
 

@@ -21,6 +21,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQLSUnlockActivity.smali:24"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 23
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
@@ -33,6 +35,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQLSUnlockActivity.smali:38"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x4
 
     .line 62
@@ -135,6 +139,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQLSUnlockActivity.smali:142"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 125
     invoke-static {}, Lcom/tencent/mqq/shared_file_accessor/SharedPreferencesProxyManager;->getInstance()Lcom/tencent/mqq/shared_file_accessor/SharedPreferencesProxyManager;
 
@@ -151,6 +157,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQLSUnlockActivity.smali:160"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 78
     iget v0, p1, Landroid/os/Message;->what:I
 
@@ -198,6 +206,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQLSUnlockActivity.smali:209"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 111
     invoke-super {p0}, Landroid/app/Activity;->onAttachedToWindow()V
 
@@ -276,6 +286,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQLSUnlockActivity.smali:289"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 30
     invoke-static {}, Lcom/tencent/common/app/BaseApplicationImpl;->a()Lcom/tencent/common/app/BaseApplicationImpl;
 
@@ -414,6 +426,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQLSUnlockActivity.smali:429"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 105
     invoke-super {p0}, Landroid/app/Activity;->onDestroy()V
 
@@ -432,6 +446,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQLSUnlockActivity.smali:449"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 98
     invoke-super {p0}, Landroid/app/Activity;->onPause()V
 
@@ -450,6 +466,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQLSUnlockActivity.smali:469"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 91
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 

@@ -138,6 +138,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:141"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 155
@@ -165,6 +167,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:170"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     const/4 v2, 0x0
@@ -273,6 +277,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:280"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     iget v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->i:I
 
@@ -282,7 +288,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;I)I
     .locals 0
 
-    .prologue
     .line 109
     iput p1, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->k:I
 
@@ -292,7 +297,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;J)J
     .locals 0
 
-    .prologue
     .line 109
     iput-wide p1, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->a:J
 
@@ -302,7 +306,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;Landroid/net/Uri;)Landroid/net/Uri;
     .locals 0
 
-    .prologue
     .line 109
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->a:Landroid/net/Uri;
 
@@ -313,6 +316,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:319"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->b:Landroid/widget/EditText;
 
@@ -323,6 +328,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:331"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->a:Landroid/widget/ImageView;
 
@@ -333,6 +340,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:343"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->d:Landroid/widget/TextView;
 
@@ -343,6 +352,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:355"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->a:Lcom/tencent/image/URLImageView;
 
@@ -353,6 +364,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:367"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->h:Ljava/lang/String;
 
@@ -362,7 +375,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .prologue
     .line 109
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->k:Ljava/lang/String;
 
@@ -373,6 +385,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:388"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 1339
@@ -456,6 +470,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:473"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->a:Ljava/util/ArrayList;
 
@@ -466,6 +482,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:485"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 1431
@@ -557,7 +575,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;)V
     .locals 0
 
-    .prologue
     .line 109
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->a()V
 
@@ -567,7 +584,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;Ljava/lang/String;Ljava/lang/String;I)V
     .locals 0
 
-    .prologue
     .line 109
     invoke-direct {p0, p1, p2, p3}, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->a(Ljava/lang/String;Ljava/lang/String;I)V
 
@@ -578,6 +594,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:597"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 876
     new-instance v0, Ljava/io/File;
 
@@ -686,6 +704,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:707"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1530
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -1156,6 +1176,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1179"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 933
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->getIntent()Landroid/content/Intent;
 
@@ -1210,6 +1232,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1235"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->a()Z
 
@@ -1221,7 +1245,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 109
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->f:Z
 
@@ -1232,6 +1255,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1258"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     iget v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->l:I
 
@@ -1246,6 +1271,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1274"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->e:Landroid/widget/TextView;
 
@@ -1256,6 +1283,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1286"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->k:Ljava/lang/String;
 
@@ -1265,7 +1294,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .prologue
     .line 109
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->j:Ljava/lang/String;
 
@@ -1276,6 +1304,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1307"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1596
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1312,7 +1342,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;)V
     .locals 0
 
-    .prologue
     .line 109
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->c()V
 
@@ -1323,6 +1352,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1355"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1401
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1417,6 +1448,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1451"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     iget v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->l:I
 
@@ -1427,6 +1460,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1463"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 109
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->l:Ljava/lang/String;
 
@@ -1437,6 +1472,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1475"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x5
 
     .line 1616
@@ -1489,6 +1526,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1529"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1448
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1612,6 +1651,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1654"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1323
     const-string v0, "last_verify_msg"
 
@@ -1706,6 +1747,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1750"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 943
@@ -1783,6 +1826,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1829"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1493
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->b:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -1850,6 +1895,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:1898"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1729
     invoke-static {p2}, Landroid/text/TextUtils;->isEmpty(Ljava/lang/CharSequence;)Z
 
@@ -2470,6 +2517,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:2520"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 1650
@@ -2555,6 +2604,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:2607"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 857
     if-nez p1, :cond_0
 
@@ -2618,6 +2669,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:2672"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v12, 0x7f0a111a
 
     const/4 v9, 0x2
@@ -4779,6 +4832,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:4835"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 908
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnNewIntent(Landroid/content/Intent;)V
 
@@ -4824,6 +4879,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:4882"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 826
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnStart()V
 
@@ -4868,6 +4925,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:4928"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 840
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnStop()V
 
@@ -4923,6 +4982,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:4985"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 920
     const-string v0, "input_method"
 
@@ -4954,6 +5015,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:5018"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1353
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddFriendVerifyActivity;->a:Landroid/widget/EditText;
 
@@ -4994,6 +5057,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:5060"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1376
     invoke-virtual {p1}, Landroid/widget/CompoundButton;->getTag()Ljava/lang/Object;
 
@@ -5065,6 +5130,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddFriendVerifyActivity.smali:5133"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 1359

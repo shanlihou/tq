@@ -86,6 +86,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:89"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -109,6 +111,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:114"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget v0, p0, Lcom/tencent/mobileqq/activity/HongbaoShowerActivity;->e:I
 
@@ -119,6 +123,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:126"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/HongbaoShowerActivity;->a:Landroid/view/animation/Animation;
 
@@ -129,6 +135,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:138"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/HongbaoShowerActivity;->b:Landroid/widget/RelativeLayout;
 
@@ -139,6 +147,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:150"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/HongbaoShowerActivity;->a:Lcom/tencent/mobileqq/portal/SanHuaView;
 
@@ -149,6 +159,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:162"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 420
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/HongbaoShowerActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -188,6 +200,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:203"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     .line 354
@@ -351,6 +365,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:368"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, -0x1
 
     const/4 v1, 0x2
@@ -510,6 +526,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:529"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 385
     if-eqz p2, :cond_1
 
@@ -549,7 +567,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/HongbaoShowerActivity;)V
     .locals 0
 
-    .prologue
     .line 54
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/HongbaoShowerActivity;->b()V
 
@@ -560,6 +577,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:580"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     const/4 v6, 0x0
@@ -857,6 +876,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:879"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 410
     invoke-static {}, Lcom/tencent/mobileqq/app/ThreadManager;->c()Lmqq/os/MqqHandler;
 
@@ -880,6 +901,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:904"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v2, 0x7f030389
 
     const/4 v8, 0x2
@@ -1575,6 +1598,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:1601"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 430
     const/4 v0, 0x4
 
@@ -1599,6 +1624,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/HongbaoShowerActivity.smali:1627"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v1, 0x400
 
     .line 252

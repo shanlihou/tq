@@ -32,6 +32,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QzonePhotoModeActivity.smali:35"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 17
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -51,6 +53,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QzonePhotoModeActivity.smali:56"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 17
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QzonePhotoModeActivity;->b:Landroid/widget/CheckBox;
 
@@ -61,6 +65,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QzonePhotoModeActivity.smali:68"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 17
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QzonePhotoModeActivity;->c:Landroid/widget/CheckBox;
 
@@ -71,6 +77,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QzonePhotoModeActivity.smali:80"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 17
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QzonePhotoModeActivity;->a:Landroid/widget/CheckBox;
 
@@ -81,6 +89,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QzonePhotoModeActivity.smali:92"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v4, 0x0
@@ -280,6 +290,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QzonePhotoModeActivity.smali:293"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 103
     new-instance v0, Landroid/content/Intent;
 
@@ -313,6 +325,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QzonePhotoModeActivity.smali:328"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 110
     new-instance v0, Landroid/content/Intent;
 
@@ -346,6 +360,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QzonePhotoModeActivity.smali:363"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 116
     new-instance v0, Landroid/content/Intent;
 
@@ -379,6 +395,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QzonePhotoModeActivity.smali:398"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 29
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onCreate(Landroid/os/Bundle;)V
 

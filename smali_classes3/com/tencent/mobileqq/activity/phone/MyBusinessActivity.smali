@@ -14,6 +14,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/MyBusinessActivity.smali:17"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 19
     invoke-direct {p0}, Lcom/tencent/biz/pubaccount/PublicAccountBrowser;-><init>()V
 
@@ -26,6 +28,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/MyBusinessActivity.smali:31"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 26
@@ -72,6 +76,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/MyBusinessActivity.smali:79"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 56
     invoke-static {}, Lcom/tencent/common/app/BaseApplicationImpl;->a()Lcom/tencent/common/app/BaseApplicationImpl;
 
@@ -104,6 +110,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/MyBusinessActivity.smali:113"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 35
     if-eqz p1, :cond_0
 
@@ -163,6 +171,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/MyBusinessActivity.smali:174"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     const/4 v0, 0x0
 
@@ -173,6 +183,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/MyBusinessActivity.smali:186"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 63

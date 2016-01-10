@@ -138,6 +138,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:141"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x0
@@ -268,6 +270,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:273"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     iget v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->b:F
 
@@ -278,6 +282,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:285"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1628
     invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -312,6 +318,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:321"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/AccountManageActivity;->a(Landroid/view/View;)Landroid/view/View;
 
@@ -324,6 +332,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:335"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->d:Lcom/tencent/mobileqq/widget/FormSimpleItem;
 
@@ -334,6 +344,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:347"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->a:Lmqq/os/MqqHandler;
 
@@ -343,7 +355,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AccountManageActivity;)V
     .locals 0
 
-    .prologue
     .line 119
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/AccountManageActivity;->j()V
 
@@ -353,7 +364,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AccountManageActivity;Z)V
     .locals 0
 
-    .prologue
     .line 119
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/AccountManageActivity;->b(Z)V
 
@@ -364,6 +374,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:377"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1956
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/AccountManageActivity;->getAppRuntime()Lmqq/app/AppRuntime;
 
@@ -436,6 +448,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:451"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->f:Z
 
@@ -445,7 +459,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AccountManageActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 119
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->g:Z
 
@@ -456,6 +469,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:472"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     iget v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->mDensity:F
 
@@ -466,6 +481,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:484"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1637
     invoke-virtual {p1}, Landroid/view/View;->getParent()Landroid/view/ViewParent;
 
@@ -500,6 +517,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:520"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/AccountManageActivity;->b(Landroid/view/View;)Landroid/view/View;
 
@@ -512,6 +531,8 @@
     .locals 17
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:534"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 416
     move-object/from16 v0, p0
 
@@ -1340,7 +1361,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/AccountManageActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 119
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->f:Z
 
@@ -1351,6 +1371,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:1374"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     iget v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->mDensity:F
 
@@ -1360,7 +1382,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/AccountManageActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 119
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->e:Z
 
@@ -1371,6 +1392,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:1395"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     iget v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->mDensity:F
 
@@ -1381,6 +1404,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:1407"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     iget v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->mDensity:F
 
@@ -1391,6 +1416,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:1419"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     iget v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->mDensity:F
 
@@ -1401,6 +1428,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:1431"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     iget v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->mDensity:F
 
@@ -1411,6 +1440,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:1443"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     iget v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->mDensity:F
 
@@ -1421,6 +1452,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:1455"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     iget v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->mDensity:F
 
@@ -1431,6 +1464,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:1467"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     iget v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->mDensity:F
 
@@ -1441,6 +1476,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:1479"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v9, 0x7f0a1c1e
 
     const v8, 0x7f09018a
@@ -1854,6 +1891,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:1894"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 853
     new-instance v0, Landroid/app/Dialog;
 
@@ -1905,6 +1944,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:1947"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     .line 881
@@ -2107,6 +2148,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:2151"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 908
@@ -2341,6 +2384,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:2387"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v13, 0x2
 
     const/4 v7, 0x0
@@ -2841,6 +2886,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:2889"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 2029
@@ -2911,6 +2958,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:2961"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2065
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -2966,6 +3015,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:3018"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 2290
@@ -3018,6 +3069,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:3072"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v0, 0xb
 
     .line 867
@@ -3058,6 +3111,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:3114"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v5, 0x0
@@ -3343,6 +3398,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:3401"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1791
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->a:Ljava/util/List;
 
@@ -3469,6 +3526,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:3529"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2606
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->a:Lcom/tencent/mobileqq/widget/QQToastNotifier;
 
@@ -3501,6 +3560,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:3563"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x0
 
     const/16 v5, 0x1b58
@@ -3806,6 +3867,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:3870"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 635
     sget-object v0, Lmqq/app/AppRuntime$Status;->offline:Lmqq/app/AppRuntime$Status;
 
@@ -3858,6 +3921,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:3924"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     const/4 v4, 0x0
@@ -3990,6 +4055,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:4058"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v5, 0xfa
 
     const/4 v4, 0x1
@@ -4071,6 +4138,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:4141"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2414
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -4136,6 +4205,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:4208"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v8, 0x7f0a14f0
 
     const v7, 0x7f0213a8
@@ -4410,6 +4481,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:4484"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v8, 0x7f0213a9
 
     const v7, 0x7f0213a8
@@ -4596,6 +4669,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:4672"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v13, 0x7f040001
 
     const/16 v12, 0x8
@@ -4888,6 +4963,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:4966"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 1401
@@ -5025,6 +5102,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:5105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2174
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -5125,6 +5204,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:5207"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, -0x1
 
     .line 2150
@@ -5168,6 +5249,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:5252"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 175
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -5251,6 +5334,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:5337"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 211
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -5328,6 +5413,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:5416"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2510
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnResume()V
 
@@ -5350,6 +5437,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:5440"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2189
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->a:Lmqq/os/MqqHandler;
 
@@ -5401,6 +5490,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:5493"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2203
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/AccountManageActivity;->e()V
 
@@ -5489,6 +5580,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:5583"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2482
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
@@ -5566,6 +5659,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:5662"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2498
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AccountManageActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
@@ -5621,6 +5716,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:5719"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     const/4 v4, 0x1
@@ -5848,6 +5945,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:5948"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     const/4 v3, 0x1
@@ -6014,6 +6113,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:6116"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2023
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/AccountManageActivity;->h()V
 
@@ -6033,6 +6134,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:6137"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2055
     sget-object v0, Lmqq/app/Constants$LogoutReason;->user:Lmqq/app/Constants$LogoutReason;
 
@@ -6069,6 +6172,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AccountManageActivity.smali:6175"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2616
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onPostThemeChanged()V
 

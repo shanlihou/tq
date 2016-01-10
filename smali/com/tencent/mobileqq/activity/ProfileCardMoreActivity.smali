@@ -102,6 +102,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 88
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -147,6 +149,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:152"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 88
     iget v0, p0, Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;->o:I
 
@@ -156,7 +160,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;I)I
     .locals 0
 
-    .prologue
     .line 88
     iput p1, p0, Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;->o:I
 
@@ -167,6 +170,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:173"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 88
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;->a(Ljava/lang/String;)I
 
@@ -179,6 +184,8 @@
     .locals 22
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:187"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1243
     const/4 v11, -0x1
 
@@ -3361,6 +3368,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:3371"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 481
     const/4 v0, 0x0
 
@@ -3410,6 +3419,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:3422"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 88
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;->a()Ljava/lang/String;
 
@@ -3421,7 +3432,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .prologue
     .line 88
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;->c:Ljava/lang/String;
 
@@ -3432,6 +3442,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:3445"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -3515,6 +3527,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:3530"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v2, 0x0
@@ -3654,7 +3668,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 88
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;->b:Z
 
@@ -3665,6 +3678,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:3681"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 88
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;->c:Ljava/lang/String;
 
@@ -3677,6 +3692,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:3695"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 712
     const/4 v0, 0x0
 
@@ -3723,6 +3740,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:3743"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, -0x1
 
     const/4 v9, 0x7
@@ -4526,6 +4545,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:4548"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 730
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;->a:Lcom/tencent/mobileqq/widget/QQToastNotifier;
 
@@ -4558,6 +4579,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:4582"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 550
     const/16 v0, 0xe6
 
@@ -4615,6 +4638,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:4641"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x1
@@ -4905,6 +4930,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:4933"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x2
@@ -4988,6 +5015,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:5018"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x7
 
     const/4 v5, 0x4
@@ -5388,6 +5417,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:5420"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1228
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;->a:Lcom/tencent/mobileqq/widget/QQToastNotifier;
 
@@ -5439,6 +5470,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:5473"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 697
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;->b:Ljava/lang/String;
 
@@ -5501,6 +5534,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:5537"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x0
@@ -5661,6 +5696,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:5699"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 531
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -5738,6 +5775,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:5778"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v6, 0x0
@@ -5988,6 +6027,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:6030"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 138
@@ -6078,6 +6119,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:6122"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 176
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -6112,6 +6155,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:6158"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 161
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnResume()V
 
@@ -6187,6 +6232,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:6235"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 740
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -6224,6 +6271,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:6274"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 749
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ProfileCardMoreActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -6269,6 +6318,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:6321"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v6, 0x0
@@ -6463,6 +6514,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ProfileCardMoreActivity.smali:6517"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v12, 0x2

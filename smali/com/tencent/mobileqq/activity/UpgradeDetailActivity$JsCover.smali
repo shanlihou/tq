@@ -12,6 +12,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover.smali:15"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 329
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover;->a:Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;
 
@@ -28,6 +30,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover.smali:33"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 340
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover;->a:Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;
 
@@ -42,6 +46,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover.smali:49"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 348
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover;->a:Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;
 
@@ -56,6 +62,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover.smali:65"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 344
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover;->a:Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;
 
@@ -70,6 +78,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover.smali:81"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 376
     invoke-static {}, Lcom/tencent/mobileqq/app/upgrade/UpgradeController;->a()Lcom/tencent/mobileqq/app/upgrade/UpgradeController;
 
@@ -86,6 +96,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover.smali:99"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 352
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover;->a:Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;
 
@@ -106,6 +118,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover.smali:121"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 380
     invoke-static {}, Lcom/tencent/mobileqq/app/upgrade/UpgradeController;->a()Lcom/tencent/mobileqq/app/upgrade/UpgradeController;
 
@@ -125,6 +139,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover.smali:142"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 361
     invoke-static {}, Lcom/tencent/mobileqq/app/upgrade/UpgradeController;->a()Lcom/tencent/mobileqq/app/upgrade/UpgradeController;
 
@@ -142,6 +158,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover.smali:161"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 366
     invoke-static {}, Lcom/tencent/mobileqq/app/upgrade/UpgradeController;->a()Lcom/tencent/mobileqq/app/upgrade/UpgradeController;
 
@@ -159,6 +177,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover.smali:180"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 356
@@ -176,6 +196,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover.smali:199"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 371
     invoke-static {}, Lcom/tencent/mobileqq/app/upgrade/UpgradeController;->a()Lcom/tencent/mobileqq/app/upgrade/UpgradeController;
 
@@ -193,6 +215,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity$JsCover.smali:218"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 332
     const-string v0, "Hyim"
 

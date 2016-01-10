@@ -11,6 +11,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForceLogoutActivity.smali:14"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 13
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -25,6 +27,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForceLogoutActivity.smali:30"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 17
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -125,6 +129,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ForceLogoutActivity.smali:132"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 78
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/ForceLogoutActivity;->finish()V
 

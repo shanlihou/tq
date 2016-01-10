@@ -78,6 +78,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity$NearPeopleFilters.smali:81"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x3
 
     const/4 v6, 0x2
@@ -284,6 +286,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity$NearPeopleFilters.smali:289"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x4
 
     const/4 v2, 0x0
@@ -351,6 +355,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity$NearPeopleFilters.smali:358"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 720
     const-string v0, "nearpeople_filters"
 
@@ -365,6 +371,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity$NearPeopleFilters.smali:374"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, -0x1
 
     const/4 v0, 0x0
@@ -618,6 +626,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity$NearPeopleFilters.smali:629"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 703
     const-string v0, "nearpeople_filters"
 
@@ -631,6 +641,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity$NearPeopleFilters.smali:644"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 706
     if-eqz p1, :cond_0
 
@@ -792,6 +804,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity$NearPeopleFilters.smali:807"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -890,6 +904,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity$NearPeopleFilters.smali:907"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x4
 
     const/4 v4, 0x3
@@ -1014,6 +1030,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity$NearPeopleFilters.smali:1033"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v3, 0x2c
 
     .line 768

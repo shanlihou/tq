@@ -38,6 +38,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AboutActivity.smali:41"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 44
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -72,6 +74,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AboutActivity.smali:77"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 44
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AboutActivity;->a:Lcom/tencent/mobileqq/app/upgrade/UpgradeDetailWrapper;
 
@@ -81,7 +85,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AboutActivity;Lcom/tencent/mobileqq/app/upgrade/UpgradeDetailWrapper;)Lcom/tencent/mobileqq/app/upgrade/UpgradeDetailWrapper;
     .locals 0
 
-    .prologue
     .line 44
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/AboutActivity;->a:Lcom/tencent/mobileqq/app/upgrade/UpgradeDetailWrapper;
 
@@ -91,7 +94,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AboutActivity;Lcom/tencent/mobileqq/config/AboutConfig;)V
     .locals 0
 
-    .prologue
     .line 44
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/AboutActivity;->a(Lcom/tencent/mobileqq/config/AboutConfig;)V
 
@@ -102,6 +104,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AboutActivity.smali:107"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 315
@@ -227,6 +231,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AboutActivity.smali:234"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 366
     iget-byte v0, p2, Lcom/tencent/mobileqq/data/ResourcePluginInfo;->cLocalState:B
 
@@ -295,6 +301,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AboutActivity.smali:304"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x1
 
     const/high16 v8, 0x41800000    # 16.0f
@@ -1331,6 +1339,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AboutActivity.smali:1342"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 479
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -1347,6 +1357,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AboutActivity.smali:1360"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 494
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnPause()V
 
@@ -1366,6 +1378,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AboutActivity.smali:1381"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 486
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnResume()V
 

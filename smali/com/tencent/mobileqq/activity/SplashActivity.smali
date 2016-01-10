@@ -50,6 +50,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:53"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
@@ -160,6 +162,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:165"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v0, 0x0
@@ -189,6 +193,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:196"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 73
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SplashActivity;->a:Landroid/content/BroadcastReceiver;
 
@@ -198,7 +204,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SplashActivity;Landroid/content/BroadcastReceiver;)Landroid/content/BroadcastReceiver;
     .locals 0
 
-    .prologue
     .line 73
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/SplashActivity;->a:Landroid/content/BroadcastReceiver;
 
@@ -209,6 +214,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:217"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v7, 0x10000000
 
     const/4 v2, 0x1
@@ -446,6 +453,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:456"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 565
     const-string v0, "uin"
 
@@ -756,7 +765,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SplashActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 73
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/SplashActivity;->c:Z
 
@@ -767,6 +775,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:778"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     const/4 v1, 0x0
@@ -947,6 +957,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:960"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 620
     new-instance v0, Landroid/content/Intent;
 
@@ -1020,6 +1032,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:1035"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 476
@@ -1204,6 +1218,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:1221"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 634
@@ -1359,6 +1375,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:1378"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1013
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SplashActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
@@ -1400,6 +1418,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:1421"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 918
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1504,6 +1524,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:1527"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 950
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SplashActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
@@ -1538,6 +1560,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:1563"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 959
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SplashActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
@@ -1572,6 +1596,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:1599"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     const/4 v6, 0x1
@@ -1711,6 +1737,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:1740"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v11, 0x7f040033
 
     const v10, 0x7f04002e
@@ -2028,6 +2056,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:2059"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 941
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SplashActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
@@ -2062,6 +2092,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:2095"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 751
     invoke-super {p0, p1, p2, p3}, Landroid/support/v4/app/FragmentActivity;->doOnActivityResult(IILandroid/content/Intent;)V
 
@@ -2128,7 +2160,6 @@
 .method public doOnBackPressed()V
     .locals 0
 
-    .prologue
     .line 971
     return-void
 .end method
@@ -2137,6 +2168,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:2171"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, -0x1
 
     const/4 v4, 0x2
@@ -2560,6 +2593,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:2596"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 414
@@ -2619,6 +2654,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:2657"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 671
     const/4 v0, 0x4
 
@@ -2755,6 +2792,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:2795"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v3, 0x1
@@ -2908,6 +2947,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:2950"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 392
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -2952,6 +2993,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:2996"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v6, 0x320
 
     const/4 v5, 0x0
@@ -3362,6 +3405,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:3408"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 248
@@ -3439,6 +3484,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:3487"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 403
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -3483,6 +3530,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:3533"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     const/4 v4, 0x1
@@ -3636,6 +3685,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:3688"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 430
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -3675,6 +3726,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:3729"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 785
     const-string v0, "com.tencent.mobileqq:peak"
 
@@ -3685,6 +3738,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:3741"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 907
     invoke-super {p0}, Landroid/support/v4/app/FragmentActivity;->onAccountChanged()V
 
@@ -3722,6 +3777,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:3780"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 117
     sget-object v0, Lcom/tencent/mobileqq/app/FrameHelperActivity;->a:Ljava/lang/ref/WeakReference;
 
@@ -3754,6 +3811,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:3814"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 768
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SplashActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
@@ -3795,6 +3854,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:3857"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 975
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SplashActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
@@ -3832,6 +3893,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:3896"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 987
     invoke-super {p0}, Landroid/support/v4/app/FragmentActivity;->onPostThemeChanged()V
 
@@ -3892,6 +3955,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:3958"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 777
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SplashActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
@@ -3926,6 +3991,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:3994"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 888
     :try_start_0
     sget-object v0, Lcom/tencent/common/app/BaseApplicationImpl;->a:Lcom/tencent/common/app/BaseApplicationImpl;
@@ -4004,6 +4071,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SplashActivity.smali:4074"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1003
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SplashActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 

@@ -63,6 +63,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:66"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -115,6 +117,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:120"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 40
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->getTitleBarHeight()I
 
@@ -127,6 +131,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:134"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 40
     invoke-super {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
@@ -139,6 +145,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:148"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 40
     invoke-super {p0, p1}, Landroid/content/Context;->getString(I)Ljava/lang/String;
 
@@ -150,7 +158,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/DevlockQuickLoginActivity;)V
     .locals 0
 
-    .prologue
     .line 40
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/DevlockQuickLoginActivity;->d()V
 
@@ -160,7 +167,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/DevlockQuickLoginActivity;II)V
     .locals 0
 
-    .prologue
     .line 40
     invoke-super {p0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
 
@@ -171,6 +177,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:180"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 40
     invoke-super {p0}, Landroid/app/Activity;->isFinishing()Z
 
@@ -183,6 +191,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:194"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 40
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->getTitleBarHeight()I
 
@@ -195,6 +205,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:208"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 40
     invoke-super {p0}, Landroid/content/ContextWrapper;->getApplicationContext()Landroid/content/Context;
 
@@ -206,7 +218,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/DevlockQuickLoginActivity;)V
     .locals 0
 
-    .prologue
     .line 40
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->finish()V
 
@@ -216,7 +227,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/DevlockQuickLoginActivity;II)V
     .locals 0
 
-    .prologue
     .line 40
     invoke-super {p0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
 
@@ -227,6 +237,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:240"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 40
     invoke-super {p0}, Landroid/app/Activity;->isFinishing()Z
 
@@ -239,6 +251,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:254"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 40
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->getTitleBarHeight()I
 
@@ -251,6 +265,8 @@
     .locals 15
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:268"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v14, 0x3
 
     const/16 v13, 0x8
@@ -1056,7 +1072,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/DevlockQuickLoginActivity;)V
     .locals 0
 
-    .prologue
     .line 40
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->finish()V
 
@@ -1066,7 +1081,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/DevlockQuickLoginActivity;II)V
     .locals 0
 
-    .prologue
     .line 40
     invoke-super {p0, p1, p2}, Landroid/app/Activity;->overridePendingTransition(II)V
 
@@ -1077,6 +1091,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:1094"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 40
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->getTitleBarHeight()I
 
@@ -1089,6 +1105,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:1108"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 574
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DevlockQuickLoginActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
@@ -1138,7 +1156,6 @@
 .method public static synthetic d(Lcom/tencent/mobileqq/activity/DevlockQuickLoginActivity;)V
     .locals 0
 
-    .prologue
     .line 40
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->finish()V
 
@@ -1151,6 +1168,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:1171"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 397
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DevlockQuickLoginActivity;->a:Lcom/tencent/mobileqq/utils/QQCustomDialog;
 
@@ -1183,6 +1202,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:1205"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 405
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/DevlockQuickLoginActivity;->a()V
 
@@ -1228,6 +1249,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:1252"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x4
 
     const/4 v7, 0x2
@@ -1475,6 +1498,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:1501"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 390
@@ -1493,6 +1518,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:1521"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v6, 0x7f0a202e
 
     const v3, 0x7f040012
@@ -1830,6 +1857,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:1860"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 80
     const v0, 0x7f0d02ae
 
@@ -2058,7 +2087,6 @@
 .method protected onDestroy()V
     .locals 0
 
-    .prologue
     .line 383
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onDestroy()V
 
@@ -2073,6 +2101,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DevlockQuickLoginActivity.smali:2104"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     .line 278

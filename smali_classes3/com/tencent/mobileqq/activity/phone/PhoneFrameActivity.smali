@@ -48,6 +48,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneFrameActivity.smali:51"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 41
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -70,6 +72,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneFrameActivity.smali:75"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     .line 126
@@ -254,6 +258,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneFrameActivity.smali:261"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 154
     const v0, 0x7f09033e
 
@@ -439,6 +445,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneFrameActivity.smali:448"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, -0x1
 
     .line 259
@@ -549,6 +557,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneFrameActivity.smali:560"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 91
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -605,6 +615,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneFrameActivity.smali:618"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 251
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/PhoneFrameActivity;->a:Lcom/tencent/mobileqq/activity/phone/PhoneFrame;
 
@@ -626,6 +638,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneFrameActivity.smali:641"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 102
@@ -721,6 +735,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneFrameActivity.smali:738"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 245
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/phone/PhoneFrameActivity;->a:Lcom/tencent/mobileqq/activity/phone/PhoneFrame;
 
@@ -737,6 +753,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneFrameActivity.smali:756"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 239
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnResume()V
 
@@ -753,6 +771,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/PhoneFrameActivity.smali:774"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v12, 0x4000000
 
     const/4 v6, 0x0

@@ -105,6 +105,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:108"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 39
@@ -151,6 +153,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:156"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 39
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/EditActivity;->a:Landroid/widget/ImageView;
 
@@ -161,6 +165,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:168"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 39
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/EditActivity;->a:Landroid/widget/LinearLayout;
 
@@ -171,6 +177,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:180"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 39
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/EditActivity;->a:Z
 
@@ -180,7 +188,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/EditActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 39
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/EditActivity;->a:Z
 
@@ -191,6 +198,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:201"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 156
@@ -265,6 +274,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:277"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v3, 0x41200000    # 10.0f
 
     const/4 v6, 0x1
@@ -580,6 +591,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:594"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 291
     const-string v0, "input_method"
 
@@ -604,6 +617,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:620"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 487
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/EditActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -620,7 +635,6 @@
 .method public a(Lcom/tencent/mobileqq/emoticonview/EmoticonInfo;Lcom/tencent/mobileqq/emoticonview/EmoticonInfo;Landroid/graphics/drawable/Drawable;)V
     .locals 0
 
-    .prologue
     .line 505
     return-void
 .end method
@@ -629,6 +643,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:646"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 498
     const/4 v0, 0x0
 
@@ -639,6 +655,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:658"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 492
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/EditActivity;->a:Lcom/tencent/mobileqq/widget/ClearableEditText;
 
@@ -651,7 +669,6 @@
 .method public b(Lcom/tencent/mobileqq/emoticonview/EmoticonInfo;)V
     .locals 0
 
-    .prologue
     .line 511
     return-void
 .end method
@@ -659,7 +676,6 @@
 .method public c()V
     .locals 0
 
-    .prologue
     .line 517
     return-void
 .end method
@@ -667,7 +683,6 @@
 .method public d()V
     .locals 0
 
-    .prologue
     .line 529
     return-void
 .end method
@@ -676,6 +691,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:694"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -803,6 +820,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:823"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 282
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/EditActivity;->a:Lcom/tencent/mobileqq/emoticonview/SystemAndEmojiEmoticonPanel;
 
@@ -825,6 +844,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:847"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 297
     const-string v0, "input_method"
 
@@ -870,6 +891,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:894"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v1, 0x0
@@ -1156,6 +1179,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:1182"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -1286,7 +1311,6 @@
 .method protected onPause()V
     .locals 0
 
-    .prologue
     .line 276
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/EditActivity;->e()V
 
@@ -1301,6 +1325,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/EditActivity.smali:1328"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 268
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/EditActivity;->a:Z
 
@@ -1320,7 +1346,6 @@
 .method public setting()V
     .locals 0
 
-    .prologue
     .line 523
     return-void
 .end method

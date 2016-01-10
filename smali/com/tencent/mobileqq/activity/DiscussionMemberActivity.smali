@@ -55,6 +55,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:58"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 71
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -87,6 +89,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:92"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 71
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DiscussionMemberActivity;->c:Landroid/view/View;
 
@@ -97,6 +101,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:104"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v5, 0x8
 
     const/4 v4, 0x0
@@ -548,6 +554,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:557"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 181
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DiscussionMemberActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -716,6 +724,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:727"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v7, 0x12c
 
     const/4 v4, 0x1
@@ -1052,6 +1062,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:1065"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x5
 
     const/4 v4, 0x0
@@ -1189,6 +1201,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:1204"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 528
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DiscussionMemberActivity;->a:Lcom/tencent/mobileqq/widget/PinnedDividerListView;
 
@@ -1244,7 +1258,6 @@
 .method public a(Lcom/tencent/widget/AdapterView;Landroid/view/View;IJ)V
     .locals 0
 
-    .prologue
     .line 522
     invoke-virtual {p0, p2}, Lcom/tencent/mobileqq/activity/DiscussionMemberActivity;->a(Landroid/view/View;)V
 
@@ -1256,6 +1269,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:1272"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x0
 
     const/16 v7, 0x8
@@ -1556,6 +1571,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:1574"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 486
     const-string v0, "$"
 
@@ -1610,6 +1627,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:1630"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 131
     const/4 v0, -0x1
 
@@ -1633,6 +1652,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:1655"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 99
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -1699,6 +1720,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:1723"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 124
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DiscussionMemberActivity;->a:Lgxy;
 
@@ -1715,6 +1738,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:1741"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 117
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnStart()V
 
@@ -1735,6 +1760,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:1763"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 513
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/DiscussionMemberActivity;->e:Landroid/view/View;
 
@@ -1752,6 +1779,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/DiscussionMemberActivity.smali:1782"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 503

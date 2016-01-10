@@ -171,6 +171,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:174"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 2428
@@ -273,6 +275,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:278"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, -0x1
 
     const-wide/16 v3, 0x0
@@ -384,6 +388,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:391"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 590
@@ -442,6 +448,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:451"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v5, 0x0
@@ -595,6 +603,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:606"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2371
     const/4 v1, 0x0
 
@@ -642,6 +652,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:655"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 550
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->j:Z
 
@@ -669,6 +681,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:684"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 749
@@ -753,6 +767,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:770"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v6, -0xdad8d6
 
     const/4 v10, 0x2
@@ -1072,6 +1088,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:1091"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1774
     const v0, 0x7f0900d2
 
@@ -1264,6 +1282,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:1285"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v5, 0x0
@@ -1383,6 +1403,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:1406"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2389
     new-instance v0, Lkdr;
 
@@ -1398,6 +1420,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:1423"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 2214
@@ -1472,6 +1496,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:1499"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v3, 0x1
@@ -1818,6 +1844,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:1847"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2284
     iget v0, p1, Landroid/os/Message;->what:I
 
@@ -1857,6 +1885,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:1888"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v8, -0x1000000
 
     const/4 v7, 0x4
@@ -2467,6 +2497,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:2500"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v0, 0xf0
 
     .line 1769
@@ -2483,6 +2515,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:2518"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0x7f091140
 
     const/4 v2, 0x0
@@ -2633,6 +2667,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:2670"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x0
 
     .line 1066
@@ -2795,6 +2831,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:2834"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     const/4 v4, -0x1
@@ -3107,6 +3145,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:3148"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 334
     const/4 v0, 0x0
 
@@ -3117,6 +3157,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:3160"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -3183,6 +3225,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:3228"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 248
     iget v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->f:I
 
@@ -3213,6 +3257,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:3260"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 781
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->a:Lcom/tencent/mobileqq/activity/richmedia/state/RMVideoStateMgr;
 
@@ -3291,6 +3337,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:3340"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x5
 
     const/4 v8, 0x2
@@ -3615,6 +3663,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:3666"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1908
     iget v1, p1, Lcom/tencent/mobileqq/activity/richmedia/state/RMVideoClipSpec;->c:I
 
@@ -3717,6 +3767,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:3770"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 1566
@@ -3859,6 +3911,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:3914"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 363
     const/4 v0, 0x0
 
@@ -3869,6 +3923,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:3926"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 256
     iget v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->g:I
 
@@ -3899,6 +3955,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:3958"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v10, 0x7f091141
 
     const/16 v9, 0x31
@@ -4170,6 +4228,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:4231"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x5
 
     const/4 v2, 0x1
@@ -4404,6 +4464,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:4467"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 1119
@@ -4459,6 +4521,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:4524"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1932
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->a:Lcom/tencent/mobileqq/shortvideo/widget/TCProgressBar;
 
@@ -4815,6 +4879,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:4882"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 1250
@@ -4881,6 +4947,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:4950"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2201
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->c:Z
 
@@ -4947,6 +5015,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5018"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -5012,6 +5082,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5085"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2237
     new-instance v0, Lkec;
 
@@ -5027,6 +5099,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5102"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1553
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -5075,6 +5149,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5152"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 1992
@@ -5150,6 +5226,8 @@
     .locals 15
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5229"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v14, 0x3f828f5c    # 1.02f
 
     const/4 v13, 0x1
@@ -5332,6 +5410,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5413"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x1
 
     const v9, 0x3f828f5c    # 1.02f
@@ -5532,6 +5612,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5615"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2083
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->a:Landroid/widget/Button;
 
@@ -5553,6 +5635,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5638"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2090
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->b:Landroid/widget/ImageView;
 
@@ -5605,6 +5689,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5692"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2103
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->c:Z
 
@@ -5629,6 +5715,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5718"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2186
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->c:Z
 
@@ -5677,6 +5765,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5768"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2268
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->a:Lcom/tencent/mobileqq/shortvideo/widget/TCProgressBar;
 
@@ -5723,6 +5813,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5816"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 771
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -5794,6 +5886,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5889"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 741
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->f:Z
 
@@ -5821,6 +5915,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:5918"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x2
 
     const v9, 0x7f02028c
@@ -6514,6 +6610,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:6613"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 339
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -6801,6 +6899,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:6902"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     .line 709
@@ -6926,6 +7026,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:7029"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1602
     const/4 v0, 0x4
 
@@ -6957,6 +7059,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:7062"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v5, 0x2
@@ -7120,6 +7224,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:7227"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 647
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/richmedia/FlowActivity;->onPause()V
 
@@ -7189,6 +7295,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:7298"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 607
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/richmedia/FlowActivity;->onResume()V
 
@@ -7270,6 +7378,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:7381"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     const-wide/16 v0, 0x0
@@ -7320,6 +7430,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:7433"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v1, 0x0
 
     .line 698
@@ -7355,6 +7467,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:7470"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1683
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/richmedia/FlowActivity;->onTouchEvent(Landroid/view/MotionEvent;)Z
 
@@ -7404,6 +7518,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:7521"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2299
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->f:Z
 
@@ -7427,6 +7543,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:7546"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x4
 
     const/4 v1, 0x1
@@ -7561,6 +7679,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:7682"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v3, 0x0
@@ -7673,6 +7793,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowCameraActivity2.smali:7796"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2356
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowCameraActivity2;->f:Z
 
@@ -7735,7 +7857,6 @@
 .method public t()V
     .locals 0
 
-    .prologue
     .line 2384
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/richmedia/FlowActivity;->finish()V
 

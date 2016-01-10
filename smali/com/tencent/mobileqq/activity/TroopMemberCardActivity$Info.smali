@@ -24,6 +24,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberCardActivity$Info.smali:27"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1590
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/TroopMemberCardActivity$Info;->a:Lcom/tencent/mobileqq/activity/TroopMemberCardActivity;
 

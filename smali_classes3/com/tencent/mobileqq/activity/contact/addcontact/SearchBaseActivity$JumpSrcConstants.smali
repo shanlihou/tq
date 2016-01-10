@@ -16,6 +16,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity$JumpSrcConstants.smali:19"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 80
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -28,6 +30,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/addcontact/SearchBaseActivity$JumpSrcConstants.smali:33"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 86
     if-nez p0, :cond_0
 

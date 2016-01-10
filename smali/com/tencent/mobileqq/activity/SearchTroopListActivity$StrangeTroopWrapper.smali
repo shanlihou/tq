@@ -19,6 +19,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchTroopListActivity$StrangeTroopWrapper.smali:22"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 645
@@ -34,7 +36,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .prologue
     .line 623
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -45,7 +46,6 @@
 .method public constructor <init>(Ltencent/im/kqq/searchgroup/SearchGroup$GroupInfo;)V
     .locals 0
 
-    .prologue
     .line 626
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -60,6 +60,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchTroopListActivity$StrangeTroopWrapper.smali:63"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 591
     invoke-static {p0}, Lcom/tencent/mobileqq/activity/SearchTroopListActivity$StrangeTroopWrapper;->b(Ljava/util/List;)Ljava/util/ArrayList;
 
@@ -72,6 +74,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchTroopListActivity$StrangeTroopWrapper.smali:77"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 591
     invoke-static {p0}, Lcom/tencent/mobileqq/activity/SearchTroopListActivity$StrangeTroopWrapper;->b(Ljava/util/List;)Ljava/util/List;
 
@@ -84,6 +88,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchTroopListActivity$StrangeTroopWrapper.smali:91"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 610
     const/4 v0, 0x0
 
@@ -139,6 +145,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchTroopListActivity$StrangeTroopWrapper.smali:148"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 596
     const/4 v0, 0x0
 
@@ -194,6 +202,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchTroopListActivity$StrangeTroopWrapper.smali:205"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 632
     const/4 v0, 0x0
 
@@ -204,6 +214,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SearchTroopListActivity$StrangeTroopWrapper.smali:217"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 637
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SearchTroopListActivity$StrangeTroopWrapper;->a:Ltencent/im/kqq/searchgroup/SearchGroup$GroupInfo;
 

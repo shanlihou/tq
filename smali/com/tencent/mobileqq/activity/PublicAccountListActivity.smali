@@ -86,6 +86,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:89"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 90
@@ -104,6 +106,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:109"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 82
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -181,6 +185,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:188"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1061
     new-instance v0, Lhsa;
 
@@ -216,6 +222,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:225"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 86
     new-instance v0, Landroid/content/Intent;
 
@@ -234,6 +242,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:245"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 215
@@ -364,6 +374,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:377"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 233
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PublicAccountListActivity;->a:Landroid/widget/TextView;
 
@@ -453,6 +465,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:468"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v4, 0x8
 
     const/4 v3, 0x0
@@ -720,6 +734,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:737"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v4, 0x0
@@ -1041,6 +1057,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:1060"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 609
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PublicAccountListActivity;->g:Landroid/view/View;
 
@@ -1105,6 +1123,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:1126"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 622
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PublicAccountListActivity;->g:Landroid/view/View;
 
@@ -1134,7 +1154,6 @@
 .method public a()V
     .locals 0
 
-    .prologue
     .line 196
     return-void
 .end method
@@ -1143,6 +1162,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:1165"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v11, 0x8
 
     const/4 v10, 0x0
@@ -1571,7 +1592,6 @@
 .method public b()V
     .locals 0
 
-    .prologue
     .line 200
     return-void
 .end method
@@ -1580,6 +1600,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:1603"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 630
     const-string v0, "$"
 
@@ -1634,6 +1656,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:1659"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 204
     new-instance v0, Lhrs;
 
@@ -1649,6 +1673,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:1676"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v8, 0x12c
 
     const/4 v7, 0x1
@@ -1781,6 +1807,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:1810"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 157
@@ -1865,6 +1893,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:1896"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 597
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PublicAccountListActivity;->a:Lcom/tencent/mobileqq/app/PublicAccountObserver;
 
@@ -1908,6 +1938,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:1941"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 575
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnResume()V
 
@@ -1959,6 +1991,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:1994"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 591
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnStop()V
 
@@ -1979,6 +2013,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:2016"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 499
     const v0, 0x7f09033e
 
@@ -2033,6 +2069,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:2072"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 551
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PublicAccountListActivity;->b:Ljava/util/List;
 
@@ -2145,6 +2183,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity.smali:2186"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 153
     const/4 v0, 0x1
 

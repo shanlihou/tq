@@ -26,6 +26,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BaseForwardSelectionActivity.smali:29"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 32
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -38,6 +40,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BaseForwardSelectionActivity.smali:43"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 97
@@ -164,6 +168,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BaseForwardSelectionActivity.smali:171"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, -0x1
 
     .line 128
@@ -259,6 +265,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BaseForwardSelectionActivity.smali:268"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -319,6 +327,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BaseForwardSelectionActivity.smali:330"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 120
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseForwardSelectionActivity;->a:Lcom/tencent/mobileqq/forward/ForwardBaseOption;
 
@@ -341,6 +351,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BaseForwardSelectionActivity.smali:354"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 61
@@ -488,6 +500,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/BaseForwardSelectionActivity.smali:503"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 155
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->finish()V
 

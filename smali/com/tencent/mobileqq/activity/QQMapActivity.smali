@@ -158,6 +158,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:161"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     const/4 v2, 0x1
@@ -305,6 +307,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:310"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 124
     invoke-super {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
@@ -317,6 +321,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:324"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v1, 0x8
 
     const/4 v2, 0x0
@@ -461,6 +467,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:470"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     const-wide v3, 0x412e848000000000L    # 1000000.0
@@ -534,7 +542,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/QQMapActivity;)V
     .locals 0
 
-    .prologue
     .line 124
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQMapActivity;->k()V
 
@@ -544,7 +551,6 @@
 .method static synthetic a(Lcom/tencent/mobileqq/activity/QQMapActivity;Landroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 124
     invoke-super {p0, p1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
@@ -554,7 +560,6 @@
 .method static synthetic a(Lcom/tencent/mobileqq/activity/QQMapActivity;Landroid/content/Intent;I)V
     .locals 0
 
-    .prologue
     .line 124
     invoke-super {p0, p1, p2}, Landroid/app/Activity;->startActivityForResult(Landroid/content/Intent;I)V
 
@@ -565,6 +570,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:573"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1475
     const-string v0, ""
 
@@ -628,6 +635,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:638"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 124
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/QQMapActivity;->a(Ljava/lang/String;)Z
 
@@ -640,6 +649,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:652"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     const/4 v1, -0x1
@@ -824,6 +835,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:838"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 124
     invoke-static {p0, p1}, Lcom/tencent/mobileqq/activity/QQMapActivity;->b(Ljava/lang/String;Ljava/util/ArrayList;)Z
 
@@ -836,6 +849,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:852"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 124
     invoke-super {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
@@ -848,6 +863,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:866"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x1
 
     const/4 v0, 0x0
@@ -1357,7 +1374,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/QQMapActivity;)V
     .locals 0
 
-    .prologue
     .line 124
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/QQMapActivity;->a()V
 
@@ -1367,7 +1383,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/QQMapActivity;Landroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 124
     invoke-super {p0, p1}, Landroid/app/Activity;->startActivity(Landroid/content/Intent;)V
 
@@ -1378,6 +1393,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:1396"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 1076
@@ -1420,6 +1437,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:1440"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v0, 0x0
@@ -1471,6 +1490,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:1493"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 124
     invoke-super {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
@@ -1483,6 +1504,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:1507"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 124
     invoke-super {p0}, Landroid/view/ContextThemeWrapper;->getResources()Landroid/content/res/Resources;
 
@@ -1495,6 +1518,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:1521"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, -0x2
 
     const-wide v7, 0x412e848000000000L    # 1000000.0
@@ -1935,6 +1960,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:1963"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v12, 0x1
 
     const/4 v6, 0x0
@@ -2083,6 +2110,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2113"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1188
     const v0, 0x7f09033e
 
@@ -2137,6 +2166,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2169"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1436
     const v0, 0x7f0914ba
 
@@ -2193,6 +2224,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2227"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2223
     new-instance v0, Lhvb;
 
@@ -2217,6 +2250,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2253"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1877
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/QQMapActivity;->getResources()Landroid/content/res/Resources;
 
@@ -2247,6 +2282,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2285"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1865
     new-instance v1, Landroid/app/Dialog;
 
@@ -2283,6 +2320,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2323"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide v6, 0x412e848000000000L    # 1000000.0
 
     .line 1200
@@ -2426,6 +2465,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2468"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 2041
@@ -2478,6 +2519,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2522"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 839
     sget-object v0, Lcom/tencent/mobileqq/config/QQMapConstants;->j:Ljava/lang/String;
 
@@ -2505,6 +2548,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2551"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 551
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/QQMapActivity;->getPackageManager()Landroid/content/pm/PackageManager;
 
@@ -2540,7 +2585,6 @@
 .method public a(Lcom/tencent/proto/lbsshare/LBSShare$GetShopsByIdsResp;)V
     .locals 0
 
-    .prologue
     .line 2029
     return-void
 .end method
@@ -2548,7 +2592,6 @@
 .method public a(Lcom/tencent/proto/lbsshare/LBSShare$LocationResp;Landroid/os/Bundle;)V
     .locals 0
 
-    .prologue
     .line 2022
     return-void
 .end method
@@ -2556,7 +2599,6 @@
 .method public a(Lcom/tencent/proto/lbsshare/LBSShare$NearByShopsResp;Landroid/os/Bundle;)V
     .locals 0
 
-    .prologue
     .line 2025
     return-void
 .end method
@@ -2565,6 +2607,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2610"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1790
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/QQMapActivity;->k:Z
 
@@ -2591,6 +2635,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2638"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v1, -0x2
@@ -2820,6 +2866,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2869"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1604
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/QQMapActivity;->t:Z
 
@@ -2872,6 +2920,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2923"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v0, 0x0
@@ -2940,6 +2990,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:2993"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 848
@@ -3045,6 +3097,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:3100"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v1, 0x0
@@ -3275,7 +3329,6 @@
 .method public b(Lcom/tencent/tencentmap/mapsdk/map/GeoPoint;)V
     .locals 0
 
-    .prologue
     .line 2158
     return-void
 .end method
@@ -3283,7 +3336,6 @@
 .method protected c()V
     .locals 0
 
-    .prologue
     .line 1287
     return-void
 .end method
@@ -3291,7 +3343,6 @@
 .method public c(Lcom/tencent/tencentmap/mapsdk/map/GeoPoint;)V
     .locals 0
 
-    .prologue
     .line 1800
     return-void
 .end method
@@ -3300,6 +3351,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:3354"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 831
     sget-object v0, Lcom/tencent/mobileqq/config/QQMapConstants;->j:Ljava/lang/String;
 
@@ -3330,7 +3383,6 @@
 .method public d()V
     .locals 0
 
-    .prologue
     .line 1368
     return-void
 .end method
@@ -3338,7 +3390,6 @@
 .method protected e()V
     .locals 0
 
-    .prologue
     .line 1033
     return-void
 .end method
@@ -3347,6 +3398,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:3401"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 1620
@@ -3397,7 +3450,6 @@
 .method public n()V
     .locals 0
 
-    .prologue
     .line 1313
     return-void
 .end method
@@ -3406,6 +3458,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:3461"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v8, 0x7f0a0aa3
 
     const/4 v7, 0x0
@@ -3725,6 +3779,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:3782"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 358
     const/4 v0, -0x1
 
@@ -3788,6 +3844,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:3847"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 346
     const/4 v0, -0x1
 
@@ -3824,6 +3882,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:3885"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 230
     invoke-super {p0, p1}, Lcom/tencent/tencentmap/mapsdk/map/MapActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -3944,6 +4004,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:4007"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1804
     const/4 v0, 0x0
 
@@ -4035,6 +4097,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:4100"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 328
     invoke-super {p0}, Lcom/tencent/tencentmap/mapsdk/map/MapActivity;->onDestroy()V
 
@@ -4095,7 +4159,6 @@
 .method public onPostThemeChanged()V
     .locals 0
 
-    .prologue
     .line 1923
     return-void
 .end method
@@ -4103,7 +4166,6 @@
 .method public onPreThemeChanged()V
     .locals 0
 
-    .prologue
     .line 1916
     return-void
 .end method
@@ -4112,6 +4174,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:4177"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     const/4 v3, 0x1
@@ -4254,6 +4318,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:4321"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 265
     invoke-super {p0}, Lcom/tencent/tencentmap/mapsdk/map/MapActivity;->onStart()V
 
@@ -4270,6 +4336,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:4339"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 313
     invoke-super {p0}, Lcom/tencent/tencentmap/mapsdk/map/MapActivity;->onStop()V
 
@@ -4314,6 +4382,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:4385"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1467
     invoke-super {p0}, Lcom/tencent/tencentmap/mapsdk/map/MapActivity;->onUserLeaveHint()V
 
@@ -4334,6 +4404,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:4407"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 700
     const/4 v0, 0x0
 
@@ -4381,6 +4453,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:4456"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 866
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/QQMapActivity;->a()Ljava/lang/String;
 
@@ -5308,6 +5382,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:5385"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1024
     new-instance v0, Landroid/content/Intent;
 
@@ -5343,6 +5419,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:5422"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f0a16b1
 
     const/4 v3, 0x0
@@ -5581,6 +5659,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:5662"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f0a1cb6
 
     .line 1318
@@ -5866,6 +5946,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:5949"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1491
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/QQMapActivity;->c:Landroid/widget/ImageView;
 
@@ -5898,6 +5980,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:5983"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1541
     const/4 v0, 0x1
 
@@ -5911,6 +5995,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:5998"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1545
     const/16 v0, 0xe6
 
@@ -5958,6 +6044,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity.smali:6047"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 1632

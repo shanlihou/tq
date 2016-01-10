@@ -12,6 +12,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberForReadJoyActivity.smali:15"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 15
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;-><init>()V
 
@@ -24,6 +26,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberForReadJoyActivity.smali:29"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 30
     const v0, 0x7f090342
 
@@ -58,7 +62,6 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 0
 
-    .prologue
     .line 23
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/selectmember/SelectMemberActivity;->onCreate(Landroid/os/Bundle;)V
 

@@ -43,6 +43,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:46"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x0
@@ -95,6 +97,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:100"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 45
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;->b:Landroid/widget/TextView;
 
@@ -105,6 +109,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:112"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 45
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -114,7 +120,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;Lcom/tencent/mobileqq/widget/QQProgressDialog;)Lcom/tencent/mobileqq/widget/QQProgressDialog;
     .locals 0
 
-    .prologue
     .line 45
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -125,6 +130,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:133"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 45
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;->b:Ljava/lang/String;
 
@@ -135,6 +142,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:145"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 88
@@ -291,7 +300,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;)V
     .locals 0
 
-    .prologue
     .line 45
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;->g()V
 
@@ -301,7 +309,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 45
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;->a:Z
 
@@ -312,6 +319,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:322"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 45
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;->a:[B
 
@@ -322,6 +331,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:334"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 149
     .line 151
     new-instance v0, Landroid/content/Intent;
@@ -373,7 +384,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;)V
     .locals 0
 
-    .prologue
     .line 45
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;->c()V
 
@@ -384,6 +394,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:397"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 169
     invoke-static {}, Lcom/tencent/mobileqq/phonelogin/PhoneNumLoginImpl;->a()Lcom/tencent/mobileqq/phonelogin/PhoneNumLoginImpl;
 
@@ -416,6 +428,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:431"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 386
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;->b:Landroid/os/Handler;
 
@@ -433,6 +447,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:450"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 409
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RegisterQQNumberActivity;->b:Landroid/os/Handler;
 
@@ -452,6 +468,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:471"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 84
     const/4 v0, 0x0
 
@@ -462,6 +480,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:483"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     .line 178
@@ -609,6 +629,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:632"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     .line 298
@@ -775,6 +797,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:800"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 59
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/RegisterBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -946,6 +970,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:973"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 290
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/RegisterBaseActivity;->onDestroy()V
 
@@ -970,6 +996,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterQQNumberActivity.smali:999"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 431
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/RegisterBaseActivity;->onPause()V
 

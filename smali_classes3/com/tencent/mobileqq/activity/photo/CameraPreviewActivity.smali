@@ -35,6 +35,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:38"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 42
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -69,6 +71,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:74"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 42
     iget v0, p0, Lcom/tencent/mobileqq/activity/photo/CameraPreviewActivity;->a:I
 
@@ -79,6 +83,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:86"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 42
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/photo/CameraPreviewActivity;->a:Landroid/graphics/drawable/Drawable;
 
@@ -89,6 +95,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:98"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 42
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/photo/CameraPreviewActivity;->a:Ljava/util/ArrayList;
 
@@ -99,6 +107,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:110"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v0, 0x0
@@ -186,6 +196,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:199"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     .line 225
@@ -298,6 +310,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:313"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     .line 204
@@ -352,6 +366,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:369"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 42
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/photo/CameraPreviewActivity;->a()Z
 
@@ -364,6 +380,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:383"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 42
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/photo/CameraPreviewActivity;->a(Ljava/lang/String;)Z
 
@@ -376,6 +394,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:397"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 147
@@ -434,6 +454,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:457"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 42
     iget v0, p0, Lcom/tencent/mobileqq/activity/photo/CameraPreviewActivity;->b:I
 
@@ -444,6 +466,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:469"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, -0x1
 
     .line 188
@@ -499,6 +523,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:526"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 268
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -533,7 +559,6 @@
 .method protected doOnPause()V
     .locals 0
 
-    .prologue
     .line 285
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnPause()V
 
@@ -547,7 +572,6 @@
 .method protected doOnResume()V
     .locals 0
 
-    .prologue
     .line 278
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnResume()V
 
@@ -562,6 +586,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:589"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 161
     const/4 v0, 0x0
 
@@ -572,6 +598,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:601"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 166
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onActivityResult(IILandroid/content/Intent;)V
 
@@ -587,7 +615,6 @@
 .method public onClick(Landroid/view/View;)V
     .locals 0
 
-    .prologue
     .line 200
     return-void
 .end method
@@ -596,6 +623,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/CameraPreviewActivity.smali:626"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 61
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onCreate(Landroid/os/Bundle;)V
 

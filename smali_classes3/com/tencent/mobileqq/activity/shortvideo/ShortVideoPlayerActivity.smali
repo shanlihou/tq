@@ -18,6 +18,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayerActivity.smali:21"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 26
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
@@ -37,6 +39,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayerActivity.smali:42"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     const/4 v5, 0x1
@@ -194,6 +198,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayerActivity.smali:201"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 125
     invoke-super {p0}, Landroid/app/Activity;->onDestroy()V
 
@@ -209,7 +215,6 @@
 .method protected onPause()V
     .locals 0
 
-    .prologue
     .line 120
     invoke-super {p0}, Landroid/app/Activity;->onPause()V
 
@@ -220,7 +225,6 @@
 .method protected onResume()V
     .locals 0
 
-    .prologue
     .line 115
     invoke-super {p0}, Landroid/app/Activity;->onResume()V
 
@@ -231,7 +235,6 @@
 .method protected onStart()V
     .locals 0
 
-    .prologue
     .line 95
     invoke-super {p0}, Landroid/app/Activity;->onStart()V
 
@@ -243,6 +246,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoPlayerActivity.smali:249"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 101
     invoke-super {p0}, Landroid/app/Activity;->onStop()V
 

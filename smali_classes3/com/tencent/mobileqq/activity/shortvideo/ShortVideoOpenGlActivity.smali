@@ -56,6 +56,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoOpenGlActivity.smali:59"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 21
     invoke-direct {p0}, Landroid/app/Activity;-><init>()V
 
@@ -80,6 +82,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoOpenGlActivity.smali:85"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 21
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/shortvideo/ShortVideoOpenGlActivity;->a:Landroid/widget/RelativeLayout;
 
@@ -90,6 +94,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoOpenGlActivity.smali:97"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, -0x2
 
     const/16 v5, 0x66
@@ -303,6 +309,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoOpenGlActivity.smali:312"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 122
     iget v0, p2, Lcom/tencent/maxvideo/common/MessageStruct;->mId:I
 
@@ -345,7 +353,6 @@
 .method public onClick(Landroid/view/View;)V
     .locals 0
 
-    .prologue
     .line 144
     invoke-super {p0}, Landroid/app/Activity;->finish()V
 
@@ -357,6 +364,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoOpenGlActivity.smali:367"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, -0x1
 
     const/16 v4, 0xd
@@ -537,6 +546,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoOpenGlActivity.smali:549"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 190
@@ -589,6 +600,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoOpenGlActivity.smali:603"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 172
     invoke-static {}, Lcom/tencent/mobileqq/shortvideo/common/GloableValue;->b()V
 
@@ -631,6 +644,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoOpenGlActivity.smali:647"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 148
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/shortvideo/ShortVideoOpenGlActivity;->a()V
 
@@ -698,6 +713,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/ShortVideoOpenGlActivity.smali:716"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 183
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 

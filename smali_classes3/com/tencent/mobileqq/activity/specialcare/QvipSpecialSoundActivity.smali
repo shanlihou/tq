@@ -65,6 +65,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:68"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -108,6 +110,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:113"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->a:Landroid/os/Handler;
 
@@ -118,6 +122,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:125"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->a:Landroid/widget/Button;
 
@@ -128,6 +134,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:137"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->a:Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity$SpecialSoundAdapter;
 
@@ -138,6 +146,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:149"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->a:Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundManager;
 
@@ -148,6 +158,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:161"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->c:Ljava/lang/String;
 
@@ -158,6 +170,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:173"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 49
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->a:Ljava/util/HashMap;
 
@@ -168,6 +182,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:185"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 106
     const v0, 0x7f091626
 
@@ -266,6 +282,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:285"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 189
     sget-object v0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundManager;->b:Ljava/util/HashMap;
 
@@ -325,6 +343,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:346"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 587
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->a:Landroid/media/MediaPlayer;
 
@@ -400,7 +420,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;)V
     .locals 0
 
-    .prologue
     .line 49
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->d()V
 
@@ -410,7 +429,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 49
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->b(Ljava/lang/String;)V
 
@@ -421,6 +439,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:442"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     .line 353
@@ -507,6 +527,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:530"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 575
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -571,6 +593,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:596"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 254
     sub-long v0, p3, p1
 
@@ -599,6 +623,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:626"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 123
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->getIntent()Landroid/content/Intent;
 
@@ -696,7 +722,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;)V
     .locals 0
 
-    .prologue
     .line 49
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->g()V
 
@@ -707,6 +732,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:735"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 338
@@ -747,6 +774,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:777"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 141
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -815,7 +844,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;)V
     .locals 0
 
-    .prologue
     .line 49
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->f()V
 
@@ -826,6 +854,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:857"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 473
     const/16 v1, 0xe6
 
@@ -865,6 +895,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:898"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 170
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->a:Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity$SpecialSoundAdapter;
 
@@ -904,6 +936,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:939"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 243
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->c:Ljava/lang/String;
 
@@ -975,6 +1009,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:1012"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 371
@@ -1008,6 +1044,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:1047"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0x8
 
     .line 377
@@ -1041,6 +1079,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:1082"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 625
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->a:Landroid/media/MediaPlayer;
 
@@ -1070,6 +1110,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:1113"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     .line 259
@@ -1372,6 +1414,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:1417"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 605
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->a:Landroid/media/MediaPlayer;
 
@@ -1465,6 +1509,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:1512"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 88
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -1497,6 +1543,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:1546"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 632
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity;->h()V
 
@@ -1567,6 +1615,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:1618"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 562
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnPause()V
 
@@ -1593,7 +1643,6 @@
 .method protected doOnResume()V
     .locals 0
 
-    .prologue
     .line 100
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnResume()V
 
@@ -1608,6 +1657,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:1660"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 491
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onActivityResult(IILandroid/content/Intent;)V
 
@@ -1689,6 +1740,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/QvipSpecialSoundActivity.smali:1743"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 227
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 

@@ -19,6 +19,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/GuideBindPhoneActivity.smali:22"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 20
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -38,6 +40,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/GuideBindPhoneActivity.smali:43"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v5, 0x41800000    # 16.0f
 
     .line 29
@@ -175,6 +179,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/phone/GuideBindPhoneActivity.smali:182"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v6, 0x0

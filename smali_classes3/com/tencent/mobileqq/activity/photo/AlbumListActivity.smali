@@ -48,6 +48,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/AlbumListActivity.smali:51"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 43
@@ -66,6 +68,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/AlbumListActivity.smali:71"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 42
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;-><init>()V
 
@@ -87,6 +91,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/AlbumListActivity.smali:94"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 109
@@ -199,7 +205,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/photo/AlbumListActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 42
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/photo/AlbumListActivity;->d:Z
 
@@ -213,6 +218,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/AlbumListActivity.smali:221"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v4, 0x8
 
     const/4 v2, 0x1
@@ -373,6 +380,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/AlbumListActivity.smali:383"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 279
     const/4 v0, 0x0
 
@@ -383,6 +392,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/AlbumListActivity.smali:395"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v10, 0x0
 
     const/4 v9, 0x2
@@ -671,6 +682,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/AlbumListActivity.smali:685"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 81
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -711,6 +724,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/AlbumListActivity.smali:727"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 101
     invoke-static {p0}, Lcom/tencent/mobileqq/activity/photo/AlbumThumbManager;->a(Landroid/content/Context;)Lcom/tencent/mobileqq/activity/photo/AlbumThumbManager;
 
@@ -737,7 +752,6 @@
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 94
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onNewIntent(Landroid/content/Intent;)V
 

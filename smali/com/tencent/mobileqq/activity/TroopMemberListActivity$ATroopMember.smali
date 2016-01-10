@@ -74,6 +74,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$ATroopMember.smali:77"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v3, 0x0
 
     const/4 v2, 0x0
@@ -214,7 +216,6 @@
 .method public a(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 4540
     if-nez p1, :cond_0
 
@@ -230,7 +231,6 @@
 .method public b(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 4544
     if-nez p1, :cond_0
 
@@ -246,7 +246,6 @@
 .method public c(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 4548
     if-nez p1, :cond_0
 
@@ -262,7 +261,6 @@
 .method public d(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 4552
     if-nez p1, :cond_0
 
@@ -278,7 +276,6 @@
 .method public e(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 4556
     if-nez p1, :cond_0
 
@@ -294,7 +291,6 @@
 .method public f(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 4560
     if-nez p1, :cond_0
 
@@ -310,7 +306,6 @@
 .method public g(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 4564
     if-nez p1, :cond_0
 
@@ -326,7 +321,6 @@
 .method public h(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 4568
     if-nez p1, :cond_0
 
@@ -342,7 +336,6 @@
 .method public i(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 4572
     if-nez p1, :cond_0
 
@@ -358,7 +351,6 @@
 .method public j(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 4576
     if-nez p1, :cond_0
 
@@ -374,7 +366,6 @@
 .method public k(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 4580
     if-nez p1, :cond_0
 
@@ -390,7 +381,6 @@
 .method public l(Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 4584
     if-nez p1, :cond_0
 

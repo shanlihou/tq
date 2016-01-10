@@ -16,6 +16,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowActivity.smali:19"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 14
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;-><init>()V
 
@@ -35,6 +37,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowActivity.smali:40"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 83
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/richmedia/FlowActivity;->a:Landroid/view/ViewGroup;
 
@@ -45,6 +49,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowActivity.smali:52"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 58
     const/4 v0, 0x0
 
@@ -55,6 +61,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowActivity.smali:64"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 62
     if-nez p1, :cond_0
 
@@ -94,6 +102,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowActivity.smali:105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 74
     const v0, 0x7f0901b3
 
@@ -114,6 +124,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowActivity.smali:127"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 131
@@ -143,7 +155,6 @@
 .method public onBackPressed()V
     .locals 0
 
-    .prologue
     .line 123
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onBackPressed()V
 
@@ -155,6 +166,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowActivity.smali:169"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 25
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -244,7 +257,6 @@
 .method protected onDestroy()V
     .locals 0
 
-    .prologue
     .line 118
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onDestroy()V
 
@@ -255,7 +267,6 @@
 .method protected onPause()V
     .locals 0
 
-    .prologue
     .line 113
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onPause()V
 
@@ -266,7 +277,6 @@
 .method protected onResume()V
     .locals 0
 
-    .prologue
     .line 108
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onResume()V
 
@@ -278,6 +288,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/richmedia/FlowActivity.smali:291"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 88
     invoke-virtual {p1}, Landroid/view/MotionEvent;->getAction()I
 

@@ -75,6 +75,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:78"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -144,6 +146,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:149"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->e:Landroid/widget/TextView;
 
@@ -154,6 +158,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:161"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->a:Lcom/tencent/mobileqq/fpsreport/FPSPinnedHeaderExpandableListView;
 
@@ -164,6 +170,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:173"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->b:Ljava/util/ArrayList;
 
@@ -174,6 +182,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:185"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->a:Ljava/util/HashSet;
 
@@ -184,6 +194,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:197"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->a:Ljava/util/List;
 
@@ -194,6 +206,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:209"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 66
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
@@ -204,6 +218,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:221"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v6, 0x0
@@ -437,7 +453,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;)V
     .locals 0
 
-    .prologue
     .line 66
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->e()V
 
@@ -447,7 +462,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;Landroid/view/View;)V
     .locals 0
 
-    .prologue
     .line 66
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->a(Landroid/view/View;)V
 
@@ -457,7 +471,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;Z)V
     .locals 0
 
-    .prologue
     .line 66
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->a(Z)V
 
@@ -468,6 +481,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:484"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 395
     if-eqz p1, :cond_0
 
@@ -803,7 +818,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;)V
     .locals 0
 
-    .prologue
     .line 66
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->g()V
 
@@ -813,7 +827,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;Z)V
     .locals 0
 
-    .prologue
     .line 66
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->b(Z)V
 
@@ -824,6 +837,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:840"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v1, 0x0
@@ -976,6 +991,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:994"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v7, 0x7f0a247b
 
     const/4 v6, 0x4
@@ -1588,7 +1605,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;)V
     .locals 0
 
-    .prologue
     .line 66
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->d()V
 
@@ -1598,7 +1614,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;Z)V
     .locals 0
 
-    .prologue
     .line 66
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->c(Z)V
 
@@ -1609,6 +1624,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:1627"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1093
     invoke-static {}, Lcom/tencent/qphone/base/util/BaseApplication;->getContext()Lcom/tencent/qphone/base/util/BaseApplication;
 
@@ -1715,6 +1732,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:1735"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 190
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->a:Z
 
@@ -1754,6 +1773,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:1776"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 199
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->a:Lhyl;
 
@@ -1786,6 +1807,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:1810"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 961
     new-instance v0, Landroid/content/Intent;
 
@@ -1823,6 +1846,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:1849"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 969
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->a:Ljava/util/List;
 
@@ -1921,6 +1946,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:1949"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 337
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -1948,6 +1975,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:1978"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 328
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RecommendedGatherListActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -1990,6 +2019,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:2022"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v6, 0x7f0a1b8d
 
     const/4 v3, 0x0
@@ -2130,6 +2161,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:2164"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     .line 1060
@@ -2212,6 +2245,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:2248"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 89
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -2248,6 +2283,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:2286"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 381
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -2277,6 +2314,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:2317"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 369
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnResume()V
 
@@ -2314,6 +2353,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:2356"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v13, 0x8
 
     const v7, 0x7f0a247d
@@ -3326,6 +3367,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:3370"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 346
@@ -3382,6 +3425,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RecommendedGatherListActivity.smali:3428"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 358

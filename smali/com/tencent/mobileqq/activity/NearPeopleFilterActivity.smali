@@ -95,6 +95,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity.smali:98"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x4
 
     const/4 v2, 0x0
@@ -197,6 +199,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity.smali:202"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     const/high16 v5, 0x1000000
@@ -384,6 +388,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity.smali:391"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 176
     if-nez p0, :cond_0
 
@@ -515,6 +521,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity.smali:524"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 430
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NearPeopleFilterActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -552,6 +560,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity.smali:563"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x2
 
     const v5, 0x7f0b02e9
@@ -1287,6 +1297,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity.smali:1300"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v7, 0x7f0a22af
 
     const/4 v3, 0x4
@@ -1489,6 +1501,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity.smali:1504"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 438
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NearPeopleFilterActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -1516,6 +1530,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity.smali:1533"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, -0x1
 
     .line 460
@@ -1613,6 +1629,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity.smali:1632"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v5, 0x2
@@ -2165,6 +2183,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity.smali:2186"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 488
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NearPeopleFilterActivity;->a:Lcom/tencent/mobileqq/app/ConditionSearchManager;
 
@@ -2185,6 +2205,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity.smali:2208"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 205
@@ -2203,6 +2225,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NearPeopleFilterActivity.smali:2228"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     const/4 v4, 0x1

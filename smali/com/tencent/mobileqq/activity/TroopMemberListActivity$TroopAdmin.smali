@@ -25,6 +25,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$TroopAdmin.smali:28"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 5278
@@ -40,7 +42,6 @@
 .method public constructor <init>()V
     .locals 0
 
-    .prologue
     .line 5295
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -52,6 +53,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$TroopAdmin.smali:56"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 5288
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -92,7 +95,6 @@
 .method public synthetic constructor <init>(Landroid/os/Parcel;Likf;)V
     .locals 0
 
-    .prologue
     .line 5259
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/TroopMemberListActivity$TroopAdmin;-><init>(Landroid/os/Parcel;)V
 
@@ -105,6 +107,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$TroopAdmin.smali:110"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 5267
     const/4 v0, 0x0
 
@@ -115,6 +119,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopMemberListActivity$TroopAdmin.smali:122"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 5272
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopMemberListActivity$TroopAdmin;->a:Ljava/lang/String;
 

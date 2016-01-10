@@ -121,6 +121,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:124"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 79
@@ -139,6 +141,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:144"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 77
@@ -228,6 +232,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:235"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 77
     iget v0, p0, Lcom/tencent/mobileqq/activity/FavEmosmManageActivity;->m:I
 
@@ -238,6 +244,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:247"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 77
     iget v0, p0, Lcom/tencent/mobileqq/activity/FavEmosmManageActivity;->n:I
 
@@ -248,6 +256,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:259"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     const/high16 v4, 0x40800000    # 4.0f
@@ -878,6 +888,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:891"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 455
     new-instance v0, Lgzu;
 
@@ -900,6 +912,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:915"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 667
     const/4 v2, 0x1
 
@@ -1578,6 +1592,8 @@
     .locals 15
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:1595"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0x8
 
     const/4 v14, 0x1
@@ -2007,6 +2023,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:2026"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 304
     const v0, 0x7f09060b
 
@@ -2516,6 +2534,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:2537"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v2, 0x0
@@ -2856,6 +2876,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:2879"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 428
@@ -2954,6 +2976,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:2979"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1013
     iget v0, p0, Lcom/tencent/mobileqq/activity/FavEmosmManageActivity;->o:I
 
@@ -3123,6 +3147,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:3150"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 524
     const/4 v0, 0x1
 
@@ -3230,6 +3256,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:3259"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 142
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -3358,6 +3386,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:3389"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 549
@@ -3486,6 +3516,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:3519"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 576
@@ -3525,6 +3557,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FavEmosmManageActivity.smali:3560"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0x8
 
     const/4 v1, 0x1

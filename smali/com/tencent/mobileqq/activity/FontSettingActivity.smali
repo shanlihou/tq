@@ -69,6 +69,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:72"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x0
@@ -129,6 +131,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:134"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 53
     iget v0, p0, Lcom/tencent/mobileqq/activity/FontSettingActivity;->g:F
 
@@ -139,6 +143,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:146"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x2
 
     .line 142
@@ -224,6 +230,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:233"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 53
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FontSettingActivity;->a:Landroid/app/Dialog;
 
@@ -234,6 +242,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:245"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, -0x1
 
     .line 188
@@ -270,6 +280,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:283"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 53
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FontSettingActivity;->a:Lcom/tencent/widget/ListView;
 
@@ -280,6 +292,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:295"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 53
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FontSettingActivity;->a:Lhaf;
 
@@ -290,6 +304,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:307"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 53
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FontSettingActivity;->a:Ljava/util/ArrayList;
 
@@ -300,6 +316,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:319"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 53
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FontSettingActivity;->a:Lmqq/os/MqqHandler;
 
@@ -310,6 +328,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:331"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v2, 0x7f090340
 
     .line 168
@@ -373,6 +393,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:396"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 53
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/FontSettingActivity;->d:Z
 
@@ -383,6 +405,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:408"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 53
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FontSettingActivity;->b:Lcom/tencent/widget/ListView;
 
@@ -393,6 +417,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:420"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 53
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FontSettingActivity;->b:Ljava/util/ArrayList;
 
@@ -403,6 +429,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:432"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     .line 97
@@ -674,6 +702,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:705"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 161
@@ -724,6 +754,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:757"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 183
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FontSettingActivity;->b:Landroid/view/ViewGroup;
 
@@ -742,6 +774,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:777"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v6, 0x3e8
 
     const/4 v5, 0x1
@@ -938,6 +972,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:975"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 298
@@ -1066,6 +1102,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:1105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 528
@@ -1134,6 +1172,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:1175"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 473
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/FontSettingActivity;->d:Z
 
@@ -1168,6 +1208,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:1211"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 491
@@ -1320,6 +1362,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:1365"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     const v4, 0x7f0200be
@@ -1443,6 +1487,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:1490"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 580
     iget v0, p0, Lcom/tencent/mobileqq/activity/FontSettingActivity;->g:F
 
@@ -1506,7 +1552,6 @@
 .method public doOnBackPressed()V
     .locals 0
 
-    .prologue
     .line 574
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/FontSettingActivity;->c()V
 
@@ -1518,6 +1563,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:1566"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -1587,6 +1634,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:1637"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 481
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnDestroy()V
 
@@ -1609,7 +1658,6 @@
 .method protected doOnResume()V
     .locals 0
 
-    .prologue
     .line 89
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnResume()V
 
@@ -1623,7 +1671,6 @@
 .method public onPageScrollStateChanged(I)V
     .locals 0
 
-    .prologue
     .line 200
     return-void
 .end method
@@ -1631,7 +1678,6 @@
 .method public onPageScrolled(IFI)V
     .locals 0
 
-    .prologue
     .line 205
     return-void
 .end method
@@ -1639,7 +1685,6 @@
 .method public onPageSelected(I)V
     .locals 0
 
-    .prologue
     .line 210
     return-void
 .end method
@@ -1648,6 +1693,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FontSettingActivity.smali:1696"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 70
     const/4 v0, 0x1
 

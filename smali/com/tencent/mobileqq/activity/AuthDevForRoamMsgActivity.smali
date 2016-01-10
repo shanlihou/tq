@@ -23,6 +23,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevForRoamMsgActivity.smali:26"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 26
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -42,6 +44,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevForRoamMsgActivity.smali:47"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 102
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AuthDevForRoamMsgActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -126,6 +130,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevForRoamMsgActivity.smali:133"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     .line 122
@@ -201,6 +207,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevForRoamMsgActivity.smali:210"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     const/4 v5, 0x0
@@ -273,6 +281,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevForRoamMsgActivity.smali:284"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 156
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->finish()V
 
@@ -291,6 +301,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevForRoamMsgActivity.smali:304"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 147
     const/4 v0, 0x0
 
@@ -316,6 +328,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AuthDevForRoamMsgActivity.smali:331"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v1, 0x7f0914f4
 
     const/4 v5, 0x0

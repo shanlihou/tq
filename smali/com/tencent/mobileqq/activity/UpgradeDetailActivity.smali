@@ -60,6 +60,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:63"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 34
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -73,6 +75,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:78"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 34
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;->a:J
 
@@ -83,6 +87,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:90"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 34
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;->a:Lcom/tencent/mobileqq/app/upgrade/UpgradeDetailWrapper;
 
@@ -93,6 +99,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:102"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 34
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;->a:Lcom/tencent/mobileqq/jsbridge/JsBridge;
 
@@ -103,6 +111,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:114"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 309
     const-string v0, ""
 
@@ -114,6 +124,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:127"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 34
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;->g:Ljava/lang/String;
 
@@ -124,6 +136,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:139"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v3, 0x1
@@ -262,6 +276,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:279"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 62
     new-instance v0, Landroid/content/Intent;
 
@@ -314,6 +330,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:333"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 255
     const/4 v0, 0x0
 
@@ -375,6 +393,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:396"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 34
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;->f:Ljava/lang/String;
 
@@ -385,6 +405,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:408"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 246
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;->getIntent()Landroid/content/Intent;
 
@@ -429,6 +451,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:454"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 386
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;->a:Lcom/tencent/smtt/sdk/WebView;
 
@@ -475,6 +499,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:502"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 480
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;->a:Z
 
@@ -503,6 +529,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:532"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 320
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;->a:Lcom/tencent/smtt/sdk/WebView;
@@ -564,6 +592,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:595"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 300
     if-eqz p1, :cond_0
 
@@ -595,6 +625,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:628"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 314
     const/4 v0, 0x0
 
@@ -606,6 +638,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:641"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     .line 196
@@ -715,6 +749,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:752"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 236
     iget v0, p1, Landroid/os/Message;->what:I
 
@@ -759,6 +795,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:798"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 125
     const/4 v0, 0x0
 
@@ -769,6 +807,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:810"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 187
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;->a()Z
 
@@ -795,6 +835,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:838"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 76
@@ -1012,6 +1054,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:1057"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 144
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/UpgradeDetailActivity;->a:Z
 
@@ -1083,6 +1127,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:1130"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 165
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onDetachedFromWindow()V
 
@@ -1136,6 +1182,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:1185"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 225
     const/4 v0, 0x4
 
@@ -1167,6 +1215,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/UpgradeDetailActivity.smali:1218"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 130
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onResume()V
 

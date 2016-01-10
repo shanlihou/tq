@@ -34,6 +34,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity.smali:37"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 39
@@ -66,6 +68,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity.smali:71"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 39
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity;->c:Ljava/lang/String;
 
@@ -75,7 +79,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .prologue
     .line 39
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity;->c:Ljava/lang/String;
 
@@ -86,6 +89,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity.smali:92"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 324
@@ -138,6 +143,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity.smali:146"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 39
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity;->a:[B
 
@@ -147,7 +154,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity;[B)[B
     .locals 0
 
-    .prologue
     .line 39
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity;->a:[B
 
@@ -158,6 +164,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity.smali:167"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 68
     const v0, 0x7f090340
 
@@ -242,6 +250,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity.smali:253"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 337
     const-string v0, " "
 
@@ -273,6 +283,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity.smali:286"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 311
     new-instance v0, Landroid/content/Intent;
 
@@ -351,6 +363,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity.smali:366"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 360
     if-nez p1, :cond_0
 
@@ -394,7 +408,6 @@
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 349
     return-void
 .end method
@@ -403,6 +416,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity.smali:419"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 120
     const/4 v0, 0x0
 
@@ -413,6 +428,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity.smali:431"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     const/4 v3, 0x1
@@ -666,6 +683,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterByNicknameAndPwdActivity.smali:686"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 51
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/RegisterBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -758,7 +777,6 @@
 .method protected onDestroy()V
     .locals 0
 
-    .prologue
     .line 114
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/RegisterBaseActivity;->onDestroy()V
 
@@ -772,7 +790,6 @@
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 355
     return-void
 .end method

@@ -15,6 +15,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/item/ActivityChatItemBuilder.smali:18"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 37
     invoke-direct {p0, p1, p2, p3, p4}, Lcom/tencent/mobileqq/activity/aio/AbstractChatItemBuilder;-><init>(Lcom/tencent/mobileqq/app/QQAppInterface;Landroid/widget/BaseAdapter;Landroid/content/Context;Lcom/tencent/mobileqq/activity/aio/SessionInfo;)V
 
@@ -30,6 +32,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/item/ActivityChatItemBuilder.smali:35"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f02060f
 
     .line 112
@@ -266,6 +270,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/item/ActivityChatItemBuilder.smali:273"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 159
     new-instance v0, Livl;
 
@@ -277,7 +283,6 @@
 .method public a(ILandroid/content/Context;Lcom/tencent/mobileqq/data/ChatMessage;)V
     .locals 0
 
-    .prologue
     .line 49
     return-void
 .end method
@@ -286,6 +291,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/item/ActivityChatItemBuilder.smali:294"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 52
     invoke-virtual {p2}, Landroid/widget/TextView;->getViewTreeObserver()Landroid/view/ViewTreeObserver;
 
@@ -306,6 +313,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/item/ActivityChatItemBuilder.smali:316"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 43
     const/4 v0, 0x0
 
@@ -316,6 +325,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/aio/item/ActivityChatItemBuilder.smali:328"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 170
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/aio/item/ActivityChatItemBuilder;->a:Landroid/content/Context;
 

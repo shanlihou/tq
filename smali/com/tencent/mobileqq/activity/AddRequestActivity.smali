@@ -159,6 +159,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:162"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 76
@@ -258,6 +260,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:263"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->f:I
 
@@ -268,6 +272,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:275"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->d:J
 
@@ -278,6 +284,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:287"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->b:Landroid/app/Dialog;
 
@@ -288,6 +296,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:299"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->a:Landroid/widget/ImageView;
 
@@ -298,6 +308,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:311"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->a:Landroid/widget/ProgressBar;
 
@@ -308,6 +320,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:323"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->a:Landroid/widget/TextView;
 
@@ -318,6 +332,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:335"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -328,6 +344,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:347"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->s:Ljava/lang/String;
 
@@ -338,6 +356,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:359"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->a:Ltencent/mobileim/structmsg/structmsg$StructMsg;
 
@@ -348,6 +368,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:371"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v11, 0x1
 
     .line 1238
@@ -538,6 +560,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:563"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1212
     const/4 v0, 0x0
 
@@ -702,6 +726,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:729"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/AddRequestActivity;->a()Z
 
@@ -714,6 +740,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:743"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/AddRequestActivity;->a(I)Z
 
@@ -725,7 +753,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/AddRequestActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 76
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->a:Z
 
@@ -736,6 +763,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:766"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 251
@@ -783,6 +812,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:815"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->c:J
 
@@ -793,6 +824,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:827"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->i:Landroid/widget/TextView;
 
@@ -803,6 +836,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:839"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->u:Ljava/lang/String;
 
@@ -813,6 +848,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:851"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v10, 0x7f09141c
 
     const/16 v9, 0x32
@@ -2016,6 +2053,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:2056"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->a:Z
 
@@ -2026,6 +2065,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:2068"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 76
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->b:J
 
@@ -2038,6 +2079,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:2082"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 262
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->a:Landroid/os/Handler;
 
@@ -2048,6 +2091,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:2094"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v6, 0x8
 
     const/4 v1, -0x1
@@ -2358,6 +2403,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:2406"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1203
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/AddRequestActivity;->isResume()Z
 
@@ -2393,6 +2440,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:2443"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1031
     new-instance v0, Landroid/content/Intent;
 
@@ -2445,6 +2494,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:2497"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1007
     new-instance v0, Landroid/content/Intent;
 
@@ -2507,6 +2558,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:2561"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1044
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/AddRequestActivity;->a:Landroid/widget/Button;
 
@@ -2525,6 +2578,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:2581"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 777
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/AddRequestActivity;->getResources()Landroid/content/res/Resources;
 
@@ -2590,6 +2645,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:2648"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 809
     const/4 v0, 0x0
 
@@ -2633,6 +2690,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:2693"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 839
     const/4 v0, 0x0
 
@@ -2686,6 +2745,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:2748"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 989
     if-nez p1, :cond_0
 
@@ -2705,6 +2766,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:2769"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     const-wide/16 v3, 0x0
@@ -3028,6 +3091,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:3094"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 792
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -3080,7 +3145,6 @@
 .method public onConfigurationChanged(Landroid/content/res/Configuration;)V
     .locals 0
 
-    .prologue
     .line 787
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onConfigurationChanged(Landroid/content/res/Configuration;)V
 
@@ -3092,6 +3156,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/AddRequestActivity.smali:3159"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1052
     packed-switch p1, :pswitch_data_0
 

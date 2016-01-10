@@ -14,6 +14,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:17"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 33
     invoke-direct {p0}, Landroid/support/v4/app/FragmentActivity;-><init>()V
 
@@ -31,6 +33,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:36"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v13, 0x32
 
     const/4 v1, -0x1
@@ -227,6 +231,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:234"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     const/4 v1, 0x0
@@ -420,6 +426,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:429"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 117
     invoke-super {p0, p1, p2, p3}, Landroid/support/v4/app/FragmentActivity;->doOnActivityResult(IILandroid/content/Intent;)V
 
@@ -457,6 +465,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:468"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 128
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/ChatActivity;->onBackEvent()Z
 
@@ -506,6 +516,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:519"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v5, 0x1020002
 
     const/4 v1, 0x1
@@ -706,6 +718,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:721"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     .line 314
@@ -770,6 +784,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:787"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     .line 81
@@ -931,6 +947,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:950"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 145
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/ChatActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
@@ -968,6 +986,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:989"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 328
     const/4 v0, 0x0
 
@@ -978,6 +998,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:1001"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 154
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/ChatActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
@@ -1019,6 +1041,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:1044"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 269
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/ChatActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
@@ -1055,6 +1079,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:1082"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 278
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/ChatActivity;->getSupportFragmentManager()Landroid/support/v4/app/FragmentManager;
 
@@ -1089,6 +1115,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:1118"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 286
     const/4 v0, 0x1
 
@@ -1111,6 +1139,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivity.smali:1142"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 292
     invoke-static {p0}, Lcom/tencent/mobileqq/startup/step/SetSplash;->a(Landroid/app/Activity;)J
 

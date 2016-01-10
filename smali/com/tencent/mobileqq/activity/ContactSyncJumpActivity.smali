@@ -71,6 +71,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:74"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 56
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -123,6 +125,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:128"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x1
 
     const/4 v7, 0x0
@@ -345,6 +349,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:352"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 616
     new-instance v4, Landroid/app/Dialog;
 
@@ -431,6 +437,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:440"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 56
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ContactSyncJumpActivity;->a:Landroid/os/Handler;
 
@@ -441,6 +449,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:452"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 56
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ContactSyncJumpActivity;->a:Lcom/tencent/mobileqq/app/PhoneContactManagerImp;
 
@@ -451,6 +461,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:464"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 56
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ContactSyncJumpActivity;->a:Lcom/tencent/mobileqq/contactsync/ContactSyncManager;
 
@@ -461,6 +473,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:476"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 56
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ContactSyncJumpActivity;->k:Ljava/lang/String;
 
@@ -471,6 +485,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:488"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v13, 0x2
 
     const/4 v12, 0x1
@@ -765,6 +781,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:784"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 531
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -908,7 +926,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/ContactSyncJumpActivity;)V
     .locals 0
 
-    .prologue
     .line 56
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/ContactSyncJumpActivity;->b()V
 
@@ -918,7 +935,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/ContactSyncJumpActivity;ILjava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 56
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/ContactSyncJumpActivity;->a(ILjava/lang/String;)V
 
@@ -929,6 +945,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:948"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     const/4 v6, 0x2
@@ -1072,6 +1090,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:1093"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x1
 
     const/4 v7, 0x2
@@ -1741,6 +1761,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:1764"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 56
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ContactSyncJumpActivity;->i:Ljava/lang/String;
 
@@ -1751,6 +1773,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:1776"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v13, 0x1
 
     const/4 v6, 0x0
@@ -1881,6 +1905,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:1908"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v8, 0x2
@@ -2237,6 +2263,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:2266"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 56
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ContactSyncJumpActivity;->j:Ljava/lang/String;
 
@@ -2247,6 +2275,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:2278"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 56
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ContactSyncJumpActivity;->l:Ljava/lang/String;
 
@@ -2257,6 +2287,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:2290"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 56
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ContactSyncJumpActivity;->h:Ljava/lang/String;
 
@@ -2269,6 +2301,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:2304"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 692
     const-string v0, "keyguard"
 
@@ -2290,6 +2324,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:2327"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 90
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -2314,6 +2350,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:2353"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 705
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnDestroy()V
 
@@ -2346,6 +2384,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:2387"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 100
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnNewIntent(Landroid/content/Intent;)V
 
@@ -2378,7 +2418,6 @@
 .method protected doOnStop()V
     .locals 0
 
-    .prologue
     .line 698
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnStop()V
 
@@ -2393,6 +2432,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:2435"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 713
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/ContactSyncJumpActivity;->a:Landroid/app/Dialog;
 
@@ -2431,6 +2472,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:2475"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x2
 
     const/4 v2, 0x1
@@ -2579,6 +2622,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/ContactSyncJumpActivity.smali:2625"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 85
     const/4 v0, 0x1
 

@@ -14,6 +14,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/SelectMemberActivity$BackButtonSide.smali:17"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 372
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

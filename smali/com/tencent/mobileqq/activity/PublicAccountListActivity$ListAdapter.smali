@@ -28,6 +28,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter.smali:31"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 822
@@ -75,6 +77,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter.smali:80"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v8, 0x5a
 
     const/16 v4, 0x41
@@ -447,6 +451,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter.smali:454"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 954
     const v0, 0x7f030144
 
@@ -457,6 +463,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter.smali:466"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, -0x1
 
     .line 980
@@ -527,6 +535,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter.smali:538"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 949
     const/4 v0, 0x0
 
@@ -536,7 +546,6 @@
 .method public a()V
     .locals 0
 
-    .prologue
     .line 975
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter;->c()V
 
@@ -551,6 +560,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter.smali:563"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 964
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter;->a:[I
 
@@ -597,6 +608,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter.smali:611"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 959
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter;->a:[I
 
@@ -621,6 +634,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter.smali:637"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 828
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter;->a:[I
 
@@ -677,6 +692,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter.smali:695"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 834
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter;->a:[I
 
@@ -737,6 +754,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter.smali:757"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 847
     const-wide/16 v0, 0x0
 
@@ -747,6 +766,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$ListAdapter.smali:769"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v11, 0x41700000    # 15.0f
 
     const/4 v10, 0x1

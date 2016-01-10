@@ -37,6 +37,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LoginPhoneNumActivity2.smali:40"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 33
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/RegisterBaseActivity;-><init>()V
 
@@ -63,6 +65,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LoginPhoneNumActivity2.smali:68"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v0, 0x0
@@ -236,6 +240,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LoginPhoneNumActivity2.smali:243"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     .line 219
@@ -277,6 +283,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LoginPhoneNumActivity2.smali:286"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 75
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/LoginPhoneNumActivity2;->a:Landroid/view/ViewGroup;
 
@@ -374,6 +382,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LoginPhoneNumActivity2.smali:385"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 193
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/LoginPhoneNumActivity2;->a()Z
 
@@ -505,6 +515,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LoginPhoneNumActivity2.smali:518"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 88
     new-instance v0, Landroid/content/Intent;
 
@@ -546,6 +558,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LoginPhoneNumActivity2.smali:561"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 282
     invoke-virtual {p1}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
@@ -584,6 +598,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LoginPhoneNumActivity2.smali:601"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 97
     const v0, 0x7f0a1862
 
@@ -598,7 +614,6 @@
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 294
     return-void
 .end method
@@ -607,6 +622,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LoginPhoneNumActivity2.smali:625"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v1, 0x1
@@ -836,7 +853,6 @@
 .method public onCheckedChanged(Landroid/widget/CompoundButton;Z)V
     .locals 0
 
-    .prologue
     .line 304
     return-void
 .end method
@@ -845,6 +861,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LoginPhoneNumActivity2.smali:864"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 143
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -889,6 +907,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LoginPhoneNumActivity2.smali:910"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 59
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/RegisterBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -990,6 +1010,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/LoginPhoneNumActivity2.smali:1013"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 136
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/RegisterBaseActivity;->onDestroy()V
 
@@ -1012,7 +1034,6 @@
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 299
     return-void
 .end method

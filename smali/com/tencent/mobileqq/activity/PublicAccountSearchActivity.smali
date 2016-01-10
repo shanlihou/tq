@@ -18,6 +18,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountSearchActivity.smali:21"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 15
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 
@@ -30,6 +32,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountSearchActivity.smali:35"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v6, 0x7f0a2472
 
     const/4 v5, 0x1
@@ -143,6 +147,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountSearchActivity.smali:150"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v6, 0x7f0a2472
 
     const/4 v5, 0x1
@@ -290,6 +296,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountSearchActivity.smali:299"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     .line 66

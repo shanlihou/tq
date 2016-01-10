@@ -12,6 +12,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivilegeActivity$PrivilegeTroopObserver.smali:15"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 75
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/TroopPrivilegeActivity$PrivilegeTroopObserver;->a:Lcom/tencent/mobileqq/activity/TroopPrivilegeActivity;
 
@@ -28,6 +30,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopPrivilegeActivity$PrivilegeTroopObserver.smali:33"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     const/4 v1, 0x1

@@ -14,6 +14,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$SearchResultAdapter.smali:17"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 729
@@ -47,6 +49,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$SearchResultAdapter.smali:52"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 797
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/PublicAccountListActivity$SearchResultAdapter;->getItem(I)Ljava/lang/Object;
 
@@ -82,6 +86,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$SearchResultAdapter.smali:89"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 737
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PublicAccountListActivity$SearchResultAdapter;->a:Ljava/util/List;
 
@@ -106,6 +112,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$SearchResultAdapter.smali:115"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 742
     if-ltz p1, :cond_0
 
@@ -138,6 +146,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$SearchResultAdapter.smali:149"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 750
     int-to-long v0, p1
 
@@ -148,6 +158,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PublicAccountListActivity$SearchResultAdapter.smali:161"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v8, 0x41700000    # 15.0f
 
     const/4 v7, 0x0

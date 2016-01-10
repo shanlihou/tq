@@ -14,6 +14,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/qfileJumpActivity.smali:17"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 21
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -28,6 +30,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/qfileJumpActivity.smali:33"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v6, 0x8
 
     const/4 v5, 0x1
@@ -161,6 +165,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/qfileJumpActivity.smali:168"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 129
     new-instance v0, Landroid/os/Handler;
 
@@ -182,6 +188,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/qfileJumpActivity.smali:191"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 162
     new-instance v0, Landroid/os/Handler;
 
@@ -203,6 +211,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/qfileJumpActivity.smali:214"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 83
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnActivityResult(IILandroid/content/Intent;)V
 
@@ -251,6 +261,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/qfileJumpActivity.smali:264"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v0, 0x1
@@ -483,6 +495,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/qfileJumpActivity.smali:498"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 26
     const/4 v0, 0x1
 

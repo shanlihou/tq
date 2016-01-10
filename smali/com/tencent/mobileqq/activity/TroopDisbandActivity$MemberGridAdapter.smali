@@ -16,6 +16,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity$MemberGridAdapter.smali:19"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 673
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/TroopDisbandActivity$MemberGridAdapter;->a:Lcom/tencent/mobileqq/activity/TroopDisbandActivity;
 
@@ -47,6 +49,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity$MemberGridAdapter.smali:52"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 718
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopDisbandActivity$MemberGridAdapter;->a:Ljava/util/List;
 
@@ -98,7 +102,6 @@
 .method public a(I)V
     .locals 0
 
-    .prologue
     .line 679
     iput p1, p0, Lcom/tencent/mobileqq/activity/TroopDisbandActivity$MemberGridAdapter;->a:I
 
@@ -110,6 +113,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity$MemberGridAdapter.smali:116"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 689
     if-eqz p1, :cond_1
 
@@ -149,6 +154,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity$MemberGridAdapter.smali:157"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 683
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopDisbandActivity$MemberGridAdapter;->a:Ljava/util/List;
 
@@ -164,6 +171,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity$MemberGridAdapter.smali:174"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 699
@@ -264,6 +273,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity$MemberGridAdapter.smali:276"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x6
 
     .line 729
@@ -290,6 +301,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity$MemberGridAdapter.smali:304"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 738
     if-ltz p1, :cond_0
 
@@ -322,6 +335,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity$MemberGridAdapter.smali:338"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 747
     int-to-long v0, p1
 
@@ -332,6 +347,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopDisbandActivity$MemberGridAdapter.smali:350"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 752
     .line 753
     if-nez p2, :cond_1

@@ -8,6 +8,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MultiForwardActivity.smali:11"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 5
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/ChatActivity;-><init>()V
 
@@ -22,6 +24,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MultiForwardActivity.smali:27"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/ChatActivity;->doOnCreate(Landroid/os/Bundle;)Z
 

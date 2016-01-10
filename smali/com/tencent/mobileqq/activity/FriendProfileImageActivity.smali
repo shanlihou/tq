@@ -120,6 +120,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:123"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v5, 0x3f800000    # 1.0f
 
     const/4 v4, 0x0
@@ -196,6 +198,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:201"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 80
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FriendProfileImageActivity;->c:Landroid/widget/ImageView;
 
@@ -206,6 +210,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:213"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 482
     const-string v0, ""
 
@@ -268,6 +274,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:277"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 744
     const/4 v0, 0x1
 
@@ -640,6 +648,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:651"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 391
     new-instance v0, Landroid/content/Intent;
 
@@ -676,6 +686,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:689"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v1, 0x12c
 
     .line 622
@@ -718,7 +730,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/FriendProfileImageActivity;)V
     .locals 0
 
-    .prologue
     .line 80
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/FriendProfileImageActivity;->h()V
 
@@ -729,6 +740,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:743"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 334
@@ -820,6 +833,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:836"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1036
     iget v0, p0, Lcom/tencent/mobileqq/activity/FriendProfileImageActivity;->b:I
 
@@ -835,6 +850,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:853"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 971
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FriendProfileImageActivity;->a:Lcom/tencent/mobileqq/widget/QQToastNotifier;
 
@@ -866,7 +883,6 @@
 .method public a(Lcom/tencent/mobileqq/activity/FriendProfileImageModel$ProfileImageInfo;)V
     .locals 0
 
-    .prologue
     .line 1031
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/FriendProfileImageActivity;->e(Lcom/tencent/mobileqq/activity/FriendProfileImageModel$ProfileImageInfo;)V
 
@@ -878,6 +894,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:897"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v5, 0x7d0
 
     const/4 v3, 0x4
@@ -1019,6 +1037,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:1040"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 402
     new-instance v0, Ljava/io/File;
 
@@ -1151,6 +1171,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:1174"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1041
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1200,6 +1222,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:1225"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1063
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/FriendProfileImageActivity;->e(Lcom/tencent/mobileqq/activity/FriendProfileImageModel$ProfileImageInfo;)V
 
@@ -1218,6 +1242,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:1245"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 442
@@ -1290,6 +1316,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:1319"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1054
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1327,6 +1355,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:1358"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 312
     if-eqz p1, :cond_0
 
@@ -1378,6 +1408,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:1411"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 535
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FriendProfileImageActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -1415,6 +1447,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:1450"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 456
     invoke-static {p0}, Lcom/tencent/mobileqq/utils/NetworkUtil;->e(Landroid/content/Context;)Z
 
@@ -1504,6 +1538,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:1541"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 383
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnActivityResult(IILandroid/content/Intent;)V
 
@@ -1531,7 +1567,6 @@
 .method public doOnBackPressed()V
     .locals 0
 
-    .prologue
     .line 671
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/FriendProfileImageActivity;->f()V
 
@@ -1543,6 +1578,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:1581"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v7, 0x0
 
     const/4 v2, 0x4
@@ -2120,6 +2157,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:2160"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 580
@@ -2278,6 +2317,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:2320"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 325
     const/16 v0, 0x52
 
@@ -2309,6 +2350,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:2353"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 570
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnPause()V
 
@@ -2334,6 +2377,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:2380"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 558
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnResume()V
 
@@ -2369,6 +2414,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:2417"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v6, 0xa0
 
     const/4 v2, 0x0
@@ -2515,6 +2562,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:2565"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 544
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FriendProfileImageActivity;->a:Lcom/tencent/mobileqq/widget/QQProgressDialog;
 
@@ -2560,6 +2609,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:2612"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x4
 
     const/4 v3, 0x2
@@ -2800,6 +2851,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:2854"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 662
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/FriendProfileImageActivity;->d:Z
 
@@ -2839,6 +2892,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:2895"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x4
 
     const/high16 v2, 0x40000000    # 2.0f
@@ -2962,6 +3017,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:3020"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 1072
@@ -3015,6 +3072,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:3075"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 308
     const/4 v0, 0x0
 
@@ -3025,6 +3084,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:3087"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 980
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -3226,6 +3287,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/FriendProfileImageActivity.smali:3290"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1021
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/FriendProfileImageActivity;->a:Lcom/tencent/mobileqq/activity/FriendProfileImageModel;
 

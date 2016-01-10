@@ -42,6 +42,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/SendVideoActivity$SendAppShortVideoTask.smali:45"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 525
     invoke-direct {p0}, Landroid/os/AsyncTask;-><init>()V
 
@@ -273,6 +275,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/SendVideoActivity$SendAppShortVideoTask.smali:278"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 793
@@ -307,6 +311,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/SendVideoActivity$SendAppShortVideoTask.smali:314"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     const/4 v5, 0x0
@@ -1337,6 +1343,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/SendVideoActivity$SendAppShortVideoTask.smali:1346"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 553
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/shortvideo/SendVideoActivity$SendAppShortVideoTask;->a()I
 
@@ -1353,6 +1361,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/SendVideoActivity$SendAppShortVideoTask.smali:1364"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 785
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/shortvideo/SendVideoActivity$SendAppShortVideoTask;->a:Landroid/app/ProgressDialog;
@@ -1382,6 +1392,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/SendVideoActivity$SendAppShortVideoTask.smali:1395"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 763
     :try_start_0
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/shortvideo/SendVideoActivity$SendAppShortVideoTask;->a:Landroid/app/ProgressDialog;
@@ -1489,6 +1501,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/SendVideoActivity$SendAppShortVideoTask.smali:1504"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x0
 
     const/4 v7, 0x2
@@ -1909,6 +1923,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/SendVideoActivity$SendAppShortVideoTask.smali:1926"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 502
     check-cast p1, [Ljava/lang/Void;
 
@@ -1922,7 +1938,6 @@
 .method protected synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
 
-    .prologue
     .line 502
     check-cast p1, Ljava/lang/Integer;
 
@@ -1935,6 +1950,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/shortvideo/SendVideoActivity$SendAppShortVideoTask.smali:1953"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 547
     invoke-super {p0}, Landroid/os/AsyncTask;->onPreExecute()V
 

@@ -33,6 +33,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JobSelectionActivity.smali:36"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 24
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -51,6 +53,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JobSelectionActivity.smali:56"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 24
     iget v0, p0, Lcom/tencent/mobileqq/activity/JobSelectionActivity;->a:I
 
@@ -61,6 +65,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JobSelectionActivity.smali:68"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 24
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/JobSelectionActivity;->a:Z
 
@@ -73,6 +79,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JobSelectionActivity.smali:82"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 39
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -163,6 +171,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/JobSelectionActivity.smali:174"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 58
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/JobSelectionActivity;->a:Z
 

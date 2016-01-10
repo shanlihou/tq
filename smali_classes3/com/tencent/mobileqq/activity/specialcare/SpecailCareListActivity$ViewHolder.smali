@@ -34,6 +34,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/specialcare/SpecailCareListActivity$ViewHolder.smali:37"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1312
     invoke-direct {p0}, Ljava/lang/Object;-><init>()V
 

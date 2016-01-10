@@ -31,6 +31,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MusicSharePlayActivity.smali:34"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 31
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -55,6 +57,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MusicSharePlayActivity.smali:60"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     .line 81
@@ -181,6 +185,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MusicSharePlayActivity.smali:188"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 72
     const v0, 0x7f090753
 
@@ -238,6 +244,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MusicSharePlayActivity.smali:247"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 107
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onBackEvent()Z
 
@@ -250,6 +258,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MusicSharePlayActivity.smali:261"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 112
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -279,6 +289,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MusicSharePlayActivity.smali:292"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 62
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -320,6 +332,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/MusicSharePlayActivity.smali:335"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 122
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->onDestroy()V
 

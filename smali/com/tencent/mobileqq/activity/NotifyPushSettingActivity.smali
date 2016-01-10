@@ -58,6 +58,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:61"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -113,6 +115,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:118"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 624
@@ -152,6 +156,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:159"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->a:Landroid/os/Handler;
 
@@ -162,6 +168,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:171"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->a:Lcom/tencent/mobileqq/widget/FormSimpleItem;
 
@@ -172,6 +180,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:183"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->g:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -182,6 +192,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:195"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v13, 0x8
 
     const/4 v12, 0x0
@@ -930,6 +942,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:945"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 529
@@ -997,6 +1011,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1014"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 606
@@ -1050,6 +1066,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1069"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 641
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -1094,7 +1112,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 47
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->a(Ljava/lang/String;)V
 
@@ -1105,6 +1122,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1125"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 675
     new-instance v0, Lhon;
 
@@ -1120,6 +1139,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1142"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 848
     monitor-enter p0
 
@@ -1169,6 +1190,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1193"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 72
     new-instance v0, Ljava/io/File;
 
@@ -1210,6 +1233,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1236"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->a:Z
 
@@ -1219,7 +1244,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 47
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->b:Z
 
@@ -1230,6 +1254,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1257"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 658
@@ -1269,6 +1295,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1298"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->i:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -1279,6 +1307,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1310"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->b:Z
 
@@ -1289,6 +1319,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1322"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->b:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -1299,6 +1331,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1334"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->c:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -1309,6 +1343,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1346"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->d:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -1319,6 +1355,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1358"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->f:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -1329,6 +1367,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1370"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->h:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -1339,6 +1379,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1382"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 47
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->e:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -1351,6 +1393,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1396"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 77
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -1412,6 +1456,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1459"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 856
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotifyPushSettingActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1459,6 +1505,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1508"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 98
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnPause()V
 
@@ -1488,6 +1536,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotifyPushSettingActivity.smali:1539"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 517
     const v0, 0x7f0a172c
 

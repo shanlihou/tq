@@ -119,6 +119,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:122"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 86
@@ -133,6 +135,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:138"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 79
@@ -201,6 +205,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:208"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 79
     sget-object v0, Lcom/tencent/mobileqq/activity/photo/PhotoPreviewActivity;->s:Ljava/lang/String;
 
@@ -211,6 +217,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:220"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 79
     sget-object v0, Lcom/tencent/mobileqq/activity/photo/PhotoPreviewActivity;->s:Ljava/lang/String;
 
@@ -223,6 +231,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:234"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 676
     new-instance v0, Ljava/util/ArrayList;
 
@@ -280,6 +290,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:293"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x0
 
     const/4 v8, 0x2
@@ -1135,6 +1147,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:1150"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 148
     const/4 v0, 0x0
 
@@ -1145,6 +1159,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:1162"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 659
     const/4 v0, 0x0
 
@@ -1248,6 +1264,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:1267"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v4, 0x0
@@ -1724,6 +1742,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:1745"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x1
@@ -1934,6 +1954,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:1957"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 743
     iget v0, p0, Lcom/tencent/mobileqq/activity/photo/PhotoPreviewActivity;->e:I
 
@@ -1993,6 +2015,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:2018"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v10, 0x7f0a1deb
 
     const/4 v0, 0x0
@@ -2175,6 +2199,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:2202"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v3, -0x1
@@ -2399,6 +2425,8 @@
     .locals 14
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:2428"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1197
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/photo/PhotoPreviewActivity;->h:Z
 
@@ -2872,6 +2900,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:2903"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, -0x1
 
     .line 180
@@ -2994,6 +3024,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:3027"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 784
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/photo/PhotoPreviewActivity;->a:Lcom/tencent/mobileqq/activity/photo/ProGallery;
 
@@ -3020,6 +3052,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:3055"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v10, 0x7f0a1dfb
 
     const/4 v9, 0x2
@@ -3362,6 +3396,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:3399"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 138
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -3410,6 +3446,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:3449"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1173
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onDestroy()V
 
@@ -3515,7 +3553,6 @@
 .method protected onNewIntent(Landroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 172
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onNewIntent(Landroid/content/Intent;)V
 
@@ -3536,6 +3573,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:3576"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1297
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/aio/photo/PeakActivity;->onPause()V
 
@@ -3559,6 +3598,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/PhotoPreviewActivity.smali:3601"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 1285

@@ -84,6 +84,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:87"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -145,6 +147,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:150"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 461
     new-instance v0, Landroid/text/SpannableStringBuilder;
 
@@ -176,6 +180,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:183"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 74
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;->a:Lcom/tencent/mobileqq/app/PhoneContactManagerImp;
 
@@ -186,6 +192,8 @@
     .locals 17
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:195"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 888
     move-object/from16 v0, p0
 
@@ -831,6 +839,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:842"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x2
 
     const/4 v5, 0x3
@@ -1048,7 +1058,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;)V
     .locals 0
 
-    .prologue
     .line 74
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;->c()V
 
@@ -1058,7 +1067,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;I)V
     .locals 0
 
-    .prologue
     .line 74
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;->b(I)V
 
@@ -1068,7 +1076,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;IJ)V
     .locals 0
 
-    .prologue
     .line 74
     invoke-virtual {p0, p1, p2, p3}, Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;->a(IJ)V
 
@@ -1078,7 +1085,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;Landroid/widget/RelativeLayout;II)V
     .locals 0
 
-    .prologue
     .line 74
     invoke-direct {p0, p1, p2, p3}, Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;->a(Landroid/widget/RelativeLayout;II)V
 
@@ -1088,7 +1094,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 74
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;->a(Ljava/lang/String;)V
 
@@ -1098,7 +1103,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;ZLandroid/os/Bundle;Z)V
     .locals 0
 
-    .prologue
     .line 74
     invoke-direct {p0, p1, p2, p3}, Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;->a(ZLandroid/os/Bundle;Z)V
 
@@ -1109,6 +1113,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:1116"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 745
     if-eqz p1, :cond_0
 
@@ -1747,6 +1753,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:1756"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 74
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;->a:Lcom/tencent/mobileqq/app/PhoneContactManagerImp;
 
@@ -1757,6 +1765,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:1768"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     const/4 v1, 0x1
@@ -1788,7 +1798,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;)V
     .locals 0
 
-    .prologue
     .line 74
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;->a()V
 
@@ -1798,7 +1807,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;I)V
     .locals 0
 
-    .prologue
     .line 74
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;->b(I)V
 
@@ -1809,6 +1817,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:1820"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v2, 0x7f09138d
 
     const/16 v1, 0x8
@@ -1908,7 +1918,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;)V
     .locals 0
 
-    .prologue
     .line 74
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/PhoneUnityBindInfoActivity;->b()V
 
@@ -1919,6 +1928,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:1931"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     const/4 v3, -0x1
@@ -2135,6 +2146,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:2149"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 468
@@ -2168,6 +2181,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:2184"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x4
 
     const/4 v5, 0x2
@@ -2424,6 +2439,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:2442"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     const v6, 0x7f0a2113
@@ -2877,6 +2894,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:2897"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 484
@@ -2948,6 +2967,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:2970"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 511
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;->doOnPause()V
 
@@ -2964,6 +2985,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:2988"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 477
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/phone/DialogBaseActivity;->doOnResume()V
 
@@ -2980,6 +3003,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:3006"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 1221
@@ -3072,6 +3097,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/PhoneUnityBindInfoActivity.smali:3100"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 611
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 

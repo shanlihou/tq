@@ -142,6 +142,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:145"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -228,6 +230,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:233"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 77
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;->a(Lcom/tencent/mobileqq/app/soso/SosoInterface$SosoLbsInfo;)Ltencent/im/nearfield_discuss/nearfield_discuss$LBSInfo;
 
@@ -240,6 +244,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:247"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide v6, 0x412e848000000000L    # 1000000.0
 
     .line 991
@@ -583,6 +589,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:592"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 957
     new-instance v0, Lkfk;
 
@@ -604,6 +612,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:615"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 1047
@@ -648,6 +658,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:661"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     .line 1071
@@ -800,7 +812,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;)V
     .locals 0
 
-    .prologue
     .line 77
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;->f()V
 
@@ -810,7 +821,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;I)V
     .locals 0
 
-    .prologue
     .line 77
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;->a(I)V
 
@@ -820,7 +830,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;ILjava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 77
     invoke-virtual {p0, p1, p2}, Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;->a(ILjava/lang/String;)V
 
@@ -830,7 +839,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;Landroid/view/View;)V
     .locals 0
 
-    .prologue
     .line 77
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;->a(Landroid/view/View;)V
 
@@ -840,7 +848,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;Landroid/view/View;Ltencent/im/nearfield_discuss/nearfield_discuss$UserProfile;)V
     .locals 0
 
-    .prologue
     .line 77
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;->a(Landroid/view/View;Ltencent/im/nearfield_discuss/nearfield_discuss$UserProfile;)V
 
@@ -850,7 +857,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;ILjava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 77
     invoke-virtual {p0, p1, p2}, Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;->a(ILjava/lang/String;)V
 
@@ -861,6 +867,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:870"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f0a1c5a
 
     const/4 v3, 0x0
@@ -1395,6 +1403,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:1406"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v4, 0x1f4
 
     const/4 v6, 0x0
@@ -1575,6 +1585,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:1588"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 546
     invoke-static {p0}, Lcom/tencent/mobileqq/utils/NetworkUtil;->e(Landroid/content/Context;)Z
 
@@ -1641,6 +1653,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:1656"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 560
@@ -1712,6 +1726,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:1729"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1101
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity;->a:Landroid/widget/GridView;
 
@@ -1779,6 +1795,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:1798"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x4
 
     .line 874
@@ -1804,6 +1822,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:1825"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 304
@@ -1839,6 +1859,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:1862"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 310
@@ -1873,7 +1895,6 @@
 .method protected doOnActivityResult(IILandroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 869
     return-void
 .end method
@@ -1882,6 +1903,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:1906"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 138
@@ -2061,6 +2084,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:2087"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 847
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/LbsBaseActivity;->doOnDestroy()V
 
@@ -2135,6 +2160,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:2163"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 789
@@ -2340,6 +2367,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:2370"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 767
@@ -2373,6 +2402,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:2405"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 754
@@ -2412,6 +2443,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:2446"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 746
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/LbsBaseActivity;->doOnStart()V
 
@@ -2432,6 +2465,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:2468"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 298
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/LbsBaseActivity;->finish()V
 
@@ -2450,6 +2485,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:2488"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v7, 0x258
 
     const/4 v5, 0x4
@@ -3153,6 +3190,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/selectmember/CreateFaceToFaceDiscussionActivity.smali:3193"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 132
     const/4 v0, 0x1
 

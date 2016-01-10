@@ -15,6 +15,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopClassChoiceActivity$GetClassChoiceCallBack.smali:18"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 170
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/TroopClassChoiceActivity$GetClassChoiceCallBack;->a:Lcom/tencent/mobileqq/activity/TroopClassChoiceActivity;
 
@@ -31,6 +33,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopClassChoiceActivity$GetClassChoiceCallBack.smali:36"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 224
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -58,6 +62,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopClassChoiceActivity$GetClassChoiceCallBack.smali:65"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     .line 174

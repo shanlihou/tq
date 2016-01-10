@@ -35,6 +35,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopGagActivity.smali:38"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -68,6 +70,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopGagActivity.smali:73"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/TroopGagActivity;->b(Ljava/lang/String;)Z
 
@@ -80,6 +84,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopGagActivity.smali:87"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 228
@@ -147,6 +153,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopGagActivity.smali:156"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 54
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/TroopGagActivity;->a(Ljava/lang/String;)Z
 
@@ -159,6 +167,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopGagActivity.smali:170"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 244
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopGagActivity;->a:Lcom/tencent/mobileqq/data/TroopInfo;
 
@@ -197,6 +207,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopGagActivity.smali:210"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, -0x2
 
     const v10, 0x7f030496
@@ -675,6 +687,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopGagActivity.smali:690"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 219
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopGagActivity;->a:Lihm;
 
@@ -707,6 +721,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopGagActivity.smali:724"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 404

@@ -76,6 +76,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:79"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 97
@@ -100,6 +102,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:105"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 55
@@ -146,6 +150,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:153"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0x7f070001
 
     .line 864
@@ -363,6 +369,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:372"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->e:Lcom/tencent/mobileqq/widget/FormSimpleItem;
 
@@ -373,6 +381,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:384"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->c:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -383,6 +393,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:396"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->a:Ljava/util/HashMap;
 
@@ -393,6 +405,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:408"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 823
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->a(I)Landroid/net/Uri;
 
@@ -447,6 +461,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:464"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 670
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->getResources()Landroid/content/res/Resources;
 
@@ -537,7 +553,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;)V
     .locals 0
 
-    .prologue
     .line 55
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->e()V
 
@@ -547,7 +562,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;I)V
     .locals 0
 
-    .prologue
     .line 55
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->b(I)V
 
@@ -557,7 +571,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;Z)V
     .locals 0
 
-    .prologue
     .line 55
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->a(Z)V
 
@@ -568,6 +581,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:584"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     const/4 v4, 0x0
@@ -665,6 +680,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:683"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->a:Lcom/tencent/mobileqq/widget/FormSimpleItem;
 
@@ -675,6 +692,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:695"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->f:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -685,6 +704,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:707"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 844
@@ -749,7 +770,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;)V
     .locals 0
 
-    .prologue
     .line 55
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->d()V
 
@@ -759,7 +779,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;I)V
     .locals 0
 
-    .prologue
     .line 55
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->c(I)V
 
@@ -770,6 +789,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:792"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->b:Lcom/tencent/mobileqq/widget/FormSimpleItem;
 
@@ -780,6 +801,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:804"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->e:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -790,6 +813,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:816"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v0, 0x1
@@ -903,6 +928,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:931"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 892
@@ -1058,6 +1085,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:1088"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->c:Lcom/tencent/mobileqq/widget/FormSimpleItem;
 
@@ -1068,6 +1097,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:1100"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->d:Lcom/tencent/mobileqq/widget/FormSwitchItem;
 
@@ -1078,6 +1109,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:1112"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 712
     new-instance v0, Landroid/content/Intent;
 
@@ -1100,6 +1133,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:1136"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->d:Lcom/tencent/mobileqq/widget/FormSimpleItem;
 
@@ -1110,6 +1145,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:1148"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 751
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1240,6 +1277,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:1280"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 917
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->a:Landroid/app/Dialog;
 
@@ -1284,6 +1323,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:1326"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v11, 0x3
 
     const/4 v10, 0x2
@@ -1426,6 +1467,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:1470"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1018
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1498,6 +1541,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:1544"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x0
 
     const v8, 0x7f0213a8
@@ -2501,6 +2546,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:2549"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v5, 0x7f0a1b70
 
     const v4, 0x7f0213a8
@@ -3278,6 +3325,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:3328"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1030
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->a:Landroid/media/MediaPlayer;
 
@@ -3406,6 +3455,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:3458"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1064
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->a:Landroid/media/MediaPlayer;
 
@@ -3433,6 +3484,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:3487"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 103
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -3459,6 +3512,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/SoundAndVibrateActivity.smali:3515"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1071
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/SoundAndVibrateActivity;->b()V
 

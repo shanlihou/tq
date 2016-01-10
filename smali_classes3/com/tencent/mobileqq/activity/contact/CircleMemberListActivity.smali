@@ -81,6 +81,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:84"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 108
@@ -95,6 +97,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:100"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 79
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/BaseForwardSelectionActivity;-><init>()V
 
@@ -138,6 +142,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:145"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 79
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/CircleMemberListActivity;->a:Lcom/tencent/widget/XListView;
 
@@ -148,6 +154,8 @@
     .locals 11
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:157"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v9, 0xc8
 
     const/4 v8, 0x1
@@ -264,6 +272,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:275"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 251
@@ -355,6 +365,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:368"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 79
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/contact/CircleMemberListActivity;->b()Z
 
@@ -367,6 +379,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:382"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 158
     new-instance v0, Ljava/util/ArrayList;
 
@@ -440,6 +454,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:457"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v2, 0x0
@@ -509,6 +525,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:528"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v2, 0x7f090210
 
     const/16 v4, 0x8
@@ -848,6 +866,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:869"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 233
     const v0, 0x7f09033e
 
@@ -904,6 +924,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:927"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 383
@@ -1011,6 +1033,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:1036"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v3, 0x3e8
 
     .line 488
@@ -1043,6 +1067,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:1070"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x2
 
     const/16 v7, 0x32
@@ -1273,6 +1299,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:1302"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 452
     if-eqz p4, :cond_1
 
@@ -1351,6 +1379,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:1382"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 404
@@ -1514,6 +1544,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:1547"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 638
@@ -1649,6 +1681,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:1684"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v2, 0x0
@@ -1804,7 +1838,6 @@
 .method public a(Lcom/tencent/widget/AbsListView;III)V
     .locals 0
 
-    .prologue
     .line 580
     return-void
 .end method
@@ -1813,6 +1846,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:1849"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     const/4 v5, 0x0
@@ -1939,6 +1974,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:1977"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v12, 0x0
 
     const/4 v3, 0x0
@@ -2037,6 +2074,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:2077"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 686
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/CircleMemberListActivity;->a:Lcom/tencent/mobileqq/app/FriendsManager;
 
@@ -2151,6 +2190,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:2193"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 712
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/CircleMemberListActivity;->a:Lcom/tencent/mobileqq/app/FriendsManager;
 
@@ -2207,7 +2248,6 @@
 .method protected doOnActivityResult(IILandroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 154
     invoke-super {p0, p1, p2, p3}, Lcom/tencent/mobileqq/activity/BaseForwardSelectionActivity;->doOnActivityResult(IILandroid/content/Intent;)V
 
@@ -2219,6 +2259,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:2262"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 119
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/BaseForwardSelectionActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -2354,6 +2396,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:2399"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 142
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/contact/CircleMemberListActivity;->a:Lcom/tencent/mobileqq/util/FaceDecoder;
 
@@ -2402,6 +2446,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:2449"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 585
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -2612,6 +2658,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/contact/CircleMemberListActivity.smali:2661"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 114
     const/4 v0, 0x1
 

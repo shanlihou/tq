@@ -35,6 +35,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopAssisSettingActivity.smali:38"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 55
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;-><init>()V
 
@@ -79,6 +81,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopAssisSettingActivity.smali:84"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     const/4 v2, 0x0
@@ -234,6 +238,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopAssisSettingActivity.smali:241"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 213
@@ -337,6 +343,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopAssisSettingActivity.smali:346"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 263
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopAssisSettingActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -389,6 +397,8 @@
     .end annotation
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopAssisSettingActivity.smali:400"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 355
@@ -446,6 +456,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopAssisSettingActivity.smali:459"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0x7f0a144e
 
     .line 133
@@ -577,6 +589,8 @@
     .locals 8
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopAssisSettingActivity.smali:592"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     const/4 v2, 0x1
@@ -769,6 +783,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopAssisSettingActivity.smali:786"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 348
     const/4 v0, 0x0
 
@@ -800,6 +816,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopAssisSettingActivity.smali:819"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 67
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnCreate(Landroid/os/Bundle;)Z
 
@@ -877,6 +895,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopAssisSettingActivity.smali:898"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 167
     invoke-super {p0}, Lcom/tencent/mobileqq/app/IphoneTitleBarActivity;->doOnDestroy()V
 
@@ -910,7 +930,6 @@
 .method protected doOnPause()V
     .locals 0
 
-    .prologue
     .line 155
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/TroopAssisSettingActivity;->c()V
 
@@ -925,6 +944,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopAssisSettingActivity.smali:947"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 161
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopAssisSettingActivity;->a:Lcom/tencent/mobileqq/app/FriendListObserver;
 
@@ -941,6 +962,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopAssisSettingActivity.smali:965"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 440
     instance-of v0, p2, Lcom/tencent/mobileqq/data/MessageRecord;
 

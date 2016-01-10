@@ -22,6 +22,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity$TroopMemberListAdapter.smali:25"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     const/4 v6, 0x0
@@ -292,6 +294,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity$TroopMemberListAdapter.smali:297"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 613
     const/4 v1, 0x0
 
@@ -355,6 +359,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity$TroopMemberListAdapter.smali:362"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 730
     invoke-virtual {p0, p1}, Lcom/tencent/mobileqq/activity/TroopTransferActivity$TroopMemberListAdapter;->getItem(I)Ljava/lang/Object;
 
@@ -384,6 +390,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity$TroopMemberListAdapter.smali:393"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 624
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopTransferActivity$TroopMemberListAdapter;->a:Ljava/util/ArrayList;
 
@@ -394,6 +402,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity$TroopMemberListAdapter.smali:405"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 646
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopTransferActivity$TroopMemberListAdapter;->a:Ljava/util/ArrayList;
 
@@ -408,6 +418,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity$TroopMemberListAdapter.smali:421"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 651
     const/4 v0, 0x0
 
@@ -440,6 +452,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity$TroopMemberListAdapter.smali:455"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 660
     int-to-long v0, p1
 
@@ -450,6 +464,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity$TroopMemberListAdapter.smali:467"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -498,6 +514,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity$TroopMemberListAdapter.smali:517"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v6, 0x8
 
     const/4 v3, 0x0
@@ -799,6 +817,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity$TroopMemberListAdapter.smali:820"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 629
     const/4 v0, 0x2
 

@@ -60,6 +60,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/SendPhotoActivity.smali:63"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 61
@@ -78,6 +80,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/SendPhotoActivity.smali:83"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 60
@@ -130,6 +134,8 @@
     .locals 13
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/SendPhotoActivity.smali:137"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x2
 
     const/4 v5, -0x1
@@ -402,7 +408,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/photo/SendPhotoActivity;)V
     .locals 0
 
-    .prologue
     .line 60
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/photo/SendPhotoActivity;->b()V
 
@@ -412,7 +417,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/photo/SendPhotoActivity;Landroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 60
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/photo/SendPhotoActivity;->a(Landroid/content/Intent;)V
 
@@ -422,7 +426,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/photo/SendPhotoActivity;Lcom/tencent/mobileqq/pic/PicReq;)V
     .locals 0
 
-    .prologue
     .line 60
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/photo/SendPhotoActivity;->a(Lcom/tencent/mobileqq/pic/PicReq;)V
 
@@ -432,7 +435,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/photo/SendPhotoActivity;Ljava/lang/String;)V
     .locals 0
 
-    .prologue
     .line 60
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/photo/SendPhotoActivity;->a(Ljava/lang/String;)V
 
@@ -443,6 +445,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/SendPhotoActivity.smali:448"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v7, 0x52
 
     const/4 v2, 0x0
@@ -743,6 +747,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/SendPhotoActivity.smali:750"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 441
     const-string v0, "handlePhoto"
 
@@ -766,6 +772,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/SendPhotoActivity.smali:775"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v1, 0x0
@@ -873,6 +881,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/SendPhotoActivity.smali:884"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 320
     new-instance v0, Ljava/lang/StringBuilder;
 
@@ -973,6 +983,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/SendPhotoActivity.smali:986"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 307
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/photo/SendPhotoActivity;->e:Z
 
@@ -1046,6 +1058,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/SendPhotoActivity.smali:1061"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 283
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/photo/SendPhotoActivity;->e:Z
 
@@ -1159,6 +1173,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/SendPhotoActivity.smali:1176"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x2
 
     const/4 v7, 0x0
@@ -1558,6 +1574,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/SendPhotoActivity.smali:1577"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 273
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnDestroy()V
 
@@ -1616,6 +1634,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali_classes3/com/tencent/mobileqq/activity/photo/SendPhotoActivity.smali:1637"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     .line 252

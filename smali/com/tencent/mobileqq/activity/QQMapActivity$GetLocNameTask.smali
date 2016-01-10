@@ -18,6 +18,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity$GetLocNameTask.smali:21"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1700
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/QQMapActivity$GetLocNameTask;->a:Lcom/tencent/mobileqq/activity/QQMapActivity;
 
@@ -34,6 +36,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity$GetLocNameTask.smali:39"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1704
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/QQMapActivity$GetLocNameTask;->a:Lcom/tencent/mobileqq/activity/QQMapActivity;
 
@@ -62,6 +66,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity$GetLocNameTask.smali:69"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x3
 
     const-wide v8, 0x412e848000000000L    # 1000000.0
@@ -200,6 +206,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity$GetLocNameTask.smali:209"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     .line 1734
@@ -344,6 +352,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/QQMapActivity$GetLocNameTask.smali:355"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1696
     check-cast p1, [Lcom/tencent/tencentmap/mapsdk/map/GeoPoint;
 
@@ -357,7 +367,6 @@
 .method protected synthetic onPostExecute(Ljava/lang/Object;)V
     .locals 0
 
-    .prologue
     .line 1696
     check-cast p1, Ljava/lang/String;
 

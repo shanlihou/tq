@@ -73,6 +73,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:76"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 84
     invoke-direct {p0}, Lcom/tencent/mobileqq/app/BaseActivity;-><init>()V
 
@@ -115,6 +117,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:120"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 242
     const v0, 0x7f09033e
 
@@ -171,6 +175,8 @@
     .locals 7
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:178"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x2
 
     .line 160
@@ -273,6 +279,8 @@
     .locals 12
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:282"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x1
 
     const/4 v6, 0x0
@@ -403,6 +411,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:414"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1327
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/TroopTransferActivity;->a()Z
 
@@ -436,6 +446,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:449"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 773
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/TroopTransferActivity;->a:Z
 
@@ -485,6 +497,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:500"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v9, 0x8
 
     const/4 v2, 0x0
@@ -1093,6 +1107,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:1110"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x4
 
     const/4 v1, 0x1
@@ -1341,6 +1357,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:1360"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1223
     if-eqz p1, :cond_0
 
@@ -1450,6 +1468,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:1471"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     .line 1204
@@ -1583,6 +1603,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:1606"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v8, 0x12c
 
     const/4 v7, -0x1
@@ -1926,6 +1948,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:1951"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1247
     const/4 v0, 0x0
 
@@ -1982,6 +2006,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:2009"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 123
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -2144,6 +2170,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:2173"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 255
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/TroopTransferActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -2185,6 +2213,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/TroopTransferActivity.smali:2216"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 154
     const/4 v0, 0x1
 

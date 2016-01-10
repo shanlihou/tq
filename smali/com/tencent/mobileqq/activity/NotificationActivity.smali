@@ -62,6 +62,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:65"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 83
@@ -76,6 +78,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:81"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 69
@@ -129,6 +133,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:136"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 69
     iget v0, p0, Lcom/tencent/mobileqq/activity/NotificationActivity;->l:I
 
@@ -139,6 +145,8 @@
     .locals 6
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:148"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 811
     new-instance v0, Landroid/app/AlertDialog$Builder;
 
@@ -264,6 +272,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:275"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 69
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotificationActivity;->c:Ljava/lang/String;
 
@@ -274,6 +284,8 @@
     .locals 9
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:287"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     const/4 v1, -0x1
@@ -1344,7 +1356,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/NotificationActivity;I)V
     .locals 0
 
-    .prologue
     .line 69
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/NotificationActivity;->b(I)V
 
@@ -1354,7 +1365,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/NotificationActivity;Z)Z
     .locals 0
 
-    .prologue
     .line 69
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/NotificationActivity;->a:Z
 
@@ -1365,6 +1375,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:1378"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 69
     iget v0, p0, Lcom/tencent/mobileqq/activity/NotificationActivity;->m:I
 
@@ -1375,6 +1387,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:1390"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 69
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotificationActivity;->d:Ljava/lang/String;
 
@@ -1385,6 +1399,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:1402"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 902
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -1433,6 +1449,8 @@
     .locals 4
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:1452"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 925
     const/16 v0, 0x29
 
@@ -1672,6 +1690,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:1693"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 913
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/NotificationActivity;->app:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -1700,6 +1720,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:1723"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 878
     new-instance v0, Landroid/content/Intent;
 
@@ -1728,6 +1750,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:1753"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 285
     const/4 v0, 0x1
 
@@ -1745,6 +1769,8 @@
     .locals 10
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:1772"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x5
 
     const/4 v3, 0x1
@@ -2333,6 +2359,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:2362"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 272
@@ -2382,6 +2410,8 @@
     .locals 3
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:2413"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 100
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnResume()V
 
@@ -2424,6 +2454,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:2457"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 804
     invoke-super {p0}, Lcom/tencent/mobileqq/app/BaseActivity;->doOnUserLeaveHint()V
 
@@ -2446,6 +2478,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/NotificationActivity.smali:2481"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 891
@@ -2489,7 +2523,6 @@
 .method protected onCreate(Landroid/os/Bundle;)V
     .locals 0
 
-    .prologue
     .line 124
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/app/BaseActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -2503,7 +2536,6 @@
 .method protected onLogout(Lmqq/app/Constants$LogoutReason;)V
     .locals 0
 
-    .prologue
     .line 887
     return-void
 .end method

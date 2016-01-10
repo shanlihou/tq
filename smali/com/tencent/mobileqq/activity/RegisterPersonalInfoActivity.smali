@@ -33,6 +33,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPersonalInfoActivity.smali:36"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 34
@@ -65,6 +67,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPersonalInfoActivity.smali:70"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 34
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RegisterPersonalInfoActivity;->c:Ljava/lang/String;
 
@@ -74,7 +78,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RegisterPersonalInfoActivity;Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .prologue
     .line 34
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/RegisterPersonalInfoActivity;->c:Ljava/lang/String;
 
@@ -85,6 +88,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPersonalInfoActivity.smali:91"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 34
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/RegisterPersonalInfoActivity;->a:[B
 
@@ -94,7 +99,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/RegisterPersonalInfoActivity;[B)[B
     .locals 0
 
-    .prologue
     .line 34
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/RegisterPersonalInfoActivity;->a:[B
 
@@ -107,6 +111,8 @@
     .locals 1
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPersonalInfoActivity.smali:114"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 73
     const/4 v0, 0x0
 
@@ -117,6 +123,8 @@
     .locals 5
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPersonalInfoActivity.smali:126"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     .line 79
@@ -257,6 +265,8 @@
     .locals 2
 
     .prologue
+    const-string v0, "./smali/com/tencent/mobileqq/activity/RegisterPersonalInfoActivity.smali:268"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 45
     invoke-super {p0, p1}, Lcom/tencent/mobileqq/activity/RegisterBaseActivity;->onCreate(Landroid/os/Bundle;)V
 
@@ -395,7 +405,6 @@
 .method protected onDestroy()V
     .locals 0
 
-    .prologue
     .line 67
     invoke-super {p0}, Lcom/tencent/mobileqq/activity/RegisterBaseActivity;->onDestroy()V
 
