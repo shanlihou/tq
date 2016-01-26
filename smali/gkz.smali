@@ -16,6 +16,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\gkz.smali:19"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 829
     iput-object p1, p0, Lgkz;->a:Lcom/tencent/mobileqq/activity/BaseChatPie;
 
@@ -29,7 +31,6 @@
 .method public synthetic constructor <init>(Lcom/tencent/mobileqq/activity/BaseChatPie;Lghq;)V
     .locals 0
 
-    .prologue
     .line 829
     invoke-direct {p0, p1}, Lgkz;-><init>(Lcom/tencent/mobileqq/activity/BaseChatPie;)V
 
@@ -42,6 +43,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\gkz.smali:46"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 871
     const/4 v0, 0x4
 
@@ -356,6 +359,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\gkz.smali:362"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v2, 0x0

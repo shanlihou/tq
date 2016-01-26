@@ -34,6 +34,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:37"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
 
     .line 71
@@ -48,6 +50,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:53"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v1, 0x0
@@ -95,7 +99,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/openapi/OpenApiManager;I)I
     .locals 0
 
-    .prologue
     .line 67
     iput p1, p0, Lcom/tencent/mobileqq/openapi/OpenApiManager;->a:I
 
@@ -106,6 +109,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:112"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 67
     iget-object v0, p0, Lcom/tencent/mobileqq/openapi/OpenApiManager;->a:Lcom/tencent/mobileqq/app/MessageObserver;
 
@@ -116,6 +121,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:124"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 67
     iget-object v0, p0, Lcom/tencent/mobileqq/openapi/OpenApiManager;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -125,7 +132,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/openapi/OpenApiManager;Lcom/tencent/mobileqq/app/QQAppInterface;)Lcom/tencent/mobileqq/app/QQAppInterface;
     .locals 0
 
-    .prologue
     .line 67
     iput-object p1, p0, Lcom/tencent/mobileqq/openapi/OpenApiManager;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -136,6 +142,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:145"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 74
     const-class v1, Lcom/tencent/mobileqq/openapi/OpenApiManager;
 
@@ -176,6 +184,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:187"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 708
     const/4 v0, 0x0
 
@@ -186,6 +196,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:199"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 67
     iget-object v0, p0, Lcom/tencent/mobileqq/openapi/OpenApiManager;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
@@ -196,6 +208,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:211"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 224
@@ -308,6 +322,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:325"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v5, 0x0
@@ -377,6 +393,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:396"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 416
     invoke-virtual {p1}, Lcom/tencent/mobileqq/app/QQAppInterface;->a()Lcom/tencent/mobileqq/app/message/QQMessageFacade;
 
@@ -399,6 +417,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:420"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 132
     invoke-static {}, Lcom/tencent/mobileqq/app/ThreadManager;->b()Lmqq/os/MqqHandler;
 
@@ -417,7 +437,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/openapi/OpenApiManager;I)I
     .locals 0
 
-    .prologue
     .line 67
     iput p1, p0, Lcom/tencent/mobileqq/openapi/OpenApiManager;->b:I
 
@@ -428,6 +447,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:450"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 67
     iget-object v0, p0, Lcom/tencent/mobileqq/openapi/OpenApiManager;->b:Ljava/util/concurrent/ConcurrentHashMap;
 
@@ -440,6 +461,8 @@
     .end annotation
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:464"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 594
     iget-object v0, p0, Lcom/tencent/mobileqq/openapi/OpenApiManager;->a:Landroid/view/View;
 
@@ -488,6 +511,8 @@
     .end annotation
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:514"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 613
@@ -506,6 +531,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:534"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 294
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -582,6 +609,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:612"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v1, 0x0
@@ -794,6 +823,8 @@
     .locals 10
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:826"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 871
     iget-object v2, p0, Lcom/tencent/mobileqq/openapi/OpenApiManager;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -992,6 +1023,8 @@
     .locals 17
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:1026"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 629
     move-object/from16 v0, p0
 
@@ -1476,6 +1509,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:1512"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     const/4 v4, -0x6
@@ -1821,6 +1856,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:1859"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1054
     iget-object v7, p0, Lcom/tencent/mobileqq/openapi/OpenApiManager;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -2849,6 +2886,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:2889"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 177
     iget-object v2, p0, Lcom/tencent/mobileqq/openapi/OpenApiManager;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -3116,6 +3155,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:3158"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     const/4 v1, 0x4
@@ -3260,6 +3301,8 @@
     .locals 15
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:3304"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 791
     iget-object v1, p0, Lcom/tencent/mobileqq/openapi/OpenApiManager;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -3773,6 +3816,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:3819"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 113
     invoke-static {}, Lcom/tencent/mobileqq/app/ThreadManager;->b()Lmqq/os/MqqHandler;
 
@@ -3792,6 +3837,8 @@
     .locals 14
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:3840"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 358
     const/4 v3, 0x0
 
@@ -4100,6 +4147,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:4150"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v11, 0x3eb
 
     const/4 v4, 0x1
@@ -4583,6 +4632,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:4635"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 442
     iget-object v0, p0, Lcom/tencent/mobileqq/openapi/OpenApiManager;->a:Ljava/util/concurrent/ConcurrentHashMap;
 
@@ -4736,6 +4787,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:4790"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 89
@@ -4794,6 +4847,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:4850"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 273
@@ -4895,6 +4950,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:4953"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 316
     const/4 v0, 0x1
 
@@ -5092,6 +5149,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:5152"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 762
@@ -5236,6 +5295,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:5298"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 158
     const/4 v0, 0x1
 
@@ -5249,6 +5310,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali_classes2\\com\\tencent\\mobileqq\\openapi\\OpenApiManager.smali:5313"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 165
     const/4 v0, 0x0
 

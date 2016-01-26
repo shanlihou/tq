@@ -23,6 +23,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\kzk.smali:26"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 232
     iput-object p1, p0, Lkzk;->a:Lcom/tencent/mobileqq/app/activateFriends/ActivateFriendsManager;
 
@@ -47,6 +49,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali\\kzk.smali:52"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v11, 0x71
 
     const/4 v10, 0x1

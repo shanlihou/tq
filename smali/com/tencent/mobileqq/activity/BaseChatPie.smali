@@ -519,6 +519,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:522"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     sget-boolean v0, Lcom/tencent/mobileqq/hotpatch/NotVerifyClass;->DO_VERIFY_CLASS:Z
@@ -552,6 +554,8 @@
     .locals 9
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:557"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v7, -0x1
 
     const-wide/16 v5, 0x0
@@ -976,6 +980,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:983"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6952
     const/4 v0, 0x0
 
@@ -1023,6 +1029,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1032"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->dx:I
 
@@ -1032,7 +1040,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/BaseChatPie;I)I
     .locals 0
 
-    .prologue
     .line 447
     iput p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->dq:I
 
@@ -1043,6 +1050,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1053"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->g:J
 
@@ -1052,7 +1061,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/BaseChatPie;J)J
     .locals 0
 
-    .prologue
     .line 447
     iput-wide p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->g:J
 
@@ -1063,6 +1071,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1074"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->g:Landroid/view/View;
 
@@ -1072,7 +1082,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/BaseChatPie;Landroid/view/View;)Landroid/view/View;
     .locals 0
 
-    .prologue
     .line 447
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->g:Landroid/view/View;
 
@@ -1083,6 +1092,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1095"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/emoticon/SogouEmoji;
 
@@ -1092,7 +1103,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/BaseChatPie;Lcom/tencent/mobileqq/emoticon/SogouEmoji;)Lcom/tencent/mobileqq/emoticon/SogouEmoji;
     .locals 0
 
-    .prologue
     .line 447
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/emoticon/SogouEmoji;
 
@@ -1103,6 +1113,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1116"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Ljava/lang/Boolean;
 
@@ -1112,7 +1124,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/BaseChatPie;Ljava/lang/Boolean;)Ljava/lang/Boolean;
     .locals 0
 
-    .prologue
     .line 447
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Ljava/lang/Boolean;
 
@@ -1122,7 +1133,6 @@
 .method private a(Ljava/lang/String;)Ljava/lang/String;
     .locals 0
 
-    .prologue
     .line 9802
     .line 9807
     return-object p1
@@ -1132,6 +1142,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1145"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Ljava/lang/StringBuilder;
 
@@ -1142,6 +1154,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1157"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2824
     new-instance v0, Lghu;
 
@@ -1164,6 +1178,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1181"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 7066
     sget-boolean v0, Lcom/tencent/common/config/AppSetting;->i:Z
 
@@ -1228,6 +1244,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1247"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10723
     if-eqz p1, :cond_0
 
@@ -1245,6 +1263,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1266"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4890
     new-instance v0, Landroid/content/Intent;
 
@@ -1282,6 +1302,8 @@
     .locals 9
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1305"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v8, 0x41980000    # 19.0f
 
     const/high16 v7, 0x41600000    # 14.0f
@@ -1544,7 +1566,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/BaseChatPie;)V
     .locals 0
 
-    .prologue
     .line 447
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/BaseChatPie;->aG()V
 
@@ -1554,7 +1575,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/BaseChatPie;II)V
     .locals 0
 
-    .prologue
     .line 447
     invoke-direct {p0, p1, p2}, Lcom/tencent/mobileqq/activity/BaseChatPie;->c(II)V
 
@@ -1564,7 +1584,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/BaseChatPie;Lcom/tencent/mobileqq/data/ChatMessage;)V
     .locals 0
 
-    .prologue
     .line 447
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/BaseChatPie;->g(Lcom/tencent/mobileqq/data/ChatMessage;)V
 
@@ -1574,7 +1593,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/BaseChatPie;Z)V
     .locals 0
 
-    .prologue
     .line 447
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/BaseChatPie;->k(Z)V
 
@@ -1585,6 +1603,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1606"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 10777
@@ -1642,6 +1662,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1665"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     const/4 v3, 0x1
@@ -1788,6 +1810,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1813"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     .line 11032
@@ -1903,6 +1927,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:1930"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3194
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/biz/widgets/ShareAioResultDialog;
 
@@ -1980,6 +2006,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:2009"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     const/4 v6, 0x0
@@ -2083,6 +2111,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:2114"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10001
     new-instance v0, Lglf;
 
@@ -2105,6 +2135,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:2138"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->L:Z
 
@@ -2114,7 +2146,6 @@
 .method public static synthetic a(Lcom/tencent/mobileqq/activity/BaseChatPie;Z)Z
     .locals 0
 
-    .prologue
     .line 447
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->J:Z
 
@@ -2125,6 +2156,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:2159"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v5, 0x2
@@ -2297,6 +2330,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:2333"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 7763
     invoke-static {}, Lcom/tencent/mobileqq/activity/aio/anim/AioAnimationDetector;->a()Lcom/tencent/mobileqq/activity/aio/anim/AioAnimationDetector;
 
@@ -2318,6 +2353,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:2356"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 7772
     sget-boolean v0, Lcom/tencent/mobileqq/managers/QQLSRecentManager;->e:Z
 
@@ -2366,6 +2403,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:2406"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v6, 0x0
@@ -2584,6 +2623,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:2626"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     const/4 v6, -0x1
@@ -2874,6 +2915,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:2918"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10668
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Landroid/support/v4/app/FragmentActivity;
 
@@ -2975,6 +3018,8 @@
     .locals 9
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:3021"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x2
@@ -3139,6 +3184,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:3187"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11601
     new-instance v0, Lgko;
 
@@ -3161,6 +3208,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:3211"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v11, 0x2
 
     const/4 v10, -0x1
@@ -3990,6 +4039,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:4042"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2034
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -4073,6 +4124,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:4127"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2063
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/SessionInfo;
 
@@ -4247,6 +4300,8 @@
     .locals 13
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:4303"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v10, 0x0
@@ -4508,6 +4563,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:4566"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 5368
@@ -4577,6 +4634,8 @@
     .locals 17
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:4637"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 5697
     move-object/from16 v0, p0
 
@@ -6371,6 +6430,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:6433"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     .line 6335
@@ -6438,6 +6499,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:6502"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6527
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -6468,6 +6531,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:6534"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, -0x2
 
     .line 7385
@@ -6588,6 +6653,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:6656"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     .line 7410
@@ -6697,6 +6764,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:6767"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     const/4 v5, 0x1
@@ -7089,6 +7158,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:7161"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     const/4 v1, 0x0
@@ -7152,6 +7223,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:7226"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 7614
@@ -7212,6 +7285,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:7288"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, -0x1
 
     const/4 v3, 0x3
@@ -7439,6 +7514,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:7517"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->dv:I
 
@@ -7448,7 +7525,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/BaseChatPie;I)I
     .locals 0
 
-    .prologue
     .line 447
     iput p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->dH:I
 
@@ -7459,6 +7535,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:7538"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->h:J
 
@@ -7468,7 +7546,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/BaseChatPie;J)J
     .locals 0
 
-    .prologue
     .line 447
     iput-wide p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->j:J
 
@@ -7479,6 +7556,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:7559"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->h:Landroid/view/View;
 
@@ -7488,7 +7567,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/BaseChatPie;Landroid/view/View;)Landroid/view/View;
     .locals 0
 
-    .prologue
     .line 447
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->h:Landroid/view/View;
 
@@ -7498,7 +7576,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/BaseChatPie;)V
     .locals 0
 
-    .prologue
     .line 447
     invoke-direct {p0}, Lcom/tencent/mobileqq/activity/BaseChatPie;->aA()V
 
@@ -7508,7 +7585,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/BaseChatPie;Z)V
     .locals 0
 
-    .prologue
     .line 447
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/BaseChatPie;->j(Z)V
 
@@ -7519,6 +7595,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:7598"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     .line 10800
@@ -7580,6 +7658,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:7661"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     const/4 v3, 0x1
@@ -7730,6 +7810,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:7813"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     .line 11059
@@ -7849,6 +7931,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:7934"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->J:Z
 
@@ -7858,7 +7942,6 @@
 .method public static synthetic b(Lcom/tencent/mobileqq/activity/BaseChatPie;Z)Z
     .locals 0
 
-    .prologue
     .line 447
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->P:Z
 
@@ -7869,6 +7952,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:7955"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x1
 
     const/4 v7, 0x0
@@ -8047,7 +8132,6 @@
 .method public static synthetic b(Z)Z
     .locals 0
 
-    .prologue
     .line 447
     sput-boolean p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->Y:Z
 
@@ -8058,6 +8142,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8145"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->dz:I
 
@@ -8068,6 +8154,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8157"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->i:J
 
@@ -8077,7 +8165,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/BaseChatPie;J)J
     .locals 0
 
-    .prologue
     .line 447
     iput-wide p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->k:J
 
@@ -8088,6 +8175,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8178"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2819
     const-string v0, ""
 
@@ -8100,7 +8189,6 @@
 .method public static synthetic c(Lcom/tencent/mobileqq/activity/BaseChatPie;Z)V
     .locals 0
 
-    .prologue
     .line 447
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/BaseChatPie;->l(Z)V
 
@@ -8111,6 +8199,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8202"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f090357
 
     const/4 v3, 0x2
@@ -8283,6 +8373,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8376"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->O:Z
 
@@ -8293,6 +8385,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8388"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->dA:I
 
@@ -8303,6 +8397,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8400"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->j:J
 
@@ -8312,7 +8408,6 @@
 .method public static synthetic d(Lcom/tencent/mobileqq/activity/BaseChatPie;J)J
     .locals 0
 
-    .prologue
     .line 447
     iput-wide p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->h:J
 
@@ -8323,6 +8418,8 @@
     .locals 13
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8421"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6996
     .line 6997
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/SessionInfo;
@@ -8668,6 +8765,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8768"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x1
 
     const/4 v2, 0x0
@@ -8801,6 +8900,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8903"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->dv:I
 
@@ -8815,6 +8916,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8919"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->k:J
 
@@ -8824,7 +8927,6 @@
 .method public static synthetic e(Lcom/tencent/mobileqq/activity/BaseChatPie;J)J
     .locals 0
 
-    .prologue
     .line 447
     iput-wide p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->i:J
 
@@ -8835,6 +8937,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8940"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     sget v0, Lcom/tencent/mobileqq/activity/BaseChatPie;->dD:I
 
@@ -8845,6 +8949,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8952"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->dq:I
 
@@ -8855,6 +8961,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8964"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     iget v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->dH:I
 
@@ -8865,6 +8973,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:8976"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v7, -0x7d5
 
     const/4 v6, 0x1
@@ -9026,6 +9136,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:9139"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v0, 0x0
@@ -9271,7 +9383,6 @@
 .method private j(Z)V
     .locals 0
 
-    .prologue
     .line 7756
     invoke-direct {p0, p1}, Lcom/tencent/mobileqq/activity/BaseChatPie;->i(Z)V
 
@@ -9283,6 +9394,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:9397"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     const-wide/16 v5, -0x1
@@ -9600,6 +9713,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:9716"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10738
     if-eqz p1, :cond_0
 
@@ -9671,6 +9786,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:9789"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     const/4 v2, 0x1
@@ -9953,6 +10070,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:10073"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11384
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -10095,6 +10214,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:10217"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v7, 0x0
@@ -10264,6 +10385,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:10388"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v2, 0x0
 
     .line 1954
@@ -10320,6 +10443,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:10446"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v5, 0x7f0a144e
 
     const/4 v4, 0x2
@@ -10514,6 +10639,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:10642"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, -0x2
 
     const/high16 v6, 0x41200000    # 10.0f
@@ -10743,6 +10870,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:10873"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 10014
@@ -10841,6 +10970,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:10973"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 447
     sget-boolean v0, Lcom/tencent/mobileqq/activity/BaseChatPie;->X:Z
 
@@ -10851,6 +10982,8 @@
     .locals 13
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:10985"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     const/4 v6, 0x0
@@ -10960,6 +11093,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:11096"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v6, 0xbb8
 
     const/4 v5, 0x1
@@ -11275,6 +11410,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:11413"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 10841
@@ -11323,6 +11460,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:11463"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11701
     sget-object v0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Ljava/util/Queue;
 
@@ -11360,6 +11499,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:11502"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11113
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/SessionInfo;
 
@@ -11390,6 +11531,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:11534"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x2
 
     const/4 v5, 0x1
@@ -11556,6 +11699,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:11702"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v3, 0x1
@@ -11797,6 +11942,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:11945"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 5025
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Landroid/support/v4/app/FragmentActivity;
 
@@ -11913,6 +12060,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:12063"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 5358
@@ -11939,6 +12088,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:12091"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 5622
@@ -11974,6 +12125,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:12128"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6329
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/bubble/ChatXListView;
 
@@ -12005,6 +12158,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:12161"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6355
     const/4 v0, 0x2
 
@@ -12048,6 +12203,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:12206"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6370
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->y:Z
 
@@ -12107,6 +12264,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:12267"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6511
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -12136,7 +12295,6 @@
 .method public J()V
     .locals 0
 
-    .prologue
     .line 6520
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/BaseChatPie;->i()V
 
@@ -12151,6 +12309,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:12312"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6536
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -12181,6 +12341,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:12344"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6546
     const/4 v0, 0x1
 
@@ -12207,6 +12369,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:12372"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 6553
@@ -12250,6 +12414,8 @@
     .locals 10
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:12417"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x2
 
     const/4 v1, 0x0
@@ -12520,6 +12686,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:12689"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 7403
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->V:Z
 
@@ -12542,6 +12710,8 @@
     .locals 14
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:12713"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v12, 0x0
 
     const/4 v11, 0x2
@@ -13000,6 +13170,8 @@
     .locals 9
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:13173"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x0
 
     const/4 v1, 0x0
@@ -13147,6 +13319,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:13322"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f090357
 
     const/4 v3, -0x2
@@ -13334,6 +13508,8 @@
     .end annotation
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:13511"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/high16 v3, 0x3f800000    # 1.0f
 
     const/4 v2, 0x1
@@ -13421,6 +13597,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:13600"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 8190
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/widget/XPanelContainer;
 
@@ -13455,6 +13633,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:13636"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 8309
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Landroid/support/v4/app/FragmentActivity;
 
@@ -13514,6 +13694,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:13697"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 8413
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -13591,6 +13773,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:13776"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 8427
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -13689,6 +13873,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:13876"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     .line 9504
@@ -13808,6 +13994,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:13997"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 9771
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/widget/XPanelContainer;
 
@@ -13821,6 +14009,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14012"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 9775
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->f:Landroid/widget/TextView;
 
@@ -13843,6 +14033,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14036"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1949
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Landroid/content/Context;
 
@@ -13863,6 +14055,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14058"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v6, 0x7f090d6b
 
     const v5, 0x7f09018a
@@ -14126,6 +14320,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14323"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 12137
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->e:Landroid/view/View;
 
@@ -14139,6 +14335,8 @@
     .end annotation
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14338"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v8, 0x2
@@ -14582,6 +14780,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14783"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11542
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->d:Landroid/view/ViewGroup;
 
@@ -14592,6 +14792,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14795"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10714
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/SessionInfo;
 
@@ -14602,6 +14804,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14807"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11462
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/item/StructingMsgItemBuilder$ViewCache;
 
@@ -14612,6 +14816,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14819"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11556
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Landroid/support/v4/app/FragmentActivity;
 
@@ -14622,6 +14828,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14831"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11560
     iput-object p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Landroid/support/v4/app/FragmentActivity;
 
@@ -14635,6 +14843,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14846"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 967
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -14645,6 +14855,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14858"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10006
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/emoticonview/EmoticonMainPanel;
 
@@ -14655,6 +14867,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14870"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 948
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/magicface/view/MagicfaceViewController;
 
@@ -14678,6 +14892,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14895"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 11487
@@ -14696,6 +14912,8 @@
     .end annotation
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14915"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6390
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/SessionInfo;
 
@@ -14708,6 +14926,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:14929"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     .line 1031
@@ -15361,6 +15581,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:15584"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v6, 0x3e8
 
     const v3, 0xffff
@@ -15532,6 +15754,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:15757"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     .line 8092
@@ -15564,6 +15788,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:15791"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4624
     const/16 v0, 0xa
 
@@ -16495,6 +16721,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:16724"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 5331
     packed-switch p1, :pswitch_data_0
 
@@ -16529,7 +16757,6 @@
 .method public a(ILandroid/view/View;Lcom/tencent/widget/ListView;)V
     .locals 0
 
-    .prologue
     .line 6782
     return-void
 .end method
@@ -16538,6 +16765,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:16768"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v4, 0x0
 
     const v3, 0xff0008
@@ -16692,6 +16921,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:16924"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     const/4 v2, 0x0
@@ -16862,6 +17093,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:17096"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v3, 0x2
@@ -17026,6 +17259,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:17262"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     const/4 v3, 0x0
@@ -17117,6 +17352,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:17355"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     const/4 v4, 0x2
@@ -17213,6 +17450,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:17453"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 6310
@@ -17264,6 +17503,8 @@
     .locals 16
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:17506"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6409
     :try_start_0
     const-string v3, "stuctmsg_bytes"
@@ -17747,6 +17988,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:17991"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6092
     if-eqz p1, :cond_0
 
@@ -17817,6 +18060,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:18063"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v7, 0x2
 
     .line 9117
@@ -17954,6 +18199,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:18202"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 8325
@@ -18025,6 +18272,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:18275"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10030
     if-nez p1, :cond_0
 
@@ -18058,6 +18307,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:18310"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 8341
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -18077,6 +18328,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:18331"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 8396
     iget v0, p2, Lcom/tencent/mobileqq/emoticonview/EmoticonInfo;->c:I
 
@@ -18112,6 +18365,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:18368"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 8321
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -18131,6 +18386,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:18389"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v4, 0x0
@@ -18374,6 +18631,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:18634"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11456
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/bubble/ChatXListView;
 
@@ -18393,6 +18652,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:18655"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v2, 0xff0011
 
     const/16 v1, 0x2d
@@ -18536,6 +18797,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:18800"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6689
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/bubble/ChatXListView;
 
@@ -18646,6 +18909,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:18912"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2046
     if-eqz p1, :cond_0
 
@@ -18722,6 +18987,8 @@
     .locals 9
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:18990"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, 0x3
 
     const/4 v7, 0x6
@@ -19535,6 +19802,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:19805"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 7339
     const/4 v0, 0x2
 
@@ -19559,6 +19828,8 @@
     .locals 9
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:19831"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 7374
     new-instance v0, Lgjf;
 
@@ -19597,6 +19868,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:19871"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 7358
     iget-object v0, p3, Lcom/tencent/mobileqq/utils/QQRecorder$RecorderParam;->a:Ljava/lang/Object;
 
@@ -19640,6 +19913,8 @@
     .locals 14
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:19916"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6974
     iget-object v1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -19796,6 +20071,8 @@
     .locals 17
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:20074"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6917
     const/4 v4, 0x2
 
@@ -20115,6 +20392,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:20395"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 7302
@@ -20159,6 +20438,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:20441"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2658
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Landroid/support/v4/app/FragmentActivity;
 
@@ -20176,6 +20457,8 @@
     .locals 10
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:20460"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v2, 0x0
@@ -20340,6 +20623,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:20626"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 7199
     iget-wide v2, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->c:J
 
@@ -20370,6 +20655,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:20658"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 7349
@@ -20411,6 +20698,8 @@
     .locals 13
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:20701"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 9292
     invoke-interface {p1}, Ljava/util/List;->size()I
 
@@ -21225,6 +21514,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:21517"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v5, 0xbb8
 
     const/4 v4, 0x1
@@ -21491,6 +21782,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:21785"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10511
     const-string v0, " "
 
@@ -21600,6 +21893,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:21896"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2552
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lmqq/os/MqqHandler;
 
@@ -21634,6 +21929,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:21932"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x4
 
     const/4 v3, 0x1
@@ -22040,6 +22337,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:22340"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 6615
@@ -22088,6 +22387,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:22390"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6596
     if-eqz p4, :cond_1
 
@@ -22161,6 +22462,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:22465"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1641
     const/4 v0, 0x0
 
@@ -22171,6 +22474,8 @@
     .locals 11
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:22477"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     const/4 v8, 0x0
@@ -22569,6 +22874,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:22877"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x1
 
     const/4 v3, 0x0
@@ -22700,6 +23007,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:23010"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     .line 12169
@@ -22795,6 +23104,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:23107"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11478
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/SessionInfo;
 
@@ -22850,6 +23161,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:23164"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 8384
     instance-of v0, p1, Lcom/tencent/mobileqq/emoticonview/FavoriteEmoticonInfo;
 
@@ -22882,6 +23195,8 @@
     .locals 11
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:23198"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v10, 0x2
 
     const/4 v9, 0x1
@@ -23121,6 +23436,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:23439"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 10041
@@ -23243,6 +23560,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:23563"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10134
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Landroid/support/v4/app/FragmentActivity;
 
@@ -23305,7 +23624,6 @@
 .method public ac()V
     .locals 0
 
-    .prologue
     .line 10170
     return-void
 .end method
@@ -23314,6 +23632,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:23635"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10729
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/widget/XPanelContainer;
 
@@ -23335,6 +23655,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:23658"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 11290
@@ -23430,6 +23752,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:23755"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11329
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -23460,6 +23784,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:23787"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v11, 0x29
 
     const/4 v10, 0x2
@@ -23854,6 +24180,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:24183"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11450
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/app/QQMapActivityProxy;
 
@@ -23880,7 +24208,6 @@
 .method public ah()V
     .locals 0
 
-    .prologue
     .line 11548
     return-void
 .end method
@@ -23888,7 +24215,6 @@
 .method public ai()V
     .locals 0
 
-    .prologue
     .line 11553
     return-void
 .end method
@@ -23897,6 +24223,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:24226"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11584
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->C:Z
 
@@ -23925,6 +24253,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:24256"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 12012
@@ -24068,7 +24398,6 @@
 .method public al()V
     .locals 0
 
-    .prologue
     .line 12142
     return-void
 .end method
@@ -24077,6 +24406,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:24409"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2815
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/SessionInfo;
 
@@ -24091,6 +24422,8 @@
     .end annotation
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:24425"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6395
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/SessionInfo;
 
@@ -24103,6 +24436,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:24439"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 8348
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/widget/XEditTextEx;
 
@@ -24116,6 +24451,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:24454"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 6564
@@ -24136,6 +24473,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:24476"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v6, 0xe
 
     const/4 v1, 0x0
@@ -24440,7 +24779,6 @@
 .method public b(ILandroid/view/View;Lcom/tencent/widget/ListView;)V
     .locals 0
 
-    .prologue
     .line 6787
     return-void
 .end method
@@ -24449,6 +24787,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:24790"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1783
     const-string v0, "uinname"
 
@@ -24566,6 +24906,8 @@
     .locals 13
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:24909"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v12, 0x7f09035e
 
     const/4 v11, 0x2
@@ -25202,7 +25544,6 @@
 .method public b(Lcom/tencent/mobileqq/emoticonview/EmoticonInfo;)V
     .locals 0
 
-    .prologue
     .line 8407
     return-void
 .end method
@@ -25211,6 +25552,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:25555"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 8082
     const/4 v0, 0x0
 
@@ -25240,6 +25583,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:25586"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x3
 
     .line 10685
@@ -25371,6 +25716,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:25719"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 7366
@@ -25410,6 +25757,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:25760"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     const/4 v1, 0x0
@@ -25493,6 +25842,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:25845"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 9783
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/bubble/ChatXListView;
 
@@ -25543,6 +25894,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:25897"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v1, 0x8
 
     .line 3265
@@ -25610,6 +25963,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:25966"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10998
     iget-boolean v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->d:Z
 
@@ -25752,6 +26107,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:26110"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1863
     const/4 v0, 0x0
 
@@ -25761,7 +26118,6 @@
 .method public beforeTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 7828
     return-void
 .end method
@@ -25770,6 +26126,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:26129"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6913
     iget v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->u:I
 
@@ -25780,6 +26138,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:26141"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6398
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/SessionInfo;
 
@@ -25792,6 +26152,8 @@
     .locals 15
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:26155"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/32 v13, 0xf4240
 
     const/4 v12, 0x1
@@ -25860,7 +26222,9 @@
     invoke-virtual {v0}, Ljava/lang/Object;->toString()Ljava/lang/String;
 
     move-result-object v3
-
+	
+	invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
+	const-string v3, "hello world!"
     .line 9824
     if-eqz v3, :cond_1
 
@@ -25905,9 +26269,12 @@
     move-result v0
 
     if-nez v0, :cond_a
+	const-string v0, "v0 is:"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
 
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->e:Ljava/lang/String;
-
+	
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     invoke-virtual {v3, v0}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v0
@@ -25955,10 +26322,14 @@
     move-result-object v1
 
     invoke-static {v4, v11, v1}, Lcom/tencent/qphone/base/util/QLog;->d(Ljava/lang/String;ILjava/lang/String;)V
-
+    const-string v3, "hello world3"
+	invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
     .line 9845
     if-eqz v0, :cond_4
 
+    const-string v3, "hello world4"
+	invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
+	
     .line 9846
     const-string v0, ""
 
@@ -26011,8 +26382,11 @@
     iget-wide v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->g:J
 
     cmp-long v0, v0, v7
-
+    const-string v3, "hello world5"
+	invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
     if-nez v0, :cond_b
+    const-string v3, "hello world6"
+	invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
 
     move-wide v0, v7
 
@@ -26047,8 +26421,12 @@
 
     cmp-long v0, v0, v7
 
+    const-string v3, "hello world7"
+	invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
     if-nez v0, :cond_d
 
+    const-string v3, "hello world8"
+	invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
     :goto_4
     iput-wide v7, v5, Lcom/tencent/mobileqq/activity/ChatActivityFacade$SendMsgParams;->c:J
 
@@ -26059,6 +26437,9 @@
 
     if-ne v0, v12, :cond_e
 
+    const-string v3, "hello world9"
+	invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
+	
     .line 9863
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
@@ -26066,6 +26447,8 @@
 
     if-eqz v0, :cond_5
 
+    const-string v3, "hello world10"
+	invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
     .line 9865
     const-string v0, "SendMsgBtn"
 
@@ -26346,7 +26729,7 @@
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/qwallet/PasswdRedBagManager;
 
     iget-object v4, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/SessionInfo;
-
+	const-string v3, "hello world2"
     invoke-virtual {v0, v4, v3}, Lcom/tencent/mobileqq/activity/qwallet/PasswdRedBagManager;->a(Lcom/tencent/mobileqq/activity/aio/SessionInfo;Ljava/lang/String;)Z
 
     move-result v0
@@ -26400,9 +26783,12 @@
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
     move-result v0
-
+    const-string v3, "hello world11"
+	invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
     if-eqz v0, :cond_f
 
+    const-string v3, "hello world12"
+	invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
     .line 9879
     const-string v0, "SendMsgBtn"
 
@@ -26441,14 +26827,17 @@
     const/4 v4, 0x0
 
     invoke-static/range {v0 .. v5}, Lcom/tencent/mobileqq/activity/ChatActivityFacade;->a(Lcom/tencent/mobileqq/app/QQAppInterface;Landroid/content/Context;Lcom/tencent/mobileqq/activity/aio/SessionInfo;Ljava/lang/String;Ljava/util/ArrayList;Lcom/tencent/mobileqq/activity/ChatActivityFacade$SendMsgParams;)[J
-
+   
+	const-string v3, "hello world13"
+	invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
     .line 9883
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
     move-result v0
 
     if-eqz v0, :cond_6
-
+    const-string v3, "hello world14"
+	invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
     .line 9885
     const-string v0, "SendMsgBtn"
 
@@ -26483,6 +26872,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:26848"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6570
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Landroid/support/v4/app/FragmentActivity;
 
@@ -26495,7 +26886,6 @@
 .method public c(ILandroid/view/View;Lcom/tencent/widget/ListView;)V
     .locals 0
 
-    .prologue
     .line 6824
     return-void
 .end method
@@ -26504,6 +26894,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:26870"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x0
 
     const/4 v3, 0x2
@@ -26606,6 +26998,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:26974"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v4, -0x7d5
 
     const/4 v1, 0x0
@@ -26731,6 +27125,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:27101"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11416
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->b:Landroid/app/Dialog;
 
@@ -26831,6 +27227,8 @@
     .end annotation
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:27203"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v3, 0x9
 
     const/16 v2, 0x8
@@ -27121,6 +27519,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:27495"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1866
     const/4 v0, 0x0
 
@@ -27131,6 +27531,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:27507"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 7176
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -27210,6 +27612,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:27588"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 8365
     const/4 v0, 0x6
 
@@ -27223,6 +27627,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:27603"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 6576
@@ -27344,7 +27750,6 @@
 .method public d(Landroid/content/Intent;)V
     .locals 0
 
-    .prologue
     .line 2028
     return-void
 .end method
@@ -27353,6 +27758,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:27734"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10265
     iget v0, p1, Lcom/tencent/mobileqq/data/ChatMessage;->msgtype:I
 
@@ -27418,6 +27825,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:27801"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 5637
     const/high16 v1, 0x20000
 
@@ -27444,6 +27853,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:27829"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4402
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -27480,6 +27891,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:27867"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11446
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/widget/XPanelContainer;
 
@@ -27494,6 +27907,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:27883"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x0
 
     const/4 v2, 0x1
@@ -27612,6 +28027,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:28003"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v5, 0xff0006
 
     .line 6886
@@ -27717,6 +28134,8 @@
     .locals 9
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:28110"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v6, 0x7f0a15d1
 
     const/4 v8, 0x2
@@ -28125,6 +28544,8 @@
     .locals 13
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:28520"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v12, 0x7f090355
 
     const/16 v11, 0xc
@@ -28603,6 +29024,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:29000"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x0
 
     .line 6484
@@ -28701,6 +29124,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:29100"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     .line 5013
@@ -28741,6 +29166,8 @@
     .locals 8
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:29142"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1375
     new-instance v0, Lcom/tencent/mobileqq/activity/aio/tips/QQOperateTips;
 
@@ -28941,7 +29368,6 @@
 .method public f(I)V
     .locals 0
 
-    .prologue
     .line 6909
     iput p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->u:I
 
@@ -28953,6 +29379,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:29355"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2889
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/SessionInfo;
 
@@ -30322,6 +30750,8 @@
     .locals 10
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:30726"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10534
     invoke-static {p1}, Lcom/tencent/mobileqq/service/message/MessageRecordFactory;->a(Lcom/tencent/mobileqq/data/MessageRecord;)Lcom/tencent/mobileqq/data/MessageRecord;
 
@@ -30522,7 +30952,6 @@
 .method public f(Z)V
     .locals 0
 
-    .prologue
     .line 11470
     return-void
 .end method
@@ -30531,6 +30960,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:30936"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6324
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/BaseChatPie;->h()Z
 
@@ -30543,6 +30974,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:30950"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1609
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->b:Landroid/widget/LinearLayout;
 
@@ -30597,6 +31030,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:31006"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 7056
     const/4 v0, 0x0
 
@@ -30610,6 +31045,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:31021"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     .line 4432
@@ -30671,7 +31108,6 @@
 .method public g(Z)V
     .locals 0
 
-    .prologue
     .line 11580
     iput-boolean p1, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->Q:Z
 
@@ -30683,6 +31119,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:31095"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 6831
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/utils/QQRecorder;
 
@@ -30713,6 +31151,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:31127"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x2
 
     .line 1627
@@ -30770,6 +31210,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:31186"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 7282
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Landroid/support/v4/app/FragmentActivity;
 
@@ -30787,6 +31229,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:31205"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x2
 
     .line 4495
@@ -30887,6 +31331,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:31307"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v2, 0x0
 
     .line 12154
@@ -30961,6 +31407,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:31383"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 7061
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/utils/QQRecorder;
 
@@ -30989,6 +31437,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:31413"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2099
     iget v0, p1, Landroid/os/Message;->what:I
 
@@ -32900,6 +33350,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:33326"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f090358
 
     const/4 v3, 0x0
@@ -32987,6 +33439,8 @@
     .end annotation
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:33415"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x2
 
     const/high16 v8, 0x3f800000    # 1.0f
@@ -33654,6 +34108,8 @@
     .locals 9
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34084"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v7, 0x0
 
     const/4 v6, 0x1
@@ -33786,6 +34242,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34218"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10188
     invoke-virtual {p0}, Lcom/tencent/mobileqq/activity/BaseChatPie;->b()I
 
@@ -33811,7 +34269,6 @@
 .method protected j()V
     .locals 0
 
-    .prologue
     .line 1798
     return-void
 .end method
@@ -33820,6 +34277,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34253"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x0
 
     const/4 v6, 0x0
@@ -33910,6 +34369,8 @@
     .locals 9
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34345"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v8, -0x1
 
     const/4 v7, 0x2
@@ -34111,6 +34572,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34548"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v0, 0x1
 
     .line 10833
@@ -34141,6 +34604,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34580"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1874
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/widget/XPanelContainer;
 
@@ -34165,6 +34630,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34606"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x2
 
     .line 10148
@@ -34223,6 +34690,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34666"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v2, 0x0
@@ -34343,6 +34812,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34788"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 1881
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->c:Landroid/widget/ImageView;
 
@@ -34358,6 +34829,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34805"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10177
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/anim/AIOAnimationConatiner;
 
@@ -34377,6 +34850,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34826"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11483
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/audiopanel/AudioPanel;
 
@@ -34405,6 +34880,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34856"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2606
     .line 2607
     new-instance v0, Landroid/content/Intent;
@@ -34457,6 +34934,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34910"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 10757
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/audiopanel/AudioPanel;
 
@@ -34540,6 +35019,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:34995"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11957
     const/4 v0, 0x0
 
@@ -34590,6 +35071,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:35047"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v4, 0x7f0a144e
 
     .line 2619
@@ -34773,6 +35256,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:35232"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11529
     sget v0, Lcom/tencent/mobileqq/activity/BaseChatPie;->dD:I
 
@@ -34850,6 +35335,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:35311"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     const/4 v2, 0x0
@@ -35067,6 +35554,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:35530"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 11946
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/activity/aio/panel/PanelIconLinearLayout;
 
@@ -35101,6 +35590,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:35566"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
 
     .line 11965
@@ -35330,6 +35821,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:35797"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 12149
     const/4 v0, 0x0
 
@@ -35340,6 +35833,8 @@
     .locals 14
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:35809"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 3282
     invoke-virtual {p1}, Landroid/view/View;->getId()I
 
@@ -37098,7 +37593,6 @@
 .method public onNetMobile2None()V
     .locals 0
 
-    .prologue
     .line 11712
     return-void
 .end method
@@ -37107,6 +37601,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:37577"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0xff0009
 
     .line 11717
@@ -37150,6 +37646,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:37622"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0xff0009
 
     .line 11731
@@ -37193,6 +37691,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:37667"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0xff0009
 
     .line 11745
@@ -37236,6 +37736,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:37712"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const v3, 0xff0009
 
     .line 11759
@@ -37278,7 +37780,6 @@
 .method public onNetWifi2None()V
     .locals 0
 
-    .prologue
     .line 11774
     return-void
 .end method
@@ -37286,7 +37787,6 @@
 .method public onTextChanged(Ljava/lang/CharSequence;III)V
     .locals 0
 
-    .prologue
     .line 7822
     return-void
 .end method
@@ -37295,6 +37795,8 @@
     .locals 7
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:37771"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x1
 
     const/4 v5, 0x0
@@ -37464,6 +37966,8 @@
     .locals 2
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:37942"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2775
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Landroid/widget/ImageView;
 
@@ -37479,6 +37983,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:37959"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2780
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Lcom/tencent/mobileqq/app/QQAppInterface;
 
@@ -37517,6 +38023,8 @@
     .locals 5
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:37999"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, -0x1
 
     .line 2791
@@ -37587,6 +38095,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:38071"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 2806
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Landroid/app/Dialog;
 
@@ -37622,6 +38132,8 @@
     .locals 12
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:38108"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v6, 0x0
 
     .line 8354
@@ -37684,7 +38196,6 @@
 .method public t()V
     .locals 0
 
-    .prologue
     .line 3256
     return-void
 .end method
@@ -37693,6 +38204,8 @@
     .locals 10
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:38180"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v9, 0x2
 
     const/4 v8, 0x1
@@ -38487,6 +39000,8 @@
     .locals 9
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:38976"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const-wide/16 v2, 0x0
 
     const/high16 v5, 0x30000
@@ -39176,6 +39691,8 @@
     .locals 1
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:39667"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4019
     const/4 v0, 0x1
 
@@ -39189,6 +39706,8 @@
     .locals 4
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:39682"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     .line 4024
     iget-object v0, p0, Lcom/tencent/mobileqq/activity/BaseChatPie;->a:Landroid/support/v4/app/FragmentActivity;
 
@@ -39248,6 +39767,8 @@
     .locals 3
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:39743"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v1, 0x1
 
     .line 4036
@@ -39326,6 +39847,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:39823"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v3, 0x5
 
     const/4 v2, 0x1
@@ -39599,6 +40122,8 @@
     .locals 6
 
     .prologue
+    const-string v0, ".\\smali\\com\\tencent\\mobileqq\\activity\\BaseChatPie.smali:40098"
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x0
 
     const/4 v4, 0x1

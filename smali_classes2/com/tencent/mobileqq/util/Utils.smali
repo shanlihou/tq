@@ -2587,6 +2587,8 @@
 
     .prologue
     .line 229
+    const-string v0, "hello world18"
+	invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     new-instance v12, Ljava/util/ArrayList;
 
     invoke-direct {v12}, Ljava/util/ArrayList;-><init>()V
@@ -2625,7 +2627,12 @@
 
     .line 238
     move-object/from16 v0, p0
-
+	
+	invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V#hello world16
+	
+    const-string v0, "hello world19"
+	invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
+	invoke-static {v7}, Lcrack;->log(I)V
     invoke-virtual {v0, v7}, Ljava/lang/String;->codePointAt(I)I
 
     move-result v15
@@ -2635,6 +2642,9 @@
 
     .line 241
     if-eqz p3, :cond_17
+	
+    const-string v0, "hello world20"
+	invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
 
     .line 242
     :goto_1

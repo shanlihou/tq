@@ -8641,6 +8641,7 @@
     .prologue
     const-string v0, "./smali/com/tencent/mobileqq/activity/ChatActivityFacade.smali:8642"
     invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
+	invoke-static {p3}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v5, 0x2
 
     .line 1881
@@ -8698,7 +8699,11 @@
 
     .line 1893
     :cond_3
-    invoke-static {p0, p2, p3, p4, p5}, Lcom/tencent/mobileqq/activity/ChatActivityFacade;->a(Lcom/tencent/mobileqq/app/QQAppInterface;Lcom/tencent/mobileqq/activity/aio/SessionInfo;Ljava/lang/String;Ljava/util/ArrayList;Lcom/tencent/mobileqq/activity/ChatActivityFacade$SendMsgParams;)[J
+	
+	const-string v0, "hello world15"
+	invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
+	
+    invoke-static {p0, p2, v0, p4, p5}, Lcom/tencent/mobileqq/activity/ChatActivityFacade;->a(Lcom/tencent/mobileqq/app/QQAppInterface;Lcom/tencent/mobileqq/activity/aio/SessionInfo;Ljava/lang/String;Ljava/util/ArrayList;Lcom/tencent/mobileqq/activity/ChatActivityFacade$SendMsgParams;)[J
 
     move-result-object v0
 
@@ -8835,10 +8840,15 @@
     move-object/from16 v1, p3
 
     move-object/from16 v2, v17
+	
+    const-string v0, "hello world16"	
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
 
     invoke-static {v0, v3, v4, v1, v2}, Lcom/tencent/mobileqq/util/Utils;->a(Ljava/lang/String;IILjava/util/ArrayList;Ljava/util/ArrayList;)Ljava/util/ArrayList;
-
     move-result-object v18
+
+    const-string v0, "hello world17"	
+    invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
 
     .line 1562
     invoke-virtual/range {v18 .. v18}, Ljava/util/ArrayList;->size()I
