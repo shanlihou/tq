@@ -2643,7 +2643,6 @@
     .line 241
     if-eqz p3, :cond_17
 	
-    const-string v0, "hello world20"
 	invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
 
     .line 242
@@ -2675,11 +2674,13 @@
     move-object v6, v1
 
     .line 251
-    :goto_2
+    :goto_2#v0 v15
     const/4 v1, 0x0
 
-    .line 252
-    if-eqz v6, :cond_3
+    .line 252    
+	const-string v0, "hello world20"
+	invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
+    if-eqz v6, :cond_3#jump
 
     iget-short v5, v6, Lcom/tencent/mobileqq/data/MessageForText$AtTroopMemberInfo;->startPos:S
 
