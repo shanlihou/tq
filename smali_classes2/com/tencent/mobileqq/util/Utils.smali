@@ -2526,7 +2526,7 @@
     .locals 3
 
     .prologue
-    .line 521
+    .line 521#sdfsdfsdf
     new-instance v0, Ljava/util/ArrayList;
 
     invoke-direct {v0}, Ljava/util/ArrayList;-><init>()V
@@ -2587,7 +2587,7 @@
 
     .prologue
     .line 229
-    const-string v0, "hello world18"
+    const-string v0, "utils.smali:2590"
 	invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     new-instance v12, Ljava/util/ArrayList;
 
@@ -2623,11 +2623,12 @@
     move v9, v5
 
     :goto_0
-    if-ge v7, v13, :cond_14
+    if-ge v7, v13, :cond_14#out of length and jump
 
     .line 238
     move-object/from16 v0, p0
 	
+    const-string v0, "go and start crack!"
 	invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V#hello world16
 	
     const-string v0, "hello world19"
@@ -2641,9 +2642,9 @@
     const/4 v1, 0x0
 
     .line 241
-    if-eqz p3, :cond_17
 	
-	invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
+	invoke-static {v15}, Lcrack;->log(I)V
+    if-eqz p3, :cond_17#jump
 
     .line 242
     :goto_1
@@ -2674,12 +2675,10 @@
     move-object v6, v1
 
     .line 251
-    :goto_2#v0 v15
+    :goto_2#has come2 v0 not use, v15
     const/4 v1, 0x0
 
     .line 252    
-	const-string v0, "hello world20"
-	invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
     if-eqz v6, :cond_3#jump
 
     iget-short v5, v6, Lcom/tencent/mobileqq/data/MessageForText$AtTroopMemberInfo;->startPos:S
@@ -2743,12 +2742,16 @@
     move v8, v3
 
     .line 272
-    :goto_4
-    add-int v1, v9, v11
+    :goto_4#has come5
+    add-int v1, v9, v11    
+	const-string v0, "v1,v0 is :"
+	invoke-static {v0}, Lcrack;->log(Ljava/lang/String;)V
 
     move/from16 v0, p1
-
-    if-le v1, v0, :cond_e
+	
+	invoke-static {v1}, Lcrack;->log(I)V
+	invoke-static {v0}, Lcrack;->log(I)V
+    if-le v1, v0, :cond_e#jump
 
     .line 273
     invoke-virtual {v14}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
@@ -2933,7 +2936,9 @@
     move/from16 v2, v17
 
     .line 237
-    :goto_9
+    :goto_9#has come11 v14, v15
+	const-string v7, "come to the goto_9"
+	invoke-static {v7}, Lcrack;->log(Ljava/lang/String;)V
     add-int/lit8 v1, v1, 0x1
 
     move v7, v1
@@ -2958,10 +2963,10 @@
     goto/16 :goto_1
 
     .line 261
-    :cond_3
-    const/16 v5, 0x14
+    :cond_3#has come3
+    const/16 v5, 0x14#device control alpha
 
-    if-ne v15, v5, :cond_5
+    if-ne v15, v5, :cond_5#jump
 
     .line 262
     add-int/lit8 v5, v7, 0x1
@@ -3008,10 +3013,14 @@
     goto/16 :goto_4
 
     .line 268
-    :cond_5
+    :cond_5#has come4
     invoke-static {v15}, Lcom/tencent/mobileqq/util/Utils;->a(I)I
 
     move-result v5
+	const-string v10, "the result v5 is:"
+	invoke-static {v10}, Lcrack;->log(Ljava/lang/String;)V
+	invoke-static {v5}, Lcrack;->log(I)V
+	
 
     move-object v10, v1
 
@@ -3233,8 +3242,8 @@
     goto/16 :goto_8
 
     .line 351
-    :cond_e
-    if-eqz v10, :cond_10
+    :cond_e#has come6
+    if-eqz v10, :cond_10    #jump
 
     .line 352
     invoke-virtual {v14, v10}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
@@ -3247,11 +3256,15 @@
     add-int/2addr v1, v7
 
     .line 360
-    :goto_b
+    :goto_b#has come9,v14 v15 are used
+	const-string v2, "v15 will go or not?:"
+	invoke-static {v2}, Lcrack;->log(Ljava/lang/String;)V
     const/16 v2, 0x14
-
+	
+	invoke-static {v15}, Lcrack;->log(I)V
+	invoke-static {v2}, Lcrack;->log(I)V
     if-ne v15, v2, :cond_f
-
+	
     .line 361
     add-int/lit8 v2, v1, 0x1
 
@@ -3292,8 +3305,10 @@
     invoke-static {v2, v3, v6}, Lcom/tencent/qphone/base/util/QLog;->e(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 383
-    :cond_f
+    :cond_f#has come10 v14, v15
     :goto_c
+	const-string v2, "come to cond_f"
+	invoke-static {v2}, Lcrack;->log(Ljava/lang/String;)V
     add-int v2, v9, v11
 
     move-object v3, v5
@@ -3307,10 +3322,12 @@
     goto/16 :goto_9
 
     .line 354
-    :cond_10
+    :cond_10#has come7
+	
     const v1, 0xffff
+	
 
-    if-le v15, v1, :cond_11
+    if-le v15, v1, :cond_11#jump
 
     .line 355
     invoke-virtual {v14, v15}, Ljava/lang/StringBuilder;->appendCodePoint(I)Ljava/lang/StringBuilder;
@@ -3321,11 +3338,17 @@
     goto :goto_b
 
     .line 358
-    :cond_11
+    :cond_11#has come8
     int-to-char v1, v15
 
     invoke-virtual {v14, v1}, Ljava/lang/StringBuilder;->append(C)Ljava/lang/StringBuilder;
-
+	    
+	const-string v1, "v14 is:"
+	invoke-static {v1}, Lcrack;->log(Ljava/lang/String;)V
+    invoke-virtual {v14}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+    move-result-object v1
+	invoke-static {v1}, Lcrack;->log(Ljava/lang/String;)V
+	
     move v1, v7
 
     goto :goto_b
@@ -3416,19 +3439,20 @@
     goto :goto_c
 
     .line 386
-    :cond_14
+    :cond_14#has come12
     invoke-virtual {v14}, Ljava/lang/StringBuilder;->length()I
 
     move-result v1
 
-    if-lez v1, :cond_15
+    if-lez v1, :cond_15#not go
 
     .line 387
     invoke-virtual {v14}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
 
     move-result-object v1
-
-    invoke-virtual {v12, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z
+	
+	const-string v1, "hello world20"
+    invoke-virtual {v12, v1}, Ljava/util/ArrayList;->add(Ljava/lang/Object;)Z#add 'message' to the v12 arraylist
 
     .line 388
     move-object/from16 v0, p4
@@ -3444,7 +3468,7 @@
 
     goto/16 :goto_3
 
-    :cond_17
+    :cond_17#has come1
     move-object v6, v1
 
     goto/16 :goto_2
