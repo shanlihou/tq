@@ -8862,7 +8862,7 @@
     const/4 v9, 0x1
 
     .line 1564
-    :goto_0
+    :goto_0#has come2
     const/4 v12, 0x0
 
     .line 1565
@@ -8871,9 +8871,12 @@
     invoke-direct/range {v19 .. v19}, Ljava/util/Random;-><init>()V
 
     .line 1567
+    const-string v3, "v3 is:"	
+    invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
     move-result v3
+    invoke-static {v3}, Lcrack;->log(I)V
 
     if-eqz v3, :cond_1
 
@@ -8955,7 +8958,9 @@
     invoke-static {v3, v4, v5}, Lcom/tencent/qphone/base/util/QLog;->d(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 1574
-    :cond_1
+    :cond_1#has come3
+	
+    invoke-static {v9}, Lcrack;->log(I)V
     if-eqz v9, :cond_3
 
     .line 1576
@@ -9035,10 +9040,14 @@
     move v12, v4
 
     .line 1588
-    :cond_3
+    :cond_3#has come4
+    const-string v3, "will go cond_4:v3:"	
+    invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
+	
     invoke-static {}, Lcom/tencent/qphone/base/util/QLog;->isColorLevel()Z
 
     move-result v3
+    invoke-static {v3}, Lcrack;->log(I)V
 
     if-eqz v3, :cond_4
 
@@ -9072,7 +9081,7 @@
     invoke-static {v3, v4, v5}, Lcom/tencent/qphone/base/util/QLog;->d(Ljava/lang/String;ILjava/lang/String;)V
 
     .line 1594
-    :cond_4
+    :cond_4#has come5
     invoke-virtual/range {v19 .. v19}, Ljava/util/Random;->nextInt()I
 
     move-result v3
@@ -9100,14 +9109,14 @@
 
     move-result v3
 
-    move/from16 v0, v16
+    move/from16 v0, v16#0x0
 
-    if-ge v0, v3, :cond_a
+    if-ge v0, v3, :cond_a#not go
 
     .line 1597
     move-object/from16 v0, v18
 
-    move/from16 v1, v16
+    move/from16 v1, v16#0x0
 
     invoke-virtual {v0, v1}, Ljava/util/ArrayList;->get(I)Ljava/lang/Object;
 
@@ -9116,13 +9125,17 @@
     check-cast v5, Ljava/lang/String;
 
     .line 1598
+	
+    const-string v3, "will go cond_9 v3 is:"	
+    invoke-static {v3}, Lcrack;->log(Ljava/lang/String;)V
     invoke-virtual/range {v17 .. v17}, Ljava/util/ArrayList;->size()I
 
     move-result v3
 
-    move/from16 v0, v16
+    move/from16 v0, v16#0x0
+    invoke-static {v3}, Lcrack;->log(I)V#0x1
 
-    if-le v3, v0, :cond_9
+    if-le v3, v0, :cond_9#not go:v18 v20 v5
 
     move-object/from16 v0, v17
 
@@ -9141,16 +9154,23 @@
     move-object/from16 v0, p1
 
     iget v3, v0, Lcom/tencent/mobileqq/activity/aio/SessionInfo;->a:I
+	
+    const-string v4, "will go cond5, v3 is:"	
+    invoke-static {v4}, Lcrack;->log(Ljava/lang/String;)V
 
     const/16 v4, 0xbb8
+    invoke-static {v3}, Lcrack;->log(I)V#num 0
 
-    if-eq v3, v4, :cond_5
+    if-eq v3, v4, :cond_5# not go :v18 v20 v5
 
     move-object/from16 v0, p1
 
     iget v3, v0, Lcom/tencent/mobileqq/activity/aio/SessionInfo;->a:I
 
+    const-string v4, "will go cond6, v3 is:"	
+    invoke-static {v4}, Lcrack;->log(Ljava/lang/String;)V
     const/4 v4, 0x1
+    invoke-static {v3}, Lcrack;->log(I)V
 
     if-ne v3, v4, :cond_6
 
@@ -9207,7 +9227,7 @@
     goto :goto_2
 
     .line 1562
-    :cond_7
+    :cond_7#has come1
     const/4 v9, 0x0
 
     goto/16 :goto_0
